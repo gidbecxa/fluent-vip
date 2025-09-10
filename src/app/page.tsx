@@ -38,10 +38,12 @@ export default function HomePage() {
                 </Button>
               </Link>
               
-              <Button size="xl" variant="outline" className="w-full h-12 sm:h-14">
-                Parcours Régulier
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <Link href="/regular">
+                <Button size="xl" variant="outline" className="w-full h-12 sm:h-14">
+                  Parcours Régulier
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
             </div>
           </motion.div>
         </div>

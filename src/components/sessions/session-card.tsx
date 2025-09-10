@@ -17,6 +17,7 @@ interface SessionCardProps {
   isCompleted?: boolean
   onStart?: () => void
   onLiveSession: () => void
+  track?: 'executive' | 'regular'
 }
 
 export function SessionCard({
@@ -26,7 +27,8 @@ export function SessionCard({
   duration,
   objective,
   isCompleted = false,
-  onLiveSession
+  onLiveSession,
+  track = 'executive'
 }: SessionCardProps) {
   const [isMounted, setIsMounted] = useState(false)
 
@@ -64,7 +66,7 @@ export function SessionCard({
           <p className="text-sm sm:text-base text-gray-600 mb-4">{description}</p>
           
           <div className="flex flex-col gap-3">
-            <Link href={`/executive/session/${sessionNumber}`}>
+            <Link href={`/${track}/session/${sessionNumber}`}>
               <Button 
                 className="w-full h-12"
                 variant={isMounted && isCompleted ? "secondary" : "default"}
