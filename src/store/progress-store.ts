@@ -3,20 +3,38 @@ import { persist } from 'zustand/middleware'
 
 interface ProgressState {
   completedSessions: number[]
-  completeSession: (sessionId: number) => void
+  totalXP: number
+  earnedBadges: string[]
+  completedChallenges: string[]
+  completeSession: (sessionId: number, xpReward?: number, badges?: string[], challenges?: string[]) => void
   isSessionCompleted: (sessionId: number) => boolean
   getCompletedSessionsCount: () => number
+  getTotalXP: () => number
+  getEarnedBadges: () => string[]
+  hasBadge: (badge: string) => boolean
+  addXP: (amount: number) => void
+  addBadge: (badge: string) => void
+  completeChallenge: (challenge: string) => void
+  isChallengeCompleted: (challenge: string) => boolean
 }
 
 export const useProgressStore = create<ProgressState>()(
   persist(
     (set, get) => ({
       completedSessions: [],
+      totalXP: 0,
+      earnedBadges: [],
+      completedChallenges: [],
       
-      completeSession: (sessionId: number) => {
-        const { completedSessions } = get()
+      completeSession: (sessionId: number, xpReward = 0, badges = [], challenges = []) => {
+        const { completedSessions, totalXP, earnedBadges, completedChallenges } = get()
         if (!completedSessions.includes(sessionId)) {
-          set({ completedSessions: [...completedSessions, sessionId] })
+          set({ 
+            completedSessions: [...completedSessions, sessionId],
+            totalXP: totalXP + xpReward,
+            earnedBadges: [...new Set([...earnedBadges, ...badges])],
+            completedChallenges: [...new Set([...completedChallenges, ...challenges])]
+          })
         }
       },
       
@@ -26,6 +44,41 @@ export const useProgressStore = create<ProgressState>()(
       
       getCompletedSessionsCount: () => {
         return get().completedSessions.length
+      },
+      
+      getTotalXP: () => {
+        return get().totalXP
+      },
+      
+      getEarnedBadges: () => {
+        return get().earnedBadges
+      },
+      
+      hasBadge: (badge: string) => {
+        return get().earnedBadges.includes(badge)
+      },
+      
+      addXP: (amount: number) => {
+        const { totalXP } = get()
+        set({ totalXP: totalXP + amount })
+      },
+      
+      addBadge: (badge: string) => {
+        const { earnedBadges } = get()
+        if (!earnedBadges.includes(badge)) {
+          set({ earnedBadges: [...earnedBadges, badge] })
+        }
+      },
+      
+      completeChallenge: (challenge: string) => {
+        const { completedChallenges } = get()
+        if (!completedChallenges.includes(challenge)) {
+          set({ completedChallenges: [...completedChallenges, challenge] })
+        }
+      },
+      
+      isChallengeCompleted: (challenge: string) => {
+        return get().completedChallenges.includes(challenge)
       }
     }),
     {

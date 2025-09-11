@@ -12,8 +12,10 @@ interface ProgressTrackerProps {
 
 export function ProgressTracker({ totalSessions, currentWeek }: ProgressTrackerProps) {
   const [isMounted, setIsMounted] = useState(false)
-  const { getCompletedSessionsCount, isSessionCompleted } = useProgressStore()
+  const { getCompletedSessionsCount, isSessionCompleted, getTotalXP, getEarnedBadges } = useProgressStore()
   const completedSessions = isMounted ? getCompletedSessionsCount() : 0
+  const totalXP = isMounted ? getTotalXP() : 0
+  const earnedBadges = isMounted ? getEarnedBadges() : []
   const progressPercentage = (completedSessions / totalSessions) * 100
 
   useEffect(() => {
@@ -70,6 +72,19 @@ export function ProgressTracker({ totalSessions, currentWeek }: ProgressTrackerP
             )
           })}
         </div>
+        
+        {totalXP > 0 && (
+          <div className="flex justify-between items-center p-3 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border border-yellow-200">
+            <div className="text-center">
+              <div className="text-lg font-bold text-yellow-700">{totalXP}</div>
+              <div className="text-xs text-yellow-600">XP Total</div>
+            </div>
+            <div className="text-center">
+              <div className="text-lg font-bold text-yellow-700">{earnedBadges.length}</div>
+              <div className="text-xs text-yellow-600">Badges</div>
+            </div>
+          </div>
+        )}
         
         <div className="text-center">
           <p className="text-sm text-gray-600">

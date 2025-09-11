@@ -13,6 +13,25 @@ export interface RolePlayScenario {
   context: string
 }
 
+export interface FlippedClassroom {
+  videoUrl: string
+  videoTitle: string
+  videoDuration: string
+  videoDescription: string
+}
+
+export interface Gamification {
+  xpReward: number
+  badges: string[]
+  challenges: string[]
+}
+
+export interface DigitalTool {
+  name: string
+  description: string
+  link: string
+}
+
 export interface SessionContent {
   title: string
   objective: string
@@ -25,6 +44,9 @@ export interface SessionContent {
   practiceResources: string[]
   interactiveTitle: string
   interactiveDescription: string
+  flippedClassroom?: FlippedClassroom
+  gamification?: Gamification
+  digitalTools?: DigitalTool[]
 }
 
 export interface SessionData {

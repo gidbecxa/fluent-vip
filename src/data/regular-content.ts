@@ -1,0 +1,236 @@
+import { SessionData } from "@/types/session"
+
+export const regularWeek1Sessions = [
+  {
+    id: 1,
+    title: "Hello, English! I am...",
+    description: "Déconstruire la barrière initiale et prononcer tes premières phrases complètes en anglais.",
+    duration: 60,
+    objective: "Permettre à l'étudiant de prononcer ses premières phrases complètes et correctes en anglais, créant ainsi un sentiment de réussite immédiat."
+  },
+  {
+    id: 2,
+    title: "Where Are You From?",
+    description: "Élargir le champ des informations personnelles en introduisant l'origine et les nationalités.",
+    duration: 60,
+    objective: "Maîtriser la forme interrogative et négative de 'To Be' pour parler d'origine et de nationalité."
+  },
+  {
+    id: 3,
+    title: "Who is he? Who is she?",
+    description: "Consolider l'utilisation de la 3ème personne pour décrire l'environnement et les personnes.",
+    duration: 60,
+    objective: "Consolider l'utilisation de la 3ème personne du singulier (he/she/it) pour pouvoir décrire l'environnement et les personnes qui nous entourent."
+  },
+  {
+    id: 4,
+    title: "We are, They are... What is it?",
+    description: "Compléter la conjugaison de 'To Be' avec les formes plurielles et identifier les objets.",
+    duration: 60,
+    objective: "Compléter la conjugaison de 'To Be' avec les formes plurielles et apprendre à identifier les objets de l'environnement immédiat."
+  },
+  {
+    id: 5,
+    title: "The International Student Mixer",
+    description: "Session 100% pratique dans un scénario réaliste de soirée étudiante internationale.",
+    duration: 60,
+    objective: "Réactiver et intégrer TOUTES les connaissances de la semaine dans un scénario réaliste, fluide et engageant."
+  }
+]
+
+export const regularSessionContent: SessionData = {
+  1: {
+    title: "Hello, English! I am...",
+    objective: "Permettre à l'étudiant de prononcer ses premières phrases complètes et correctes en anglais, créant ainsi un sentiment de réussite immédiat.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "Hello.",
+        pronunciation: "Hè-lo",
+        context: "La salutation universelle que tu utiliseras partout dans le monde anglophone.",
+        audioFile: "/audio/regular/session1/hello.mp3"
+      },
+      {
+        english: "I am [Your Name].",
+        pronunciation: "Aï am [Ton Nom]",
+        context: "La base pour te présenter - simple et efficace.",
+        audioFile: "/audio/regular/session1/i-am.mp3"
+      },
+      {
+        english: "You are...",
+        pronunciation: "You ar...",
+        context: "Pour identifier quelqu'un d'autre ou poser une question.",
+        audioFile: "/audio/regular/session1/you-are.mp3"
+      },
+      {
+        english: "How are you?",
+        pronunciation: "Haow ar you?",
+        context: "La question sociale la plus importante en anglais.",
+        audioFile: "/audio/regular/session1/how-are-you.mp3"
+      },
+      {
+        english: "I'm fine, thank you.",
+        pronunciation: "Aïm faïn, sènk you",
+        context: "La réponse standard et polie à 'How are you?'.",
+        audioFile: "/audio/regular/session1/im-fine.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Premier Contact - Style Campus",
+        description: "Tu rencontres un étudiant international dans le couloir de ton lycée.",
+        yourLine: "Hello! I am [Ton Nom]. How are you?",
+        context: "Sois naturel et souriant. C'est ton premier contact en anglais - fais-en un succès!"
+      },
+      {
+        id: 2,
+        title: "Répondre avec Confiance",
+        description: "Quelqu'un t'aborde en anglais. Tu dois répondre avec assurance.",
+        yourLine: "Hello! I'm fine, thank you. And you?",
+        context: "Montre que tu peux tenir une conversation basique. Le secret: sourire et contact visuel!"
+      },
+      {
+        id: 3,
+        title: "Challenge TikTok Style",
+        description: "Crée une vidéo de présentation de 30 secondes pour un échange international.",
+        yourLine: "Hello everyone! I am [Ton Nom]. I am from France. How are you?",
+        context: "Imagine que tu postes ça sur TikTok pour te présenter à des étudiants du monde entier!"
+      }
+    ],
+    culturalNote: "Dans les pays anglophones, 'How are you?' n'est pas vraiment une question sur ta santé - c'est plutôt comme dire 'Salut!' en français. La réponse est presque toujours positive, même si tu n'es pas au top de ta forme!",
+    vipTip: "Secret de Gen Z: Les anglophones adorent quand tu fais l'effort de parler leur langue, même avec des erreurs. Ton accent français? C'est un atout, pas un défaut! Assume-le avec fierté.",
+    practice: "Ta mission cette semaine: enregistre-toi en train de dire ces 5 phrases, poste-le sur ton story Instagram privé avec #MyEnglishJourney, et regarde-toi progresser jour après jour!",
+    practiceResources: [
+      "Quizlet interactif avec mode 'Learn'",
+      "Reconnaissance vocale Google pour la prononciation",
+      "Défi TikTok: 'My First English Words'"
+    ],
+    interactiveTitle: "English Zone Challenge",
+    interactiveDescription: "Transforme ta chambre en 'English Zone' pendant 1 heure. Tout ce que tu dis doit être en anglais!",
+    flippedClassroom: {
+      videoUrl: "https://youtu.be/I_tRSrPru94?si=txqOHCNX_PbdsB3F",
+      videoTitle: "BBC Learning English: First Words",
+      videoDuration: "5 min",
+      videoDescription: "Découvre les sons de l'anglais et les salutations de base avec cette vidéo interactive."
+    },
+    gamification: {
+      xpReward: 100,
+      badges: ["First Words Master", "Pronunciation Pro", "Confidence Builder"],
+      challenges: [
+        "Dis 'Hello' à 5 personnes différentes aujourd'hui",
+        "Enregistre-toi en train de te présenter",
+        "Trouve 3 mots anglais que tu utilises déjà en français"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "Quizlet",
+        description: "Flashcards gamifiées pour mémoriser tes premiers mots",
+        link: "https://quizlet.com/placeholder"
+      },
+      {
+        name: "Google Traduction",
+        description: "Utilise la fonction vocale pour t'entraîner à la prononciation",
+        link: "https://translate.google.com"
+      }
+    ]
+  },
+  2: {
+    title: "Where Are You From?",
+    objective: "Élargir le champ des informations personnelles en introduisant l'origine. Maîtriser la forme interrogative et négative de 'To Be' pour parler d'origine et de nationalité.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "I am from France.",
+        pronunciation: "Aï am from Frànss",
+        context: "Pour dire d'où tu viens - la base de toute conversation internationale.",
+        audioFile: "/audio/regular/session2/i-am-from.mp3"
+      },
+      {
+        english: "Where are you from?",
+        pronunciation: "Ouèr ar you from?",
+        context: "LA question pour découvrir l'origine de quelqu'un.",
+        audioFile: "/audio/regular/session2/where-are-you-from.mp3"
+      },
+      {
+        english: "I am not from Spain.",
+        pronunciation: "Aï am not from Spèïn",
+        context: "Pour corriger une supposition - très utile en voyage!",
+        audioFile: "/audio/regular/session2/i-am-not-from.mp3"
+      },
+      {
+        english: "Are you French?",
+        pronunciation: "Ar you Frèntch?",
+        context: "Question fermée pour confirmer une nationalité.",
+        audioFile: "/audio/regular/session2/are-you-french.mp3"
+      },
+      {
+        english: "Yes, I am. / No, I am not.",
+        pronunciation: "Yèss, aï am. / No, aï am not",
+        context: "Réponses courtes et efficaces aux questions fermées.",
+        audioFile: "/audio/regular/session2/yes-no-responses.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Contrôle des Passeports - Style Aéroport",
+        description: "Tu arrives à l'aéroport de Londres. L'officier vérifie ton identité.",
+        yourLine: "Hello. My name is [Ton Nom]. I am from France.",
+        context: "Sois clair et confiant. C'est ta première interaction officielle en anglais!"
+      },
+      {
+        id: 2,
+        title: "Speed Dating International",
+        description: "Tu participes à un speed dating étudiant international. Tu as 2 minutes!",
+        yourLine: "Hi! I'm [Ton Nom]. Where are you from? I am from France.",
+        context: "Énergie positive! Montre ta curiosité pour les autres cultures."
+      },
+      {
+        id: 3,
+        title: "Correction Polie",
+        description: "Quelqu'un pense que tu es espagnol. Tu dois corriger poliment.",
+        yourLine: "No, I am not from Spain. I am from France. Are you from the UK?",
+        context: "Reste poli même en corrigeant. Retourne la question pour continuer la conversation!"
+      }
+    ],
+    culturalNote: "Dans les pays anglophones, demander 'Where are you from?' est une question sociale normale et amicale. Contrairement à la France, ce n'est pas considéré comme indiscret - c'est même attendu dans les premières conversations!",
+    vipTip: "Secret Gen Z: Quand tu dis 'I am from France', ajoute toujours quelque chose de positif sur ton pays ou ta ville. Les anglophones adorent découvrir la culture française à travers tes yeux!",
+    practice: "Ta mission cette semaine: trouve 3 personnes de nationalités différentes sur les réseaux sociaux (TikTok, Instagram) et commente en anglais 'Hello! I am from France. Where are you from?' - tu vas voir, les gens adorent répondre!",
+    practiceResources: [
+      "Quizlet interactif avec 20 nationalités",
+      "Carte du monde interactive pour réviser",
+      "Défi Instagram: 'Guess My Nationality'"
+    ],
+    interactiveTitle: "World Map Challenge",
+    interactiveDescription: "Transforme ta chambre en centre de contrôle international! Tu vas devenir expert en nationalités.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=31y2Bq1RYQA",
+      videoTitle: "Countries and Nationalities for Beginners",
+      videoDuration: "7 min",
+      videoDescription: "Découvre 20 pays et nationalités avec cette vidéo interactive parfaite pour les débutants."
+    },
+    gamification: {
+      xpReward: 120,
+      badges: ["Geography Master", "Question Pro", "Cultural Explorer"],
+      challenges: [
+        "Apprends 10 nationalités différentes",
+        "Pose la question 'Where are you from?' à 3 personnes",
+        "Trouve 5 célébrités de pays différents et dis leur nationalité"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "Seterra Geography",
+        description: "Jeu interactif pour apprendre les pays et capitales",
+        link: "https://www.seterra.com"
+      },
+      {
+        name: "Kahoot Geography",
+        description: "Quiz gamifié sur les nationalités et drapeaux",
+        link: "https://kahoot.com"
+      }
+    ]
+  }
+}

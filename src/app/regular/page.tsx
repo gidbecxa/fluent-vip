@@ -8,44 +8,7 @@ import { ArrowLeft, Target, Clock, Video, Gamepad2, Users, Zap, Trophy, BookOpen
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { useProgressStore } from "@/store/progress-store"
-
-const week1Sessions = [
-  {
-    id: 1,
-    title: "Hello, English! I am...",
-    description: "Déconstruire la barrière initiale et prononcer tes premières phrases complètes en anglais.",
-    duration: 60,
-    objective: "Permettre à l'étudiant de prononcer ses premières phrases complètes et correctes en anglais, créant ainsi un sentiment de réussite immédiat."
-  },
-  {
-    id: 2,
-    title: "Where Are You From?",
-    description: "Élargir le champ des informations personnelles en introduisant l'origine et les nationalités.",
-    duration: 60,
-    objective: "Maîtriser la forme interrogative et négative de 'To Be' pour parler d'origine et de nationalité."
-  },
-  {
-    id: 3,
-    title: "Who is he? Who is she?",
-    description: "Consolider l'utilisation de la 3ème personne pour décrire l'environnement et les personnes.",
-    duration: 60,
-    objective: "Consolider l'utilisation de la 3ème personne du singulier (he/she/it) pour pouvoir décrire l'environnement et les personnes qui nous entourent."
-  },
-  {
-    id: 4,
-    title: "We are, They are... What is it?",
-    description: "Compléter la conjugaison de 'To Be' avec les formes plurielles et identifier les objets.",
-    duration: 60,
-    objective: "Compléter la conjugaison de 'To Be' avec les formes plurielles et apprendre à identifier les objets de l'environnement immédiat."
-  },
-  {
-    id: 5,
-    title: "The International Student Mixer",
-    description: "Session 100% pratique dans un scénario réaliste de soirée étudiante internationale.",
-    duration: 60,
-    objective: "Réactiver et intégrer TOUTES les connaissances de la semaine dans un scénario réaliste, fluide et engageant."
-  }
-]
+import { regularWeek1Sessions } from "@/data/regular-content"
 
 const genZFeatures = [
   {
@@ -71,11 +34,10 @@ const genZFeatures = [
 ]
 
 export default function RegularTrackPage() {
-  const { getCompletedSessionsCount, isSessionCompleted } = useProgressStore()
-  const completedSessions = getCompletedSessionsCount()
+  const { isSessionCompleted } = useProgressStore()
 
   const handleStartSession = (sessionId: number) => {
-    console.log(`Starting regular session ${sessionId}`)
+    window.location.href = `/regular/session/${sessionId}`
   }
 
   const handleLiveSession = () => {
@@ -166,7 +128,7 @@ export default function RegularTrackPage() {
             </div>
             
             <div className="space-y-4">
-              {week1Sessions.map((session) => (
+              {regularWeek1Sessions.map((session) => (
                 <SessionCard
                   key={session.id}
                   sessionNumber={session.id}

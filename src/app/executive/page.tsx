@@ -7,48 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Calendar, Target, Clock, Video } from "lucide-react"
 import { motion } from "framer-motion"
 import { useProgressStore } from "@/store/progress-store"
-
-const week1Sessions = [
-  {
-    id: 1,
-    title: "Les Piliers de la Courtoisie",
-    description: "Maîtrisez les 5 expressions de politesse essentielles avec une prononciation claire et naturelle.",
-    duration: 25,
-    objective: "À la fin de cette session, vous saurez utiliser les 5 expressions de politesse les plus essentielles avec une prononciation claire et naturelle."
-  },
-  {
-    id: 2,
-    title: "Se Présenter avec Assurance",
-    description: "Apprenez à vous présenter et demander le nom de quelqu'un en concluant l'échange avec aisance.",
-    duration: 25,
-    objective: "À la fin de cette session, vous saurez vous présenter et demander à quelqu'un son nom, en concluant l'échange avec aisance."
-  },
-  {
-    id: 3,
-    title: "Naviguer l'Inconnu avec Élégance",
-    description: "Gérez avec calme et confiance une situation où vous ne comprenez pas.",
-    duration: 25,
-    objective: "Vous donner les outils pour gérer avec calme et confiance une situation où vous ne comprenez pas."
-  },
-  {
-    id: 4,
-    title: "Le Rituel Social Incontournable",
-    description: "Maîtrisez l'échange social le plus courant en anglais : \"Comment allez-vous ?\"",
-    duration: 25,
-    objective: "Maîtriser l'échange social le plus courant en anglais : \"Comment allez-vous ?\"."
-  },
-  {
-    id: 5,
-    title: "Votre Première Action Concrète",
-    description: "Réalisez votre première transaction en anglais en commandant une boisson simple.",
-    duration: 30,
-    objective: "Réaliser votre première transaction en anglais. À la fin de cette session, vous serez capable de commander une boisson simple avec assurance."
-  }
-]
+import { executiveWeek1Sessions } from "@/data/executive-content"
 
 export default function ExecutivePage() {
-  const { getCompletedSessionsCount, isSessionCompleted } = useProgressStore()
-  const completedSessions = getCompletedSessionsCount()
+  const { isSessionCompleted } = useProgressStore()
 
   const handleStartSession = (sessionId: number) => {
     // For now, just mark as completed
@@ -110,7 +72,7 @@ export default function ExecutivePage() {
             </div>
             
             <div className="space-y-4">
-              {week1Sessions.map((session) => (
+              {executiveWeek1Sessions.map((session) => (
                 <SessionCard
                   key={session.id}
                   sessionNumber={session.id}
