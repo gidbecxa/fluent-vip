@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { PronunciationCard } from "@/components/learning/pronunciation-card"
 import { ProgressStepper } from "@/components/learning/progress-stepper"
 import { RolePlayActivity } from "@/components/learning/role-play-activity"
+import { LessonNotes } from "@/components/learning/lesson-notes"
 import { ArrowLeft, Target, Video, CheckCircle, BookOpen, Lightbulb } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
@@ -363,6 +364,9 @@ export default function SessionPage({ params }: SessionPageProps) {
             {renderStepContent()}
           </div>
         </div>
+        
+        {/* Lesson Notes */}
+        <LessonNotes sessionId={sessionId} track="executive" />
       </div>
     </div>
   )

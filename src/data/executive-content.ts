@@ -166,5 +166,63 @@ export const executiveSessionContent: SessionData = {
     ],
     interactiveTitle: "La Chaîne de Dialogue",
     interactiveDescription: "Nous allons enchaîner les phrases pour créer votre première mini-conversation."
+  },
+  3: {
+    title: "Naviguer l'Inconnu avec Élégance",
+    objective: "Vous donner les outils pour gérer avec calme et confiance une situation où vous ne comprenez pas.",
+    duration: 25,
+    keyPhrases: [
+      {
+        english: "I'm sorry, I don't understand.",
+        pronunciation: "Aïm so-ri, aï don't un-der-stènd",
+        context: "Pour signaler poliment votre incompréhension.",
+        audioFile: "/audio/executive/session3/sorry-dont-understand.mp3"
+      },
+      {
+        english: "Could you repeat, please?",
+        pronunciation: "Coud you ri-piit, pliiz?",
+        context: "Pour demander une répétition.",
+        audioFile: "/audio/executive/session3/could-you-repeat.mp3"
+      },
+      {
+        english: "Could you speak more slowly, please?",
+        pronunciation: "Coud you spiik mor slo-li, pliiz?",
+        context: "Votre outil le plus puissant pour contrôler le rythme.",
+        audioFile: "/audio/executive/session3/speak-slowly.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "L'Exercice Anti-Panique",
+        description: "Votre interlocuteur parle trop rapidement. Vous devez reprendre le contrôle.",
+        yourLine: "I'm sorry, I don't understand. Could you speak more slowly, please?",
+        context: "Restez calme et confiant. C'est un signe d'engagement, pas de faiblesse."
+      },
+      {
+        id: 2,
+        title: "Réunion Internationale",
+        description: "Un collègue utilise un terme technique que vous ne connaissez pas.",
+        yourLine: "Excuse me, could you repeat that, please?",
+        context: "Combinez avec vos acquis précédents pour une approche polie et professionnelle."
+      },
+      {
+        id: 3,
+        title: "Maîtrise du Rythme",
+        description: "Vous êtes dans une conversation importante mais le débit est trop rapide.",
+        yourLine: "I'm sorry, could you speak more slowly, please? Thank you.",
+        context: "Prenez le contrôle de la conversation avec assurance et gratitude."
+      }
+    ],
+    culturalNote: "Demander à quelqu'un de répéter ou de parler plus lentement n'est jamais perçu comme un signe de faiblesse. Au contraire, c'est vu comme une marque d'engagement et un désir sincère de communiquer. Personne ne vous en tiendra rigueur.",
+    vipTip: "Cette distinction entre 'Excuse me' et 'Sorry' est un marqueur de sophistication que les anglophones remarquent immédiatement. Maîtriser cette nuance vous positionnera comme quelqu'un qui comprend les subtilités culturelles.",
+    practice: "Votre mission est de choisir votre phrase préférée parmi les trois et de la répéter 5 fois devant un miroir, en adoptant une posture confiante et un ton posé. L'objectif est d'incarner le calme que cette phrase est censée projeter.",
+    practiceResources: [
+      "Exercices de posture et confiance",
+      "Entraînement au contrôle du rythme",
+      "Techniques de gestion du stress linguistique"
+    ],
+    interactiveTitle: "Simulation Contrôlée (L'Exercice Anti-Panique)",
+    interactiveDescription: "C'est un jeu de rôle où le but n'est pas de comprendre, mais de gérer l'incompréhension avec élégance."
   }
 }

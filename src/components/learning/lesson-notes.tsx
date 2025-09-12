@@ -23,6 +23,175 @@ interface LessonNotesProps {
   track: 'regular' | 'executive'
 }
 
+const executiveTrackNotes: Record<number, LessonNote[]> = {
+  1: [
+    {
+      id: "politeness-mastery",
+      title: "The 5 Pillars of Professional Politeness",
+      content: "These expressions unlock 80% of polite interactions in business English. Master these and you command respect.",
+      examples: [
+        "Hello - Universal, neutral, always appropriate",
+        "Thank you - Foundation of gratitude (add 'very much' for emphasis)",
+        "Please - Essential for any request",
+        "Excuse me - For attention, passing by, interrupting politely",
+        "Good morning/afternoon/evening - Time-specific formality"
+      ],
+      phonetics: "/həˈloʊ/ - Hello, /θæŋk ju/ - Thank you, /pliːz/ - Please",
+      culturalTip: "'Excuse me' (before) vs 'Sorry' (after) - This distinction marks sophistication",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "pronunciation-excellence",
+      title: "Executive Pronunciation Standards",
+      content: "Clear pronunciation projects confidence and competence in professional settings.",
+      examples: [
+        "Hello: /həˈloʊ/ - Aspirated H, clear vowels",
+        "Thank: /θæŋk/ - Tongue between teeth for 'th'",
+        "Please: /pliːz/ - Long 'ee' sound, soft 's'",
+        "Excuse: /ɪkˈskjuːz/ - Stress on second syllable"
+      ],
+      phonetics: "Focus on clear consonants and proper stress patterns",
+      culturalTip: "Professional English values clarity over accent - speak slowly and distinctly",
+      icon: <Volume2 className="h-4 w-4" />
+    },
+    {
+      id: "business-context",
+      title: "Professional Context Applications",
+      content: "How to deploy these phrases in real business situations with maximum impact.",
+      examples: [
+        "Entering a meeting: 'Good morning, everyone'",
+        "Receiving documents: 'Thank you very much'",
+        "Getting attention: 'Excuse me, may I...'",
+        "Making requests: 'Could you please...'"
+      ],
+      culturalTip: "Combine phrases for enhanced politeness: 'Excuse me, could you please...'",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "confidence-building",
+      title: "Building Executive Presence",
+      content: "Body language and tone that complement your English for maximum professional impact.",
+      examples: [
+        "Eye contact during greetings shows confidence",
+        "Slight pause before speaking shows thoughtfulness",
+        "Clear, measured pace demonstrates control",
+        "Smile with 'Nice to meet you' creates warmth"
+      ],
+      culturalTip: "In Anglo-Saxon cultures, confident communication is expected from executives",
+      icon: <Globe className="h-4 w-4" />
+    }
+  ],
+  2: [
+    {
+      id: "introduction-mastery",
+      title: "Executive-Level Introductions",
+      content: "Professional self-presentation that establishes credibility and opens doors.",
+      examples: [
+        "My name is [Name] - Standard, professional",
+        "I'm [Name] - More casual but still appropriate",
+        "What is your name? - Formal inquiry",
+        "Nice to meet you - Essential closing phrase"
+      ],
+      phonetics: "/maɪ neɪm ɪz/ - My name is, /naɪs tu miːt ju/ - Nice to meet you",
+      culturalTip: "Always maintain eye contact during introductions - it signals trustworthiness",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "conversation-flow",
+      title: "Professional Conversation Architecture",
+      content: "The structure of business introductions follows predictable, learnable patterns.",
+      examples: [
+        "Opening: Hello/Good morning",
+        "Introduction: My name is...",
+        "Inquiry: What is your name?",
+        "Acknowledgment: Nice to meet you",
+        "Reciprocation: Nice to meet you too"
+      ],
+      culturalTip: "The 'conversation chain' creates smooth, professional interactions",
+      icon: <BookOpen className="h-4 w-4" />
+    },
+    {
+      id: "cultural-sophistication",
+      title: "Anglo-Saxon Business Culture",
+      content: "Understanding the cultural context behind professional English interactions.",
+      examples: [
+        "Eye contact = confidence and honesty",
+        "Firm handshake = professionalism",
+        "'Nice to meet you' = genuine interest",
+        "Reciprocating questions = social awareness"
+      ],
+      culturalTip: "These rituals build trust faster than credentials in Anglo-Saxon business culture",
+      icon: <Globe className="h-4 w-4" />
+    },
+    {
+      id: "advanced-combinations",
+      title: "Combining Session 1 & 2 Elements",
+      content: "Sophisticated phrase combinations that demonstrate advanced English competence.",
+      examples: [
+        "Excuse me, what is your name, please?",
+        "Good morning. My name is... Nice to meet you.",
+        "Thank you for the introduction. I'm...",
+        "Please, allow me to introduce myself..."
+      ],
+      culturalTip: "Layering politeness phrases shows mastery and earns immediate respect",
+      icon: <Lightbulb className="h-4 w-4" />
+    }
+  ],
+  3: [
+    {
+      id: "incomprehension-mastery",
+      title: "Managing Incomprehension with Executive Grace",
+      content: "Transform potential embarrassment into professional competence with these essential phrases.",
+      examples: [
+        "I'm sorry, I don't understand - Polite acknowledgment",
+        "Could you repeat, please? - Direct, respectful request",
+        "Could you speak more slowly, please? - Rhythm control tool"
+      ],
+      phonetics: "/aɪm ˈsɔri/ - I'm sorry, /kʊd ju rɪˈpit/ - Could you repeat",
+      culturalTip: "Asking for clarification shows engagement, not weakness - it's expected in professional settings",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "professional-control",
+      title: "Taking Control of Professional Conversations",
+      content: "These phrases give you power to manage any conversation at your preferred pace.",
+      examples: [
+        "'Could you...' - Polite but firm control",
+        "'Please' - Maintains respect while asserting needs",
+        "'I'm sorry' - Professional acknowledgment, not apology"
+      ],
+      culturalTip: "In Anglo-Saxon business culture, controlling conversation pace is seen as leadership",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "stress-management",
+      title: "Linguistic Stress Management Techniques",
+      content: "Professional strategies for maintaining composure when language becomes challenging.",
+      examples: [
+        "Pause before responding - Shows thoughtfulness",
+        "Maintain eye contact - Projects confidence",
+        "Use calm, measured tone - Demonstrates control",
+        "Thank after clarification - Shows professionalism"
+      ],
+      culturalTip: "Calm confidence in difficult moments marks true executive presence",
+      icon: <Globe className="h-4 w-4" />
+    },
+    {
+      id: "advanced-combinations",
+      title: "Sophisticated Clarification Strategies",
+      content: "Combine phrases for maximum professional impact and elegant problem-solving.",
+      examples: [
+        "Excuse me, I'm sorry, I don't understand",
+        "Could you repeat that more slowly, please?",
+        "I'm sorry, could you speak more slowly? Thank you.",
+        "Excuse me, could you repeat, please? I want to be sure I understand."
+      ],
+      culturalTip: "Layering politeness with purpose shows sophisticated language mastery",
+      icon: <BookOpen className="h-4 w-4" />
+    }
+  ]
+}
+
 const regularTrackNotes: Record<number, LessonNote[]> = {
   1: [
     {
@@ -140,7 +309,9 @@ const regularTrackNotes: Record<number, LessonNote[]> = {
 
 export function LessonNotes({ sessionId, track }: LessonNotesProps) {
   const [isOpen, setIsOpen] = useState(false)
-  const notes = track === 'regular' ? regularTrackNotes[sessionId] || [] : []
+  const notes = track === 'regular' 
+    ? regularTrackNotes[sessionId] || [] 
+    : executiveTrackNotes[sessionId] || []
 
   if (notes.length === 0) return null
 
