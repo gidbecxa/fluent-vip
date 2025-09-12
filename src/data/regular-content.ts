@@ -232,5 +232,102 @@ export const regularSessionContent: SessionData = {
         link: "https://kahoot.com"
       }
     ]
+  },
+  3: {
+    title: "Who is he? Who is she?",
+    objective: "Consolider l'utilisation de la 3ème personne du singulier (he/she/it) pour pouvoir décrire l'environnement et les personnes qui nous entourent.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "He is...",
+        pronunciation: "Hi iz...",
+        context: "Pour parler d'un homme ou d'un garçon.",
+        audioFile: "/audio/regular/session3/he-is.mp3"
+      },
+      {
+        english: "She is...",
+        pronunciation: "Chi iz...",
+        context: "Pour parler d'une femme ou d'une fille.",
+        audioFile: "/audio/regular/session3/she-is.mp3"
+      },
+      {
+        english: "Who is he? Who is she?",
+        pronunciation: "Hou iz hi? Hou iz chi?",
+        context: "Pour demander l'identité de quelqu'un.",
+        audioFile: "/audio/regular/session3/who-is.mp3"
+      },
+      {
+        english: "This is my friend...",
+        pronunciation: "Ziss iz maï frènd...",
+        context: "Pour présenter quelqu'un - super utile en soirée!",
+        audioFile: "/audio/regular/session3/this-is-my-friend.mp3"
+      },
+      {
+        english: "It is...",
+        pronunciation: "Itt iz...",
+        context: "Pour parler d'un objet, d'un lieu ou d'un animal.",
+        audioFile: "/audio/regular/session3/it-is.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Présentation de Célébrités - Style TikTok",
+        description: "Tu crées une vidéo pour présenter tes 3 célébrités préférées à tes followers.",
+        yourLine: "This is [Celebrity Name]. He/She is from [Country]. He/She is a [Profession].",
+        context: "Énergie TikTok! Sois enthousiaste et informatif comme un vrai influenceur."
+      },
+      {
+        id: 2,
+        title: "Soirée Étudiante - Présenter un Ami",
+        description: "Tu es à une soirée et tu présentes ton meilleur ami à quelqu'un de nouveau.",
+        yourLine: "Hi! This is my friend [Name]. He/She is from [Country]. He/She is really cool!",
+        context: "Ambiance décontractée! Montre que ton ami est génial."
+      },
+      {
+        id: 3,
+        title: "Visite Guidée de ta Ville",
+        description: "Tu fais visiter ta ville à un étudiant international via Instagram Stories.",
+        yourLine: "This is the Eiffel Tower. It is in Paris. It is not in London!",
+        context: "Guide touristique mode Gen Z! Sois fier de ta ville et amusant."
+      }
+    ],
+    culturalNote: "En anglais, on utilise 'he' et 'she' beaucoup plus qu'en français. Les anglophones adorent personnaliser leurs descriptions - même pour parler d'animaux, ils utilisent souvent 'he' ou 'she' au lieu de 'it'!",
+    vipTip: "Secret Gen Z: Quand tu présentes quelqu'un, ajoute toujours quelque chose de positif! 'This is my friend Sarah. She is from Canada and she is amazing!' - ça crée une super première impression.",
+    practice: "Ta mission cette semaine: trouve 3 photos de tes amis sur Instagram et écris une description en anglais pour chacun. Poste-les en story privé avec #MyFriendsInEnglish - tu vas voir, c'est addictif!",
+    practiceResources: [
+      "Quizlet avec pronoms personnels",
+      "Jeu de cartes célébrités à décrire",
+      "Challenge Instagram: 'Describe Your Squad'"
+    ],
+    interactiveTitle: "Celebrity Spotlight Challenge",
+    interactiveDescription: "Transforme ta chambre en plateau TV! Tu vas présenter tes célébrités préférées comme un vrai présentateur.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoTitle: "He, She, It - Personal Pronouns for Beginners",
+      videoDuration: "6 min",
+      videoDescription: "Apprends à utiliser les pronoms personnels avec des exemples de films et séries populaires."
+    },
+    gamification: {
+      xpReward: 150,
+      badges: ["Pronoun Master", "Celebrity Expert", "Social Presenter"],
+      challenges: [
+        "Présente 5 célébrités différentes",
+        "Utilise 'he', 'she' et 'it' dans la même phrase",
+        "Crée une description de 3 phrases pour ton meilleur ami"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "Celebrity Quiz App",
+        description: "Quiz interactif pour pratiquer les descriptions de célébrités",
+        link: "https://www.sporcle.com/games/category/celebrity"
+      },
+      {
+        name: "Flipgrid",
+        description: "Enregistre des vidéos de présentation pour pratiquer l'oral",
+        link: "https://flipgrid.com"
+      }
+    ]
   }
 }
