@@ -281,7 +281,7 @@ export const regularSessionContent: SessionData = {
         id: 2,
         title: "Soirée Étudiante - Présenter un Ami",
         description: "Tu es à une soirée et tu présentes ton meilleur ami à quelqu'un de nouveau.",
-        yourLine: "Hi! This is my friend [Name]. He/She is from [Country]. He/She is really cool!",
+        yourLine: "Hi! This is my friend, [Name]. He/She is from [Country]. He/She is really cool!",
         context: "Ambiance décontractée! Montre que ton ami est génial."
       },
       {
@@ -303,7 +303,7 @@ export const regularSessionContent: SessionData = {
     interactiveTitle: "Celebrity Spotlight Challenge",
     interactiveDescription: "Transforme ta chambre en plateau TV! Tu vas présenter tes célébrités préférées comme un vrai présentateur.",
     flippedClassroom: {
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoUrl: "https://www.youtube.com/watch?v=1mKeXz5Bf7c",
       videoTitle: "He, She, It - Personal Pronouns for Beginners",
       videoDuration: "6 min",
       videoDescription: "Apprends à utiliser les pronoms personnels avec des exemples de films et séries populaires."
@@ -327,6 +327,200 @@ export const regularSessionContent: SessionData = {
         name: "Flipgrid",
         description: "Enregistre des vidéos de présentation pour pratiquer l'oral",
         link: "https://flipgrid.com"
+      }
+    ]
+  },
+  4: {
+    title: "We are, They are... What is it?",
+    objective: "Compléter la conjugaison de 'To Be' avec les formes plurielles et apprendre à identifier les objets de l'environnement immédiat.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "We are...",
+        pronunciation: "Oui ar...",
+        context: "Pour parler de toi et d'autres personnes ensemble.",
+        audioFile: "/audio/regular/session4/we-are.mp3"
+      },
+      {
+        english: "They are...",
+        pronunciation: "Zèï ar...",
+        context: "Pour parler d'un groupe de personnes ou d'objets.",
+        audioFile: "/audio/regular/session4/they-are.mp3"
+      },
+      {
+        english: "What is it? What are they?",
+        pronunciation: "Ouatt iz itt? Ouatt ar zèï?",
+        context: "Pour demander ce que c'est - singulier et pluriel.",
+        audioFile: "/audio/regular/session4/what-is-what-are.mp3"
+      },
+      {
+        english: "It is a... They are...",
+        pronunciation: "Itt iz a... Zèï ar...",
+        context: "Pour identifier des objets - un ou plusieurs.",
+        audioFile: "/audio/regular/session4/it-is-they-are.mp3"
+      },
+      {
+        english: "These are my...",
+        pronunciation: "Ziiz ar maï...",
+        context: "Pour présenter tes affaires - style Instagram!",
+        audioFile: "/audio/regular/session4/these-are-my.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Room Tour Challenge - Style YouTuber",
+        description: "Tu filmes un room tour pour tes followers. Présente tous tes objets préférés!",
+        yourLine: "These are my books. They are interesting. This is my laptop. It is new!",
+        context: "Énergie YouTuber! Sois enthousiaste et montre ta personnalité à travers tes objets."
+      },
+      {
+        id: 2,
+        title: "Chasse au Trésor Numérique",
+        description: "Ton ami te demande de trouver des objets spécifiques dans ta chambre via FaceTime.",
+        yourLine: "What is it? It is my phone! What are they? They are my headphones!",
+        context: "Jeu interactif! Sois rapide et précis dans tes réponses."
+      },
+      {
+        id: 3,
+        title: "Présentation de Groupe - Projet Étudiant",
+        description: "Tu présentes ton équipe et vos outils de travail pour un projet scolaire.",
+        yourLine: "We are students. These are our notebooks. They are for our English project.",
+        context: "Contexte scolaire professionnel! Montre que vous êtes organisés et motivés."
+      }
+    ],
+    culturalNote: "En anglais, on fait très attention au singulier/pluriel. 'This is' pour UN objet, 'These are' pour PLUSIEURS objets. Les anglophones remarquent immédiatement si tu confonds - mais c'est normal au début!",
+    vipTip: "Secret Gen Z: Utilise 'These are my...' pour présenter tes affaires sur les réseaux sociaux! C'est le début parfait pour un post Instagram ou une story Snapchat en anglais.",
+    practice: "Ta mission cette semaine: prends une photo de ton bureau/ta chambre et écris 5 phrases en anglais pour décrire ce qu'il y a. Utilise 'It is...' et 'They are...' - poste-le en story privé avec #MyStuffInEnglish!",
+    practiceResources: [
+      "Quizlet avec objets du quotidien",
+      "Jeu de memory singulier/pluriel",
+      "Challenge TikTok: 'Name Everything in English'"
+    ],
+    interactiveTitle: "Digital Scavenger Hunt",
+    interactiveDescription: "Transforme ta chambre en terrain de jeu! Tu vas devenir expert pour nommer tout ce qui t'entoure en anglais.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoTitle: "Singular vs Plural - This, That, These, Those",
+      videoDuration: "8 min",
+      videoDescription: "Apprends la différence entre singulier et pluriel avec des exemples de la vie quotidienne."
+    },
+    gamification: {
+      xpReward: 180,
+      badges: ["Object Master", "Plural Pro", "Room Tour Star"],
+      challenges: [
+        "Nomme 10 objets différents dans ta chambre",
+        "Utilise 'we are' et 'they are' dans la même phrase",
+        "Crée un mini room tour de 30 secondes en anglais"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "Household Objects Quiz",
+        description: "Quiz interactif pour apprendre le vocabulaire des objets du quotidien",
+        link: "https://www.englishclub.com/vocabulary/household.htm"
+      },
+      {
+        name: "Padlet Collaboration",
+        description: "Partage des photos d'objets avec descriptions en anglais",
+        link: "https://padlet.com"
+      }
+    ]
+  },
+  5: {
+    title: "The International Student Mixer",
+    objective: "Réactiver et intégrer TOUTES les connaissances de la semaine dans un scénario réaliste, fluide et engageant.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "Hi everyone! I'm...",
+        pronunciation: "Haï èvri-ouan! Aïm...",
+        context: "Pour te présenter à un groupe - style soirée internationale!",
+        audioFile: "/audio/regular/session5/hi-everyone.mp3"
+      },
+      {
+        english: "This is my friend...",
+        pronunciation: "Ziss iz maï frènd...",
+        context: "Pour présenter quelqu'un dans un groupe social.",
+        audioFile: "/audio/regular/session5/this-is-my-friend.mp3"
+      },
+      {
+        english: "We are from France.",
+        pronunciation: "Oui ar from Frànss",
+        context: "Pour parler de votre origine en groupe.",
+        audioFile: "/audio/regular/session5/we-are-from.mp3"
+      },
+      {
+        english: "They are students too.",
+        pronunciation: "Zèï ar stiou-dènts tou",
+        context: "Pour décrire d'autres personnes dans le groupe.",
+        audioFile: "/audio/regular/session5/they-are-students.mp3"
+      },
+      {
+        english: "It was nice meeting you!",
+        pronunciation: "Itt ouaz naïss mii-ting you!",
+        context: "Pour conclure une conversation de groupe - parfait pour les soirées!",
+        audioFile: "/audio/regular/session5/was-nice-meeting-you.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Welcome Party - Rencontrer Carlos",
+        description: "Tu es à une soirée d'accueil pour étudiants internationaux à Londres. Tu rencontres Carlos d'Espagne.",
+        yourLine: "Hi! I'm [Ton Nom]. I'm from France. Are you from the UK? No, I'm from Spain. Nice to meet you!",
+        context: "Ambiance décontractée! Sois curieux et amical comme dans une vraie soirée étudiante."
+      },
+      {
+        id: 2,
+        title: "Group Presentation - Rencontrer Akiko",
+        description: "Tu rencontres Akiko du Japon qui a un appareil photo. Tu es curieux de ses affaires.",
+        yourLine: "Hi Akiko! What is it? It's a camera. That's cool! Where are you from? I'm from Japan.",
+        context: "Montre ton intérêt pour les autres cultures et leurs objets - c'est très Gen Z!"
+      },
+      {
+        id: 3,
+        title: "Squad Goals - Rencontrer Anna & Ben",
+        description: "Tu rencontres Anna et Ben d'Allemagne. Vous formez un groupe d'étudiants internationaux.",
+        yourLine: "Hi! Who are they? They are Anna and Ben. They are from Germany. We are all students here!",
+        context: "Crée une vibe de groupe internationale! C'est le moment de former ta squad anglophone."
+      }
+    ],
+    culturalNote: "Les soirées étudiantes internationales sont parfaites pour pratiquer l'anglais! Tout le monde est dans la même situation - apprendre et se faire des amis. L'anglais devient la langue commune naturelle.",
+    vipTip: "Secret Gen Z: Dans les groupes internationaux, l'anglais est la langue cool qui unit tout le monde. Même avec des erreurs, tu seras respecté pour l'effort - et tu vas progresser super vite!",
+    practice: "Ta mission finale: écris un court paragraphe (4-5 phrases) dans tes notes sur ton téléphone, résumant cette simulation. Utilise TOUS les mots appris cette semaine. Exemple: 'Today, I was at a party. I met Carlos. He is from Spain...' - c'est ton premier texte créatif en anglais!",
+    practiceResources: [
+      "Journal de bord créatif en anglais",
+      "Révision complète de la semaine",
+      "Challenge: 'Écris ton premier paragraphe'"
+    ],
+    interactiveTitle: "International Student Mixer Simulation",
+    interactiveDescription: "Bienvenue à la soirée d'accueil! Tu vas rencontrer 3 étudiants de pays différents et créer ton premier réseau international en anglais.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoTitle: "International Student Life - Making Friends",
+      videoDuration: "10 min",
+      videoDescription: "Découvre comment les étudiants internationaux se rencontrent et créent des amitiés dans les universités anglophones."
+    },
+    gamification: {
+      xpReward: 250,
+      badges: ["Week 1 Champion", "International Networker", "Conversation Master"],
+      challenges: [
+        "Utilise TOUS les mots appris cette semaine dans une conversation",
+        "Présente 3 personnes différentes en anglais",
+        "Écris ton premier paragraphe créatif en anglais"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "HelloTalk",
+        description: "App pour pratiquer l'anglais avec de vrais étudiants internationaux",
+        link: "https://www.hellotalk.com"
+      },
+      {
+        name: "Tandem",
+        description: "Plateforme d'échange linguistique avec des jeunes du monde entier",
+        link: "https://www.tandem.net"
       }
     ]
   }

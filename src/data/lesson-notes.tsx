@@ -177,6 +177,117 @@ export const executiveTrackNotes: Record<number, LessonNote[]> = {
       culturalTip: "Layering politeness with purpose shows sophisticated language mastery",
       icon: <BookOpen className="h-4 w-4" />
     }
+  ],
+  4: [
+    {
+      id: "social-ritual-mastery",
+      title: "The Essential Social Ritual - 'How Are You?'",
+      content: "Master the most common social exchange in English business culture - it's more ritual than question.",
+      examples: [
+        "How are you? - The universal social opener",
+        "I'm fine, thank you. And you? - Standard positive response",
+        "Very well, thank you - Slightly more formal alternative",
+        "And you? - CRUCIAL reciprocation"
+      ],
+      phonetics: "/haʊ ɑr ju/ - How are you, /aɪm faɪn/ - I'm fine",
+      culturalTip: "This is social ritual, not health inquiry - always respond positively in professional settings",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "conversation-assembly",
+      title: "Complete Professional Conversation Architecture",
+      content: "Combine all learned elements into a seamless, professional dialogue that impresses immediately.",
+      examples: [
+        "Good morning + My name is... + How are you? = Complete opener",
+        "Hello + Nice to meet you + I'm fine, thank you = Perfect response",
+        "Thank you + And you? + Very well = Elegant conclusion",
+        "Full dialogue mastery = Executive presence"
+      ],
+      culturalTip: "The complete conversation shows cultural fluency and professional sophistication",
+      icon: <BookOpen className="h-4 w-4" />
+    },
+    {
+      id: "reciprocation-importance",
+      title: "The Power of 'And You?' - Social Intelligence",
+      content: "This small phrase demonstrates emotional intelligence and cultural awareness in business settings.",
+      examples: [
+        "Without 'And you?' = Appears self-centered",
+        "With 'And you?' = Shows social awareness",
+        "Forgetting reciprocation = Cultural mistake",
+        "Remembering reciprocation = Professional competence"
+      ],
+      culturalTip: "'And you?' is the difference between basic English and culturally intelligent English",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "intonation-mastery",
+      title: "The Melody of Professional Conversation",
+      content: "Master the rhythm and intonation patterns that make your English sound naturally professional.",
+      examples: [
+        "Rising intonation on 'How are YOU?' - Shows genuine interest",
+        "Falling intonation on 'Very well, thank you' - Shows confidence",
+        "Pause before 'And you?' - Shows thoughtfulness",
+        "Warm tone throughout - Shows approachability"
+      ],
+      culturalTip: "Professional English is about melody and rhythm, not just words - this creates executive presence",
+      icon: <Globe className="h-4 w-4" />
+    }
+  ],
+  5: [
+    {
+      id: "transaction-mastery",
+      title: "Your First Professional Transaction",
+      content: "Master the art of polite requests using 'I would like' - the executive's preferred formula for all professional requests.",
+      examples: [
+        "I would like a coffee, please - Professional beverage order",
+        "I would like a tea, please - Alternative with same elegance",
+        "I would like a glass of water, please - Simple but sophisticated",
+        "I'd like... - Contracted form for casual professional settings"
+      ],
+      phonetics: "/aɪ wʊd laɪk/ - I would like, /pliːz/ - please",
+      culturalTip: "'I would like' vs 'I want' - this distinction immediately marks your level of linguistic sophistication",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "politeness-hierarchy",
+      title: "The Hierarchy of Professional Politeness",
+      content: "Understanding the subtle gradations of politeness that executives must master for different professional contexts.",
+      examples: [
+        "I want = Direct, potentially rude",
+        "I need = Urgent, but still demanding",
+        "Can I have = Casual, appropriate with colleagues",
+        "I would like = Professional, respectful, executive-level"
+      ],
+      culturalTip: "Executives always choose the most respectful option - it shows leadership and cultural intelligence",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "transaction-flow",
+      title: "Complete Professional Transaction Architecture",
+      content: "The full sequence of a professional transaction that demonstrates complete mastery of Week 1 elements.",
+      examples: [
+        "Greeting: Good morning",
+        "Request: I would like a coffee, please",
+        "Acknowledgment: Here you are",
+        "Gratitude: Thank you very much",
+        "Complete flow = Professional competence"
+      ],
+      culturalTip: "This complete sequence shows you understand professional English protocols from start to finish",
+      icon: <BookOpen className="h-4 w-4" />
+    },
+    {
+      id: "daily-integration",
+      title: "Anchoring Learning in Daily Professional Life",
+      content: "Techniques for integrating English learning into your daily executive routine for maximum retention.",
+      examples: [
+        "Mental rehearsal before coffee breaks",
+        "English self-talk during beverage preparation",
+        "Professional phrase practice in private moments",
+        "Confidence building through daily repetition"
+      ],
+      culturalTip: "Successful executives integrate learning seamlessly into their daily routines - this ensures mastery",
+      icon: <Globe className="h-4 w-4" />
+    }
   ]
 }
 
@@ -345,6 +456,117 @@ export const regularTrackNotes: Record<number, LessonNote[]> = {
         "Friend tag: 'She is my partner in crime!'"
       ],
       culturalTip: "Social media English is more personal - use 'amazing', 'incredible', 'awesome'!",
+      icon: <BookOpen className="h-4 w-4" />
+    }
+  ],
+  4: [
+    {
+      id: "plural-mastery",
+      title: "We Are, They Are - Completing the 'To Be' Puzzle",
+      content: "Master the final pieces of 'To Be' and you can talk about groups, teams, and collections with confidence.",
+      examples: [
+        "We are students - You + others together",
+        "They are friends - A group of people",
+        "We are not teachers - Negative plural form",
+        "Are they French? - Question with plural"
+      ],
+      phonetics: "/wi ɑr/ - We are, /ðeɪ ɑr/ - They are (sounds like 'way are', 'they are')",
+      culturalTip: "English speakers love talking about groups - family, friends, teams. Master 'we' and 'they'!",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "object-identification",
+      title: "What Is It? The Art of Naming Everything",
+      content: "Turn your environment into your English classroom - learn to identify and describe everything around you.",
+      examples: [
+        "What is it? It is a book - Singular identification",
+        "What are they? They are pens - Plural identification",
+        "This is my laptop - Presenting singular objects",
+        "These are my headphones - Presenting plural objects"
+      ],
+      phonetics: "/wʌt ɪz ɪt/ - What is it, /wʌt ɑr ðeɪ/ - What are they",
+      culturalTip: "Native speakers constantly identify objects in conversation - it's natural and useful!",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "singular-plural-rules",
+      title: "Singular vs Plural - The English Logic",
+      content: "Understanding when to use 'is' vs 'are' is crucial for sounding natural in English.",
+      examples: [
+        "It is a pen (singular) → They are pens (plural)",
+        "This is my book → These are my books",
+        "That is a chair → Those are chairs",
+        "The phone is new → The phones are new"
+      ],
+      synonyms: ["This = singular near", "These = plural near", "That = singular far", "Those = plural far"],
+      culturalTip: "English speakers notice singular/plural mistakes immediately - but they're patient with learners!",
+      icon: <BookOpen className="h-4 w-4" />
+    },
+    {
+      id: "room-tour-english",
+      title: "Social Media English - Room Tours & Object Descriptions",
+      content: "Perfect your English for social media content creation - room tours, outfit posts, and lifestyle content.",
+      examples: [
+        "These are my favorite books - Instagram caption style",
+        "This is my study space. It is cozy! - YouTube description",
+        "We are ready for class! - Group photo caption",
+        "They are my art supplies - Creative content"
+      ],
+      culturalTip: "Social media English is more enthusiastic - use 'amazing', 'perfect', 'love' frequently!",
+      icon: <Globe className="h-4 w-4" />
+    }
+  ],
+  5: [
+    {
+      id: "week-integration",
+      title: "Week 1 Complete Integration - The Big Picture",
+      content: "See how all Week 1 elements combine into natural, flowing conversations that sound authentically English.",
+      examples: [
+        "Session 1: Hello, I'm... + Session 2: Where are you from? = Perfect introduction",
+        "Session 3: He/She is... + Session 4: We are... = Complete social description",
+        "All sessions together = Fluent international student conversation",
+        "Integration = Real English confidence"
+      ],
+      culturalTip: "Native speakers naturally combine all these elements - now you can too!",
+      icon: <Users className="h-4 w-4" />
+    },
+    {
+      id: "international-networking",
+      title: "International Student Social Skills",
+      content: "Master the art of making friends in international settings - essential for Gen Z global connections.",
+      examples: [
+        "Hi everyone! I'm [Name] - Group introduction energy",
+        "This is my friend... - Social connector role",
+        "We are from France - Proud cultural representation",
+        "It was nice meeting you! - Perfect conversation closer"
+      ],
+      culturalTip: "International students bond over shared English learning - embrace the community!",
+      icon: <Globe className="h-4 w-4" />
+    },
+    {
+      id: "party-english",
+      title: "Social Event English - Party & Mixer Mastery",
+      content: "Navigate international social events with confidence using your complete Week 1 toolkit.",
+      examples: [
+        "Arrival: Hi everyone! I'm... - Make your entrance",
+        "Mingling: Where are you from? Who is he? - Keep conversations flowing",
+        "Introductions: This is my friend... - Be the social connector",
+        "Departure: It was nice meeting you! - Leave a great impression"
+      ],
+      culturalTip: "International parties are perfect English practice - everyone's learning together!",
+      icon: <Lightbulb className="h-4 w-4" />
+    },
+    {
+      id: "creative-writing",
+      title: "Your First Creative English Writing",
+      content: "Transform your speaking skills into writing skills with your first English paragraph creation.",
+      examples: [
+        "Today, I was at a party - Simple past introduction",
+        "I met Carlos. He is from Spain - Character introduction",
+        "Anna and Ben are from Germany - Group description",
+        "It was fun! - Personal opinion and conclusion"
+      ],
+      culturalTip: "Writing reinforces speaking - your first English paragraph is a huge milestone!",
       icon: <BookOpen className="h-4 w-4" />
     }
   ]

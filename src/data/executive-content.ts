@@ -224,5 +224,133 @@ export const executiveSessionContent: SessionData = {
     ],
     interactiveTitle: "Simulation Contrôlée (L'Exercice Anti-Panique)",
     interactiveDescription: "C'est un jeu de rôle où le but n'est pas de comprendre, mais de gérer l'incompréhension avec élégance."
+  },
+  4: {
+    title: "Le Rituel Social Incontournable",
+    objective: "Maîtriser l'échange social le plus courant en anglais : 'Comment allez-vous ?'.",
+    duration: 25,
+    keyPhrases: [
+      {
+        english: "How are you?",
+        pronunciation: "Haow ar you?",
+        context: "La question de base pour s'enquérir de l'état de quelqu'un.",
+        audioFile: "/audio/executive/session4/how-are-you.mp3"
+      },
+      {
+        english: "I'm fine, thank you. And you?",
+        pronunciation: "Aïm faïn, sènk-you. Ènd you?",
+        context: "La réponse standard, polie et positive. Le 'And you?' est crucial.",
+        audioFile: "/audio/executive/session4/im-fine-and-you.mp3"
+      },
+      {
+        english: "Very well, thank you.",
+        pronunciation: "Vè-ri ouell, sènk-you",
+        context: "Une réponse alternative, légèrement plus formelle.",
+        audioFile: "/audio/executive/session4/very-well.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Assemblage de la Conversation Complète",
+        description: "Vous assemblez toutes les briques apprises pour créer un dialogue professionnel complet.",
+        yourLine: "Good morning. My name is [Votre Nom]. Nice to meet you. How are you?",
+        context: "Démontrez votre maîtrise en enchaînant naturellement salutation, présentation et question sociale."
+      },
+      {
+        id: 2,
+        title: "Réunion Matinale",
+        description: "Vous arrivez à une réunion et saluez un collègue que vous rencontrez pour la première fois.",
+        yourLine: "Good morning. I'm fine, thank you. And you? Very well, thank you.",
+        context: "Montrez votre aisance dans l'échange social professionnel standard."
+      },
+      {
+        id: 3,
+        title: "Jeu de Rôle Inversé",
+        description: "C'est vous qui initiez tout l'échange social depuis le début.",
+        yourLine: "Hello. My name is [Votre Nom]. How are you? Very well, thank you.",
+        context: "Prenez le leadership de la conversation avec assurance et fluidité."
+      }
+    ],
+    culturalNote: "Renvoyer la question avec 'And you?' est fondamental. L'oublier peut être perçu comme impoli ou égocentrique. C'est un petit détail qui démontre une grande maîtrise des codes sociaux.",
+    vipTip: "'How are you?' est souvent moins une question sur la santé qu'une partie du rituel de salutation. La réponse est presque toujours positive. C'est une nuance culturelle essentielle que les executives doivent maîtriser.",
+    practice: "Je vous enverrai un fichier audio de 30 secondes de ce dialogue. Votre mission sera de l'écouter en fermant les yeux, en vous concentrant uniquement sur la 'mélodie' de la conversation, les hauts et les bas de l'intonation.",
+    practiceResources: [
+      "Fichier audio de dialogue complet",
+      "Exercices d'intonation et de rythme",
+      "Pratique de la mélodie conversationnelle"
+    ],
+    interactiveTitle: "Assemblage de la Conversation Complète",
+    interactiveDescription: "Nous allons maintenant assembler toutes les briques que nous avons apprises pour créer un dialogue complet et professionnel."
+  },
+  5: {
+    title: "Votre Première Action Concrète",
+    objective: "Réaliser votre première transaction en anglais. À la fin de cette session, vous serez capable de commander une boisson simple avec assurance.",
+    duration: 30,
+    keyPhrases: [
+      {
+        english: "I would like...",
+        pronunciation: "Aï'd laïk...",
+        context: "La manière la plus élégante et respectueuse de demander quelque chose. Bien plus distingué que 'I want'.",
+        audioFile: "/audio/executive/session5/i-would-like.mp3"
+      },
+      {
+        english: "...a cup of coffee, please.",
+        pronunciation: "...a kap of co-fi, pliiz",
+        context: "Pour commander un café avec politesse.",
+        audioFile: "/audio/executive/session5/coffee-please.mp3"
+      },
+      {
+        english: "...a cup of tea, please.",
+        pronunciation: "...a kap of tii, pliiz",
+        context: "Pour commander un thé avec élégance.",
+        audioFile: "/audio/executive/session5/tea-please.mp3"
+      },
+      {
+        english: "...a glass of water, please.",
+        pronunciation: "...a glasse of oua-ter, pliiz",
+        context: "Pour commander de l'eau simplement.",
+        audioFile: "/audio/executive/session5/water-please.mp3"
+      },
+      {
+        english: "Here you are.",
+        pronunciation: "Hir you ar",
+        context: "Phrase que vous entendrez. Signifie 'Voici / Tenez'.",
+        audioFile: "/audio/executive/session5/here-you-are.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "La Formule de la Demande",
+        description: "Vous maîtrisez 'I would like...' comme votre clé passe-partout pour toute demande polie.",
+        yourLine: "Hello. I would like a coffee, please. Thank you.",
+        context: "Démontrez votre élégance linguistique avec cette formule respectueuse et professionnelle."
+      },
+      {
+        id: 2,
+        title: "Simulation de la Scène Réelle",
+        description: "Vous êtes dans un café d'affaires et commandez votre boisson habituelle.",
+        yourLine: "Good morning. I would like a cup of tea, please. Thank you very much.",
+        context: "Intégrez salutation, commande polie et remerciement dans une transaction fluide."
+      },
+      {
+        id: 3,
+        title: "Variations Professionnelles",
+        description: "Vous adaptez votre commande selon différentes situations d'affaires.",
+        yourLine: "Excuse me, I would like a bottle of water, please. Here you are. Thank you.",
+        context: "Montrez votre flexibilité en variant les boissons tout en gardant la même élégance."
+      }
+    ],
+    culturalNote: "L'utilisation de 'I would like' (ou sa contraction 'I'd like') est un marqueur social important. Elle communique le respect et est parfaitement adaptée à votre statut. C'est le genre de détail qui fait toute la différence.",
+    vipTip: "'I would like' vs 'I want' - cette distinction marque immédiatement votre niveau de sophistication linguistique. Les executives utilisent toujours 'I would like' dans les contextes professionnels.",
+    practice: "Au cours des deux prochains jours, chaque fois que vous vous apprêtez à boire un café, un thé ou de l'eau, prenez une seconde pour formuler la phrase 'I would like a...' dans votre tête en anglais. Cette technique simple ancre l'apprentissage dans vos habitudes quotidiennes.",
+    practiceResources: [
+      "Exercices d'ancrage dans le quotidien",
+      "Pratique de la formule 'I would like'",
+      "Simulation de transactions professionnelles"
+    ],
+    interactiveTitle: "Simulation de la Scène Réelle",
+    interactiveDescription: "Ce sera notre pièce de théâtre. Nous simulerons une vraie transaction dans un environnement professionnel."
   }
 }

@@ -49,8 +49,8 @@ export default function SessionPage({ params }: SessionPageProps) {
     )
   }
   
-  // Handle Sessions 1, 2, and 3
-  if (sessionId !== 1 && sessionId !== 2 && sessionId !== 3) {
+  // Handle Sessions 1, 2, 3, 4, and 5
+  if (sessionId !== 1 && sessionId !== 2 && sessionId !== 3 && sessionId !== 4 && sessionId !== 5) {
     return (
       <div className="min-h-screen bg-gray-50 py-8">
         <div className="container mx-auto max-w-4xl px-4 text-center">
