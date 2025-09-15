@@ -305,7 +305,7 @@ export const regularSessionContent: SessionData = {
     flippedClassroom: {
       videoUrl: "https://www.youtube.com/watch?v=1mKeXz5Bf7c",
       videoTitle: "He, She, It - Personal Pronouns for Beginners",
-      videoDuration: "6 min",
+      videoDuration: "3 min",
       videoDescription: "Apprends à utiliser les pronoms personnels avec des exemples de films et séries populaires."
     },
     gamification: {
