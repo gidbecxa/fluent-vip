@@ -400,7 +400,7 @@ export const regularSessionContent: SessionData = {
     interactiveTitle: "Digital Scavenger Hunt",
     interactiveDescription: "Transforme ta chambre en terrain de jeu! Tu vas devenir expert pour nommer tout ce qui t'entoure en anglais.",
     flippedClassroom: {
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoUrl: "https://www.youtube.com/watch?v=uIllvkN7p58",
       videoTitle: "Singular vs Plural - This, That, These, Those",
       videoDuration: "8 min",
       videoDescription: "Apprends la différence entre singulier et pluriel avec des exemples de la vie quotidienne."
