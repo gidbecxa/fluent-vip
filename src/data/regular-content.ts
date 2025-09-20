@@ -497,7 +497,7 @@ export const regularSessionContent: SessionData = {
     interactiveTitle: "International Student Mixer Simulation",
     interactiveDescription: "Bienvenue à la soirée d'accueil! Tu vas rencontrer 3 étudiants de pays différents et créer ton premier réseau international en anglais.",
     flippedClassroom: {
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      videoUrl: "https://youtu.be/bq6GBbh3uhU?si=Yn4W2LO5DxfqwaA-",
       videoTitle: "International Student Life - Making Friends",
       videoDuration: "10 min",
       videoDescription: "Découvre comment les étudiants internationaux se rencontrent et créent des amitiés dans les universités anglophones."
