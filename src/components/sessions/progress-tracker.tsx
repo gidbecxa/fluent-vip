@@ -13,7 +13,9 @@ interface ProgressTrackerProps {
 export function ProgressTracker({ totalSessions, currentWeek }: ProgressTrackerProps) {
   const [isMounted, setIsMounted] = useState(false)
   const { getCompletedSessionsCount, isSessionCompleted, getTotalXP, getEarnedBadges } = useProgressStore()
-  const completedSessions = isMounted ? getCompletedSessionsCount() : 0
+  const allCompletedSessions = isMounted ? getCompletedSessionsCount() : 0
+  const weekSessionIds = currentWeek === 1 ? [1, 2, 3, 4, 5] : [6, 7, 8, 9, 10]
+  const completedSessions = isMounted ? weekSessionIds.filter(id => isSessionCompleted(id)).length : 0
   const totalXP = isMounted ? getTotalXP() : 0
   const earnedBadges = isMounted ? getEarnedBadges() : []
   const progressPercentage = (completedSessions / totalSessions) * 100
@@ -48,7 +50,7 @@ export function ProgressTracker({ totalSessions, currentWeek }: ProgressTrackerP
         
         <div className="grid grid-cols-5 gap-2">
           {Array.from({ length: totalSessions }, (_, i) => {
-            const sessionId = i + 1
+            const sessionId = currentWeek === 1 ? i + 1 : i + 6
             return (
               <motion.div
                 key={i}

@@ -7,6 +7,7 @@ import { PronunciationCard } from "@/components/learning/pronunciation-card"
 import { ProgressStepper } from "@/components/learning/progress-stepper"
 import { RolePlayActivity } from "@/components/learning/role-play-activity"
 import { LessonNotes } from "@/components/learning/lesson-notes"
+import { SessionRenderer } from "@/components/sessions/session-renderer"
 import { ArrowLeft, Target, Video, CheckCircle, BookOpen, Lightbulb, Play, Gamepad2, Users, Zap, ExternalLink } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
@@ -14,6 +15,8 @@ import { use, useState } from "react"
 import { useRouter } from "next/navigation"
 import { useProgressStore } from "@/store/progress-store"
 import { regularSessionContent } from "@/data/regular-content"
+import { regularWeek2SessionContent } from "@/data/regular-week2-content"
+import { getSessionConfig } from "@/lib/session-utils"
 
 interface RegularSessionPageProps {
   params: Promise<{ id: string }>
@@ -23,6 +26,7 @@ export default function RegularSessionPage({ params }: RegularSessionPageProps) 
   const { id } = use(params)
   const sessionId = parseInt(id)
   
+  // All hooks must be called at the top level
   const [currentStep, setCurrentStep] = useState(1)
   const [completedSteps, setCompletedSteps] = useState<number[]>([])
   const [isCompleting, setIsCompleting] = useState(false)
@@ -30,8 +34,27 @@ export default function RegularSessionPage({ params }: RegularSessionPageProps) 
   const router = useRouter()
   const { completeSession } = useProgressStore()
   
-  const currentSession = regularSessionContent[sessionId as keyof typeof regularSessionContent]
+  const sessionConfig = getSessionConfig(sessionId, "regular")
   
+  // Get session content from appropriate source
+  const currentSession = sessionId >= 6 
+    ? regularWeek2SessionContent[sessionId as keyof typeof regularWeek2SessionContent]
+    : regularSessionContent[sessionId as keyof typeof regularSessionContent]
+  
+  // Use new renderer for configured sessions
+  if (sessionConfig.useNewRenderer && currentSession) {
+    return (
+      <SessionRenderer
+        sessionId={sessionId}
+        sessionContent={currentSession}
+        track="regular"
+        customSteps={sessionConfig.customSteps}
+        customGrammarRules={sessionConfig.customGrammarRules}
+        customDialogue={sessionConfig.customDialogue}
+        customComponents={sessionConfig.customComponents}
+      />
+    )
+  }
   if (!currentSession) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50 py-8">

@@ -48,31 +48,31 @@ export const executiveSessionContent: SessionData = {
         english: "Hello.",
         pronunciation: "Hè-lo",
         context: "La salutation universelle, neutre et polie.",
-        audioFile: "hello.mp3"
+        audioFile: "/audio/executive/session1/hello.mp3"
       },
       {
         english: "Thank you.",
         pronunciation: "Sènk-you",
         context: "Pour remercier. Nous ajouterons 'very much' plus tard.",
-        audioFile: "thank-you.mp3"
+        audioFile: "/audio/executive/session1/thank-you.mp3"
       },
       {
         english: "Please.",
         pronunciation: "Pliiz",
         context: "Pour demander quelque chose poliment.",
-        audioFile: "please.mp3"
+        audioFile: "/audio/executive/session1/please.mp3"
       },
       {
         english: "Excuse me.",
         pronunciation: "Ex-kiouz-mi",
         context: "Pour attirer l'attention, passer devant quelqu'un.",
-        audioFile: "excuse-me.mp3"
+        audioFile: "/audio/executive/session1/excuse-me.mp3"
       },
       {
         english: "Good morning / afternoon / evening.",
         pronunciation: "Goud mor-ning / af-ter-noun / iiv-ning",
         context: "Salutations adaptées au moment de la journée.",
-        audioFile: "greetings.mp3"
+        audioFile: "/audio/executive/session1/greetings.mp3"
       }
     ],
     rolePlayScenarios: [

@@ -5,15 +5,19 @@ import { Volume2, VolumeX, RotateCcw } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
 
 interface AudioPlayerProps {
-  audioFile: string
+  src: string
   className?: string
 }
 
-export function AudioPlayer({ audioFile, className = "" }: AudioPlayerProps) {
+export function AudioPlayer({ src, className = "" }: AudioPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false)
   const [isLoaded, setIsLoaded] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const audioRef = useRef<HTMLAudioElement>(null)
+  
+  if (!src) {
+    return null
+  }
 
   useEffect(() => {
     setIsMounted(true)
@@ -92,7 +96,7 @@ export function AudioPlayer({ audioFile, className = "" }: AudioPlayerProps) {
     <div className={`flex items-center gap-2 ${className}`}>
       <audio
         ref={audioRef}
-        src={audioFile.includes('/') ? audioFile : `/audio/session1/${audioFile}`}
+        src={src}
         preload="metadata"
       />
       

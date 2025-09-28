@@ -35,7 +35,7 @@ export function PronunciationCard({
               {english}
             </div>
             <div className="ml-3 flex-shrink-0">
-              <AudioPlayer audioFile={audioFile || 'placeholder.mp3'} />
+              <AudioPlayer src={audioFile || 'placeholder.mp3'} />
             </div>
           </div>
           

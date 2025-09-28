@@ -3,11 +3,14 @@ import { persist } from 'zustand/middleware'
 
 interface ProgressState {
   completedSessions: number[]
+  currentWeek: number
   totalXP: number
   earnedBadges: string[]
   completedChallenges: string[]
   completeSession: (sessionId: number, xpReward?: number, badges?: string[], challenges?: string[]) => void
   isSessionCompleted: (sessionId: number) => boolean
+  getCurrentWeek: () => number
+  setCurrentWeek: (week: number) => void
   getCompletedSessionsCount: () => number
   getTotalXP: () => number
   getEarnedBadges: () => string[]
@@ -16,12 +19,14 @@ interface ProgressState {
   addBadge: (badge: string) => void
   completeChallenge: (challenge: string) => void
   isChallengeCompleted: (challenge: string) => boolean
+  markSessionCompleted: (sessionId: number) => void
 }
 
 export const useProgressStore = create<ProgressState>()(
   persist(
     (set, get) => ({
       completedSessions: [],
+      currentWeek: 2,
       totalXP: 0,
       earnedBadges: [],
       completedChallenges: [],
@@ -79,6 +84,21 @@ export const useProgressStore = create<ProgressState>()(
       
       isChallengeCompleted: (challenge: string) => {
         return get().completedChallenges.includes(challenge)
+      },
+      
+      getCurrentWeek: () => {
+        return get().currentWeek
+      },
+      
+      setCurrentWeek: (week: number) => {
+        set({ currentWeek: week })
+      },
+      
+      markSessionCompleted: (sessionId: number) => {
+        const { completedSessions } = get()
+        if (!completedSessions.includes(sessionId)) {
+          set({ completedSessions: [...completedSessions, sessionId] })
+        }
       }
     }),
     {

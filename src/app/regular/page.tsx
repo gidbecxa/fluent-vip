@@ -9,6 +9,8 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { useProgressStore } from "@/store/progress-store"
 import { regularWeek1Sessions } from "@/data/regular-content"
+import { regularWeek2Sessions } from "@/data/regular-week2-content"
+import { WeekSelector } from "@/components/learning/week-selector"
 
 const genZFeatures = [
   {
@@ -34,7 +36,8 @@ const genZFeatures = [
 ]
 
 export default function RegularTrackPage() {
-  const { isSessionCompleted } = useProgressStore()
+  const { isSessionCompleted, getCurrentWeek, setCurrentWeek } = useProgressStore()
+  const currentWeek = getCurrentWeek()
 
   const handleStartSession = (sessionId: number) => {
     window.location.href = `/regular/session/${sessionId}`
@@ -85,50 +88,62 @@ export default function RegularTrackPage() {
             </p>
           </div>
           
-          {/* Week 1 Focus Card */}
-          <Card className="bg-gradient-to-r from-purple-100 to-blue-100 border-purple-200 mb-8">
+          {/* Week Selector & Current Week Focus Card */}
+          <div className="space-y-6 mb-8">
+            <div className="max-w-md">
+              <WeekSelector 
+                currentWeek={currentWeek} 
+                onWeekChange={setCurrentWeek}
+              />
+            </div>
+          <Card className={`mb-8 ${currentWeek === 1 ? 'bg-gradient-to-r from-purple-100 to-blue-100 border-purple-200' : 'bg-gradient-to-r from-green-100 to-teal-100 border-green-200'}`}>
             <CardHeader>
-              <CardTitle className="flex items-center text-purple-900">
+              <CardTitle className={`flex items-center ${currentWeek === 1 ? 'text-purple-900' : 'text-green-900'}`}>
                 <Target className="h-5 w-5 mr-2" />
-                Semaine 1 : Premiers Pas & Interactions Fondamentales
+                Semaine {currentWeek} : {currentWeek === 1 ? 'Premiers Pas & Interactions Fondamentales' : 'Se Décrire et Décrire les Autres'}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <h4 className="font-semibold text-purple-900 mb-2">🎯 Objectif de la Semaine</h4>
-                  <p className="text-purple-800 text-sm sm:text-base">
-                    À la fin de la semaine, tu seras capable de te présenter, présenter une autre personne, 
-                    poser des questions simples sur l'identité et nommer des objets courants avec le verbe "To Be".
+                  <h4 className={`font-semibold mb-2 ${currentWeek === 1 ? 'text-purple-900' : 'text-green-900'}`}>🎯 Objectif de la Semaine</h4>
+                  <p className={`text-sm sm:text-base ${currentWeek === 1 ? 'text-purple-800' : 'text-green-800'}`}>
+                    {currentWeek === 1 
+                      ? "À la fin de la semaine, tu seras capable de te présenter, présenter une autre personne, poser des questions simples sur l'identité et nommer des objets courants avec le verbe 'To Be'."
+                      : "À la fin de la semaine, tu seras capable de décrire ton apparence physique, celle des autres, et de parler des membres de ta famille en utilisant le verbe 'To Have', les adjectifs de base et le vocabulaire familial."
+                    }
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-purple-900 mb-2">🚀 Méthode Gen Z</h4>
-                  <ul className="text-purple-800 text-sm sm:text-base space-y-1">
+                  <h4 className={`font-semibold mb-2 ${currentWeek === 1 ? 'text-purple-900' : 'text-green-900'}`}>🚀 Méthode Gen Z</h4>
+                  <ul className={`text-sm sm:text-base space-y-1 ${currentWeek === 1 ? 'text-purple-800' : 'text-green-800'}`}>
                     <li>• Classe inversée avec vidéos courtes</li>
                     <li>• Gamification avec Quizlet & Kahoot</li>
                     <li>• Projets créatifs style TikTok/Instagram</li>
-                    <li>• Jeux de rôle immersifs</li>
+                    <li>• {currentWeek === 1 ? 'Jeux de rôle immersifs' : 'Dialogues interactifs et jeu du miroir'}</li>
                   </ul>
                 </div>
               </div>
             </CardContent>
           </Card>
+          </div>
         </motion.div>
 
         <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {/* Sessions */}
-          <div className="lg:col-span-2 space-y-6">
+          {/* Sessions - Main Content */}
+          <div className="lg:col-span-2 space-y-6 order-2 lg:order-1">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-6">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Sessions de la Semaine</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                Sessions - Semaine {currentWeek}
+              </h2>
               <div className="flex items-center text-sm text-gray-500">
                 <Clock className="h-4 w-4 mr-1" />
-                Total: 5h (1h par session)
+                5h (1h par session)
               </div>
             </div>
             
             <div className="space-y-4">
-              {regularWeek1Sessions.map((session) => (
+              {(currentWeek === 1 ? regularWeek1Sessions : regularWeek2Sessions).map((session) => (
                 <SessionCard
                   key={session.id}
                   sessionNumber={session.id}
@@ -136,7 +151,7 @@ export default function RegularTrackPage() {
                   description={session.description}
                   duration={session.duration}
                   objective={session.objective}
-                  isCompleted={isSessionCompleted(session.id)}
+                  isCompleted={currentWeek === 1 ? true : isSessionCompleted(session.id)}
                   onStart={() => handleStartSession(session.id)}
                   onLiveSession={handleLiveSession}
                   track="regular"
@@ -145,11 +160,11 @@ export default function RegularTrackPage() {
             </div>
           </div>
 
-          {/* Sidebar */}
-          <div className="space-y-6 order-first lg:order-last">
+          {/* Sidebar - Right Column on Desktop */}
+          <div className="space-y-6 order-1 lg:order-2">
             <ProgressTracker
               totalSessions={5}
-              currentWeek={1}
+              currentWeek={currentWeek}
             />
             
             {/* Gen Z Features */}
@@ -234,7 +249,13 @@ export default function RegularTrackPage() {
                   <li>✓ Présentation personnelle fluide</li>
                   <li>✓ Questions/réponses sur l'identité</li>
                   <li>✓ Vocabulaire des objets courants</li>
-                  <li>✓ Confiance pour communiquer</li>
+                  {currentWeek >= 2 && (
+                    <>
+                      <li>🔥 Maîtrise du verbe "To Have"</li>
+                      <li>🔥 Description physique fluide</li>
+                      <li>🔥 Vocabulaire de la famille</li>
+                    </>
+                  )}
                 </ul>
               </CardContent>
             </Card>
