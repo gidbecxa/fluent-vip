@@ -12,25 +12,26 @@ import { GrammarComparison } from "@/components/learning/grammar-comparison"
 import { Week2LessonNotes } from "@/components/learning/week2-lesson-notes"
 import { LessonNotes } from "@/components/learning/lesson-notes"
 import { motion, AnimatePresence } from "framer-motion"
-import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Users, Zap, BookOpen, Volume2 } from "lucide-react"
+import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Volume2 } from "lucide-react"
 import Link from "next/link"
 import { useProgressStore } from "@/store/progress-store"
+import { session7GrammarRules, session7DialogueScenario } from "@/data/session7-content"
 
 interface SessionStep {
   id: number
   title: string
   description?: string
-  icon?: any
+  icon?: string
   estimatedTime?: number
 }
 
 interface SessionRendererProps {
   sessionId: number
-  sessionContent: any
+  sessionContent: unknown
   track: "regular" | "executive"
   customSteps?: SessionStep[]
-  customGrammarRules?: any[]
-  customDialogue?: any
+  customGrammarRules?: unknown[]
+  customDialogue?: unknown
   customComponents?: {
     [stepId: number]: React.ReactNode
   }
@@ -41,8 +42,8 @@ export function SessionRenderer({
   sessionContent, 
   track,
   customSteps,
-  customGrammarRules,
-  customDialogue,
+  // customGrammarRules,
+  // customDialogue,
   customComponents = {}
 }: SessionRendererProps) {
   const [currentStep, setCurrentStep] = useState(1)
@@ -103,7 +104,7 @@ export function SessionRenderer({
                   <Target className="h-8 w-8 text-white" />
                 </div>
                 <CardTitle className="text-2xl font-bold text-gray-900">
-                  {sessionContent.title}
+                  {(sessionContent as any)?.title}
                 </CardTitle>
                 <Badge className="bg-purple-100 text-purple-900 border-purple-200 mt-2">
                   Session {sessionId}
@@ -113,7 +114,7 @@ export function SessionRenderer({
                 <div className="text-center">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">🎯 Objectif de la Session</h3>
                   <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
-                    {sessionContent.objective}
+                    {(sessionContent as any)?.objective}
                   </p>
                 </div>
                 <div className="text-center pt-6">
@@ -147,7 +148,7 @@ export function SessionRenderer({
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {sessionContent.keyPhrases?.map((phrase: any, index: number) => (
+                {(sessionContent as any)?.keyPhrases?.map((phrase: any, index: number) => (
                   <PronunciationCard
                     key={index}
                     index={index}
@@ -179,7 +180,7 @@ export function SessionRenderer({
             className="space-y-6"
           >
             <RolePlayActivity
-              scenarios={sessionContent.rolePlayScenarios}
+              scenarios={(sessionContent as any)?.rolePlayScenarios}
               title="Activité Pratique"
               description="Pratique interactive pour maîtriser les concepts"
             />
@@ -204,11 +205,11 @@ export function SessionRenderer({
           >
             {sessionId >= 6 ? (
               <Week2LessonNotes
-                title={sessionContent.title}
-                culturalNote={sessionContent.culturalNote}
-                vipTip={sessionContent.vipTip}
-                practice={sessionContent.practice}
-                practiceResources={sessionContent.practiceResources}
+                title={(sessionContent as any)?.title}
+                culturalNote={(sessionContent as any)?.culturalNote}
+                vipTip={(sessionContent as any)?.vipTip}
+                practice={(sessionContent as any)?.practice}
+                practiceResources={(sessionContent as any)?.practiceResources}
                 onComplete={() => handleStepComplete(4)}
               />
             ) : (
@@ -240,6 +241,11 @@ export function SessionRenderer({
     // Special handling for Session 6
     if (sessionId === 6) {
       return renderSession6Content()
+    }
+    
+    // Special handling for Session 7
+    if (sessionId === 7) {
+      return renderSession7Content()
     }
     
     // Check if there's a custom component for this step
@@ -313,6 +319,99 @@ export function SessionRenderer({
     }
   }
 
+  const renderSession7Content = () => {
+    switch (currentStep) {
+      case 2:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <GrammarComparison
+              title="HE HAS / SHE HAS - La 3ème Personne"
+              subtitle="Maîtrise la règle du 'S' obligatoire pour he/she/it"
+              rules={session7GrammarRules}
+              onComplete={() => handleStepComplete(2)}
+            />
+          </motion.div>
+        )
+      case 4:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <DialoguePractice
+              scenario={session7DialogueScenario}
+              onComplete={() => handleStepComplete(4)}
+            />
+          </motion.div>
+        )
+      case 5:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200">
+              <CardHeader className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Eye className="h-6 w-6 text-white" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-gray-900">
+                  Guess Who? - Devine qui!
+                </CardTitle>
+                <p className="text-gray-600 mt-2">
+                  Jeu interactif pour pratiquer "Does he/she have...?"
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="bg-white rounded-lg p-6 border border-purple-100">
+                  <h4 className="font-semibold text-lg mb-4 text-purple-900">🎯 Comment jouer:</h4>
+                  <div className="space-y-3 text-gray-700">
+                    <p>• Le tuteur choisit une personne en secret parmi 4-5 photos</p>
+                    <p>• Tu poses des questions: "Does he have brown hair?"</p>
+                    <p>• Le tuteur répond: "Yes, he does" ou "No, he doesn't"</p>
+                    <p>• Continue jusqu'à deviner la bonne personne!</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-6">
+                  <h4 className="font-semibold text-lg mb-3 text-purple-900">💡 Phrases utiles:</h4>
+                  <div className="grid gap-2 text-sm">
+                    <div className="bg-white rounded p-3 border border-purple-200">
+                      <strong>"Does he have glasses?"</strong> - Est-ce qu'il a des lunettes?
+                    </div>
+                    <div className="bg-white rounded p-3 border border-purple-200">
+                      <strong>"Does she have long hair?"</strong> - Est-ce qu'elle a les cheveux longs?
+                    </div>
+                    <div className="bg-white rounded p-3 border border-purple-200">
+                      <strong>"Is it Person 3?"</strong> - C'est la Personne 3?
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center pt-4">
+                  <Button
+                    onClick={() => handleStepComplete(5)}
+                    className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-lg px-8 py-3"
+                  >
+                    <CheckCircle className="h-5 w-5 mr-2" />
+                    J'ai joué à Guess Who!
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        )
+      default:
+        return renderDefaultStepContent()
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 py-4 sm:py-8">
       <div className="container mx-auto max-w-7xl px-4">
@@ -334,7 +433,7 @@ export function SessionRenderer({
             <div className="flex items-center space-x-4">
               <Badge variant="secondary" className="bg-blue-100 text-blue-900">
                 <Clock className="h-3 w-3 mr-1" />
-                {sessionContent.duration} min
+                {(sessionContent as any)?.duration} min
               </Badge>
               <Badge variant="secondary" className="bg-purple-100 text-purple-900">
                 Session {sessionId}

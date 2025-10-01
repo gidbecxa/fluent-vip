@@ -15,16 +15,12 @@ export function AudioPlayer({ src, className = "" }: AudioPlayerProps) {
   const [isMounted, setIsMounted] = useState(false)
   const audioRef = useRef<HTMLAudioElement>(null)
   
-  if (!src) {
-    return null
-  }
-
   useEffect(() => {
     setIsMounted(true)
   }, [])
 
   useEffect(() => {
-    if (!isMounted) return
+    if (!isMounted || !src) return
     
     const audio = audioRef.current
     if (!audio) return
@@ -45,7 +41,7 @@ export function AudioPlayer({ src, className = "" }: AudioPlayerProps) {
       audio.removeEventListener('ended', handleEnded)
       audio.removeEventListener('error', handleError)
     }
-  }, [isMounted])
+  }, [isMounted, src])
 
   const togglePlay = () => {
     const audio = audioRef.current
@@ -69,7 +65,7 @@ export function AudioPlayer({ src, className = "" }: AudioPlayerProps) {
     setIsPlaying(true)
   }
 
-  if (!isMounted) {
+  if (!isMounted || !src) {
     return (
       <div className={`flex items-center gap-2 ${className}`}>
         <Button

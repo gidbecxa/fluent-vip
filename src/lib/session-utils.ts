@@ -1,10 +1,20 @@
+import { ReactNode } from "react"
+
 // Session type detection and configuration
+export interface SessionStep {
+  id: number
+  title: string
+  description?: string
+  icon?: string
+  estimatedTime?: number
+}
+
 export interface SessionConfig {
   useNewRenderer: boolean
-  customSteps?: any[]
-  customGrammarRules?: any[]
-  customDialogue?: any
-  customComponents?: { [stepId: number]: React.ReactNode }
+  customSteps?: SessionStep[]
+  customGrammarRules?: unknown[]
+  customDialogue?: unknown
+  customComponents?: { [stepId: number]: ReactNode }
 }
 
 // Define which sessions use the new renderer
@@ -26,6 +36,21 @@ export function getSessionConfig(sessionId: number, track: "regular" | "executiv
         { id: 3, title: "Phrases Clés" },
         { id: 4, title: "Dialogue Pratique" },
         { id: 5, title: "Jeu du Miroir" },
+        { id: 6, title: "Notes de Leçon" }
+      ]
+    }
+  }
+
+  // Session 7 specific configuration
+  if (sessionId === 7 && track === "regular") {
+    return {
+      useNewRenderer: true,
+      customSteps: [
+        { id: 1, title: "Objectif de la Session" },
+        { id: 2, title: "Règles de Grammaire" },
+        { id: 3, title: "Phrases Clés" },
+        { id: 4, title: "Dialogue Pratique" },
+        { id: 5, title: "Guess Who?" },
         { id: 6, title: "Notes de Leçon" }
       ]
     }
