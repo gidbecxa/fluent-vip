@@ -77,14 +77,14 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
 
   return (
     <Card className="w-full max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-purple-50 border-blue-200">
-      <CardHeader className="text-center">
+      <CardHeader className="text-center px-4 sm:px-6">
         <div className="flex items-center justify-center mb-4">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-            <MessageCircle className="h-6 w-6 text-white" />
+          <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+            <MessageCircle className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
           </div>
         </div>
-        <CardTitle className="text-2xl font-bold text-gray-900">{scenario.title}</CardTitle>
-        <p className="text-gray-600 mt-2">{scenario.description}</p>
+        <CardTitle className="text-xl sm:text-2xl font-bold text-gray-900">{scenario.title}</CardTitle>
+        <p className="text-sm sm:text-base text-gray-600 mt-2">{scenario.description}</p>
         <div className="flex items-center justify-center mt-4">
           <Badge variant="secondary" className="bg-blue-100 text-blue-900">
             <Users className="h-3 w-3 mr-1" />
@@ -93,7 +93,7 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
         </div>
       </CardHeader>
 
-      <CardContent className="space-y-6">
+      <CardContent className="space-y-4 sm:space-y-6 px-4 sm:px-6">
         {/* Progress Bar */}
         <div className="w-full bg-gray-200 rounded-full h-2">
           <div 
@@ -122,7 +122,7 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
             {/* Main Text */}
             <Card className={`${getSpeakerColor(currentLine.speaker)} border-2`}>
               <CardContent className="p-6 text-center">
-                <div className="text-2xl font-bold mb-4 leading-relaxed">
+                <div className="text-lg sm:text-xl lg:text-2xl font-bold mb-4 leading-relaxed break-words">
                   {currentLine.text}
                 </div>
                 
@@ -156,7 +156,7 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
                       exit={{ opacity: 0, height: 0 }}
                       className="mt-4 p-4 bg-white/50 rounded-lg border"
                     >
-                      <p className="text-lg italic text-gray-700">
+                      <p className="text-base sm:text-lg italic text-gray-700 break-words">
                         "{currentLine.translation}"
                       </p>
                     </motion.div>
@@ -186,17 +186,17 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
         </AnimatePresence>
 
         {/* Navigation Controls */}
-        <div className="flex items-center justify-between pt-4 border-t">
+        <div className="flex flex-col sm:flex-row items-center justify-between pt-4 border-t gap-3 sm:gap-0">
           <Button
             variant="outline"
             onClick={handlePrevious}
             disabled={currentLineIndex === 0}
-            className="flex items-center"
+            className="flex items-center w-full sm:w-auto"
           >
             ← Précédent
           </Button>
 
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 order-first sm:order-none">
             <span className="text-sm text-gray-600">
               {currentLineIndex + 1} / {scenario.lines.length}
             </span>
@@ -213,7 +213,7 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
           <Button
             onClick={handleNext}
             disabled={currentLineIndex === scenario.lines.length - 1}
-            className="flex items-center"
+            className="flex items-center w-full sm:w-auto"
           >
             Suivant →
           </Button>

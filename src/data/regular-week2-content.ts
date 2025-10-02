@@ -232,5 +232,102 @@ export const regularWeek2SessionContent: SessionData = {
         link: "https://www.eslgamesplus.com/family-members-vocabulary-game/"
       }
     ]
+  },
+  8: {
+    title: "My brother is funny.",
+    objective: "Introduire les adjectifs de personnalité et maîtriser leur placement (avant le nom), qui est une différence fondamentale avec le français.",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "My brother is funny.",
+        pronunciation: "Maï bra-theur iz fa-ni",
+        context: "Pour décrire la personnalité - adjectif APRÈS le verbe 'is'.",
+        audioFile: "/audio/regular/week2/session8/my-brother-is-funny.mp3"
+      },
+      {
+        english: "He is a funny brother.",
+        pronunciation: "Hi iz a fa-ni bra-theur",
+        context: "Adjectif AVANT le nom - règle anglaise fondamentale!",
+        audioFile: "/audio/regular/week2/session8/funny-brother.mp3"
+      },
+      {
+        english: "She is a kind person.",
+        pronunciation: "Chi iz a kaïnd peur-seun",
+        context: "'Kind' = gentil. Adjectif + nom = structure anglaise.",
+        audioFile: "/audio/regular/week2/session8/kind-person.mp3"
+      },
+      {
+        english: "Is he a serious man?",
+        pronunciation: "Iz hi a si-ri-eus man?",
+        context: "Question avec adjectif + nom. 'Serious' = sérieux.",
+        audioFile: "/audio/regular/week2/session8/serious-man.mp3"
+      },
+      {
+        english: "My smart sister has glasses.",
+        pronunciation: "Maï smart sis-teur haz gla-siz",
+        context: "Combinaison: adjectif + nom + 'has'. Structure complète!",
+        audioFile: "/audio/regular/week2/session8/smart-sister-has.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Décrire des Personnages de Films",
+        description: "Tu regardes des images de personnages et tu les décris avec des adjectifs de personnalité.",
+        yourLine: "Look at him. He is a funny character! And she is a very smart person.",
+        context: "Sois expressif! Utilise les adjectifs pour donner ton opinion sur les personnages."
+      },
+      {
+        id: 2,
+        title: "Parler de ta Famille avec des Adjectifs",
+        description: "Tu décris les membres de ta famille en utilisant des adjectifs de personnalité.",
+        yourLine: "My father is a serious man. My mother is a kind person. My sister is very funny!",
+        context: "Sois positif et affectueux quand tu parles de ta famille!"
+      },
+      {
+        id: 3,
+        title: "Choisir des Amis pour une Sortie",
+        description: "Tu expliques quel type de personne tu veux inviter selon l'activité.",
+        yourLine: "For the cinema, I want a funny friend. For studying, I prefer a serious person.",
+        context: "Explique tes choix! Montre que tu comprends les différentes personnalités."
+      }
+    ],
+    culturalNote: "En anglais, l'adjectif se place AVANT le nom (a funny brother), contrairement au français (un frère drôle). Cette règle est absolue et très importante pour sonner naturel. De plus, les adjectifs de personnalité sont très utilisés dans les conversations quotidiennes.",
+    vipTip: "Secret Gen Z: Quand tu postes sur les réseaux sociaux en anglais, utilise des adjectifs avant les noms pour décrire tes amis: 'my crazy friend', 'my smart sister'. Ça sonne beaucoup plus naturel que 'my friend who is crazy'!",
+    practice: "Ta mission cette semaine: choisis 3 personnes que tu connais et écris une phrase pour chacune en utilisant un adjectif de personnalité + nom. Exemple: 'My funny teacher makes me laugh.' Poste en story avec #MyPeopleInEnglish!",
+    practiceResources: [
+      "Quiz interactif sur la place des adjectifs",
+      "Jeu de memory avec adjectifs de personnalité",
+      "Challenge TikTok: 'Describe Your Squad'"
+    ],
+    interactiveTitle: "Personality Detective Challenge",
+    interactiveDescription: "Deviens expert pour décrire les personnalités! Tu vas apprendre à utiliser les adjectifs comme un vrai anglophone.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=adjective-placement",
+      videoTitle: "Adjective Placement - Before the Noun",
+      videoDuration: "7 min",
+      videoDescription: "Apprends la règle fondamentale de placement des adjectifs en anglais avec des exemples visuels."
+    },
+    gamification: {
+      xpReward: 240,
+      badges: ["Adjective Master", "Personality Pro", "Grammar Detective Winner"],
+      challenges: [
+        "Place 5 adjectifs correctement avant des noms",
+        "Décris 3 personnalités différentes avec précision",
+        "Utilise 'funny', 'serious', 'kind' dans des phrases complètes"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "Adjective Placement Game",
+        description: "Jeu interactif pour maîtriser l'ordre adjectif + nom",
+        link: "https://www.englishclub.com/grammar/adjectives-order.htm"
+      },
+      {
+        name: "Personality Quiz",
+        description: "Quiz pour apprendre les adjectifs de personnalité en contexte",
+        link: "https://www.eslgamesplus.com/personality-adjectives-game/"
+      }
+    ]
   }
 }

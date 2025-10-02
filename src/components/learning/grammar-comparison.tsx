@@ -99,17 +99,17 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
 
   return (
     <Card className="w-full max-w-4xl mx-auto bg-gradient-to-br from-indigo-50 to-purple-50 border-indigo-200">
-      <CardHeader className="text-center">
+      <CardHeader className="text-center px-4 sm:px-6">
         <div className="flex items-center justify-center mb-4">
-          <div className={`w-12 h-12 bg-gradient-to-br ${getGradientClasses(currentRule.color)} rounded-xl flex items-center justify-center`}>
-            <Zap className="h-6 w-6 text-white" />
+          <div className={`w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br ${getGradientClasses(currentRule.color)} rounded-xl flex items-center justify-center`}>
+            <Zap className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
           </div>
         </div>
-        <CardTitle className="text-2xl font-bold text-gray-900">{title}</CardTitle>
-        <p className="text-gray-600 mt-2">{subtitle}</p>
+        <CardTitle className="text-xl sm:text-2xl font-bold text-gray-900">{title}</CardTitle>
+        <p className="text-sm sm:text-base text-gray-600 mt-2">{subtitle}</p>
       </CardHeader>
 
-      <CardContent className="space-y-6">
+      <CardContent className="space-y-4 sm:space-y-6 px-4 sm:px-6">
         {/* Rule Progress */}
         <div className="flex items-center justify-center space-x-2 mb-6">
           {rules.map((_, index) => (
@@ -160,8 +160,8 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
                 <Card className="bg-white border-2 border-gray-200 shadow-lg">
                   <CardContent className="p-6">
                     {/* English Example */}
-                    <div className="text-center mb-6">
-                      <div className="text-3xl font-bold text-gray-900 mb-4 leading-relaxed">
+                    <div className="text-center mb-4 sm:mb-6">
+                      <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 leading-relaxed break-words">
                         {currentExample.english}
                       </div>
                       
@@ -179,7 +179,7 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
                       <div className="flex items-center justify-center">
                         <ArrowRight className="h-5 w-5 text-gray-400 mx-4" />
                       </div>
-                      <div className="text-xl text-gray-700 italic mt-4">
+                      <div className="text-lg sm:text-xl text-gray-700 italic mt-4 break-words">
                         "{currentExample.french}"
                       </div>
                     </div>
@@ -218,17 +218,19 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
                 </Card>
 
                 {/* Example Navigation */}
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0">
                   <Button
                     variant="outline"
                     onClick={handlePreviousExample}
                     disabled={currentExampleIndex === 0}
                     size="sm"
+                    className="w-full sm:w-auto"
                   >
-                    ← Exemple précédent
+                    <span className="hidden sm:inline">← Exemple précédent</span>
+                    <span className="sm:hidden">← Précédent</span>
                   </Button>
 
-                  <Badge variant="secondary" className="px-3 py-1">
+                  <Badge variant="secondary" className="px-3 py-1 order-first sm:order-none">
                     Exemple {currentExampleIndex + 1} / {currentRule.examples.length}
                   </Badge>
 
@@ -236,8 +238,10 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
                     onClick={handleNextExample}
                     disabled={currentExampleIndex === currentRule.examples.length - 1}
                     size="sm"
+                    className="w-full sm:w-auto"
                   >
-                    Exemple suivant →
+                    <span className="hidden sm:inline">Exemple suivant →</span>
+                    <span className="sm:hidden">Suivant →</span>
                   </Button>
                 </div>
               </motion.div>
@@ -264,16 +268,18 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
         </AnimatePresence>
 
         {/* Rule Navigation */}
-        <div className="flex items-center justify-between pt-6 border-t">
+        <div className="flex flex-col sm:flex-row items-center justify-between pt-4 sm:pt-6 border-t gap-4 sm:gap-0">
           <Button
             variant="outline"
             onClick={handlePreviousRule}
             disabled={currentRuleIndex === 0}
+            className="w-full sm:w-auto"
           >
-            ← Règle précédente
+            <span className="hidden sm:inline">← Règle précédente</span>
+            <span className="sm:hidden">← Précédente</span>
           </Button>
 
-          <div className="text-center">
+          <div className="text-center order-first sm:order-none">
             <div className="text-sm text-gray-600 mb-1">
               Règle {currentRuleIndex + 1} / {rules.length}
             </div>
@@ -285,8 +291,10 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
           <Button
             onClick={handleNextRule}
             disabled={currentRuleIndex === rules.length - 1}
+            className="w-full sm:w-auto"
           >
-            Règle suivante →
+            <span className="hidden sm:inline">Règle suivante →</span>
+            <span className="sm:hidden">Suivante →</span>
           </Button>
         </div>
 

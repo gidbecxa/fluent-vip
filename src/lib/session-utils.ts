@@ -56,6 +56,21 @@ export function getSessionConfig(sessionId: number, track: "regular" | "executiv
     }
   }
 
+  // Session 8 specific configuration
+  if (sessionId === 8 && track === "regular") {
+    return {
+      useNewRenderer: true,
+      customSteps: [
+        { id: 1, title: "Objectif de la Session" },
+        { id: 2, title: "Règles de Grammaire" },
+        { id: 3, title: "Phrases Clés" },
+        { id: 4, title: "Dialogue Pratique" },
+        { id: 5, title: "Character Description" },
+        { id: 6, title: "Notes de Leçon" }
+      ]
+    }
+  }
+
   // Default configuration for new renderer sessions
   if (useNewRenderer) {
     return {

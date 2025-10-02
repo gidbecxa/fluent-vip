@@ -12,10 +12,11 @@ import { GrammarComparison } from "@/components/learning/grammar-comparison"
 import { Week2LessonNotes } from "@/components/learning/week2-lesson-notes"
 import { LessonNotes } from "@/components/learning/lesson-notes"
 import { motion, AnimatePresence } from "framer-motion"
-import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Volume2 } from "lucide-react"
+import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Volume2, Users } from "lucide-react"
 import Link from "next/link"
 import { useProgressStore } from "@/store/progress-store"
 import { session7GrammarRules, session7DialogueScenario } from "@/data/session7-content"
+import { session8GrammarRules, session8DialogueScenario } from "@/data/session8-content"
 
 interface SessionStep {
   id: number
@@ -248,6 +249,11 @@ export function SessionRenderer({
       return renderSession7Content()
     }
     
+    // Special handling for Session 8
+    if (sessionId === 8) {
+      return renderSession8Content()
+    }
+    
     // Check if there's a custom component for this step
     if (customComponents[currentStep]) {
       return customComponents[currentStep]
@@ -407,6 +413,133 @@ export function SessionRenderer({
             </Card>
           </motion.div>
         )
+      case 6:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Week2LessonNotes
+              title={(sessionContent as any)?.title}
+              culturalNote={(sessionContent as any)?.culturalNote}
+              vipTip={(sessionContent as any)?.vipTip}
+              practice={(sessionContent as any)?.practice}
+              practiceResources={(sessionContent as any)?.practiceResources}
+              onComplete={() => handleStepComplete(6)}
+            />
+          </motion.div>
+        )
+      default:
+        return renderDefaultStepContent()
+    }
+  }
+
+  const renderSession8Content = () => {
+    switch (currentStep) {
+      case 2:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <GrammarComparison
+              title="ADJECTIVE + NOUN - La Place des Adjectifs"
+              subtitle="Maîtrise la règle fondamentale: adjectif AVANT le nom en anglais"
+              rules={session8GrammarRules}
+              onComplete={() => handleStepComplete(2)}
+            />
+          </motion.div>
+        )
+      case 4:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <DialoguePractice
+              scenario={session8DialogueScenario}
+              onComplete={() => handleStepComplete(4)}
+            />
+          </motion.div>
+        )
+      case 5:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Card className="bg-gradient-to-br from-orange-50 to-red-50 border-orange-200">
+              <CardHeader className="text-center px-4 sm:px-6">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-600 to-red-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+                </div>
+                <CardTitle className="text-xl sm:text-2xl font-bold text-gray-900">
+                  Character Description Challenge
+                </CardTitle>
+                <p className="text-sm sm:text-base text-gray-600 mt-2">
+                  Décris des personnages avec des adjectifs de personnalité
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-4 sm:space-y-6 px-4 sm:px-6">
+                <div className="bg-white rounded-lg p-4 sm:p-6 border border-orange-100">
+                  <h4 className="font-semibold text-lg mb-4 text-orange-900">🎭 Comment jouer:</h4>
+                  <div className="space-y-3 text-gray-700 text-sm sm:text-base">
+                    <p>• Regarde des images de personnages (films, dessins animés)</p>
+                    <p>• Décris-les: "He is a funny character!"</p>
+                    <p>• Utilise: happy, sad, funny, serious, kind, smart</p>
+                    <p>• Rappel: adjectif + nom ("a smart person")</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-4 sm:p-6">
+                  <h4 className="font-semibold text-lg mb-3 text-orange-900">💡 Exemples:</h4>
+                  <div className="grid gap-2 text-sm">
+                    <div className="bg-white rounded p-3 border border-orange-200">
+                      <strong>"He is a funny actor!"</strong> - Il est un acteur drôle!
+                    </div>
+                    <div className="bg-white rounded p-3 border border-orange-200">
+                      <strong>"She is a smart person."</strong> - Elle est une personne intelligente.
+                    </div>
+                    <div className="bg-white rounded p-3 border border-orange-200">
+                      <strong>"My father is a serious man."</strong> - Mon père est un homme sérieux.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center pt-4">
+                  <Button
+                    onClick={() => handleStepComplete(5)}
+                    className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-lg px-8 py-3 w-full sm:w-auto"
+                  >
+                    <CheckCircle className="h-5 w-5 mr-2" />
+                    J'ai décrit les personnages!
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        )
+      case 6:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Week2LessonNotes
+              title={(sessionContent as any)?.title}
+              culturalNote={(sessionContent as any)?.culturalNote}
+              vipTip={(sessionContent as any)?.vipTip}
+              practice={(sessionContent as any)?.practice}
+              practiceResources={(sessionContent as any)?.practiceResources}
+              onComplete={() => handleStepComplete(6)}
+            />
+          </motion.div>
+        )
       default:
         return renderDefaultStepContent()
     }
@@ -414,7 +547,7 @@ export function SessionRenderer({
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 py-4 sm:py-8">
-      <div className="container mx-auto max-w-7xl px-4">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -443,10 +576,10 @@ export function SessionRenderer({
         </motion.div>
 
         {/* Main Layout */}
-        <div className="grid lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="flex flex-col lg:grid lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Sidebar - Progress Stepper */}
-          <div className="lg:col-span-1 order-1">
-            <div className="sticky top-8">
+          <div className="lg:col-span-1 order-2 lg:order-1">
+            <div className="lg:sticky lg:top-8">
               <ProgressStepper
                 steps={sessionSteps}
                 onStepClick={handleStepClick}
@@ -455,7 +588,7 @@ export function SessionRenderer({
           </div>
 
           {/* Main Content */}
-          <div className="lg:col-span-3 order-2">
+          <div className="lg:col-span-3 order-1 lg:order-2 min-w-0">
             <AnimatePresence mode="wait">
               {renderStepContent()}
             </AnimatePresence>
