@@ -12,11 +12,12 @@ import { GrammarComparison } from "@/components/learning/grammar-comparison"
 import { Week2LessonNotes } from "@/components/learning/week2-lesson-notes"
 import { LessonNotes } from "@/components/learning/lesson-notes"
 import { motion, AnimatePresence } from "framer-motion"
-import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Volume2, Users } from "lucide-react"
+import { ArrowLeft, Clock, Target, Play, CheckCircle, Eye, Volume2, Users, Mic } from "lucide-react"
 import Link from "next/link"
 import { useProgressStore } from "@/store/progress-store"
 import { session7GrammarRules, session7DialogueScenario } from "@/data/session7-content"
 import { session8GrammarRules, session8DialogueScenario } from "@/data/session8-content"
+import { session9GrammarRules, session9DialogueScenario } from "@/data/session9-content"
 
 interface SessionStep {
   id: number
@@ -252,6 +253,11 @@ export function SessionRenderer({
     // Special handling for Session 8
     if (sessionId === 8) {
       return renderSession8Content()
+    }
+    
+    // Special handling for Session 9
+    if (sessionId === 9) {
+      return renderSession9Content()
     }
     
     // Check if there's a custom component for this step
@@ -517,6 +523,116 @@ export function SessionRenderer({
                   >
                     <CheckCircle className="h-5 w-5 mr-2" />
                     J'ai décrit les personnages!
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        )
+      case 6:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Week2LessonNotes
+              title={(sessionContent as any)?.title}
+              culturalNote={(sessionContent as any)?.culturalNote}
+              vipTip={(sessionContent as any)?.vipTip}
+              practice={(sessionContent as any)?.practice}
+              practiceResources={(sessionContent as any)?.practiceResources}
+              onComplete={() => handleStepComplete(6)}
+            />
+          </motion.div>
+        )
+      default:
+        return renderDefaultStepContent()
+    }
+  }
+
+  const renderSession9Content = () => {
+    switch (currentStep) {
+      case 2:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <GrammarComparison
+              title="Descriptions Complètes + Son 'TH'"
+              subtitle="Combine toutes les structures et maîtrise la prononciation difficile du 'th'"
+              rules={session9GrammarRules}
+              onComplete={() => handleStepComplete(2)}
+            />
+          </motion.div>
+        )
+      case 4:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <DialoguePractice
+              scenario={session9DialogueScenario}
+              onComplete={() => handleStepComplete(4)}
+            />
+          </motion.div>
+        )
+      case 5:
+        return (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            <Card className="bg-gradient-to-br from-indigo-50 to-blue-50 border-indigo-200">
+              <CardHeader className="text-center px-4 sm:px-6">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-indigo-600 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Mic className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+                </div>
+                <CardTitle className="text-xl sm:text-2xl font-bold text-gray-900">
+                  TH Pronunciation Challenge
+                </CardTitle>
+                <p className="text-sm sm:text-base text-gray-600 mt-2">
+                  Maîtrise le son le plus difficile de l'anglais!
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-4 sm:space-y-6 px-4 sm:px-6">
+                <div className="bg-white rounded-lg p-4 sm:p-6 border border-indigo-100">
+                  <h4 className="font-semibold text-lg mb-4 text-indigo-900">🗣️ Technique:</h4>
+                  <div className="space-y-3 text-gray-700 text-sm sm:text-base">
+                    <p>• Place ta langue entre tes dents</p>
+                    <p>• Souffle doucement pour /θ/ (think)</p>
+                    <p>• Fais vibrer pour /ð/ (this)</p>
+                    <p>• Écoute et répète avec le tuteur</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-r from-indigo-100 to-blue-100 rounded-lg p-4 sm:p-6">
+                  <h4 className="font-semibold text-lg mb-3 text-indigo-900">🎯 Mots à pratiquer:</h4>
+                  <div className="grid gap-2 text-sm">
+                    <div className="bg-white rounded p-3 border border-indigo-200">
+                      <strong>"think"</strong> /θ/ vs <strong>"sink"</strong> - penser vs évier
+                    </div>
+                    <div className="bg-white rounded p-3 border border-indigo-200">
+                      <strong>"this"</strong> /ð/ vs <strong>"dis"</strong> - ceci vs (inexistant)
+                    </div>
+                    <div className="bg-white rounded p-3 border border-indigo-200">
+                      <strong>"This is my brother. I think he is funny."</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center pt-4">
+                  <Button
+                    onClick={() => handleStepComplete(5)}
+                    className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-lg px-8 py-3 w-full sm:w-auto"
+                  >
+                    <CheckCircle className="h-5 w-5 mr-2" />
+                    J'ai maîtrisé le son 'TH'!
                   </Button>
                 </div>
               </CardContent>

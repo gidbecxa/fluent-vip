@@ -329,5 +329,102 @@ export const regularWeek2SessionContent: SessionData = {
         link: "https://www.eslgamesplus.com/personality-adjectives-game/"
       }
     ]
+  },
+  9: {
+    title: "My tall brother has green eyes.",
+    objective: "Combiner toutes les structures de description (adjectif + nom + \"to have\") pour créer des phrases plus complexes et précises. Introduction à la prononciation du son \"th\".",
+    duration: 60,
+    keyPhrases: [
+      {
+        english: "My tall brother has green eyes.",
+        pronunciation: "Maï tol bra-theur haz griin aïz",
+        context: "Phrase complète: adjectif + nom + 'has' + description. Structure parfaite!",
+        audioFile: "/audio/regular/week2/session9/tall-brother-green-eyes.mp3"
+      },
+      {
+        english: "This is my brother.",
+        pronunciation: "Thiz iz maï bra-theur",
+        context: "Prononciation du 'th' dans 'this' - langue entre les dents!",
+        audioFile: "/audio/regular/week2/session9/this-is-brother.mp3"
+      },
+      {
+        english: "I think he is funny.",
+        pronunciation: "Aï think hi iz fa-ni",
+        context: "'Think' avec le son 'th' sourd. Très important à maîtriser!",
+        audioFile: "/audio/regular/week2/session9/i-think-funny.mp3"
+      },
+      {
+        english: "My serious father has glasses.",
+        pronunciation: "Maï si-ri-eus fa-theur haz gla-siz",
+        context: "Adjectif + nom + 'has' - description complète de la personnalité et apparence.",
+        audioFile: "/audio/regular/week2/session9/serious-father-glasses.mp3"
+      },
+      {
+        english: "Does your smart sister have brown hair?",
+        pronunciation: "Daz your smart sis-teur hav braoun hèr?",
+        context: "Question avec adjectif + nom + 'have'. Structure interrogative avancée!",
+        audioFile: "/audio/regular/week2/session9/smart-sister-question.mp3"
+      }
+    ],
+    rolePlayScenarios: [
+      {
+        id: 1,
+        title: "Construction de Phrases Pas à Pas",
+        description: "Tu construis des phrases complètes étape par étape avec le tuteur.",
+        yourLine: "My brother... My tall brother... My tall brother has green eyes!",
+        context: "Suis la progression! Commence simple, puis ajoute des détails progressivement."
+      },
+      {
+        id: 2,
+        title: "Jeu de Description Détaillée",
+        description: "Tu fais deviner une personne de ta famille avec des descriptions riches.",
+        yourLine: "This person is in my family. She is a young person. She has long, brown hair and glasses.",
+        context: "Sois précis! Utilise au moins 2 adjectifs et 2 descriptions physiques."
+      },
+      {
+        id: 3,
+        title: "Prononciation Challenge 'TH'",
+        description: "Tu pratiques les mots avec 'th' dans des phrases complètes.",
+        yourLine: "This is my brother. I think he is funny. My mother has three cats.",
+        context: "Concentre-toi sur la prononciation! Langue entre les dents pour chaque 'th'."
+      }
+    ],
+    culturalNote: "Le son 'th' n'existe pas en français et est très difficile pour les francophones. Il y a deux sons: /θ/ (sourd, comme dans 'think') et /ð/ (sonore, comme dans 'this'). C'est un marqueur fort d'un bon niveau d'anglais. De plus, combiner adjectifs + noms + 'to have' permet des descriptions très naturelles.",
+    vipTip: "Secret Gen Z: Pour impressionner en anglais, maîtrise le 'th'! C'est le son qui fait la différence entre un débutant et quelqu'un qui sonne naturel. Entraîne-toi avec 'This is my thing' - si tu y arrives, tu peux tout prononcer!",
+    practice: "Ta mission cette semaine: enregistre-toi en train de dire 'This is my brother. I think he is funny.' 5 fois. Concentre-toi sur le 'th'. Puis écris 3 phrases complètes sur ta famille avec adjectif + nom + 'has'. Poste avec #MyThChallenge!",
+    practiceResources: [
+      "Exercices de prononciation 'th' interactifs",
+      "Quiz construction de phrases complexes",
+      "Challenge TikTok: 'Th Sound Master'"
+    ],
+    interactiveTitle: "Complex Description Master",
+    interactiveDescription: "Deviens expert des descriptions complètes! Tu vas combiner tout ce que tu as appris cette semaine pour créer des phrases parfaites.",
+    flippedClassroom: {
+      videoUrl: "https://www.youtube.com/watch?v=th-pronunciation",
+      videoTitle: "TH Pronunciation - Think vs This",
+      videoDuration: "8 min",
+      videoDescription: "Apprends à prononcer correctement les deux sons 'th' avec des exercices pratiques."
+    },
+    gamification: {
+      xpReward: 260,
+      badges: ["TH Pronunciation Master", "Complex Description Pro", "Week 2 Champion"],
+      challenges: [
+        "Prononce correctement 5 mots avec 'th'",
+        "Construis 3 phrases avec adjectif + nom + 'has'",
+        "Combine toutes les structures de la semaine dans une description"
+      ]
+    },
+    digitalTools: [
+      {
+        name: "TH Pronunciation Trainer",
+        description: "Outil interactif pour maîtriser la prononciation du son 'th'",
+        link: "https://www.sounds-pronunciation.com/english/th-sound"
+      },
+      {
+        name: "Complex Sentence Builder",
+        description: "Générateur de phrases pour pratiquer les descriptions complètes",
+        link: "https://www.englishclub.com/grammar/sentence-structure.htm"
+      }
+    ]
   }
 }
