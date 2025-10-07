@@ -1,0 +1,93 @@
+{
+  "track": "executive",
+  "title": "Parcours Exécutif - Anglais VIP",
+  "description": "Programme intensif conçu spécialement pour les dirigeants et cadres supérieurs souhaitant maîtriser l'anglais professionnel avec sophistication et efficacité.",
+  "targetLevel": "A2-B2",
+  "duration": "12 semaines",
+  "sessionsPerWeek": 5,
+  "totalSessions": 20,
+  "sessions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "title": "Les Fondations de la Confiance",
+      "objective": "Maîtriser les interactions fondamentales en anglais avec assurance et élégance",
+      "sessions": [1, 2, 3, 4, 5],
+      "keyTopics": [
+        "Expressions de politesse essentielles",
+        "Présentations professionnelles",
+        "Gestion de l'incompréhension",
+        "Rituels sociaux anglophones",
+        "Premières transactions"
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "title": "Consolidation des Bases",
+      "objective": "Élargir les compétences conversationnelles pour les situations de voyage et repas d'affaires",
+      "sessions": [6, 7, 8, 9, 10],
+      "keyTopics": [
+        "Navigation dans les voyages",
+        "Maîtrise des repas d'affaires",
+        "Interactions hôtelières",
+        "Transport et logistique",
+        "Étiquette internationale"
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "title": "Aisance Conversationnelle",
+      "objective": "Développer une fluidité naturelle et des nuances culturelles",
+      "sessions": [11, 12, 13, 14, 15],
+      "keyTopics": [
+        "Conversations téléphoniques",
+        "Négociation de base",
+        "Présentation d'idées",
+        "Gestion des réunions",
+        "Networking sophistiqué"
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "title": "Usage Sophistiqué",
+      "objective": "Exprimer des idées complexes avec précision et nuance",
+      "sessions": [16, 17, 18, 19, 20],
+      "keyTopics": [
+        "Argumentation structurée",
+        "Leadership en anglais",
+        "Présentation exécutive",
+        "Diplomatie linguistique",
+        "Influence et persuasion"
+      ]
+    }
+  ],
+  "learningObjectives": [
+    "Communiquer avec assurance dans tous les contextes professionnels",
+    "Maîtriser l'étiquette sociale et professionnelle anglophone",
+    "Gérer les situations complexes avec élégance linguistique",
+    "Projeter une image de sophistication et de compétence",
+    "Développer une aisance naturelle proche de votre éloquence en français"
+  ],
+  "prerequisites": "Niveau débutant accepté - Le programme s'adapte à votre niveau initial",
+  "assessmentMethods": [
+    "Évaluations pratiques en situation réelle",
+    "Auto-évaluations de confiance",
+    "Simulations de scénarios professionnels",
+    "Suivi des progrès conversationnels"
+  ],
+  "pedagogicalApproach": [
+    "Micro-apprentissage intensif (15-45 min par session)",
+    "Approche 20/80 - 20% des expressions pour 80% des situations",
+    "Jeux de rôle immersifs basés sur des situations réelles",
+    "Coaching personnalisé adapté au statut exécutif",
+    "Intégration culturelle et codes sociaux sophistiqués"
+  ],
+  "uniqueFeatures": [
+    "Contenu adapté aux dirigeants et cadres supérieurs",
+    "Flexibilité horaire totale avec service conciergerie",
+    "Focus sur l'image professionnelle et la sophistication",
+    "Scénarios VIP (hôtels de luxe, événements exclusifs)",
+    "Techniques de networking et diplomatie linguistique",
+    "Support prioritaire et coaching personnalisé"
+  ]
+}

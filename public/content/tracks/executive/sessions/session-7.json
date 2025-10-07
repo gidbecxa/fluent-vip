@@ -1,0 +1,230 @@
+{
+  "id": 7,
+  "title": "Maîtriser les Repas d'Affaires",
+  "objective": "À la fin de cette session, vous naviguerez avec aisance dans les restaurants, commanderez avec sophistication, et gérerez les interactions sociales autour des repas d'affaires.",
+  "duration": 50,
+  "track": "executive",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "I'd like to make a reservation.",
+      "pronunciation": "Aï'd laïk tou meïk a rè-zer-veï-chon",
+      "context": "Pour réserver une table dans un restaurant. Formule professionnelle standard.",
+      "audioFile": "/audio/executive/session7/make-reservation.mp3"
+    },
+    {
+      "english": "Could I see the menu, please?",
+      "pronunciation": "Coud aï sii dhe mè-niou, pliiz?",
+      "context": "Demande polie pour consulter la carte. Plus élégant que 'Give me the menu'.",
+      "audioFile": "/audio/executive/session7/see-menu.mp3"
+    },
+    {
+      "english": "What do you recommend?",
+      "pronunciation": "Ouatt dou you rè-ko-mènd?",
+      "context": "Question sophistiquée qui montre votre ouverture aux suggestions du serveur.",
+      "audioFile": "/audio/executive/session7/what-recommend.mp3"
+    },
+    {
+      "english": "I'll have the salmon, please.",
+      "pronunciation": "Aï'll hav dhe sal-mon, pliiz",
+      "context": "Formule standard pour commander un plat. 'I'll have' est naturel et poli.",
+      "audioFile": "/audio/executive/session7/ill-have-salmon.mp3"
+    },
+    {
+      "english": "Could we have the bill, please?",
+      "pronunciation": "Coud oui hav dhe bil, pliiz?",
+      "context": "Demande polie pour l'addition. Notez l'usage de 'we' même si vous payez seul.",
+      "audioFile": "/audio/executive/session7/have-bill.mp3"
+    },
+    {
+      "english": "This is delicious.",
+      "pronunciation": "Dhis iz di-li-chos",
+      "context": "Compliment sincère sur la nourriture. Crée une atmosphère positive.",
+      "audioFile": "/audio/executive/session7/this-delicious.mp3"
+    },
+    {
+      "english": "The service is excellent.",
+      "pronunciation": "Dhe ser-vis iz èk-se-lent",
+      "context": "Appréciation du service. Montre votre sophistication et reconnaissance.",
+      "audioFile": "/audio/executive/session7/service-excellent.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-7",
+      "title": "Repas d'Affaires Sophistiqué",
+      "description": "Dialogue complet dans un restaurant haut de gamme, couvrant la réservation, la commande, et les interactions sociales pendant le repas.",
+      "context": "Vous invitez un partenaire d'affaires dans un restaurant réputé. Cette interaction combine savoir-vivre, compétences linguistiques, et professionnalisme.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good evening. Do you have a reservation?",
+          "translation": "Bonsoir. Avez-vous une réservation ?",
+          "audioFile": "/audio/executive/session7/dialogue-line-1.mp3",
+          "emphasis": ["Good evening", "reservation"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I made a reservation for two under Johnson at 7:30.",
+          "translation": "Oui, j'ai fait une réservation pour deux au nom de Johnson à 19h30.",
+          "audioFile": "/audio/executive/session7/dialogue-line-2.mp3",
+          "emphasis": ["reservation for two", "Johnson", "7:30"]
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect. Right this way, please. Here are your menus.",
+          "translation": "Parfait. Par ici, s'il vous plaît. Voici vos cartes.",
+          "audioFile": "/audio/executive/session7/dialogue-line-3.mp3",
+          "emphasis": ["Right this way", "your menus"]
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. What do you recommend for tonight?",
+          "translation": "Merci. Que recommandez-vous pour ce soir ?",
+          "audioFile": "/audio/executive/session7/dialogue-line-4.mp3",
+          "emphasis": ["What do you recommend", "tonight"]
+        },
+        {
+          "speaker": "A",
+          "text": "The salmon is excellent tonight, and our beef tenderloin is very popular.",
+          "translation": "Le saumon est excellent ce soir, et notre filet de bœuf est très populaire.",
+          "audioFile": "/audio/executive/session7/dialogue-line-5.mp3",
+          "emphasis": ["salmon is excellent", "beef tenderloin", "very popular"]
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds wonderful. I'll have the salmon, please. And my colleague?",
+          "translation": "Cela sonne merveilleux. Je prendrai le saumon, s'il vous plaît. Et mon collègue ?",
+          "audioFile": "/audio/executive/session7/dialogue-line-6.mp3",
+          "emphasis": ["sounds wonderful", "I'll have the salmon", "my colleague"]
+        },
+        {
+          "speaker": "A",
+          "text": "Excellent choice. And for you, sir?",
+          "translation": "Excellent choix. Et pour vous, monsieur ?",
+          "audioFile": "/audio/executive/session7/dialogue-line-7.mp3",
+          "emphasis": ["Excellent choice", "for you"]
+        },
+        {
+          "speaker": "B",
+          "text": "This is delicious. The service is excellent. Could we have the bill, please?",
+          "translation": "C'est délicieux. Le service est excellent. Pourrions-nous avoir l'addition, s'il vous plaît ?",
+          "audioFile": "/audio/executive/session7/dialogue-line-8.mp3",
+          "emphasis": ["This is delicious", "service is excellent", "have the bill"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-7",
+      "type": "rolePlay",
+      "title": "Excellence dans les Repas d'Affaires",
+      "description": "Scénarios couvrant tous les aspects des repas professionnels, de la réservation au paiement.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Réservation Téléphonique",
+          "description": "Vous appelez un restaurant pour réserver une table.",
+          "yourLine": "Good afternoon. I'd like to make a reservation for tonight at 8 PM for four people.",
+          "context": "Soyez précis sur l'heure, le nombre de personnes, et la date."
+        },
+        {
+          "id": 2,
+          "title": "Demande de Recommandations",
+          "description": "Vous consultez le serveur sur les spécialités.",
+          "yourLine": "What do you recommend? Is the fish fresh today?",
+          "context": "Montrez votre intérêt pour la qualité et les spécialités du restaurant."
+        },
+        {
+          "id": 3,
+          "title": "Commande Sophistiquée",
+          "description": "Vous commandez pour vous et vos invités.",
+          "yourLine": "I'll have the salmon, please. And for the lady, the chicken. How would you like that cooked?",
+          "context": "Gérez les commandes multiples avec élégance et attention aux détails."
+        },
+        {
+          "id": 4,
+          "title": "Appréciation et Paiement",
+          "description": "Fin du repas, vous exprimez votre satisfaction.",
+          "yourLine": "This was delicious. The service is excellent. Could we have the bill, please?",
+          "context": "Combinez compliments sincères et demande pratique."
+        },
+        {
+          "id": 5,
+          "title": "Gestion d'un Problème",
+          "description": "Il y a une erreur dans la commande.",
+          "yourLine": "Excuse me, I'm sorry, but I ordered the salmon, not the chicken. Could you check, please?",
+          "context": "Restez poli mais ferme. Utilisez vos outils de clarification."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "I'll have vs I'd like",
+      "description": "Deux façons de commander avec des nuances subtiles mais importantes.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "I'll have the salmon, please.",
+          "french": "Je prendrai le saumon, s'il vous plaît.",
+          "explanation": "Décision ferme et naturelle. Très courant dans les restaurants.",
+          "audioFile": "/audio/executive/session7/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'd like the salmon, please.",
+          "french": "Je voudrais le saumon, s'il vous plaît.",
+          "explanation": "Plus poli et hésitant. Approprié si vous n'êtes pas sûr.",
+          "audioFile": "/audio/executive/session7/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Give me the salmon.",
+          "french": "Donnez-moi le saumon.",
+          "explanation": "Trop direct et impoli dans un restaurant de qualité.",
+          "audioFile": "/audio/executive/session7/grammar-example-3.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Étiquette des Repas d'Affaires",
+      "content": "Dans les cultures anglophones, les repas d'affaires suivent des codes précis. Attendez que tous soient servis avant de commencer, complimentez la nourriture, et évitez les sujets controversés. Le business se discute généralement après le plat principal."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Art du Compliment Culinaire",
+      "content": "'This is delicious' et 'The service is excellent' sont des formules qui créent une atmosphère positive et montrent votre sophistication. Les professionnels de la restauration apprécient ces reconnaissances sincères."
+    },
+    {
+      "type": "cultural",
+      "title": "Différences Culturelles dans les Pourboires",
+      "content": "Aux États-Unis, 18-20% de pourboire est standard. Au Royaume-Uni, 10-15% suffit. Dans certains restaurants haut de gamme, le service est inclus. Vérifiez discrètement l'addition."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice de mémorisation contextuelle : Lors de vos prochains repas, même en français, pratiquez mentalement les phrases en anglais. 'I'll have...' quand vous commandez, 'This is delicious' quand vous appréciez.",
+      "resources": [
+        "Vocabulaire culinaire de base",
+        "Expressions d'appréciation variées",
+        "Techniques d'ancrage dans les habitudes alimentaires"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 170,
+    "badges": ["Restaurant Master", "Business Dining Expert"],
+    "challenges": [
+      "Utilisez 'What do you recommend?' dans un vrai restaurant",
+      "Maîtrisez 'I'll have' vs 'I'd like'",
+      "Pratiquez les compliments culinaires sincères",
+      "Gérez une commande pour plusieurs personnes"
+    ]
+  }
+}

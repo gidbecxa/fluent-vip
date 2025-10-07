@@ -1,0 +1,300 @@
+{
+  "id": 7,
+  "title": "He has a sister...",
+  "objective": "À la fin de cette session, vous maîtriserez le verbe 'To Have' à la 3ème personne (he/she has), saurez parler de votre famille et poser des questions sur la famille des autres avec aisance.",
+  "duration": 60,
+  "track": "regular",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "He has a sister.",
+      "pronunciation": "Hi haz a sis-ter",
+      "context": "Description de la famille d'une personne masculine. Usage de 'has' à la 3ème personne.",
+      "audioFile": "/audio/regular/session7/he-has-sister.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She has two brothers.",
+      "pronunciation": "Chi haz tou bro-dhers",
+      "context": "Description de la famille avec nombre. Introduction des chiffres dans les descriptions familiales.",
+      "audioFile": "/audio/regular/session7/she-has-two-brothers.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Does he have children?",
+      "pronunciation": "Daz hi hav tchil-dren?",
+      "context": "Question sur la famille avec 'does' + 'have'. Structure interrogative à la 3ème personne.",
+      "audioFile": "/audio/regular/session7/does-he-have-children.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She doesn't have a brother.",
+      "pronunciation": "Chi da-zent hav a bro-dher",
+      "context": "Négation à la 3ème personne avec 'doesn't'. Contraction de 'does not'.",
+      "audioFile": "/audio/regular/session7/she-doesnt-have-brother.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "My mother has brown hair.",
+      "pronunciation": "Maï mo-dher haz braoun hèr",
+      "context": "Description d'un membre de la famille. Combinaison famille + caractéristique physique.",
+      "audioFile": "/audio/regular/session7/mother-has-brown-hair.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "How many sisters do you have?",
+      "pronunciation": "Haow mè-ni sis-ters dou you hav?",
+      "context": "Question sur le nombre de membres de la famille. Introduction de 'how many'.",
+      "audioFile": "/audio/regular/session7/how-many-sisters.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "This is my family.",
+      "pronunciation": "Dhis iz maï fè-mi-li",
+      "context": "Présentation de la famille. Phrase d'introduction pour montrer des photos de famille.",
+      "audioFile": "/audio/regular/session7/this-is-my-family.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-7",
+      "title": "Partage de Photos de Famille",
+      "description": "Dialogue entre amis qui se montrent et décrivent leurs photos de famille sur leurs téléphones.",
+      "context": "Vous êtes avec un ami dans un café et vous regardez ensemble vos photos de famille sur vos téléphones. Vous vous posez des questions sur vos familles respectives et décrivez les membres de vos familles.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Look, this is my family photo! This is my mother, and this is my father.",
+          "translation": "Regarde, c'est ma photo de famille ! Voici ma mère, et voici mon père.",
+          "audioFile": "/audio/regular/session7/dialogue-line-1.mp3",
+          "emphasis": ["my family photo", "my mother", "my father"]
+        },
+        {
+          "speaker": "B",
+          "text": "They look very nice! Does your mother have brown hair like you?",
+          "translation": "Ils ont l'air très gentils ! Ta mère a-t-elle les cheveux bruns comme toi ?",
+          "audioFile": "/audio/regular/session7/dialogue-line-2.mp3",
+          "emphasis": ["look very nice", "Does your mother have", "like you"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, she does! And my father has glasses. Do you have brothers or sisters?",
+          "translation": "Oui, elle les a ! Et mon père a des lunettes. As-tu des frères ou des sœurs ?",
+          "audioFile": "/audio/regular/session7/dialogue-line-3.mp3",
+          "emphasis": ["Yes, she does", "has glasses", "brothers or sisters"]
+        },
+        {
+          "speaker": "B",
+          "text": "I have one sister. She has long, blond hair. She doesn't have brown hair like me.",
+          "translation": "J'ai une sœur. Elle a de longs cheveux blonds. Elle n'a pas les cheveux bruns comme moi.",
+          "audioFile": "/audio/regular/session7/dialogue-line-4.mp3",
+          "emphasis": ["one sister", "long, blond hair", "doesn't have brown hair"]
+        },
+        {
+          "speaker": "A",
+          "text": "That's interesting! How many people are in your family?",
+          "translation": "C'est intéressant ! Combien de personnes y a-t-il dans ta famille ?",
+          "audioFile": "/audio/regular/session7/dialogue-line-5.mp3",
+          "emphasis": ["That's interesting", "How many people"]
+        },
+        {
+          "speaker": "B",
+          "text": "We are four people: my parents, my sister, and me. My sister has a boyfriend too - he's very nice!",
+          "translation": "Nous sommes quatre personnes : mes parents, ma sœur, et moi. Ma sœur a aussi un petit ami - il est très gentil !",
+          "audioFile": "/audio/regular/session7/dialogue-line-6.mp3",
+          "emphasis": ["four people", "my parents", "has a boyfriend", "very nice"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-7",
+      "type": "rolePlay",
+      "title": "Descriptions de Famille et Questions",
+      "description": "Jeux de rôle pour maîtriser les descriptions de famille avec la 3ème personne et les questions sur la famille.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Présentation de Famille",
+          "description": "Vous montrez une photo de famille et décrivez chaque membre.",
+          "yourLine": "This is my [membre]. He/She has [description]. He/She is [adjectif].",
+          "context": "Donnez des détails intéressants sur chaque personne pour maintenir l'intérêt."
+        },
+        {
+          "id": 2,
+          "title": "Questions sur la Famille",
+          "description": "Vous posez des questions détaillées sur la famille de quelqu'un.",
+          "yourLine": "How many [membres] do you have? Does your [membre] have [caractéristique]?",
+          "context": "Montrez un intérêt sincère et posez des questions de suivi."
+        },
+        {
+          "id": 3,
+          "title": "Comparaisons Familiales",
+          "description": "Vous comparez votre famille avec celle de votre interlocuteur.",
+          "yourLine": "My [membre] has [caractéristique], but your [membre] doesn't have [caractéristique].",
+          "context": "Utilisez les formes négatives pour faire des contrastes respectueux."
+        }
+      ]
+    },
+    {
+      "id": "regular-family-tree-7",
+      "type": "interactive",
+      "title": "Arbre Généalogique Interactif",
+      "description": "Activité pour créer et décrire un arbre généalogique en utilisant le vocabulaire de la famille.",
+      "instructions": "Créez votre arbre généalogique et décrivez chaque membre en utilisant 'has/doesn't have' et les caractéristiques physiques."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Verbe 'Have' à la 3ème Personne",
+      "description": "Usage spécifique de 'has' avec he, she, it et formation des questions/négations avec 'does'.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "He has two sisters.",
+          "french": "Il a deux sœurs.",
+          "explanation": "'Has' avec 'he', 'she', 'it'. Forme spéciale à la 3ème personne du singulier.",
+          "audioFile": "/audio/regular/session7/grammar-he-has.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She has brown eyes.",
+          "french": "Elle a les yeux bruns.",
+          "explanation": "Même règle avec 'she'. 'Has' est la seule forme correcte.",
+          "audioFile": "/audio/regular/session7/grammar-she-has.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "My father have glasses.",
+          "french": "Mon père a des lunettes.",
+          "explanation": "INCORRECT: 'My father' = 'he', donc utilisez 'has', pas 'have'.",
+          "audioFile": "/audio/regular/session7/grammar-incorrect-father-have.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questions avec 'Does' + 'Have'",
+      "description": "Formation des questions à la 3ème personne en utilisant l'auxiliaire 'does'.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "Does she have a brother?",
+          "french": "A-t-elle un frère ?",
+          "explanation": "'Does' + sujet + 'have'. Structure standard pour les questions à la 3ème personne.",
+          "audioFile": "/audio/regular/session7/grammar-does-she-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Does he have blue eyes?",
+          "french": "A-t-il les yeux bleus ?",
+          "explanation": "Même structure pour toutes les questions avec 'he', 'she', 'it'.",
+          "audioFile": "/audio/regular/session7/grammar-does-he-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Does she has a sister?",
+          "french": "A-t-elle une sœur ?",
+          "explanation": "INCORRECT: Avec 'does', utilisez 'have', jamais 'has'.",
+          "audioFile": "/audio/regular/session7/grammar-incorrect-does-has.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Négations avec 'Doesn't' + 'Have'",
+      "description": "Formation des négations à la 3ème personne avec 'doesn't have'.",
+      "color": "red",
+      "examples": [
+        {
+          "english": "He doesn't have a car.",
+          "french": "Il n'a pas de voiture.",
+          "explanation": "'Doesn't' (does not) + 'have'. Négation standard à la 3ème personne.",
+          "audioFile": "/audio/regular/session7/grammar-doesnt-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She doesn't have brown hair.",
+          "french": "Elle n'a pas les cheveux bruns.",
+          "explanation": "Même structure pour toutes les négations avec 'he', 'she', 'it'.",
+          "audioFile": "/audio/regular/session7/grammar-she-doesnt.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Partage de Photos de Famille",
+      "content": "Dans les cultures anglophones, montrer des photos de famille est un moyen courant de créer des liens sociaux. Il est poli de poser des questions sur les membres de la famille et de faire des commentaires positifs comme 'They look very nice!' ou 'What a beautiful family!'"
+    },
+    {
+      "type": "cultural",
+      "title": "Structures Familiales Modernes",
+      "content": "Les familles modernes ont des structures variées. Il est important d'être sensible aux différentes configurations : familles monoparentales, recomposées, adoptives. Utilisez des termes neutres comme 'family members' si vous n'êtes pas sûr de la structure familiale."
+    },
+    {
+      "type": "genZTip",
+      "title": "Vocabulaire Familial Inclusif",
+      "content": "Les jeunes utilisent parfois des termes plus inclusifs : 'chosen family' pour les amis proches, 'parent' au lieu de 'mother/father' dans certains contextes, ou 'sibling' au lieu de 'brother/sister' pour être plus neutre en genre."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Arbre généalogique descriptif : Dessinez votre arbre généalogique simple (parents, frères/sœurs) et écrivez 2 phrases pour chaque personne en utilisant 'has/doesn't have'.",
+      "resources": [
+        "Vocabulaire de la famille étendue",
+        "Modèles d'arbres généalogiques",
+        "Phrases types pour les descriptions familiales"
+      ],
+      "digitalTools": [
+        {
+          "name": "Family Tree Maker Online",
+          "description": "Outil gratuit pour créer des arbres généalogiques interactifs",
+          "link": "https://familytreemaker.com"
+        }
+      ]
+    },
+    {
+      "description": "Interview familiale : Préparez 5 questions sur la famille en utilisant 'Does he/she have...?' et pratiquez-les avec un partenaire d'étude.",
+      "resources": [
+        "Liste de questions types sur la famille",
+        "Stratégies pour maintenir une conversation sur la famille",
+        "Expressions pour montrer de l'intérêt"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://www.youtube.com/watch?v=example7",
+      "videoTitle": "Family Vocabulary and 'Has' vs 'Have'",
+      "videoDuration": "8:45",
+      "videoDescription": "Vidéo sur le vocabulaire de la famille et l'usage correct de 'has' à la 3ème personne avec exemples de familles diverses."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz - Famille et 3ème Personne",
+        "description": "Quiz de 5 questions sur le vocabulaire de la famille et l'usage de 'has/doesn't have' à la 3ème personne."
+      },
+      {
+        "type": "game",
+        "title": "Family Guessing Game",
+        "description": "Jeu de devinettes où vous devez identifier les membres d'une famille en posant des questions Yes/No."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 130,
+    "badges": ["Family Expert", "Third Person Master"],
+    "challenges": [
+      "Décrivez 5 membres de famille différents avec 'has'",
+      "Posez 10 questions correctes avec 'Does he/she have...?'",
+      "Utilisez 'doesn't have' dans 5 phrases négatives",
+      "Complétez l'arbre généalogique avec descriptions complètes"
+    ]
+  }
+}

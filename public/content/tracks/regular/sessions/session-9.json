@@ -1,0 +1,226 @@
+{
+  "id": 9,
+  "title": "My tall brother has green eyes.",
+  "objective": "À la fin de cette session, vous combinerez toutes les structures de description (adjectifs + noms + 'to have') pour créer des phrases complexes et précises, et maîtriserez la prononciation du son 'th'.",
+  "duration": 60,
+  "track": "regular",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "My tall brother has green eyes.",
+      "pronunciation": "Maï tol bro-dher haz griin aïz",
+      "context": "Phrase complexe combinant adjectif + nom + 'has'. Structure avancée de description.",
+      "audioFile": "/audio/regular/session9/tall-brother-green-eyes.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "She is a smart, kind person.",
+      "pronunciation": "Chi iz a smart, kaïnd per-son",
+      "context": "Deux adjectifs séparés par une virgule. Enrichissement de la description.",
+      "audioFile": "/audio/regular/session9/smart-kind-person.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "This is my funny friend.",
+      "pronunciation": "Dhis iz maï fo-ni frènd",
+      "context": "Présentation avec adjectif descriptif. Combinaison de structures apprises.",
+      "audioFile": "/audio/regular/session9/funny-friend.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Think about it.",
+      "pronunciation": "Thingk a-baout it",
+      "context": "Pratique du son 'th' /θ/. Phrase courante pour la réflexion.",
+      "audioFile": "/audio/regular/session9/think-about-it.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "This and that.",
+      "pronunciation": "Dhis and dhat",
+      "context": "Pratique du son 'th' /ð/. Démonstratifs courants.",
+      "audioFile": "/audio/regular/session9/this-and-that.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "My serious father has glasses.",
+      "pronunciation": "Maï si-ri-os fa-dher haz glè-siz",
+      "context": "Description complète : adjectif + membre famille + caractéristique physique.",
+      "audioFile": "/audio/regular/session9/serious-father-glasses.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "They are three tall students.",
+      "pronunciation": "Dheï ar thrii tol stiou-dents",
+      "context": "Nombre + adjectif + nom. Structure complexe avec son 'th'.",
+      "audioFile": "/audio/regular/session9/three-tall-students.mp3",
+      "difficulty": "intermediate"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-9",
+      "title": "Jeu de Devinettes - Descriptions Détaillées",
+      "description": "Dialogue où les participants font deviner des personnes en utilisant des descriptions complexes et détaillées.",
+      "context": "Vous jouez à un jeu de devinettes avec un ami. Vous devez faire deviner une personne en donnant des descriptions de plus en plus précises.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm thinking of someone in my family. This person is tall and has brown hair.",
+          "translation": "Je pense à quelqu'un dans ma famille. Cette personne est grande et a les cheveux bruns.",
+          "audioFile": "/audio/regular/session9/dialogue-line-1.mp3",
+          "emphasis": ["thinking of someone", "tall and has brown hair"]
+        },
+        {
+          "speaker": "B",
+          "text": "Hmm, is this person a man or a woman? And what is he or she like?",
+          "translation": "Hmm, cette personne est-elle un homme ou une femme ? Et comment est-il ou elle ?",
+          "audioFile": "/audio/regular/session9/dialogue-line-2.mp3",
+          "emphasis": ["man or a woman", "what is he or she like"]
+        },
+        {
+          "speaker": "A",
+          "text": "It's a man. He is a very funny, smart person. He has green eyes and glasses.",
+          "translation": "C'est un homme. C'est une personne très drôle et intelligente. Il a les yeux verts et des lunettes.",
+          "audioFile": "/audio/regular/session9/dialogue-line-3.mp3",
+          "emphasis": ["very funny, smart person", "green eyes and glasses"]
+        },
+        {
+          "speaker": "B",
+          "text": "Is it your brother? You said he is tall, funny, and smart. That sounds like him!",
+          "translation": "Est-ce ton frère ? Tu as dit qu'il est grand, drôle, et intelligent. Ça lui ressemble !",
+          "audioFile": "/audio/regular/session9/dialogue-line-4.mp3",
+          "emphasis": ["your brother", "tall, funny, and smart", "sounds like him"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, that's right! My tall, funny brother with green eyes. You're very good at this game!",
+          "translation": "Oui, c'est ça ! Mon grand frère drôle aux yeux verts. Tu es très bon à ce jeu !",
+          "audioFile": "/audio/regular/session9/dialogue-line-5.mp3",
+          "emphasis": ["tall, funny brother", "green eyes", "very good at this game"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-9",
+      "type": "rolePlay",
+      "title": "Descriptions Complexes et Jeux de Devinettes",
+      "description": "Activités pour maîtriser les descriptions détaillées en combinant toutes les structures apprises.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Portrait Complet",
+          "description": "Décrivez une personne en utilisant au moins 3 adjectifs et 2 caractéristiques physiques.",
+          "yourLine": "My [adjectif] [membre] is [adjectif] and [adjectif]. He/She has [caractéristique] and [caractéristique].",
+          "context": "Créez des descriptions riches et précises."
+        },
+        {
+          "id": 2,
+          "title": "Jeu de Devinettes",
+          "description": "Faites deviner une personne célèbre avec des descriptions progressives.",
+          "yourLine": "This person is [adjectif]. He/She has [caractéristique]. He/She is a [profession].",
+          "context": "Donnez des indices de plus en plus précis."
+        },
+        {
+          "id": 3,
+          "title": "Comparaisons Détaillées",
+          "description": "Comparez deux personnes en utilisant des descriptions complexes.",
+          "yourLine": "My [membre] is [adjectif] and has [caractéristique], but my [membre] is [adjectif] and has [caractéristique].",
+          "context": "Utilisez des contrastes pour enrichir vos descriptions."
+        }
+      ]
+    },
+    {
+      "id": "regular-pronunciation-9",
+      "type": "pronunciation",
+      "title": "Maîtrise du Son 'TH'",
+      "description": "Exercices intensifs sur les deux sons 'th' : /θ/ (think) et /ð/ (this).",
+      "instructions": "Placez votre langue entre vos dents et pratiquez la différence entre les deux sons 'th'."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Phrases de Description Complexes",
+      "description": "Construction de phrases riches combinant adjectifs, noms, et verbe 'have'.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "My tall, smart brother has blue eyes.",
+          "french": "Mon frère grand et intelligent a les yeux bleus.",
+          "explanation": "Structure : Possessif + adjectifs + nom + has + caractéristique.",
+          "audioFile": "/audio/regular/session9/grammar-complex-description.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She is a kind, funny person with brown hair.",
+          "french": "C'est une personne gentille et drôle aux cheveux bruns.",
+          "explanation": "Alternative avec 'with' pour ajouter des caractéristiques physiques.",
+          "audioFile": "/audio/regular/session9/grammar-with-brown-hair.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Ordre des Adjectifs Multiples",
+      "description": "Quand on utilise plusieurs adjectifs, ils suivent un ordre logique en anglais.",
+      "color": "orange",
+      "examples": [
+        {
+          "english": "A tall, smart man (taille + personnalité)",
+          "french": "Un homme grand et intelligent",
+          "explanation": "Adjectifs de taille avant adjectifs de personnalité.",
+          "audioFile": "/audio/regular/session9/grammar-adjective-order.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "A smart, tall man",
+          "french": "Un homme intelligent et grand",
+          "explanation": "Moins naturel mais acceptable. L'ordre peut varier selon l'emphase.",
+          "audioFile": "/audio/regular/session9/grammar-alternative-order.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Descriptions Détaillées et Politesse",
+      "content": "Dans les cultures anglophones, donner des descriptions détaillées montre de l'attention et de l'intérêt. Cependant, évitez les descriptions trop personnelles avec des inconnus."
+    },
+    {
+      "type": "cultural",
+      "title": "Le Son 'TH' - Marqueur de Maîtrise",
+      "content": "La prononciation correcte du son 'th' est souvent considérée comme un indicateur de niveau en anglais. C'est un son qui n'existe pas dans beaucoup de langues, donc sa maîtrise impressionne les locuteurs natifs."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Descriptions en escalier : Commencez par une description simple d'une personne, puis ajoutez progressivement des détails pour créer une description de plus en plus riche.",
+      "resources": [
+        "Modèles de progression descriptive",
+        "Vocabulaire avancé pour les descriptions",
+        "Exercices de prononciation du son 'th'"
+      ]
+    }
+  ],
+  "multimedia": {
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz - Descriptions Complexes",
+        "description": "Quiz de 4 questions sur les descriptions complexes et la combinaison des structures."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 140,
+    "badges": ["Complex Description Master", "TH Sound Expert"],
+    "challenges": [
+      "Créez 5 descriptions avec au moins 3 éléments chacune",
+      "Maîtrisez la prononciation de 10 mots avec 'th'",
+      "Gagnez 3 jeux de devinettes consécutifs"
+    ]
+  }
+}

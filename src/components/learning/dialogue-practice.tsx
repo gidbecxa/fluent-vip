@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Play, Pause, RotateCcw, CheckCircle, Users, MessageCircle, Volume2 } from "lucide-react"
 
 interface DialogueLine {
-  speaker: "A" | "B"
+  speaker: "A" | "B" | "narrator"
   text: string
   translation: string
   audioFile?: string
@@ -67,12 +67,16 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
     setIsPlaying(false)
   }
 
-  const getSpeakerColor = (speaker: "A" | "B") => {
-    return speaker === "A" ? "bg-blue-100 text-blue-900 border-blue-200" : "bg-purple-100 text-purple-900 border-purple-200"
+  const getSpeakerColor = (speaker: "A" | "B" | "narrator") => {
+    if (speaker === "A") return "bg-blue-100 text-blue-900 border-blue-200"
+    if (speaker === "B") return "bg-purple-100 text-purple-900 border-purple-200"
+    return "bg-gray-100 text-gray-900 border-gray-200"
   }
 
-  const getSpeakerName = (speaker: "A" | "B") => {
-    return speaker === "A" ? "Toi" : "Ami"
+  const getSpeakerName = (speaker: "A" | "B" | "narrator") => {
+    if (speaker === "A") return "Toi"
+    if (speaker === "B") return "Ami"
+    return "Narrateur"
   }
 
   return (

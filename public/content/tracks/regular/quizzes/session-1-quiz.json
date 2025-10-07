@@ -1,0 +1,44 @@
+{
+  "sessionId": 1,
+  "title": "Quiz - Introduction et Verbe 'To Be'",
+  "description": "Quiz de révision sur les présentations et les formes de base du verbe 'To Be'",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the correct way to introduce yourself?",
+      "options": [
+        "Hello, my name is Sarah",
+        "Hello, my name are Sarah", 
+        "Hello, I name is Sarah",
+        "Hello, my name Sarah"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'My name is...' is the correct structure for introductions."
+    },
+    {
+      "id": 2,
+      "question": "How do you respond to 'How are you?'",
+      "options": [
+        "I am good",
+        "I am fine, thank you",
+        "I fine", 
+        "I am fine, thanks you"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'I am fine, thank you' is the standard polite response."
+    },
+    {
+      "id": 3,
+      "question": "Which contraction is correct?",
+      "options": [
+        "I'm happy",
+        "I'am happy",
+        "Im happy",
+        "I am' happy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'I'm' is the correct contraction of 'I am'."
+    }
+  ]
+}

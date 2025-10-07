@@ -1,0 +1,44 @@
+{
+  "sessionId": 9,
+  "title": "Quiz - Intégration Familiale",
+  "description": "Quiz sur la présentation de la famille et les relations",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you introduce your family member?",
+      "options": [
+        "This my brother",
+        "This is my brother",
+        "This are my brother",
+        "This be my brother"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'This is my brother' is the correct way to introduce a family member."
+    },
+    {
+      "id": 2,
+      "question": "What's the relationship word for your father's brother?",
+      "options": [
+        "Cousin",
+        "Uncle",
+        "Nephew",
+        "Grandfather"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Your father's brother is your uncle."
+    },
+    {
+      "id": 3,
+      "question": "How do you describe family relationships?",
+      "options": [
+        "We are close family",
+        "We are a close family",
+        "We are close families",
+        "We is close family"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'We are a close family' is the correct way to describe family relationships."
+    }
+  ]
+}

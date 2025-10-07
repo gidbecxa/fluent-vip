@@ -1,0 +1,44 @@
+{
+  "sessionId": 6,
+  "title": "Quiz - Verbe 'Have' et Descriptions",
+  "description": "Quiz sur l'usage du verbe 'have' pour les descriptions physiques",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is correct?",
+      "options": [
+        "I have brown eyes",
+        "I has brown eyes",
+        "I am have brown eyes",
+        "I having brown eyes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'I have' is the correct form for first person with the verb 'have'."
+    },
+    {
+      "id": 2,
+      "question": "What's the difference between 'I am tall' and 'I have long hair'?",
+      "options": [
+        "No difference",
+        "First is state, second is characteristic",
+        "First is wrong",
+        "Second is wrong"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Am' describes a general state, 'have' describes a specific characteristic."
+    },
+    {
+      "id": 3,
+      "question": "How do you ask about someone's physical features?",
+      "options": [
+        "Are you have glasses?",
+        "Do you have glasses?",
+        "Have you glasses?",
+        "You have glasses?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Do you have...?' is the correct question form with 'have'."
+    }
+  ]
+}

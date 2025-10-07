@@ -1,0 +1,44 @@
+{
+  "sessionId": 7,
+  "title": "Quiz - Adjectifs de Personnalité",
+  "description": "Quiz sur les adjectifs de personnalité et leur usage",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which personality adjective means 'always on time'?",
+      "options": [
+        "Lazy",
+        "Punctual",
+        "Careless",
+        "Impatient"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Punctual' means always arriving or doing things at the expected time."
+    },
+    {
+      "id": 2,
+      "question": "What's the opposite of 'generous'?",
+      "options": [
+        "Kind",
+        "Selfish",
+        "Friendly",
+        "Honest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Selfish' is the opposite of generous - thinking only of yourself."
+    },
+    {
+      "id": 3,
+      "question": "How do you describe someone who works very hard?",
+      "options": [
+        "Lazy",
+        "Careless",
+        "Hardworking",
+        "Impatient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Hardworking' describes someone who puts a lot of effort into their work."
+    }
+  ]
+}

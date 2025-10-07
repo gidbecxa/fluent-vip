@@ -1,0 +1,350 @@
+{
+  "id": 3,
+  "title": "Who is he? Who is she?",
+  "objective": "À la fin de cette session, vous maîtriserez la 3ème personne du singulier (he/she/it), saurez présenter d'autres personnes, et pourrez décrire votre environnement en utilisant les pronoms appropriés.",
+  "duration": 60,
+  "track": "regular",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "Who is he?",
+      "pronunciation": "Hou iz hi?",
+      "context": "Question pour identifier une personne masculine. Structure fondamentale pour les présentations.",
+      "audioFile": "/audio/regular/session3/who-is-he.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Who is she?",
+      "pronunciation": "Hou iz chi?",
+      "context": "Question pour identifier une personne féminine. Parallèle féminin de la question précédente.",
+      "audioFile": "/audio/regular/session3/who-is-she.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He is my friend.",
+      "pronunciation": "Hi iz maï frènd",
+      "context": "Présentation d'une personne masculine. Introduction des adjectifs possessifs (my).",
+      "audioFile": "/audio/regular/session3/he-is-my-friend.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She is a teacher.",
+      "pronunciation": "Chi iz a tii-tcher",
+      "context": "Description de la profession d'une femme. Introduction de l'article indéfini 'a'.",
+      "audioFile": "/audio/regular/session3/she-is-teacher.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "This is my professor.",
+      "pronunciation": "Dhis iz maï pro-fè-sor",
+      "context": "Présentation formelle dans un contexte académique. 'This is' pour les présentations directes.",
+      "audioFile": "/audio/regular/session3/this-is-professor.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "It is a book.",
+      "pronunciation": "It iz a bouk",
+      "context": "Identification d'un objet. 'It' pour les choses, animaux, et concepts abstraits.",
+      "audioFile": "/audio/regular/session3/it-is-book.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What is it?",
+      "pronunciation": "Ouatt iz it?",
+      "context": "Question pour identifier un objet. Équivalent de 'Qu'est-ce que c'est ?' en français.",
+      "audioFile": "/audio/regular/session3/what-is-it.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He is not here.",
+      "pronunciation": "Hi iz nott hir",
+      "context": "Forme négative avec la 3ème personne. Utile pour indiquer l'absence.",
+      "audioFile": "/audio/regular/session3/he-is-not-here.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-3",
+      "title": "Présentation d'Amis - Cafétéria Universitaire",
+      "description": "Dialogue authentique où des étudiants se présentent mutuellement leurs amis dans un environnement universitaire décontracté.",
+      "context": "Vous êtes dans la cafétéria de votre université avec un ami. Vous rencontrez d'autres étudiants et faites les présentations. Cette situation est typique de la vie sociale étudiante internationale.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi Sarah! How are you? Who is he?",
+          "translation": "Salut Sarah ! Comment vas-tu ? Qui est-ce ?",
+          "audioFile": "/audio/regular/session3/dialogue-line-1.mp3",
+          "emphasis": ["Hi Sarah", "Who is he"]
+        },
+        {
+          "speaker": "B",
+          "text": "Hi! I'm fine, thanks. This is my friend, Marco. He is from Italy.",
+          "translation": "Salut ! Je vais bien, merci. Voici mon ami, Marco. Il vient d'Italie.",
+          "audioFile": "/audio/regular/session3/dialogue-line-2.mp3",
+          "emphasis": ["This is my friend", "He is from Italy"]
+        },
+        {
+          "speaker": "A",
+          "text": "Nice to meet you, Marco. Is he a student here?",
+          "translation": "Ravi de te rencontrer, Marco. Est-il étudiant ici ?",
+          "audioFile": "/audio/regular/session3/dialogue-line-3.mp3",
+          "emphasis": ["Nice to meet you", "Is he a student"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, he is. He is studying architecture. And who is she?",
+          "translation": "Oui, il l'est. Il étudie l'architecture. Et qui est-elle ?",
+          "audioFile": "/audio/regular/session3/dialogue-line-4.mp3",
+          "emphasis": ["studying architecture", "who is she"]
+        },
+        {
+          "speaker": "A",
+          "text": "She is Emma. She is my classmate. She is very smart.",
+          "translation": "C'est Emma. C'est ma camarade de classe. Elle est très intelligente.",
+          "audioFile": "/audio/regular/session3/dialogue-line-5.mp3",
+          "emphasis": ["She is Emma", "my classmate", "very smart"]
+        },
+        {
+          "speaker": "B",
+          "text": "Great! Is she from the UK?",
+          "translation": "Super ! Vient-elle du Royaume-Uni ?",
+          "audioFile": "/audio/regular/session3/dialogue-line-6.mp3",
+          "emphasis": ["Is she from the UK"]
+        },
+        {
+          "speaker": "A",
+          "text": "No, she is not. She is from Australia. She is Australian.",
+          "translation": "Non, elle ne vient pas de là. Elle vient d'Australie. Elle est australienne.",
+          "audioFile": "/audio/regular/session3/dialogue-line-7.mp3",
+          "emphasis": ["No, she is not", "from Australia", "Australian"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-3",
+      "type": "rolePlay",
+      "title": "Scénarios de Présentation et Description",
+      "description": "Jeux de rôle progressifs pour maîtriser les présentations de tierces personnes et la description d'objets dans des contextes académiques.",
+      "instructions": "Concentrez-vous sur l'usage correct des pronoms he/she/it. Pratiquez les présentations formelles et informelles selon le contexte.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Présentation en Classe",
+          "description": "Vous présentez un nouveau camarade à la classe.",
+          "yourLine": "This is [Nom]. He/She is from [Pays]. He/She is studying [Matière].",
+          "context": "Ton formel et clair. Incluez des informations pertinentes pour la classe."
+        },
+        {
+          "id": 2,
+          "title": "Description d'Objets de Classe",
+          "description": "Vous aidez un camarade à identifier des objets dans la salle de classe.",
+          "yourLine": "What is it? It is a [Objet]. It is [Couleur/Taille].",
+          "context": "Soyez précis dans vos descriptions. Utilisez des adjectifs simples."
+        },
+        {
+          "id": 3,
+          "title": "Recherche d'une Personne",
+          "description": "Vous demandez des informations sur quelqu'un qui n'est pas présent.",
+          "yourLine": "Where is [Nom]? Is he/she in the library? He/She is not here.",
+          "context": "Utilisez les formes négatives pour indiquer l'absence."
+        },
+        {
+          "id": 4,
+          "title": "Présentation Croisée",
+          "description": "Vous et un ami vous présentez mutuellement vos connaissances.",
+          "yourLine": "Who is he/she? This is my [relation]. He/She is very [adjectif].",
+          "context": "Créez des liens sociaux en donnant des détails positifs sur les personnes."
+        }
+      ]
+    },
+    {
+      "id": "regular-identification-3",
+      "type": "interactive",
+      "title": "Jeu d'Identification - Célébrités et Objets",
+      "description": "Activité interactive pour pratiquer les questions 'Who is...?' et 'What is...?' avec des supports visuels.",
+      "instructions": "Regardez les images et posez les bonnes questions. Utilisez he/she pour les personnes et it pour les objets."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Pronoms Personnels Sujets - 3ème Personne",
+      "description": "Usage des pronoms he, she, et it selon le genre et la nature du sujet. Fondamental pour décrire le monde qui nous entoure.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "He is a doctor.",
+          "french": "Il est médecin.",
+          "explanation": "'He' pour une personne masculine. Pas d'article devant les professions après 'to be'.",
+          "audioFile": "/audio/regular/session3/grammar-he-doctor.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She is beautiful.",
+          "french": "Elle est belle.",
+          "explanation": "'She' pour une personne féminine. Les adjectifs ne s'accordent pas en anglais.",
+          "audioFile": "/audio/regular/session3/grammar-she-beautiful.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "It is expensive.",
+          "french": "C'est cher.",
+          "explanation": "'It' pour les objets, concepts, animaux (généralement). Neutre en genre.",
+          "audioFile": "/audio/regular/session3/grammar-it-expensive.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "It is a nice person.",
+          "french": "C'est une personne sympa.",
+          "explanation": "INCORRECT: Utilisez 'he' ou 'she' pour les personnes, même dans des expressions générales.",
+          "audioFile": "/audio/regular/session3/grammar-incorrect-it-person.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questions avec Who et What",
+      "description": "Formation des questions pour identifier les personnes (who) et les objets (what). Structures interrogatives essentielles.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "Who is that man?",
+          "french": "Qui est cet homme ?",
+          "explanation": "'Who' pour identifier une personne. Structure: Who + is + sujet.",
+          "audioFile": "/audio/regular/session3/grammar-who-is-man.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "What is this?",
+          "french": "Qu'est-ce que c'est ?",
+          "explanation": "'What' pour identifier un objet ou concept. Structure: What + is + this/that.",
+          "audioFile": "/audio/regular/session3/grammar-what-is-this.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Who is it?",
+          "french": "Qui est-ce ?",
+          "explanation": "Correct pour identifier une personne au téléphone ou derrière une porte.",
+          "audioFile": "/audio/regular/session3/grammar-who-is-it.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Présentations avec This is",
+      "description": "Structure de présentation directe. Plus naturelle que 'He/She is' pour les présentations initiales.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "This is my teacher.",
+          "french": "Voici mon professeur.",
+          "explanation": "'This is' pour présenter quelqu'un directement. Plus personnel que 'He/She is'.",
+          "audioFile": "/audio/regular/session3/grammar-this-is-teacher.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "This is a good book.",
+          "french": "Voici un bon livre.",
+          "explanation": "'This is' fonctionne aussi pour les objets qu'on présente ou recommande.",
+          "audioFile": "/audio/regular/session3/grammar-this-is-book.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "These is my friends.",
+          "french": "Voici mes amis.",
+          "explanation": "INCORRECT: 'These' (pluriel) ne s'utilise pas avec 'is' (singulier). Utilisez 'These are'.",
+          "audioFile": "/audio/regular/session3/grammar-incorrect-these-is.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Étiquette des Présentations",
+      "content": "Dans les cultures anglophones, il est poli de présenter les personnes en donnant quelques informations contextuelles : leur relation avec vous, leur origine, ou leur domaine d'études/travail. Cela facilite le début de conversation."
+    },
+    {
+      "type": "cultural",
+      "title": "Usage de 'It' pour les Animaux",
+      "content": "En anglais, on utilise généralement 'it' pour les animaux, sauf pour les animaux de compagnie où on peut utiliser 'he' ou 'she'. Dans les contextes académiques, restez neutre avec 'it' sauf indication contraire du propriétaire."
+    },
+    {
+      "type": "genZTip",
+      "title": "Pronoms et Identité de Genre",
+      "content": "La génération actuelle est sensible aux pronoms de genre. Si vous n'êtes pas sûr, il est acceptable de demander 'What pronouns do you use?' ou d'utiliser 'they' comme pronom neutre, même au singulier."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Album photo virtuel : Créez un album photo numérique de votre famille et amis. Pour chaque photo, écrivez 2-3 phrases de description en utilisant he/she/it appropriément.",
+      "resources": [
+        "Modèles de descriptions personnelles",
+        "Vocabulaire des relations familiales et amicales",
+        "Guide des adjectifs descriptifs de base"
+      ],
+      "digitalTools": [
+        {
+          "name": "Padlet - Family & Friends Gallery",
+          "description": "Plateforme collaborative pour partager et décrire des photos",
+          "link": "https://padlet.com/family-friends"
+        }
+      ]
+    },
+    {
+      "description": "Jeu de devinettes en classe : Décrivez une personne célèbre sans dire son nom. Les autres doivent deviner en posant des questions avec 'Is he/she...?'",
+      "resources": [
+        "Liste de célébrités internationales connues",
+        "Stratégies de description indirecte",
+        "Questions Yes/No pour l'identification"
+      ]
+    },
+    {
+      "description": "Inventaire de classe : Faites l'inventaire des objets dans votre espace d'étude. Pratiquez 'What is it?' et 'It is...' avec des objets variés.",
+      "resources": [
+        "Vocabulaire des objets du quotidien",
+        "Adjectifs descriptifs (couleur, taille, forme)",
+        "Structures de description d'objets"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://www.youtube.com/watch?v=example3",
+      "videoTitle": "Pronouns and Introductions - Real Conversations",
+      "videoDuration": "6:45",
+      "videoDescription": "Vidéo montrant des conversations authentiques avec des présentations et l'usage naturel des pronoms he/she/it dans différents contextes sociaux."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz des Pronoms - He, She, ou It?",
+        "description": "Quiz interactif de 20 questions pour tester votre maîtrise des pronoms personnels avec des images et des contextes variés."
+      },
+      {
+        "type": "game",
+        "title": "Celebrity Guessing Game",
+        "description": "Jeu de devinettes interactif où vous devez identifier des célébrités en posant des questions Yes/No."
+      },
+      {
+        "type": "simulation",
+        "title": "Virtual Classroom Introductions",
+        "description": "Simulation 3D d'une salle de classe où vous pratiquez les présentations avec des avatars d'étudiants internationaux."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 130,
+    "badges": ["Pronoun Master", "Social Connector", "Description Expert"],
+    "challenges": [
+      "Utilisez correctement he/she/it dans 15 phrases consécutives",
+      "Complétez 5 présentations sans erreur de pronom",
+      "Identifiez 10 objets avec 'What is it?' et 'It is...'",
+      "Réussissez le quiz des célébrités avec 90% de réussite",
+      "Créez un album photo avec 8 descriptions parfaites"
+    ]
+  }
+}

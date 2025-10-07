@@ -14,14 +14,14 @@ export default function NotFound() {
             </div>
             <CardTitle className="text-2xl">Page non trouvée</CardTitle>
             <CardDescription>
-              La page que vous recherchez n'existe pas ou a été déplacée.
+              La page que vous recherchez n&apos;existe pas ou a été déplacée.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <Link href="/">
               <Button size="lg" className="w-full">
                 <Home className="h-4 w-4 mr-2" />
-                Retour à l'accueil
+                Retour à l&apos;accueil
               </Button>
             </Link>
             <Link href="/executive">

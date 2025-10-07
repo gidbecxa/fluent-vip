@@ -1,0 +1,44 @@
+{
+  "sessionId": 8,
+  "title": "Quiz - Descriptions Complexes",
+  "description": "Quiz sur les descriptions détaillées et les comparaisons",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence is more descriptive?",
+      "options": [
+        "She is nice",
+        "She is incredibly kind and always helps others",
+        "She is good",
+        "She is okay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The second option provides specific details and examples, making it more descriptive."
+    },
+    {
+      "id": 2,
+      "question": "How do you compare two people's heights?",
+      "options": [
+        "John is tall than Mary",
+        "John is more tall than Mary",
+        "John is taller than Mary",
+        "John is tallest than Mary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Taller than' is the correct comparative form for the adjective 'tall'."
+    },
+    {
+      "id": 3,
+      "question": "What makes a description more interesting?",
+      "options": [
+        "Using only basic adjectives",
+        "Adding specific details and examples",
+        "Keeping it very short",
+        "Using difficult words"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Specific details and examples make descriptions more vivid and engaging."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": 4,
+  "title": "We are, They are... What is it?",
+  "objective": "À la fin de cette session, vous maîtriserez les formes plurielles du verbe 'To Be' (we are, they are), saurez identifier les objets de votre environnement, et utiliserez correctement les articles 'a' et 'an'.",
+  "duration": 60,
+  "track": "regular",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "We are students.",
+      "pronunciation": "Oui ar stiou-dents",
+      "context": "Forme plurielle incluant le locuteur. Utilisée pour parler d'un groupe dont on fait partie.",
+      "audioFile": "/audio/regular/session4/we-are-students.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They are teachers.",
+      "pronunciation": "Dheï ar tii-tchers",
+      "context": "Forme plurielle excluant le locuteur. Pour parler d'un groupe externe.",
+      "audioFile": "/audio/regular/session4/they-are-teachers.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What is it?",
+      "pronunciation": "Ouatt iz it?",
+      "context": "Question pour identifier un objet singulier. Équivalent de 'Qu'est-ce que c'est ?'",
+      "audioFile": "/audio/regular/session4/what-is-it.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What are they?",
+      "pronunciation": "Ouatt ar dheï?",
+      "context": "Question pour identifier des objets pluriels. Version plurielle de la question précédente.",
+      "audioFile": "/audio/regular/session4/what-are-they.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "It is a book.",
+      "pronunciation": "It iz a bouk",
+      "context": "Identification d'un objet singulier avec l'article indéfini 'a'.",
+      "audioFile": "/audio/regular/session4/it-is-a-book.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They are books.",
+      "pronunciation": "Dheï ar bouks",
+      "context": "Identification d'objets pluriels. Notez l'absence d'article au pluriel.",
+      "audioFile": "/audio/regular/session4/they-are-books.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "It is an apple.",
+      "pronunciation": "It iz an è-pl",
+      "context": "Usage de 'an' devant une voyelle. Règle phonétique importante.",
+      "audioFile": "/audio/regular/session4/it-is-an-apple.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Are we ready?",
+      "pronunciation": "Ar oui rè-di?",
+      "context": "Question incluant le locuteur. Utilisée pour vérifier l'état d'un groupe.",
+      "audioFile": "/audio/regular/session4/are-we-ready.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-4",
+      "title": "Découverte de la Salle de Classe",
+      "description": "Dialogue entre un nouvel étudiant et son guide découvrant les objets et personnes dans une salle de classe universitaire.",
+      "context": "Vous visitez votre nouvelle université avec un étudiant plus expérimenté. Vous découvrez ensemble la salle de classe et identifiez les objets et personnes présents.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welcome to our classroom! What do you think?",
+          "translation": "Bienvenue dans notre salle de classe ! Qu'en pensez-vous ?",
+          "audioFile": "/audio/regular/session4/dialogue-line-1.mp3",
+          "emphasis": ["Welcome", "our classroom"]
+        },
+        {
+          "speaker": "B",
+          "text": "It's very nice! What is it on the table?",
+          "translation": "C'est très joli ! Qu'est-ce que c'est sur la table ?",
+          "audioFile": "/audio/regular/session4/dialogue-line-2.mp3",
+          "emphasis": ["very nice", "What is it"]
+        },
+        {
+          "speaker": "A",
+          "text": "It is a laptop. And they are books for our English class.",
+          "translation": "C'est un ordinateur portable. Et ce sont des livres pour notre cours d'anglais.",
+          "audioFile": "/audio/regular/session4/dialogue-line-3.mp3",
+          "emphasis": ["It is a laptop", "they are books"]
+        },
+        {
+          "speaker": "B",
+          "text": "Great! Who are they? Are they our classmates?",
+          "translation": "Super ! Qui sont-ils ? Sont-ils nos camarades de classe ?",
+          "audioFile": "/audio/regular/session4/dialogue-line-4.mp3",
+          "emphasis": ["Who are they", "our classmates"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, they are. We are all in the same English class. Are we ready to start?",
+          "translation": "Oui, ils le sont. Nous sommes tous dans le même cours d'anglais. Sommes-nous prêts à commencer ?",
+          "audioFile": "/audio/regular/session4/dialogue-line-5.mp3",
+          "emphasis": ["We are all", "Are we ready"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-4",
+      "type": "rolePlay",
+      "title": "Identification et Description d'Objets",
+      "description": "Jeux de rôle pour maîtriser l'identification d'objets et l'usage des formes plurielles dans des contextes académiques.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Inventaire de Bureau",
+          "description": "Vous aidez à faire l'inventaire des objets dans un bureau universitaire.",
+          "yourLine": "What is it? It is a [objet]. What are they? They are [objets pluriels].",
+          "context": "Soyez précis et utilisez les articles corrects (a/an)."
+        },
+        {
+          "id": 2,
+          "title": "Présentation de Groupe",
+          "description": "Vous présentez votre groupe d'étude à d'autres étudiants.",
+          "yourLine": "We are students from [pays]. They are my classmates. We are studying English.",
+          "context": "Utilisez 'we' pour votre groupe et 'they' pour les autres."
+        },
+        {
+          "id": 3,
+          "title": "Chasse au Trésor",
+          "description": "Vous devez trouver et identifier des objets spécifiques.",
+          "yourLine": "Is it a [objet]? Are they [objets]? Yes, it is. / No, they are not.",
+          "context": "Posez des questions Yes/No pour identifier les objets."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Formes Plurielles du Verbe 'To Be'",
+      "description": "Usage de 'we are' et 'they are' pour parler de groupes de personnes ou d'objets.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "We are friends.",
+          "french": "Nous sommes amis.",
+          "explanation": "'We' inclut la personne qui parle. Utilisé pour un groupe dont on fait partie.",
+          "audioFile": "/audio/regular/session4/grammar-we-are.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "They are students.",
+          "french": "Ils/Elles sont étudiants.",
+          "explanation": "'They' exclut la personne qui parle. Utilisé pour parler d'un groupe externe.",
+          "audioFile": "/audio/regular/session4/grammar-they-are.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "We is happy.",
+          "french": "Nous sommes heureux.",
+          "explanation": "INCORRECT: 'We' prend toujours 'are', jamais 'is'.",
+          "audioFile": "/audio/regular/session4/grammar-incorrect-we-is.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Articles Indéfinis 'A' et 'An'",
+      "description": "Usage des articles selon le son initial du mot suivant (voyelle ou consonne).",
+      "color": "green",
+      "examples": [
+        {
+          "english": "It is a book.",
+          "french": "C'est un livre.",
+          "explanation": "'A' devant un son de consonne. 'Book' commence par le son /b/.",
+          "audioFile": "/audio/regular/session4/grammar-a-book.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "It is an apple.",
+          "french": "C'est une pomme.",
+          "explanation": "'An' devant un son de voyelle. 'Apple' commence par le son /æ/.",
+          "audioFile": "/audio/regular/session4/grammar-an-apple.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "It is an university.",
+          "french": "C'est une université.",
+          "explanation": "INCORRECT: 'University' commence par le son /ju:/ (consonne). Utilisez 'a university'.",
+          "audioFile": "/audio/regular/session4/grammar-incorrect-an-university.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Politesse dans l'Identification",
+      "content": "Quand vous ne connaissez pas le nom d'un objet, il est poli de dire 'Excuse me, what is it?' plutôt que de pointer du doigt en silence. Cette approche montre votre désir d'apprendre."
+    },
+    {
+      "type": "genZTip",
+      "title": "Objets Technologiques Modernes",
+      "content": "Les jeunes utilisent souvent des termes spécifiques : 'laptop' (ordinateur portable), 'smartphone' (téléphone intelligent), 'earbuds' (écouteurs sans fil). Ces mots sont devenus universels."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Inventaire personnel : Photographiez 10 objets dans votre espace d'étude. Pour chaque photo, écrivez 'It is a/an [objet]' et créez une version plurielle 'They are [objets]'.",
+      "resources": [
+        "Liste de 50 objets courants avec articles corrects",
+        "Guide de prononciation des objets du quotidien",
+        "Exercices de discrimination a/an"
+      ]
+    }
+  ],
+  "multimedia": {
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz - Pluriels et Articles",
+        "description": "Quiz de 4 questions sur les formes plurielles du verbe 'To Be' et l'usage correct des articles a/an."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 110,
+    "badges": ["Plural Master", "Object Identifier"],
+    "challenges": [
+      "Identifiez 15 objets avec les articles corrects",
+      "Utilisez 'we are' et 'they are' dans 5 phrases différentes",
+      "Réussissez le quiz avec 100% de bonnes réponses"
+    ]
+  }
+}

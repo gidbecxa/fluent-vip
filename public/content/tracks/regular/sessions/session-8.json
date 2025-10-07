@@ -1,0 +1,219 @@
+{
+  "id": 8,
+  "title": "My brother is funny.",
+  "objective": "À la fin de cette session, vous maîtriserez les adjectifs de personnalité, leur placement correct avant le nom, et saurez décrire le caractère des personnes avec précision.",
+  "duration": 60,
+  "track": "regular",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "My brother is funny.",
+      "pronunciation": "Maï bro-dher iz fo-ni",
+      "context": "Description de personnalité d'un membre de la famille. Adjectif après 'to be'.",
+      "audioFile": "/audio/regular/session8/brother-is-funny.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She is a kind person.",
+      "pronunciation": "Chi iz a kaïnd per-son",
+      "context": "Adjectif avant le nom. Structure fondamentale anglaise différente du français.",
+      "audioFile": "/audio/regular/session8/kind-person.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He is very smart.",
+      "pronunciation": "Hi iz vè-ri smart",
+      "context": "Intensification avec 'very'. Utilisé pour renforcer la description.",
+      "audioFile": "/audio/regular/session8/very-smart.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Is she shy?",
+      "pronunciation": "Iz chi chaï?",
+      "context": "Question sur la personnalité. Structure Yes/No avec adjectif.",
+      "audioFile": "/audio/regular/session8/is-she-shy.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They are friendly people.",
+      "pronunciation": "Dheï ar frènd-li pii-pl",
+      "context": "Description plurielle avec adjectif avant le nom pluriel.",
+      "audioFile": "/audio/regular/session8/friendly-people.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "My father is not serious.",
+      "pronunciation": "Maï fa-dher iz nott si-ri-os",
+      "context": "Négation avec adjectif de personnalité. Correction d'une impression.",
+      "audioFile": "/audio/regular/session8/not-serious.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What is he like?",
+      "pronunciation": "Ouatt iz hi laïk?",
+      "context": "Question sur la personnalité. Différent de 'What does he like?'",
+      "audioFile": "/audio/regular/session8/what-is-he-like.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-8",
+      "title": "Choix de Film selon les Personnalités",
+      "description": "Dialogue entre amis qui choisissent un film en discutant des personnalités des acteurs et de leurs préférences.",
+      "context": "Vous et votre ami décidez quel film regarder ce soir. Vous discutez des acteurs et de leurs personnalités dans les films pour faire votre choix.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's watch a movie tonight! What about this comedy? The main actor is very funny.",
+          "translation": "Regardons un film ce soir ! Que dis-tu de cette comédie ? L'acteur principal est très drôle.",
+          "audioFile": "/audio/regular/session8/dialogue-line-1.mp3",
+          "emphasis": ["Let's watch a movie", "very funny"]
+        },
+        {
+          "speaker": "B",
+          "text": "I know him! He is a funny person in real life too. But what is the actress like?",
+          "translation": "Je le connais ! C'est une personne drôle dans la vraie vie aussi. Mais comment est l'actrice ?",
+          "audioFile": "/audio/regular/session8/dialogue-line-2.mp3",
+          "emphasis": ["funny person", "What is the actress like"]
+        },
+        {
+          "speaker": "A",
+          "text": "She is very smart and kind. In this movie, she is a serious doctor, but she's not boring.",
+          "translation": "Elle est très intelligente et gentille. Dans ce film, elle est un médecin sérieux, mais elle n'est pas ennuyeuse.",
+          "audioFile": "/audio/regular/session8/dialogue-line-3.mp3",
+          "emphasis": ["very smart and kind", "serious doctor", "not boring"]
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds good! I don't like shy characters. Are they friendly to each other in the movie?",
+          "translation": "Ça sonne bien ! Je n'aime pas les personnages timides. Sont-ils amicaux l'un envers l'autre dans le film ?",
+          "audioFile": "/audio/regular/session8/dialogue-line-4.mp3",
+          "emphasis": ["don't like shy characters", "friendly to each other"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, they are! They are very friendly people. It's a happy movie, not sad at all.",
+          "translation": "Oui, ils le sont ! Ce sont des gens très amicaux. C'est un film joyeux, pas triste du tout.",
+          "audioFile": "/audio/regular/session8/dialogue-line-5.mp3",
+          "emphasis": ["very friendly people", "happy movie", "not sad at all"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-8",
+      "type": "rolePlay",
+      "title": "Descriptions de Personnalité",
+      "description": "Jeux de rôle pour maîtriser les adjectifs de personnalité et leur placement correct.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Description de Famille",
+          "description": "Décrivez la personnalité des membres de votre famille.",
+          "yourLine": "My [membre] is [adjectif]. He/She is a [adjectif] person.",
+          "context": "Utilisez des adjectifs positifs et variés pour chaque membre."
+        },
+        {
+          "id": 2,
+          "title": "Questions sur la Personnalité",
+          "description": "Posez des questions sur le caractère de quelqu'un.",
+          "yourLine": "What is your [membre] like? Is he/she [adjectif]?",
+          "context": "Montrez de l'intérêt sincère pour les réponses."
+        },
+        {
+          "id": 3,
+          "title": "Comparaisons de Personnalités",
+          "description": "Comparez les personnalités de différentes personnes.",
+          "yourLine": "My friend is funny, but my brother is serious. They are very different people.",
+          "context": "Utilisez des contrastes pour enrichir vos descriptions."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Placement des Adjectifs",
+      "description": "En anglais, les adjectifs se placent AVANT le nom, contrairement au français.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "A funny person (EN) vs Une personne drôle (FR)",
+          "french": "Une personne drôle",
+          "explanation": "L'adjectif 'funny' vient AVANT 'person' en anglais.",
+          "audioFile": "/audio/regular/session8/grammar-adjective-placement.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She is a kind teacher.",
+          "french": "Elle est un professeur gentil.",
+          "explanation": "Adjectif + nom : 'kind teacher', pas 'teacher kind'.",
+          "audioFile": "/audio/regular/session8/grammar-kind-teacher.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Adjectifs après 'To Be'",
+      "description": "Quand l'adjectif suit le verbe 'to be', il se place après le verbe.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "He is funny.",
+          "french": "Il est drôle.",
+          "explanation": "Adjectif après 'is' : sujet + be + adjectif.",
+          "audioFile": "/audio/regular/session8/grammar-he-is-funny.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "They are friendly.",
+          "french": "Ils sont amicaux.",
+          "explanation": "Même structure au pluriel : sujet + are + adjectif.",
+          "audioFile": "/audio/regular/session8/grammar-they-are-friendly.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Adjectifs de Personnalité Positifs",
+      "content": "Dans les cultures anglophones, il est courant d'utiliser des adjectifs positifs pour décrire les gens : 'kind', 'friendly', 'smart'. Évitez les descriptions trop négatives sauf si c'est nécessaire."
+    },
+    {
+      "type": "genZTip",
+      "title": "Vocabulaire Moderne de Personnalité",
+      "content": "Les jeunes utilisent des adjectifs plus variés : 'chill' (détendu), 'outgoing' (extraverti), 'genuine' (authentique). Ces mots enrichissent les descriptions de personnalité."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Portraits de personnalité : Choisissez 5 personnes (famille, amis, célébrités) et écrivez 3 phrases pour chacune en utilisant différents adjectifs de personnalité.",
+      "resources": [
+        "Liste de 20 adjectifs de personnalité courants",
+        "Exemples de phrases avec placement correct",
+        "Exercices de transformation français-anglais"
+      ]
+    }
+  ],
+  "multimedia": {
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz - Adjectifs et Personnalité",
+        "description": "Quiz de 4 questions sur le placement des adjectifs et le vocabulaire de la personnalité."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 125,
+    "badges": ["Personality Expert", "Adjective Master"],
+    "challenges": [
+      "Utilisez 10 adjectifs de personnalité différents",
+      "Placez correctement 15 adjectifs avant les noms",
+      "Décrivez 5 personnes avec 'What is he/she like?'"
+    ]
+  }
+}

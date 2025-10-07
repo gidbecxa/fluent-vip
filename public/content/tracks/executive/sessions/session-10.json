@@ -1,0 +1,173 @@
+{
+  "id": 10,
+  "title": "Consolidation et Excellence Conversationnelle",
+  "objective": "À la fin de cette session, vous intégrerez toutes vos compétences acquises dans des conversations fluides et sophistiquées, marquant votre transition vers l'aisance conversationnelle avancée.",
+  "duration": 60,
+  "track": "executive",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "Let me summarize what we've discussed.",
+      "pronunciation": "Lèt mi so-ma-raïz ouatt ouiiv dis-kost",
+      "context": "Phrase de synthèse professionnelle pour récapituler une conversation ou réunion.",
+      "audioFile": "/audio/executive/session10/let-me-summarize.mp3"
+    },
+    {
+      "english": "That makes perfect sense.",
+      "pronunciation": "Datt meïks per-fèkt sèns",
+      "context": "Expression d'accord et de compréhension. Plus sophistiquée que 'I understand'.",
+      "audioFile": "/audio/executive/session10/perfect-sense.mp3"
+    },
+    {
+      "english": "I appreciate your time.",
+      "pronunciation": "Aï a-pri-si-eït yor taïm",
+      "context": "Formule de politesse élégante pour remercier quelqu'un de son temps.",
+      "audioFile": "/audio/executive/session10/appreciate-time.mp3"
+    },
+    {
+      "english": "Would it be possible to...?",
+      "pronunciation": "Woud it bi po-si-bl tou...?",
+      "context": "Manière très polie de faire une demande ou suggestion. Plus diplomatique que 'Can you...'",
+      "audioFile": "/audio/executive/session10/would-it-be-possible.mp3"
+    },
+    {
+      "english": "I look forward to hearing from you.",
+      "pronunciation": "Aï louk for-ouard tou hir-ing from you",
+      "context": "Conclusion professionnelle standard pour exprimer l'attente d'une réponse.",
+      "audioFile": "/audio/executive/session10/look-forward.mp3"
+    },
+    {
+      "english": "It's been a pleasure working with you.",
+      "pronunciation": "Its bin a plè-jor ouor-king ouith you",
+      "context": "Expression de satisfaction professionnelle, parfaite pour conclure une collaboration.",
+      "audioFile": "/audio/executive/session10/pleasure-working.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-10",
+      "title": "Conversation d'Affaires Complète",
+      "description": "Dialogue sophistiqué intégrant toutes les compétences des 9 sessions précédentes dans une conversation d'affaires fluide et naturelle.",
+      "context": "Vous concluez une série de réunions avec un partenaire international. Cette conversation finale combine tous vos acquis : politesse, négociation, synthèse, et maintien des relations professionnelles.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good afternoon, Sarah. How has your stay in London been?",
+          "translation": "Bonjour, Sarah. Comment s'est passé votre séjour à Londres ?",
+          "audioFile": "/audio/executive/session10/dialogue-line-1.mp3",
+          "emphasis": ["Good afternoon", "How has your stay been"]
+        },
+        {
+          "speaker": "B",
+          "text": "Very well, thank you. Let me summarize what we've discussed.",
+          "translation": "Très bien, merci. Laissez-moi résumer ce que nous avons discuté.",
+          "audioFile": "/audio/executive/session10/dialogue-line-2.mp3",
+          "emphasis": ["Very well", "Let me summarize"]
+        },
+        {
+          "speaker": "A",
+          "text": "Please do. I want to make sure we're aligned on all the key points.",
+          "translation": "Je vous en prie. Je veux m'assurer que nous sommes alignés sur tous les points clés.",
+          "audioFile": "/audio/executive/session10/dialogue-line-3.mp3",
+          "emphasis": ["Please do", "aligned on all key points"]
+        },
+        {
+          "speaker": "B",
+          "text": "We've agreed on the partnership terms and timeline. That makes perfect sense for both companies.",
+          "translation": "Nous nous sommes mis d'accord sur les termes du partenariat et le calendrier. Cela a parfaitement du sens pour les deux entreprises.",
+          "audioFile": "/audio/executive/session10/dialogue-line-4.mp3",
+          "emphasis": ["agreed on", "That makes perfect sense"]
+        },
+        {
+          "speaker": "A",
+          "text": "Absolutely. Would it be possible to have the contracts ready by next Friday?",
+          "translation": "Absolument. Serait-il possible d'avoir les contrats prêts d'ici vendredi prochain ?",
+          "audioFile": "/audio/executive/session10/dialogue-line-5.mp3",
+          "emphasis": ["Would it be possible", "by next Friday"]
+        },
+        {
+          "speaker": "B",
+          "text": "That should work perfectly. I appreciate your time and hospitality.",
+          "translation": "Cela devrait parfaitement fonctionner. J'apprécie votre temps et votre hospitalité.",
+          "audioFile": "/audio/executive/session10/dialogue-line-6.mp3",
+          "emphasis": ["should work perfectly", "I appreciate your time"]
+        },
+        {
+          "speaker": "A",
+          "text": "It's been a pleasure working with you. I look forward to hearing from you.",
+          "translation": "Ce fut un plaisir de travailler avec vous. J'ai hâte d'avoir de vos nouvelles.",
+          "audioFile": "/audio/executive/session10/dialogue-line-7.mp3",
+          "emphasis": ["pleasure working with you", "look forward to hearing"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-10",
+      "type": "rolePlay",
+      "title": "Intégration Conversationnelle Complète",
+      "description": "Scénarios complexes intégrant toutes les compétences acquises dans les 9 sessions précédentes.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Synthèse de Réunion",
+          "description": "Vous récapitulez les points clés d'une discussion importante.",
+          "yourLine": "Let me summarize what we've discussed. We've agreed on the timeline and budget.",
+          "context": "Parlez clairement et organisez vos idées de manière logique."
+        },
+        {
+          "id": 2,
+          "title": "Demande Diplomatique",
+          "description": "Vous faites une demande délicate de manière professionnelle.",
+          "yourLine": "Would it be possible to extend the deadline? That would help ensure quality.",
+          "context": "Utilisez la diplomatie et donnez une justification raisonnable."
+        },
+        {
+          "id": 3,
+          "title": "Conclusion Professionnelle",
+          "description": "Vous terminez une collaboration sur une note positive.",
+          "yourLine": "It's been a pleasure working with you. I appreciate your time and expertise.",
+          "context": "Exprimez une gratitude sincère et maintenez les relations professionnelles."
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "L'Art de la Synthèse Professionnelle",
+      "content": "Dans les cultures anglophones, récapituler les points clés avec 'Let me summarize...' est une compétence de leadership appréciée. Cela montre votre capacité d'organisation et assure que tous les participants sont alignés."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Puissance de 'That makes perfect sense'",
+      "content": "Cette expression va au-delà de 'I understand' - elle valide l'intelligence de votre interlocuteur et crée une atmosphère positive. C'est un marqueur de sophistication conversationnelle très apprécié des dirigeants."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Excellence de 'I appreciate your time'",
+      "content": "Cette formule reconnaît la valeur du temps de votre interlocuteur - la ressource la plus précieuse des dirigeants. Elle démontre votre conscience professionnelle et votre respect des priorités d'autrui."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Défi d'intégration totale : Menez une conversation d'affaires de 5 minutes en utilisant au moins 10 expressions des sessions 1-10.",
+      "resources": [
+        "Checklist des expressions essentielles apprises",
+        "Scénarios d'intégration progressive",
+        "Techniques d'auto-évaluation conversationnelle"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 200,
+    "badges": ["Integration Master", "Conversation Expert", "Week 2 Champion"],
+    "challenges": [
+      "Utilisez 'Let me summarize' pour récapituler une discussion",
+      "Maîtrisez 'That makes perfect sense' avec sincérité",
+      "Pratiquez 'Would it be possible to...' pour les demandes diplomatiques",
+      "Complétez la semaine 2 avec excellence conversationnelle"
+    ]
+  }
+}

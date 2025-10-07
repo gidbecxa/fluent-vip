@@ -1,0 +1,239 @@
+{
+  "id": 10,
+  "title": "My Digital Family Album",
+  "objective": "À la fin de cette session, vous intégrerez toutes les compétences de la semaine 2 dans des présentations fluides de votre famille, démontrant votre maîtrise des descriptions physiques et de personnalité.",
+  "duration": 60,
+  "track": "regular",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "Let me show you my family.",
+      "pronunciation": "Lèt mi cho you maï fè-mi-li",
+      "context": "Introduction pour présenter sa famille. Phrase d'ouverture pour partager des photos.",
+      "audioFile": "/audio/regular/session10/let-me-show-family.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "This is my amazing sister.",
+      "pronunciation": "Dhis iz maï a-meï-zing sis-ter",
+      "context": "Présentation avec adjectif positif. Montre l'affection pour un membre de la famille.",
+      "audioFile": "/audio/regular/session10/amazing-sister.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "We look very similar.",
+      "pronunciation": "Oui louk vè-ri si-mi-lar",
+      "context": "Comparaison physique entre membres de la famille. Expression de ressemblance.",
+      "audioFile": "/audio/regular/session10/look-similar.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "He takes after his father.",
+      "pronunciation": "Hi teïks af-ter hiz fa-dher",
+      "context": "Expression idiomatique pour dire qu'on ressemble à un parent. Niveau intermédiaire.",
+      "audioFile": "/audio/regular/session10/takes-after-father.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "What a beautiful family!",
+      "pronunciation": "Ouatt a biou-ti-foul fè-mi-li!",
+      "context": "Compliment sur une famille. Expression d'admiration polie.",
+      "audioFile": "/audio/regular/session10/beautiful-family.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "How many people are in your family?",
+      "pronunciation": "Haow mè-ni pii-pl ar in yor fè-mi-li?",
+      "context": "Question sur la taille de la famille. Combinaison de structures apprises.",
+      "audioFile": "/audio/regular/session10/how-many-people.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "We are a close family.",
+      "pronunciation": "Oui ar a klos fè-mi-li",
+      "context": "Description de la relation familiale. 'Close' = unis, proches émotionnellement.",
+      "audioFile": "/audio/regular/session10/close-family.mp3",
+      "difficulty": "intermediate"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-10",
+      "title": "Partage d'Album Photo Numérique",
+      "description": "Dialogue complet intégrant toutes les compétences de la semaine 2 lors d'un partage de photos de famille sur smartphone.",
+      "context": "Vous êtes dans un café avec un ami et vous partagez vos albums photos de famille sur vos téléphones. Cette conversation combine toutes vos compétences : descriptions physiques, personnalités, relations familiales.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let me show you my family photos! This is my digital family album. How many people are in your family?",
+          "translation": "Laisse-moi te montrer mes photos de famille ! C'est mon album de famille numérique. Combien de personnes y a-t-il dans ta famille ?",
+          "audioFile": "/audio/regular/session10/dialogue-line-1.mp3",
+          "emphasis": ["Let me show you", "digital family album", "How many people"]
+        },
+        {
+          "speaker": "B",
+          "text": "We are four people: my parents, my sister, and me. What about you? What a beautiful family you have!",
+          "translation": "Nous sommes quatre personnes : mes parents, ma sœur, et moi. Et toi ? Quelle belle famille tu as !",
+          "audioFile": "/audio/regular/session10/dialogue-line-2.mp3",
+          "emphasis": ["four people", "What about you", "beautiful family"]
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you! This is my tall, funny brother. He has green eyes like me, and he's very smart. We look very similar.",
+          "translation": "Merci ! Voici mon frère grand et drôle. Il a les yeux verts comme moi, et il est très intelligent. Nous nous ressemblons beaucoup.",
+          "audioFile": "/audio/regular/session10/dialogue-line-3.mp3",
+          "emphasis": ["tall, funny brother", "green eyes like me", "look very similar"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, you do! And who is this? She has beautiful long hair. Is she your sister?",
+          "translation": "Oui, c'est vrai ! Et qui est-ce ? Elle a de beaux cheveux longs. Est-ce ta sœur ?",
+          "audioFile": "/audio/regular/session10/dialogue-line-4.mp3",
+          "emphasis": ["Yes, you do", "beautiful long hair", "Is she your sister"]
+        },
+        {
+          "speaker": "A",
+          "text": "That's my amazing sister! She's a kind, smart person. She doesn't have green eyes like us - she has brown eyes like my mother.",
+          "translation": "C'est ma sœur formidable ! C'est une personne gentille et intelligente. Elle n'a pas les yeux verts comme nous - elle a les yeux bruns comme ma mère.",
+          "audioFile": "/audio/regular/session10/dialogue-line-5.mp3",
+          "emphasis": ["amazing sister", "kind, smart person", "brown eyes like my mother"]
+        },
+        {
+          "speaker": "B",
+          "text": "Your family sounds wonderful! We are a close family too. My sister and I are very different, but we're good friends.",
+          "translation": "Ta famille a l'air merveilleuse ! Nous sommes aussi une famille unie. Ma sœur et moi sommes très différentes, mais nous sommes de bonnes amies.",
+          "audioFile": "/audio/regular/session10/dialogue-line-6.mp3",
+          "emphasis": ["family sounds wonderful", "close family too", "very different", "good friends"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-integration-10",
+      "type": "rolePlay",
+      "title": "Présentation Complète de Famille",
+      "description": "Simulation immersive intégrant toutes les compétences de la semaine 2 dans des présentations authentiques de famille.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Album Photo Numérique",
+          "description": "Présentez votre famille en montrant des photos (réelles ou imaginaires).",
+          "yourLine": "This is my [membre]. He/She is [adjectifs] and has [caractéristiques]. We are a [type] family.",
+          "context": "Créez une narration fluide en passant d'une photo à l'autre."
+        },
+        {
+          "id": 2,
+          "title": "Comparaisons Familiales",
+          "description": "Comparez votre famille avec celle de votre interlocuteur.",
+          "yourLine": "My family has [nombre] people, but your family has [nombre]. My [membre] is [adjectif], and your [membre] is [adjectif].",
+          "context": "Utilisez des comparaisons respectueuses et positives."
+        },
+        {
+          "id": 3,
+          "title": "Questions Approfondies",
+          "description": "Posez des questions détaillées sur la famille de quelqu'un.",
+          "yourLine": "What is your [membre] like? Does he/she have [caractéristique]? How many [membres] do you have?",
+          "context": "Montrez un intérêt sincère et posez des questions de suivi."
+        }
+      ]
+    },
+    {
+      "id": "regular-creative-10",
+      "type": "interactive",
+      "title": "Création d'Album Famille Instagram",
+      "description": "Projet créatif pour créer des légendes de photos de famille dans le style des réseaux sociaux.",
+      "instructions": "Créez des légendes courtes et engageantes pour 5 photos de famille en utilisant toutes les structures apprises."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Révision Complète - Semaine 2",
+      "description": "Synthèse de toutes les structures apprises : 'have/has', adjectifs, descriptions complexes.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "My tall, kind father has brown eyes and glasses. He is very smart.",
+          "french": "Mon père grand et gentil a les yeux bruns et des lunettes. Il est très intelligent.",
+          "explanation": "Intégration complète : adjectifs + nom + has + caractéristiques + is + adjectif.",
+          "audioFile": "/audio/regular/session10/grammar-complete-integration.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "We are a happy family. My sister has long hair, and my brother has short hair.",
+          "french": "Nous sommes une famille heureuse. Ma sœur a les cheveux longs, et mon frère a les cheveux courts.",
+          "explanation": "Utilisation de 'we are' + descriptions individuelles avec 'has'.",
+          "audioFile": "/audio/regular/session10/grammar-family-descriptions.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Partage de Photos de Famille Moderne",
+      "content": "Avec les smartphones et réseaux sociaux, partager des photos de famille est devenu très courant. Les expressions comme 'Let me show you...' ou 'Look at this photo...' sont essentielles dans les interactions sociales modernes."
+    },
+    {
+      "type": "genZTip",
+      "title": "Légendes de Photos Style Réseaux Sociaux",
+      "content": "Les jeunes utilisent des légendes courtes et engageantes : 'Family time! ❤️', 'My amazing sister 💕', 'Sunday with the fam'. Ces expressions courtes mais expressives sont très populaires."
+    },
+    {
+      "type": "cultural",
+      "title": "Compliments sur la Famille",
+      "content": "Faire des compliments sincères sur la famille de quelqu'un ('What a beautiful family!', 'Your family sounds wonderful!') est une excellente façon de créer des liens sociaux positifs."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Projet Instagram familial : Créez 5 posts Instagram avec photos de famille (réelles ou stock photos) et rédigez des légendes en anglais utilisant toutes les structures de la semaine 2.",
+      "resources": [
+        "Modèles de légendes Instagram",
+        "Hashtags familiaux populaires",
+        "Expressions d'affection familiale"
+      ],
+      "digitalTools": [
+        {
+          "name": "Canva - Instagram Post Creator",
+          "description": "Outil gratuit pour créer des posts Instagram avec texte",
+          "link": "https://canva.com/instagram-posts"
+        }
+      ]
+    },
+    {
+      "description": "Présentation orale : Préparez une présentation de 3 minutes sur votre famille en utilisant au moins 15 structures différentes apprises cette semaine.",
+      "resources": [
+        "Checklist des structures à inclure",
+        "Conseils pour une présentation fluide",
+        "Techniques pour gérer le stress de l'oral"
+      ]
+    }
+  ],
+  "multimedia": {
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz Final - Semaine 2",
+        "description": "Quiz complet de 5 questions couvrant toutes les compétences de la semaine 2 : 'have/has', adjectifs, descriptions complexes."
+      },
+      {
+        "type": "simulation",
+        "title": "Virtual Family Presentation",
+        "description": "Simulation 3D où vous présentez votre famille à un groupe d'amis virtuels dans différents contextes sociaux."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 160,
+    "badges": ["Week 2 Champion", "Family Storyteller", "Integration Expert"],
+    "challenges": [
+      "Présentez 5 membres de famille avec descriptions complètes",
+      "Utilisez 20 structures différentes dans une seule conversation",
+      "Créez 5 légendes Instagram parfaites",
+      "Réussissez le quiz final avec 95% ou plus",
+      "Complétez la semaine 2 avec excellence"
+    ]
+  }
+}

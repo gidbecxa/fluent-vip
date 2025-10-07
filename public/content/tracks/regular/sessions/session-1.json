@@ -1,0 +1,280 @@
+{
+  "id": 1,
+  "title": "Hello, English! I am...",
+  "objective": "À la fin de cette session, vous serez capable de vous présenter, de saluer quelqu'un, et d'utiliser le verbe 'To Be' au présent avec confiance dans des situations de première rencontre.",
+  "duration": 60,
+  "track": "regular",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "Hello, my name is...",
+      "pronunciation": "Hè-lo, maï neïm iz...",
+      "context": "Présentation formelle standard. Utilisée dans les contextes professionnels et académiques.",
+      "audioFile": "/audio/regular/session1/hello-my-name-is.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Hi, I'm...",
+      "pronunciation": "Haï, aïm...",
+      "context": "Présentation informelle avec contraction. Plus naturelle dans les conversations décontractées.",
+      "audioFile": "/audio/regular/session1/hi-im.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What is your name?",
+      "pronunciation": "Ouatt iz yor neïm?",
+      "context": "Question polie pour demander le nom. Structure interrogative fondamentale.",
+      "audioFile": "/audio/regular/session1/what-is-your-name.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Nice to meet you.",
+      "pronunciation": "Naïss tou miit you",
+      "context": "Expression de politesse après une présentation. Essentielle dans les interactions sociales.",
+      "audioFile": "/audio/regular/session1/nice-to-meet-you.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "How are you?",
+      "pronunciation": "Haow ar you?",
+      "context": "Question de politesse sociale. Partie intégrante des salutations anglophones.",
+      "audioFile": "/audio/regular/session1/how-are-you.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "I am fine, thank you.",
+      "pronunciation": "Aï am faïn, sènk you",
+      "context": "Réponse standard positive. Toujours suivie de 'And you?' dans une conversation complète.",
+      "audioFile": "/audio/regular/session1/i-am-fine.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "I am happy.",
+      "pronunciation": "Aï am hè-pi",
+      "context": "Expression d'émotion positive. Introduction aux adjectifs de sentiment.",
+      "audioFile": "/audio/regular/session1/i-am-happy.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-1",
+      "title": "Première Rencontre - Campus Universitaire",
+      "description": "Dialogue authentique entre deux étudiants qui se rencontrent pour la première fois sur un campus universitaire.",
+      "context": "Vous êtes un nouvel étudiant international et vous rencontrez un autre étudiant dans la bibliothèque universitaire. Cette situation est typique des contextes académiques anglophones.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello! Are you new here?",
+          "translation": "Bonjour ! Êtes-vous nouveau ici ?",
+          "audioFile": "/audio/regular/session1/dialogue-line-1.mp3",
+          "emphasis": ["Hello", "new here"]
+        },
+        {
+          "speaker": "B",
+          "text": "Hi! Yes, I am. My name is Sarah. What is your name?",
+          "translation": "Salut ! Oui, je le suis. Je m'appelle Sarah. Comment vous appelez-vous ?",
+          "audioFile": "/audio/regular/session1/dialogue-line-2.mp3",
+          "emphasis": ["My name is Sarah", "What is your name"]
+        },
+        {
+          "speaker": "A",
+          "text": "I'm David. Nice to meet you, Sarah. How are you?",
+          "translation": "Je suis David. Ravi de vous rencontrer, Sarah. Comment allez-vous ?",
+          "audioFile": "/audio/regular/session1/dialogue-line-3.mp3",
+          "emphasis": ["I'm David", "Nice to meet you", "How are you"]
+        },
+        {
+          "speaker": "B",
+          "text": "I am fine, thank you. And you? Are you happy here?",
+          "translation": "Je vais bien, merci. Et vous ? Êtes-vous heureux ici ?",
+          "audioFile": "/audio/regular/session1/dialogue-line-4.mp3",
+          "emphasis": ["I am fine", "And you", "Are you happy"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I am very happy. The university is great!",
+          "translation": "Oui, je suis très heureux. L'université est formidable !",
+          "audioFile": "/audio/regular/session1/dialogue-line-5.mp3",
+          "emphasis": ["very happy", "university is great"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-1",
+      "type": "rolePlay",
+      "title": "Scénarios de Première Rencontre",
+      "description": "Jeux de rôle progressifs pour maîtriser les présentations dans différents contextes académiques et professionnels.",
+      "instructions": "Pratiquez chaque scénario en vous concentrant sur la prononciation claire et l'intonation naturelle. L'objectif est de développer l'automatisme dans les formules de politesse.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Rencontre en Classe",
+          "description": "Premier jour de cours, vous vous présentez à votre voisin de table.",
+          "yourLine": "Hello, my name is [Votre nom]. What is your name?",
+          "context": "Ton amical mais respectueux. Maintenez un contact visuel et souriez."
+        },
+        {
+          "id": 2,
+          "title": "Présentation Informelle",
+          "description": "Rencontre décontractée dans la cafétéria universitaire.",
+          "yourLine": "Hi, I'm [Votre nom]. Nice to meet you. How are you?",
+          "context": "Utilisez les contractions pour un ton plus naturel et détendu."
+        },
+        {
+          "id": 3,
+          "title": "Réponse à une Présentation",
+          "description": "Quelqu'un se présente à vous, vous devez répondre appropriément.",
+          "yourLine": "Nice to meet you too. I am fine, thank you. And you?",
+          "context": "N'oubliez jamais de renvoyer la question avec 'And you?'"
+        },
+        {
+          "id": 4,
+          "title": "Expression d'Émotions",
+          "description": "Conversation où vous exprimez vos sentiments sur votre nouvelle situation.",
+          "yourLine": "I am happy to be here. The university is very nice.",
+          "context": "Pratiquez l'expression d'émotions positives avec conviction."
+        }
+      ]
+    },
+    {
+      "id": "regular-pronunciation-1",
+      "type": "pronunciation",
+      "title": "Maîtrise des Sons Fondamentaux",
+      "description": "Exercices ciblés sur les sons anglais qui n'existent pas en français.",
+      "instructions": "Concentrez-vous sur la différence entre les voyelles anglaises et françaises. Répétez chaque son 5 fois avant de passer au suivant."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Le Verbe 'To Be' au Présent - Formes Affirmatives",
+      "description": "Structure fondamentale de l'anglais. Maîtriser 'To Be' est essentiel pour toute communication de base.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "I am a student.",
+          "french": "Je suis étudiant(e).",
+          "explanation": "Forme complète pour les situations formelles. 'Am' ne se contracte qu'avec 'I'.",
+          "audioFile": "/audio/regular/session1/grammar-i-am.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'm happy.",
+          "french": "Je suis heureux/heureuse.",
+          "explanation": "Contraction naturelle à l'oral. Plus fluide dans les conversations informelles.",
+          "audioFile": "/audio/regular/session1/grammar-im-happy.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "You are my friend.",
+          "french": "Tu es mon ami(e).",
+          "explanation": "'You' est utilisé pour 'tu' et 'vous' en anglais. Le contexte détermine le niveau de formalité.",
+          "audioFile": "/audio/regular/session1/grammar-you-are.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "You're very kind.",
+          "french": "Tu es/Vous êtes très gentil(le).",
+          "explanation": "Contraction courante de 'you are'. Essentielle pour la fluidité.",
+          "audioFile": "/audio/regular/session1/grammar-youre-kind.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questions avec 'To Be'",
+      "description": "Formation des questions en inversant le sujet et le verbe. Structure fondamentale pour l'interaction.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "Are you a student?",
+          "french": "Êtes-vous étudiant(e) ?",
+          "explanation": "Inversion sujet-verbe pour former la question. 'Are you' est la forme interrogative de 'you are'.",
+          "audioFile": "/audio/regular/session1/grammar-are-you.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "What is your name?",
+          "french": "Comment vous appelez-vous ?",
+          "explanation": "Question avec mot interrogatif. 'What' + verbe + sujet pour demander une information.",
+          "audioFile": "/audio/regular/session1/grammar-what-is.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "How are you?",
+          "french": "Comment allez-vous ?",
+          "explanation": "Question de politesse sociale. Réponse attendue généralement positive.",
+          "audioFile": "/audio/regular/session1/grammar-how-are.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "L'Importance du Contact Visuel",
+      "content": "Dans les cultures anglophones, maintenir un contact visuel pendant les présentations est crucial. Cela démontre la confiance, le respect et l'engagement. Évitez de regarder vos pieds ou ailleurs pendant que vous parlez."
+    },
+    {
+      "type": "cultural",
+      "title": "Les Contractions dans la Conversation",
+      "content": "Les contractions (I'm, you're, it's) sont la norme dans la conversation anglaise. Utiliser les formes complètes (I am, you are) peut sembler trop formel ou artificiel dans les contextes décontractés."
+    },
+    {
+      "type": "genZTip",
+      "title": "Authenticité vs Perfection",
+      "content": "Les jeunes anglophones préfèrent l'authenticité à la perfection grammaticale. Il vaut mieux parler avec quelques erreurs mais avec sincérité que d'être parfait mais robotique. L'important est de communiquer !"
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Enregistrement personnel : Enregistrez-vous en train de vous présenter pendant 30 secondes. Incluez votre nom, votre origine, et comment vous vous sentez. Écoutez-vous et identifiez les points à améliorer.",
+      "resources": [
+        "Application d'enregistrement vocal",
+        "Grille d'auto-évaluation de la prononciation",
+        "Exemples audio de référence"
+      ]
+    },
+    {
+      "description": "Pratique quotidienne : Chaque matin, présentez-vous à votre miroir en anglais. Variez les formules (formelles/informelles) et les émotions exprimées.",
+      "resources": [
+        "Liste de vérification des éléments à inclure",
+        "Variations d'expressions émotionnelles",
+        "Conseils pour la pratique autonome"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://www.youtube.com/watch?v=example1",
+      "videoTitle": "BBC Learning English - First Meetings",
+      "videoDuration": "5:30",
+      "videoDescription": "Vidéo préparatoire sur les différentes façons de saluer et se présenter en anglais, avec des exemples authentiques de locuteurs natifs."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz de Révision - Verbe To Be",
+        "description": "Quiz interactif de 10 questions pour tester votre maîtrise du verbe 'To Be' et des présentations."
+      },
+      {
+        "type": "game",
+        "title": "Jeu de Mémoire - Présentations",
+        "description": "Jeu de cartes virtuelles pour mémoriser les formules de présentation et leurs contextes d'usage."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 100,
+    "badges": ["First Steps", "Grammar Foundation", "Pronunciation Pioneer"],
+    "challenges": [
+      "Complétez votre première présentation en anglais",
+      "Maîtrisez les 7 phrases clés de la session",
+      "Réussissez le quiz de grammaire avec 80% ou plus",
+      "Enregistrez-vous sans hésitation pendant 30 secondes"
+    ]
+  }
+}

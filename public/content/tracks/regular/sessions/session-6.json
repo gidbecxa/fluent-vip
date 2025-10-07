@@ -1,0 +1,267 @@
+{
+  "id": 6,
+  "title": "I have brown eyes...",
+  "objective": "À la fin de cette session, vous maîtriserez le verbe 'To Have' pour la description physique, saurez faire la distinction entre 'To Be' et 'To Have', et pourrez décrire votre apparence et celle des autres.",
+  "duration": 60,
+  "track": "regular",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "I have brown eyes.",
+      "pronunciation": "Aï hav braoun aïz",
+      "context": "Description de la couleur des yeux. Structure de base pour la description physique avec 'have'.",
+      "audioFile": "/audio/regular/session6/i-have-brown-eyes.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "You have long hair.",
+      "pronunciation": "You hav long hèr",
+      "context": "Description de la longueur des cheveux d'une autre personne. Usage de 'have' à la 2ème personne.",
+      "audioFile": "/audio/regular/session6/you-have-long-hair.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Do you have glasses?",
+      "pronunciation": "Dou you hav glè-siz?",
+      "context": "Question Yes/No avec 'have'. Structure interrogative fondamentale pour la description.",
+      "audioFile": "/audio/regular/session6/do-you-have-glasses.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "I don't have blue eyes.",
+      "pronunciation": "Aï dont hav blou aïz",
+      "context": "Forme négative avec 'have'. Utilisée pour corriger ou préciser une description.",
+      "audioFile": "/audio/regular/session6/i-dont-have-blue-eyes.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She has short hair.",
+      "pronunciation": "Chi haz chort hèr",
+      "context": "Description à la 3ème personne féminin. Notez 'has' au lieu de 'have'.",
+      "audioFile": "/audio/regular/session6/she-has-short-hair.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He has green eyes.",
+      "pronunciation": "Hi haz griin aïz",
+      "context": "Description à la 3ème personne masculin. Même règle avec 'has'.",
+      "audioFile": "/audio/regular/session6/he-has-green-eyes.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What color are your eyes?",
+      "pronunciation": "Ouatt ko-lor ar yor aïz?",
+      "context": "Question spécifique sur la couleur des yeux. Combine 'what' et le verbe 'to be'.",
+      "audioFile": "/audio/regular/session6/what-color-eyes.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-6",
+      "title": "Description de Photos de Profil",
+      "description": "Dialogue entre amis qui commentent leurs nouvelles photos de profil sur les réseaux sociaux.",
+      "context": "Vous et votre ami regardez vos nouvelles photos de profil sur vos téléphones. Vous vous décrivez mutuellement et commentez vos apparences. Situation typique de la vie sociale moderne.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Look, this is my new profile picture! What do you think?",
+          "translation": "Regarde, c'est ma nouvelle photo de profil ! Qu'est-ce que tu en penses ?",
+          "audioFile": "/audio/regular/session6/dialogue-line-1.mp3",
+          "emphasis": ["new profile picture", "What do you think"]
+        },
+        {
+          "speaker": "B",
+          "text": "It's great! You have a beautiful smile. And I love your hair - you have very long hair now!",
+          "translation": "C'est super ! Tu as un beau sourire. Et j'adore tes cheveux - tu as les cheveux très longs maintenant !",
+          "audioFile": "/audio/regular/session6/dialogue-line-2.mp3",
+          "emphasis": ["beautiful smile", "very long hair"]
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you! Do you have a new picture too? Show me!",
+          "translation": "Merci ! As-tu aussi une nouvelle photo ? Montre-moi !",
+          "audioFile": "/audio/regular/session6/dialogue-line-3.mp3",
+          "emphasis": ["Do you have", "Show me"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I do. Here it is. I have new glasses - do you like them?",
+          "translation": "Oui, j'en ai une. La voici. J'ai de nouvelles lunettes - tu les aimes ?",
+          "audioFile": "/audio/regular/session6/dialogue-line-4.mp3",
+          "emphasis": ["I have new glasses", "do you like them"]
+        },
+        {
+          "speaker": "A",
+          "text": "They're perfect! You have such beautiful green eyes, and the glasses make them look amazing!",
+          "translation": "Elles sont parfaites ! Tu as de si beaux yeux verts, et les lunettes les rendent magnifiques !",
+          "audioFile": "/audio/regular/session6/dialogue-line-5.mp3",
+          "emphasis": ["beautiful green eyes", "make them look amazing"]
+        },
+        {
+          "speaker": "B",
+          "text": "You're so kind! I don't have blue eyes like you, but I'm happy with my green ones.",
+          "translation": "Tu es si gentil ! Je n'ai pas les yeux bleus comme toi, mais je suis content de mes yeux verts.",
+          "audioFile": "/audio/regular/session6/dialogue-line-6.mp3",
+          "emphasis": ["don't have blue eyes", "happy with my green ones"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-6",
+      "type": "rolePlay",
+      "title": "Descriptions Physiques et Comparaisons",
+      "description": "Jeux de rôle pour maîtriser les descriptions physiques avec le verbe 'have' dans différents contextes sociaux.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Jeu du Miroir",
+          "description": "Vous vous décrivez en regardant dans un miroir (ou votre caméra).",
+          "yourLine": "I have [couleur] eyes. I have [longueur] hair. I have/don't have glasses.",
+          "context": "Soyez précis et honnête dans votre auto-description."
+        },
+        {
+          "id": 2,
+          "title": "Description d'un Ami",
+          "description": "Vous décrivez l'apparence physique de votre meilleur ami.",
+          "yourLine": "My friend has [couleur] hair. He/She has [couleur] eyes. He/She is very [adjectif].",
+          "context": "Utilisez la 3ème personne correctement avec 'has'."
+        },
+        {
+          "id": 3,
+          "title": "Questions sur l'Apparence",
+          "description": "Vous posez des questions sur l'apparence de quelqu'un.",
+          "yourLine": "Do you have [couleur] eyes? What color is your hair? Do you have glasses?",
+          "context": "Posez des questions polies et montrez de l'intérêt sincère."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Verbe 'To Have' - Formes de Base",
+      "description": "Conjugaison et usage du verbe 'have' pour exprimer la possession et les caractéristiques physiques.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "I have brown hair.",
+          "french": "J'ai les cheveux bruns.",
+          "explanation": "'Have' avec 'I' et 'you'. Utilisé pour les caractéristiques physiques.",
+          "audioFile": "/audio/regular/session6/grammar-i-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She has blue eyes.",
+          "french": "Elle a les yeux bleus.",
+          "explanation": "'Has' avec 'he', 'she', 'it'. Forme spéciale à la 3ème personne du singulier.",
+          "audioFile": "/audio/regular/session6/grammar-she-has.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "He have green eyes.",
+          "french": "Il a les yeux verts.",
+          "explanation": "INCORRECT: Avec 'he', utilisez 'has', pas 'have'.",
+          "audioFile": "/audio/regular/session6/grammar-incorrect-he-have.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Distinction 'To Be' vs 'To Have'",
+      "description": "Différence fondamentale entre l'état/identité (be) et la possession/caractéristique (have).",
+      "color": "green",
+      "examples": [
+        {
+          "english": "I am tall. (état) / I have long hair. (caractéristique)",
+          "french": "Je suis grand. / J'ai les cheveux longs.",
+          "explanation": "'Am' pour l'état général, 'have' pour les caractéristiques spécifiques.",
+          "audioFile": "/audio/regular/session6/grammar-be-vs-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She is beautiful. / She has beautiful eyes.",
+          "french": "Elle est belle. / Elle a de beaux yeux.",
+          "explanation": "'Is' pour une qualité générale, 'has' pour une caractéristique précise.",
+          "audioFile": "/audio/regular/session6/grammar-she-is-has.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questions et Négations avec 'Have'",
+      "description": "Formation des questions et négations avec le verbe 'have' en utilisant l'auxiliaire 'do'.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "Do you have glasses?",
+          "french": "Avez-vous des lunettes ?",
+          "explanation": "Question avec 'do' + 'have'. Structure standard pour les questions.",
+          "audioFile": "/audio/regular/session6/grammar-do-you-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I don't have blue eyes.",
+          "french": "Je n'ai pas les yeux bleus.",
+          "explanation": "Négation avec 'don't' + 'have'. Contraction de 'do not'.",
+          "audioFile": "/audio/regular/session6/grammar-dont-have.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Does she has brown hair?",
+          "french": "A-t-elle les cheveux bruns ?",
+          "explanation": "INCORRECT: Avec 'does', utilisez 'have', pas 'has'. 'Does she have...?'",
+          "audioFile": "/audio/regular/session6/grammar-incorrect-does-has.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Compliments sur l'Apparence",
+      "content": "Dans les cultures anglophones, il est courant de faire des compliments sincères sur l'apparence : 'You have beautiful eyes' ou 'I love your hair'. Ces compliments sont généralement bien reçus s'ils sont authentiques et respectueux."
+    },
+    {
+      "type": "genZTip",
+      "title": "Descriptions Modernes et Inclusives",
+      "content": "Les jeunes d'aujourd'hui utilisent des descriptions plus variées et inclusives. Il est normal de mentionner les piercings, tatouages, ou couleurs de cheveux non-naturelles : 'She has purple hair' ou 'He has a nose piercing'."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Album photo personnel : Créez un album de 5 photos (famille, amis, célébrités) et écrivez 2-3 phrases de description pour chaque personne en utilisant 'have/has'.",
+      "resources": [
+        "Vocabulaire des couleurs (hair, eyes)",
+        "Adjectifs de longueur et texture (long, short, curly, straight)",
+        "Accessoires courants (glasses, earrings, hat)"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://www.youtube.com/watch?v=example6",
+      "videoTitle": "Have vs Be - Physical Descriptions",
+      "videoDuration": "7:20",
+      "videoDescription": "Vidéo explicative sur la différence entre 'have' et 'be' pour les descriptions physiques avec exemples visuels."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz - Verbe 'Have' et Descriptions",
+        "description": "Quiz de 4 questions sur l'usage correct du verbe 'have' pour les descriptions physiques."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 120,
+    "badges": ["Description Master", "Have/Has Expert"],
+    "challenges": [
+      "Décrivez 5 personnes différentes avec 'have/has'",
+      "Utilisez correctement 'do/don't have' dans 3 questions",
+      "Faites la distinction entre 'be' et 'have' dans 10 phrases"
+    ]
+  }
+}

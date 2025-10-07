@@ -1,0 +1,223 @@
+{
+  "id": 8,
+  "title": "Maîtriser les Communications Téléphoniques",
+  "objective": "À la fin de cette session, vous gérerez avec assurance les appels professionnels, prendrez des rendez-vous, et naviguerez les conversations téléphoniques avec sophistication.",
+  "duration": 55,
+  "track": "executive",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "May I speak to Mr. Johnson, please?",
+      "pronunciation": "Meï aï spiik tou mis-ter John-son, pliiz?",
+      "context": "Formule polie pour demander à parler à quelqu'un au téléphone. Plus formelle que 'Can I speak to...'",
+      "audioFile": "/audio/executive/session8/may-i-speak-to.mp3"
+    },
+    {
+      "english": "This is Sarah calling from...",
+      "pronunciation": "Dhis iz Sa-rah ko-ling from...",
+      "context": "Manière professionnelle de se présenter au téléphone en précisant votre origine.",
+      "audioFile": "/audio/executive/session8/this-is-calling-from.mp3"
+    },
+    {
+      "english": "Could you hold on a moment, please?",
+      "pronunciation": "Coud you hold on a mo-ment, pliiz?",
+      "context": "Pour demander à quelqu'un de patienter. Plus poli que 'Wait a minute'.",
+      "audioFile": "/audio/executive/session8/hold-on-moment.mp3"
+    },
+    {
+      "english": "I'd like to schedule a meeting.",
+      "pronunciation": "Aï'd laïk tou ské-dioull a mii-ting",
+      "context": "Formule professionnelle pour proposer un rendez-vous ou une réunion.",
+      "audioFile": "/audio/executive/session8/schedule-meeting.mp3"
+    },
+    {
+      "english": "What time works best for you?",
+      "pronunciation": "Ouatt taïm ouorks bèst for you?",
+      "context": "Question élégante pour proposer des créneaux horaires flexibles.",
+      "audioFile": "/audio/executive/session8/what-time-works.mp3"
+    },
+    {
+      "english": "Let me check my calendar.",
+      "pronunciation": "Lèt mi tchèk maï ka-len-dar",
+      "context": "Phrase professionnelle pour prendre le temps de vérifier sa disponibilité.",
+      "audioFile": "/audio/executive/session8/check-calendar.mp3"
+    },
+    {
+      "english": "I'll send you a confirmation email.",
+      "pronunciation": "Aï'll sènd you a kon-fer-meï-chon i-meïl",
+      "context": "Conclusion professionnelle pour confirmer les arrangements pris.",
+      "audioFile": "/audio/executive/session8/confirmation-email.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-8",
+      "title": "Prise de Rendez-vous Professionnel",
+      "description": "Dialogue téléphonique complet pour organiser une réunion d'affaires, intégrant toutes les compétences de communication professionnelle.",
+      "context": "Vous appelez un partenaire d'affaires pour organiser une réunion importante. Cette conversation combine présentation, négociation d'horaires, et confirmation professionnelle.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning, Johnson & Associates. How may I help you?",
+          "translation": "Bonjour, Johnson & Associates. Comment puis-je vous aider ?",
+          "audioFile": "/audio/executive/session8/dialogue-line-1.mp3",
+          "emphasis": ["Good morning", "How may I help you"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. This is Sarah Chen calling from Global Dynamics. May I speak to Mr. Johnson, please?",
+          "translation": "Bonjour. C'est Sarah Chen qui appelle de Global Dynamics. Puis-je parler à M. Johnson, s'il vous plaît ?",
+          "audioFile": "/audio/executive/session8/dialogue-line-2.mp3",
+          "emphasis": ["This is Sarah Chen calling from", "May I speak to Mr. Johnson"]
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. Could you hold on a moment, please? I'll connect you right away.",
+          "translation": "Bien sûr. Pourriez-vous patienter un moment, s'il vous plaît ? Je vous mets en relation tout de suite.",
+          "audioFile": "/audio/executive/session8/dialogue-line-3.mp3",
+          "emphasis": ["Could you hold on a moment", "I'll connect you"]
+        },
+        {
+          "speaker": "A",
+          "text": "Hello Sarah, this is David Johnson. How are you today?",
+          "translation": "Bonjour Sarah, c'est David Johnson. Comment allez-vous aujourd'hui ?",
+          "audioFile": "/audio/executive/session8/dialogue-line-4.mp3",
+          "emphasis": ["this is David Johnson", "How are you today"]
+        },
+        {
+          "speaker": "B",
+          "text": "Very well, thank you. I'd like to schedule a meeting to discuss our partnership proposal.",
+          "translation": "Très bien, merci. J'aimerais programmer une réunion pour discuter de notre proposition de partenariat.",
+          "audioFile": "/audio/executive/session8/dialogue-line-5.mp3",
+          "emphasis": ["I'd like to schedule a meeting", "partnership proposal"]
+        },
+        {
+          "speaker": "A",
+          "text": "Excellent. Let me check my calendar. What time works best for you next week?",
+          "translation": "Excellent. Laissez-moi vérifier mon agenda. Quelle heure vous convient le mieux la semaine prochaine ?",
+          "audioFile": "/audio/executive/session8/dialogue-line-6.mp3",
+          "emphasis": ["Let me check my calendar", "What time works best"]
+        },
+        {
+          "speaker": "B",
+          "text": "Tuesday afternoon would be perfect. How about 2 PM?",
+          "translation": "Mardi après-midi serait parfait. Que diriez-vous de 14h ?",
+          "audioFile": "/audio/executive/session8/dialogue-line-7.mp3",
+          "emphasis": ["Tuesday afternoon", "2 PM"]
+        },
+        {
+          "speaker": "A",
+          "text": "That works perfectly. I'll send you a confirmation email with the meeting details.",
+          "translation": "Cela convient parfaitement. Je vous enverrai un email de confirmation avec les détails de la réunion.",
+          "audioFile": "/audio/executive/session8/dialogue-line-8.mp3",
+          "emphasis": ["That works perfectly", "confirmation email"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-8",
+      "type": "rolePlay",
+      "title": "Excellence en Communication Téléphonique",
+      "description": "Scénarios téléphoniques progressifs couvrant tous les aspects des communications professionnelles.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Appel Sortant Professionnel",
+          "description": "Vous appelez un client pour la première fois.",
+          "yourLine": "Good morning. This is [Nom] calling from [Entreprise]. May I speak to Mr. Smith, please?",
+          "context": "Ton professionnel et confiant. Parlez clairement et attendez la réponse."
+        },
+        {
+          "id": 2,
+          "title": "Demande de Rendez-vous",
+          "description": "Vous souhaitez organiser une réunion avec un partenaire.",
+          "yourLine": "I'd like to schedule a meeting to discuss our project. What time works best for you?",
+          "context": "Soyez flexible et proposez plusieurs options si nécessaire."
+        },
+        {
+          "id": 3,
+          "title": "Gestion de l'Attente",
+          "description": "Vous devez faire patienter votre interlocuteur.",
+          "yourLine": "Could you hold on a moment, please? Let me check that information for you.",
+          "context": "Restez poli et donnez une raison pour l'attente."
+        },
+        {
+          "id": 4,
+          "title": "Confirmation et Suivi",
+          "description": "Vous confirmez les détails d'un rendez-vous pris.",
+          "yourLine": "Perfect. Tuesday at 2 PM in your office. I'll send you a confirmation email.",
+          "context": "Répétez les détails importants pour éviter les malentendus."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Formules Téléphoniques Professionnelles",
+      "description": "Structures spécifiques pour les communications téléphoniques d'affaires.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "This is Sarah calling from Global Corp.",
+          "french": "C'est Sarah qui appelle de Global Corp.",
+          "explanation": "Structure standard pour se présenter au téléphone avec son origine.",
+          "audioFile": "/audio/executive/session8/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "May I speak to Mr. Johnson?",
+          "french": "Puis-je parler à M. Johnson ?",
+          "explanation": "Plus formel que 'Can I speak to...' - approprié pour les premiers contacts.",
+          "audioFile": "/audio/executive/session8/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I want to talk to Johnson.",
+          "french": "Je veux parler à Johnson.",
+          "explanation": "Trop direct et impoli pour un contexte professionnel.",
+          "audioFile": "/audio/executive/session8/grammar-example-3.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Étiquette Téléphonique Internationale",
+      "content": "Dans les cultures anglophones, les appels professionnels suivent un protocole strict : présentation complète, objet de l'appel, demande de disponibilité. 'May I speak to...' est plus formel que 'Can I speak to...' et approprié pour les premiers contacts."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Puissance de 'What time works best for you?'",
+      "content": "Cette formule montre votre flexibilité et votre respect du temps de l'autre personne. C'est un marqueur de sophistication professionnelle qui facilite la négociation d'horaires et crée une atmosphère collaborative."
+    },
+    {
+      "type": "cultural",
+      "title": "Gestion du Temps dans les Appels",
+      "content": "Les professionnels anglophones apprécient la concision. Après les politesses d'usage, allez directement au but avec 'I'd like to...' ou 'The reason for my call is...'. Respectez leur temps et ils respecteront le vôtre."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Simulation téléphonique : Enregistrez-vous en train de laisser un message vocal professionnel en anglais. Écoutez-vous et ajustez votre débit, intonation et clarté.",
+      "resources": [
+        "Scripts de messages vocaux professionnels",
+        "Techniques de diction claire au téléphone",
+        "Exercices de rythme et d'intonation"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 180,
+    "badges": ["Phone Professional", "Meeting Scheduler"],
+    "challenges": [
+      "Utilisez 'May I speak to...' dans un vrai appel",
+      "Pratiquez 'What time works best for you?' avec flexibilité",
+      "Maîtrisez l'art de faire patienter poliment",
+      "Confirmez un rendez-vous avec tous les détails"
+    ]
+  }
+}

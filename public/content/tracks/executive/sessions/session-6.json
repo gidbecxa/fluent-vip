@@ -1,0 +1,181 @@
+{
+  "id": 6,
+  "title": "Voyager avec Assurance",
+  "objective": "À la fin de cette session, vous maîtriserez les expressions essentielles pour naviguer dans les aéroports, hôtels, et transports avec confiance et sophistication.",
+  "duration": 45,
+  "track": "executive",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "Where is the check-in counter?",
+      "pronunciation": "Ouèr iz dhe tchèk-in kaoun-ter?",
+      "context": "Question essentielle à l'aéroport pour localiser l'enregistrement.",
+      "audioFile": "/audio/executive/session6/check-in-counter.mp3"
+    },
+    {
+      "english": "I have a reservation.",
+      "pronunciation": "Aï hav a rè-zer-veï-chon",
+      "context": "Phrase clé pour confirmer votre réservation d'hôtel ou de transport.",
+      "audioFile": "/audio/executive/session6/i-have-reservation.mp3"
+    },
+    {
+      "english": "Could you call a taxi, please?",
+      "pronunciation": "Coud you kol a tak-si, pliiz?",
+      "context": "Demande polie pour obtenir un taxi, typique dans les hôtels.",
+      "audioFile": "/audio/executive/session6/call-taxi.mp3"
+    },
+    {
+      "english": "How long does it take?",
+      "pronunciation": "Haow long daz it teïk?",
+      "context": "Question pratique pour connaître la durée d'un trajet ou d'une attente.",
+      "audioFile": "/audio/executive/session6/how-long.mp3"
+    },
+    {
+      "english": "What time does it arrive?",
+      "pronunciation": "Ouatt taïm daz it a-raïv?",
+      "context": "Pour connaître l'heure d'arrivée d'un transport.",
+      "audioFile": "/audio/executive/session6/what-time-arrive.mp3"
+    },
+    {
+      "english": "Is this the right terminal?",
+      "pronunciation": "Iz dhis dhe raït ter-mi-nal?",
+      "context": "Vérification importante dans les grands aéroports.",
+      "audioFile": "/audio/executive/session6/right-terminal.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-6",
+      "title": "Arrivée à l'Hôtel International",
+      "description": "Dialogue complet couvrant l'arrivée, l'enregistrement, et les demandes de service dans un hôtel de luxe.",
+      "context": "Vous arrivez dans un hôtel international après un long vol. Cette interaction combine vos compétences sociales avec les besoins pratiques du voyage d'affaires.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good evening. Welcome to the Grand International Hotel. How are you?",
+          "translation": "Bonsoir. Bienvenue au Grand International Hotel. Comment allez-vous ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-1.mp3",
+          "emphasis": ["Good evening", "Welcome", "How are you"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good evening. I'm fine, thank you. I have a reservation under the name Johnson.",
+          "translation": "Bonsoir. Je vais bien, merci. J'ai une réservation au nom de Johnson.",
+          "audioFile": "/audio/executive/session6/dialogue-line-2.mp3",
+          "emphasis": ["I have a reservation", "Johnson"]
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect. Let me check that for you. Yes, Mr. Johnson, suite 1205. How was your flight?",
+          "translation": "Parfait. Laissez-moi vérifier cela pour vous. Oui, M. Johnson, suite 1205. Comment s'est passé votre vol ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-3.mp3",
+          "emphasis": ["suite 1205", "How was your flight"]
+        },
+        {
+          "speaker": "B",
+          "text": "Very well, thank you. Could you call a taxi for tomorrow morning, please?",
+          "translation": "Très bien, merci. Pourriez-vous appeler un taxi pour demain matin, s'il vous plaît ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-4.mp3",
+          "emphasis": ["Could you call a taxi", "tomorrow morning"]
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. What time would you like the taxi, and where are you going?",
+          "translation": "Bien sûr. À quelle heure souhaitez-vous le taxi, et où allez-vous ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-5.mp3",
+          "emphasis": ["What time", "where are you going"]
+        },
+        {
+          "speaker": "B",
+          "text": "At 8 AM to the airport, please. How long does it take?",
+          "translation": "À 8h pour l'aéroport, s'il vous plaît. Combien de temps cela prend-il ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-6.mp3",
+          "emphasis": ["8 AM", "airport", "How long does it take"]
+        },
+        {
+          "speaker": "A",
+          "text": "About 45 minutes with normal traffic. I'll arrange that for you. Anything else?",
+          "translation": "Environ 45 minutes avec un trafic normal. Je vais organiser cela pour vous. Autre chose ?",
+          "audioFile": "/audio/executive/session6/dialogue-line-7.mp3",
+          "emphasis": ["45 minutes", "I'll arrange", "Anything else"]
+        },
+        {
+          "speaker": "B",
+          "text": "That's perfect. Thank you very much for your help.",
+          "translation": "C'est parfait. Merci beaucoup pour votre aide.",
+          "audioFile": "/audio/executive/session6/dialogue-line-8.mp3",
+          "emphasis": ["That's perfect", "Thank you very much"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-6",
+      "type": "rolePlay",
+      "title": "Maîtrise des Situations de Voyage",
+      "description": "Scénarios couvrant les situations les plus courantes lors de voyages d'affaires internationaux.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Enregistrement à l'Aéroport",
+          "description": "Vous cherchez le comptoir d'enregistrement dans un aéroport international.",
+          "yourLine": "Excuse me, where is the check-in counter for Air France?",
+          "context": "Approchez-vous poliment d'un agent d'information ou d'un passager."
+        },
+        {
+          "id": 2,
+          "title": "Confirmation de Réservation",
+          "description": "Vous arrivez à la réception de votre hôtel.",
+          "yourLine": "Good evening. I have a reservation under [Nom].",
+          "context": "Ton confiant et professionnel. Ayez vos documents prêts."
+        },
+        {
+          "id": 3,
+          "title": "Demande de Transport",
+          "description": "Vous avez besoin d'un taxi pour un rendez-vous important.",
+          "yourLine": "Could you call a taxi, please? I need to be at the conference center by 9 AM.",
+          "context": "Donnez des détails précis pour un service efficace."
+        },
+        {
+          "id": 4,
+          "title": "Information sur les Horaires",
+          "description": "Vous devez planifier votre emploi du temps.",
+          "yourLine": "What time does the shuttle arrive? How long does it take to downtown?",
+          "context": "Posez des questions précises pour une planification efficace."
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Service à l'Américaine vs Britannique",
+      "content": "Dans les hôtels américains, le personnel est généralement très proactif et chaleureux. Dans les établissements britanniques, le service est plus discret mais tout aussi professionnel. Adaptez votre niveau d'interaction en conséquence."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Art de la Demande Anticipée",
+      "content": "Les voyageurs expérimentés anticipent leurs besoins : 'Could you call a taxi for tomorrow morning?' plutôt que d'attendre le dernier moment. Cette approche proactive impressionne le personnel et garantit un meilleur service."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Simulation mentale : Visualisez votre prochain voyage et pratiquez mentalement ces phrases dans différents contextes (aéroport, hôtel, transport).",
+      "resources": [
+        "Scénarios de voyage détaillés",
+        "Vocabulaire spécialisé par situation",
+        "Techniques de visualisation pour l'apprentissage"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 160,
+    "badges": ["Travel Master", "Hotel Professional"],
+    "challenges": [
+      "Utilisez 'I have a reservation' dans un contexte réel",
+      "Maîtrisez les questions de temps et de durée",
+      "Pratiquez les demandes de service polies"
+    ]
+  }
+}

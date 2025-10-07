@@ -1,0 +1,279 @@
+{
+  "id": 5,
+  "title": "Votre Première Action Concrète",
+  "objective": "À la fin de cette session, vous réaliserez votre première transaction en anglais en commandant une boisson avec assurance, marquant votre transition vers l'anglais pratique et actionnable.",
+  "duration": 40,
+  "track": "executive",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "I would like...",
+      "pronunciation": "Aï woud laïk...",
+      "context": "La manière la plus élégante et respectueuse de demander quelque chose. Bien plus distingué que 'I want'.",
+      "audioFile": "/audio/executive/session5/i-would-like.mp3"
+    },
+    {
+      "english": "I'd like a coffee, please.",
+      "pronunciation": "Aï'd laïk a co-fi, pliiz",
+      "context": "Contraction naturelle de 'I would like'. Formule parfaite pour commander une boisson.",
+      "audioFile": "/audio/executive/session5/coffee-please.mp3"
+    },
+    {
+      "english": "I'd like a tea, please.",
+      "pronunciation": "Aï'd laïk a tii, pliiz",
+      "context": "Alternative au café, très appréciée dans les cultures britanniques.",
+      "audioFile": "/audio/executive/session5/tea-please.mp3"
+    },
+    {
+      "english": "I'd like some water, please.",
+      "pronunciation": "Aï'd laïk som oua-ter, pliiz",
+      "context": "Notez 'some' avec water. Plus naturel que 'a water' dans certains contextes.",
+      "audioFile": "/audio/executive/session5/water-please.mp3"
+    },
+    {
+      "english": "Here you are.",
+      "pronunciation": "Hir you ar",
+      "context": "Phrase que vous entendrez du serveur. Signifie 'Voici' ou 'Tenez'.",
+      "audioFile": "/audio/executive/session5/here-you-are.mp3"
+    },
+    {
+      "english": "You're welcome.",
+      "pronunciation": "Yor ouèl-kom",
+      "context": "Réponse standard à 'Thank you'. Équivalent de 'De rien' ou 'Je vous en prie'.",
+      "audioFile": "/audio/executive/session5/youre-welcome.mp3"
+    },
+    {
+      "english": "That's perfect.",
+      "pronunciation": "Dats per-fèkt",
+      "context": "Expression de satisfaction élégante après avoir reçu ce que vous avez demandé.",
+      "audioFile": "/audio/executive/session5/thats-perfect.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-5",
+      "title": "Transaction Professionnelle Complète",
+      "description": "Dialogue réaliste dans un café d'hôtel de luxe, intégrant toutes vos compétences dans une transaction authentique.",
+      "context": "Vous êtes dans le lobby d'un hôtel international et souhaitez commander une boisson au bar. Cette interaction combine politesse, clarté, et sophistication professionnelle.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning. How are you today?",
+          "translation": "Bonjour. Comment allez-vous aujourd'hui ?",
+          "audioFile": "/audio/executive/session5/dialogue-line-1.mp3",
+          "emphasis": ["Good morning", "How are you"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. I'm very well, thank you. And you?",
+          "translation": "Bonjour. Je vais très bien, merci. Et vous ?",
+          "audioFile": "/audio/executive/session5/dialogue-line-2.mp3",
+          "emphasis": ["I'm very well", "And you"]
+        },
+        {
+          "speaker": "A",
+          "text": "I'm fine, thank you. What would you like this morning?",
+          "translation": "Je vais bien, merci. Que souhaiteriez-vous ce matin ?",
+          "audioFile": "/audio/executive/session5/dialogue-line-3.mp3",
+          "emphasis": ["What would you like"]
+        },
+        {
+          "speaker": "B",
+          "text": "I'd like a coffee, please. Could you make it strong?",
+          "translation": "Je voudrais un café, s'il vous plaît. Pourriez-vous le faire fort ?",
+          "audioFile": "/audio/executive/session5/dialogue-line-4.mp3",
+          "emphasis": ["I'd like a coffee", "Could you make it strong"]
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. One strong coffee coming up. Anything else?",
+          "translation": "Bien sûr. Un café fort qui arrive. Autre chose ?",
+          "audioFile": "/audio/executive/session5/dialogue-line-5.mp3",
+          "emphasis": ["Of course", "Anything else"]
+        },
+        {
+          "speaker": "B",
+          "text": "That's perfect, thank you very much.",
+          "translation": "C'est parfait, merci beaucoup.",
+          "audioFile": "/audio/executive/session5/dialogue-line-6.mp3",
+          "emphasis": ["That's perfect", "thank you very much"]
+        },
+        {
+          "speaker": "A",
+          "text": "Here you are. Enjoy your coffee.",
+          "translation": "Voici. Savourez votre café.",
+          "audioFile": "/audio/executive/session5/dialogue-line-7.mp3",
+          "emphasis": ["Here you are", "Enjoy"]
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. Have a wonderful day.",
+          "translation": "Merci. Passez une excellente journée.",
+          "audioFile": "/audio/executive/session5/dialogue-line-8.mp3",
+          "emphasis": ["Have a wonderful day"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-5",
+      "type": "rolePlay",
+      "title": "Maîtrise des Transactions Professionnelles",
+      "description": "Scénarios progressifs pour développer l'aisance dans les demandes polies et les transactions de service.",
+      "instructions": "Chaque scénario vous prépare à des situations réelles. L'objectif est de développer l'automatisme dans les formules de politesse transactionnelle.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Commande Simple",
+          "description": "Transaction de base dans un café.",
+          "yourLine": "Good morning. I'd like a coffee, please.",
+          "context": "Ton poli mais direct. Attendez la confirmation avant de continuer."
+        },
+        {
+          "id": 2,
+          "title": "Commande avec Spécification",
+          "description": "Ajout d'une demande spécifique à votre commande.",
+          "yourLine": "I'd like a tea, please. Could you make it with milk?",
+          "context": "Combinez votre commande de base avec une demande polie supplémentaire."
+        },
+        {
+          "id": 3,
+          "title": "Commande avec Clarification",
+          "description": "Vous devez demander une répétition pendant la transaction.",
+          "yourLine": "I'd like some water, please. Excuse me, could you repeat the price?",
+          "context": "Intégrez naturellement vos outils de clarification dans la transaction."
+        },
+        {
+          "id": 4,
+          "title": "Transaction Complète avec Politesse",
+          "description": "Interaction complète incluant salutation, commande, et remerciements.",
+          "yourLine": "Good afternoon. How are you? I'd like a coffee, please. Thank you very much.",
+          "context": "Enchaînez tous les éléments de politesse pour une interaction sophistiquée."
+        },
+        {
+          "id": 5,
+          "title": "Gestion de l'Attente",
+          "description": "Le service prend du temps, vous devez rester poli.",
+          "yourLine": "That's perfect. Thank you for your patience.",
+          "context": "Montrez votre compréhension et votre appréciation du service."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "I would like vs I want",
+      "description": "La différence cruciale entre une demande polie et une demande directe dans les contextes professionnels.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "I would like a coffee, please.",
+          "french": "Je voudrais un café, s'il vous plaît.",
+          "explanation": "Formule polie et respectueuse, appropriée dans tous les contextes professionnels.",
+          "audioFile": "/audio/executive/session5/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'd like a coffee, please.",
+          "french": "Je voudrais un café, s'il vous plaît.",
+          "explanation": "Contraction naturelle de 'I would like'. Plus fluide et tout aussi polie.",
+          "audioFile": "/audio/executive/session5/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I want a coffee.",
+          "french": "Je veux un café.",
+          "explanation": "Trop direct pour un contexte professionnel. Peut paraître impoli ou exigeant.",
+          "audioFile": "/audio/executive/session5/grammar-example-3.mp3",
+          "isCorrect": false
+        },
+        {
+          "english": "Give me a coffee.",
+          "french": "Donnez-moi un café.",
+          "explanation": "Impératif inapproprié dans un contexte de service professionnel.",
+          "audioFile": "/audio/executive/session5/grammar-example-4.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Articles avec les Boissons",
+      "description": "Usage correct des articles 'a', 'an', et 'some' avec différentes boissons.",
+      "color": "orange",
+      "examples": [
+        {
+          "english": "I'd like a coffee.",
+          "french": "Je voudrais un café.",
+          "explanation": "Article 'a' avec coffee (dénombrable dans ce contexte).",
+          "audioFile": "/audio/executive/session5/grammar-example-5.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'd like some water.",
+          "french": "Je voudrais de l'eau.",
+          "explanation": "'Some' avec water (indénombrable). Plus naturel que 'a water'.",
+          "audioFile": "/audio/executive/session5/grammar-example-6.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'd like a tea.",
+          "french": "Je voudrais un thé.",
+          "explanation": "Article 'a' avec tea quand on commande une tasse.",
+          "audioFile": "/audio/executive/session5/grammar-example-7.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "L'Art de la Demande Polie",
+      "content": "Dans les cultures anglophones, 'I would like' est un marqueur social important qui communique le respect et la sophistication. C'est particulièrement crucial dans les contextes de service haut de gamme où votre statut professionnel est implicitement évalué."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Puissance de 'That's Perfect'",
+      "content": "'That's perfect' est une expression de satisfaction élégante qui montre votre appréciation sans être excessive. Les professionnels du service de luxe remarquent et apprécient cette formule qui indique un client sophistiqué et reconnaissant."
+    },
+    {
+      "type": "cultural",
+      "title": "Différences Culturelles dans les Commandes",
+      "content": "Les Américains acceptent facilement 'I want' dans des contextes décontractés, mais 'I'd like' reste plus sûr. Les Britanniques sont plus sensibles à la politesse formelle. Dans les hôtels internationaux, 'I would like' vous positionne immédiatement comme un client respectueux."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Effet de la Contraction 'I'd like'",
+      "content": "La contraction 'I'd like' sonne plus naturelle et fluide que 'I would like' complet, tout en maintenant le même niveau de politesse. C'est le choix des anglophones natifs dans les situations professionnelles décontractées."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice d'ancrage quotidien : Chaque fois que vous vous apprêtez à boire quelque chose aujourd'hui, formulez mentalement 'I'd like a [boisson], please' en anglais. Cette technique transforme vos habitudes en opportunités d'apprentissage.",
+      "resources": [
+        "Rappels contextuels pour différents moments de la journée",
+        "Variations de boissons pour enrichir le vocabulaire",
+        "Techniques d'ancrage dans les routines quotidiennes"
+      ]
+    },
+    {
+      "description": "Mission de courage : Lors de votre prochaine visite dans un café ou restaurant, même en France, essayez de commander en anglais si le personnel semble le comprendre. Commencez par 'Excuse me, do you speak English? I'd like a coffee, please.'",
+      "resources": [
+        "Phrases d'introduction pour tester la langue",
+        "Stratégies de récupération si l'anglais n'est pas compris",
+        "Techniques pour surmonter l'anxiété de performance"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 150,
+    "badges": ["First Transaction", "Polite Professional", "Confidence Builder"],
+    "challenges": [
+      "Utilisez 'I'd like' dans une vraie commande",
+      "Maîtrisez la différence entre 'I'd like' et 'I want'",
+      "Pratiquez 'That's perfect' avec sincérité",
+      "Complétez une transaction complète avec toutes les politesses"
+    ]
+  }
+}

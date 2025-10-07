@@ -1,0 +1,44 @@
+{
+  "sessionId": 10,
+  "title": "Quiz - Révision Générale Semaine 2",
+  "description": "Quiz de révision sur tous les concepts de la semaine 2",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence combines personality and physical description correctly?",
+      "options": [
+        "She has kind and tall",
+        "She is kind and has long hair",
+        "She have kind and tall hair",
+        "She are kind and tall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 'is' for personality traits and 'has' for physical characteristics."
+    },
+    {
+      "id": 2,
+      "question": "How do you describe your family member's personality?",
+      "options": [
+        "My sister has funny",
+        "My sister is has funny",
+        "My sister is funny",
+        "My sister are funny"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'My sister is funny' correctly uses 'is' for personality description."
+    },
+    {
+      "id": 3,
+      "question": "What's the best way to give a complete description?",
+      "options": [
+        "Use only physical features",
+        "Use only personality traits",
+        "Combine physical and personality descriptions",
+        "Keep it very simple"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complete descriptions include both physical features and personality traits."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "sessionId": 3,
+  "title": "Quiz - Pronoms et Présentations",
+  "description": "Quiz sur les pronoms personnels et les présentations d'autres personnes",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which pronoun is correct for a woman?",
+      "options": [
+        "He is a teacher",
+        "She is a teacher",
+        "It is a teacher",
+        "They is a teacher"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'She' is the correct pronoun for a woman."
+    },
+    {
+      "id": 2,
+      "question": "How do you ask about someone's identity?",
+      "options": [
+        "What is he?",
+        "Who is he?",
+        "Where is he?",
+        "How is he?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Who is he?' is used to ask about someone's identity."
+    },
+    {
+      "id": 3,
+      "question": "Which is correct for introducing someone?",
+      "options": [
+        "This are my friend",
+        "This is my friend",
+        "These is my friend",
+        "This my friend"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'This is my friend' is the correct way to introduce someone."
+    }
+  ]
+}

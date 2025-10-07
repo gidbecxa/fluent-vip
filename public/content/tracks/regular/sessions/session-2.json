@@ -1,0 +1,336 @@
+{
+  "id": 2,
+  "title": "Where Are You From?",
+  "objective": "À la fin de cette session, vous maîtriserez les formes négatives et interrogatives du verbe 'To Be', saurez parler de votre origine et nationalité, et pourrez poser des questions sur l'identité des autres.",
+  "duration": 60,
+  "track": "regular",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "Where are you from?",
+      "pronunciation": "Ouèr ar you from?",
+      "context": "Question fondamentale pour demander l'origine. Essentielle dans les contextes internationaux.",
+      "audioFile": "/audio/regular/session2/where-are-you-from.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "I am from France.",
+      "pronunciation": "Aï am from Frans",
+      "context": "Réponse standard pour indiquer son pays d'origine. Structure de base pour l'identité géographique.",
+      "audioFile": "/audio/regular/session2/i-am-from-france.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "I am French.",
+      "pronunciation": "Aï am Frèntch",
+      "context": "Expression de la nationalité. Notez la majuscule pour les nationalités en anglais.",
+      "audioFile": "/audio/regular/session2/i-am-french.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Are you American?",
+      "pronunciation": "Ar you A-mè-ri-kan?",
+      "context": "Question fermée sur la nationalité. Structure Yes/No question avec 'To Be'.",
+      "audioFile": "/audio/regular/session2/are-you-american.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "No, I am not.",
+      "pronunciation": "No, aï am nott",
+      "context": "Réponse négative complète. Plus polie que simplement 'No' dans les contextes formels.",
+      "audioFile": "/audio/regular/session2/no-i-am-not.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Yes, I am.",
+      "pronunciation": "Yès, aï am",
+      "context": "Réponse affirmative courte. Alternative à la répétition complète de la phrase.",
+      "audioFile": "/audio/regular/session2/yes-i-am.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He is from Canada.",
+      "pronunciation": "Hi iz from Ka-na-da",
+      "context": "Description de l'origine d'une tierce personne. Introduction de la 3ème personne du singulier.",
+      "audioFile": "/audio/regular/session2/he-is-from-canada.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She is not British.",
+      "pronunciation": "Chi iz nott Bri-tich",
+      "context": "Forme négative à la 3ème personne. Importante pour corriger des informations incorrectes.",
+      "audioFile": "/audio/regular/session2/she-is-not-british.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-2",
+      "title": "Contrôle des Passeports - Aéroport International",
+      "description": "Dialogue authentique lors d'un contrôle d'immigration, situation courante pour les étudiants internationaux.",
+      "context": "Vous arrivez dans un pays anglophone pour vos études. L'officier d'immigration vérifie votre identité et votre origine. Cette situation est typique des voyages académiques internationaux.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning. What is your name, please?",
+          "translation": "Bonjour. Quel est votre nom, s'il vous plaît ?",
+          "audioFile": "/audio/regular/session2/dialogue-line-1.mp3",
+          "emphasis": ["Good morning", "What is your name"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. My name is Marie Dubois.",
+          "translation": "Bonjour. Je m'appelle Marie Dubois.",
+          "audioFile": "/audio/regular/session2/dialogue-line-2.mp3",
+          "emphasis": ["My name is", "Marie Dubois"]
+        },
+        {
+          "speaker": "A",
+          "text": "Where are you from, Miss Dubois?",
+          "translation": "D'où venez-vous, Mademoiselle Dubois ?",
+          "audioFile": "/audio/regular/session2/dialogue-line-3.mp3",
+          "emphasis": ["Where are you from", "Miss Dubois"]
+        },
+        {
+          "speaker": "B",
+          "text": "I am from France. I am French.",
+          "translation": "Je viens de France. Je suis française.",
+          "audioFile": "/audio/regular/session2/dialogue-line-4.mp3",
+          "emphasis": ["I am from France", "I am French"]
+        },
+        {
+          "speaker": "A",
+          "text": "Are you a student?",
+          "translation": "Êtes-vous étudiante ?",
+          "audioFile": "/audio/regular/session2/dialogue-line-5.mp3",
+          "emphasis": ["Are you a student"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I am. I am a student at Oxford University.",
+          "translation": "Oui, je le suis. Je suis étudiante à l'Université d'Oxford.",
+          "audioFile": "/audio/regular/session2/dialogue-line-6.mp3",
+          "emphasis": ["Yes, I am", "student at Oxford"]
+        },
+        {
+          "speaker": "A",
+          "text": "Welcome to the UK, Miss Dubois. Have a nice stay.",
+          "translation": "Bienvenue au Royaume-Uni, Mademoiselle Dubois. Bon séjour.",
+          "audioFile": "/audio/regular/session2/dialogue-line-7.mp3",
+          "emphasis": ["Welcome to the UK", "Have a nice stay"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-roleplay-2",
+      "type": "rolePlay",
+      "title": "Scénarios d'Identification et d'Origine",
+      "description": "Jeux de rôle progressifs pour maîtriser les questions et réponses sur l'identité et l'origine dans des contextes académiques et officiels.",
+      "instructions": "Pratiquez les formes affirmatives, négatives et interrogatives. Concentrez-vous sur l'intonation des questions et la clarté des réponses.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Inscription Universitaire",
+          "description": "Vous vous inscrivez dans une université anglophone.",
+          "yourLine": "Hello, my name is [Nom]. I am from [Pays]. I am [Nationalité].",
+          "context": "Ton formel et clair. Préparez vos documents d'identité mentalement."
+        },
+        {
+          "id": 2,
+          "title": "Correction d'Information",
+          "description": "Quelqu'un se trompe sur votre nationalité.",
+          "yourLine": "No, I am not [Nationalité incorrecte]. I am [Votre nationalité].",
+          "context": "Restez poli mais ferme dans la correction. Utilisez la forme négative complète."
+        },
+        {
+          "id": 3,
+          "title": "Questions sur les Autres",
+          "description": "Vous posez des questions sur l'origine de vos camarades.",
+          "yourLine": "Where is [Nom] from? Is he/she [Nationalité]?",
+          "context": "Montrez de l'intérêt sincère pour les autres. Utilisez la 3ème personne correctement."
+        },
+        {
+          "id": 4,
+          "title": "Présentation d'un Ami",
+          "description": "Vous présentez un ami international à d'autres personnes.",
+          "yourLine": "This is [Nom]. He/She is from [Pays]. He/She is [Nationalité].",
+          "context": "Facilitez les présentations entre personnes de différentes nationalités."
+        }
+      ]
+    },
+    {
+      "id": "regular-geography-2",
+      "type": "interactive",
+      "title": "Carte du Monde Interactive",
+      "description": "Activité géographique pour apprendre les pays et nationalités en contexte visuel.",
+      "instructions": "Cliquez sur différents pays et pratiquez les structures 'He/She is from...' et 'He/She is...' avec des personnalités célèbres."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Formes Négatives du Verbe 'To Be'",
+      "description": "Construction des phrases négatives en ajoutant 'not' après le verbe. Essentiel pour corriger des informations ou exprimer des différences.",
+      "color": "red",
+      "examples": [
+        {
+          "english": "I am not American.",
+          "french": "Je ne suis pas américain(e).",
+          "explanation": "Forme négative complète. 'Am not' ne se contracte jamais en anglais standard.",
+          "audioFile": "/audio/regular/session2/grammar-i-am-not.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "You are not from Spain.",
+          "french": "Tu n'es pas/Vous n'êtes pas d'Espagne.",
+          "explanation": "Négation avec 'you are'. Peut se contracter en 'You aren't' ou 'You're not'.",
+          "audioFile": "/audio/regular/session2/grammar-you-are-not.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She isn't British.",
+          "french": "Elle n'est pas britannique.",
+          "explanation": "Contraction courante de 'is not'. Plus naturelle dans la conversation.",
+          "audioFile": "/audio/regular/session2/grammar-she-isnt.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I amn't happy.",
+          "french": "Je ne suis pas heureux/heureuse.",
+          "explanation": "INCORRECT: 'Amn't' n'existe pas en anglais. Utilisez 'I am not' ou 'I'm not'.",
+          "audioFile": "/audio/regular/session2/grammar-incorrect-amnt.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Questions Yes/No avec 'To Be'",
+      "description": "Formation des questions fermées en inversant le sujet et le verbe. Structure fondamentale pour obtenir des confirmations.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "Are you from Italy?",
+          "french": "Venez-vous d'Italie ?",
+          "explanation": "Inversion 'you are' → 'are you'. Question fermée appelant une réponse oui/non.",
+          "audioFile": "/audio/regular/session2/grammar-are-you-from.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Is he Spanish?",
+          "french": "Est-il espagnol ?",
+          "explanation": "Inversion 'he is' → 'is he'. Structure identique pour toutes les personnes.",
+          "audioFile": "/audio/regular/session2/grammar-is-he.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Am I correct?",
+          "french": "Ai-je raison ?",
+          "explanation": "Inversion 'I am' → 'am I'. Moins fréquent mais grammaticalement correct.",
+          "audioFile": "/audio/regular/session2/grammar-am-i.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Pays et Nationalités",
+      "description": "Règles d'usage des noms de pays et d'adjectifs de nationalité. Important pour l'expression de l'identité culturelle.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "I am from France. I am French.",
+          "french": "Je viens de France. Je suis français(e).",
+          "explanation": "Pays (France) vs nationalité (French). Les nationalités prennent toujours une majuscule.",
+          "audioFile": "/audio/regular/session2/grammar-france-french.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She is from the United States. She is American.",
+          "french": "Elle vient des États-Unis. Elle est américaine.",
+          "explanation": "Certains pays utilisent 'the' (the UK, the USA). La nationalité peut différer du nom du pays.",
+          "audioFile": "/audio/regular/session2/grammar-usa-american.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I am from france. I am french.",
+          "french": "Je viens de france. Je suis français(e).",
+          "explanation": "INCORRECT: Pays et nationalités prennent toujours une majuscule en anglais.",
+          "audioFile": "/audio/regular/session2/grammar-incorrect-lowercase.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Sensibilité Culturelle dans les Questions d'Origine",
+      "content": "Dans les pays anglophones, demander 'Where are you from?' est courant et généralement bien accepté. Cependant, soyez sensible au fait que certaines personnes peuvent avoir des origines complexes ou multiples. Respectez leurs réponses sans insister."
+    },
+    {
+      "type": "cultural",
+      "title": "Différences Régionales dans les Nationalités",
+      "content": "Attention aux nuances : 'British' inclut l'Angleterre, l'Écosse et le Pays de Galles. 'English' se réfère spécifiquement à l'Angleterre. De même, 'American' peut référer aux États-Unis, mais techniquement inclut tout le continent américain."
+    },
+    {
+      "type": "genZTip",
+      "title": "Identité Multiculturelle",
+      "content": "Beaucoup de jeunes ont des identités multiculturelles. Il est normal de dire 'I'm half French, half Italian' ou 'I'm French but I grew up in Canada'. L'identité moderne est souvent complexe et nuancée."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Enquête de classe virtuelle : Créez un sondage sur les origines de vos camarades imaginaires. Pratiquez les questions 'Where is [nom] from?' et les réponses 'He/She is from...'",
+      "resources": [
+        "Liste de 20 pays et nationalités courantes",
+        "Modèles de questions et réponses",
+        "Cartes géographiques interactives"
+      ],
+      "digitalTools": [
+        {
+          "name": "Quizlet - Countries & Nationalities",
+          "description": "Jeu de cartes mémoire pour apprendre 50 pays et nationalités",
+          "link": "https://quizlet.com/countries-nationalities"
+        }
+      ]
+    },
+    {
+      "description": "Jeu de devinettes géographiques : Décrivez une personnalité célèbre sans dire son nom. Les autres doivent deviner en posant des questions Yes/No sur sa nationalité.",
+      "resources": [
+        "Liste de célébrités internationales",
+        "Stratégies pour les questions Yes/No",
+        "Techniques de description indirecte"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://www.youtube.com/watch?v=example2",
+      "videoTitle": "Countries and Nationalities - Visual Learning",
+      "videoDuration": "8:15",
+      "videoDescription": "Vidéo éducative présentant 30 pays et leurs nationalités avec des images et la prononciation correcte par des locuteurs natifs."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz Géographique - Pays et Nationalités",
+        "description": "Quiz de 15 questions mélangeant reconnaissance visuelle des drapeaux et formation correcte des nationalités."
+      },
+      {
+        "type": "game",
+        "title": "Passport Control Simulation",
+        "description": "Simulation interactive d'un contrôle de passeport où vous devez répondre correctement aux questions d'immigration."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 120,
+    "badges": ["World Explorer", "Grammar Detective", "Cultural Ambassador"],
+    "challenges": [
+      "Maîtrisez 15 pays et leurs nationalités",
+      "Réussissez 10 questions Yes/No consécutives",
+      "Complétez le dialogue du contrôle de passeport sans erreur",
+      "Utilisez correctement les formes négatives 5 fois de suite"
+    ]
+  }
+}

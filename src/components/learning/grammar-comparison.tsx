@@ -19,7 +19,7 @@ interface GrammarExample {
 interface GrammarRule {
   title: string
   description: string
-  color: "blue" | "purple" | "green"
+  color?: "blue" | "purple" | "green" | "orange" | "red"
   examples: GrammarExample[]
 }
 
@@ -40,22 +40,26 @@ export function GrammarComparison({ title, subtitle, rules, onComplete }: Gramma
   const currentExample = currentRule.examples[currentExampleIndex]
   const isCompleted = completedRules.length === rules.length
 
-  const getColorClasses = (color: "blue" | "purple" | "green") => {
+  const getColorClasses = (color?: "blue" | "purple" | "green" | "orange" | "red") => {
     const colors = {
       blue: "bg-blue-100 text-blue-900 border-blue-200",
       purple: "bg-purple-100 text-purple-900 border-purple-200",
-      green: "bg-green-100 text-green-900 border-green-200"
+      green: "bg-green-100 text-green-900 border-green-200",
+      orange: "bg-orange-100 text-orange-900 border-orange-200",
+      red: "bg-red-100 text-red-900 border-red-200"
     }
-    return colors[color]
+    return colors[color || 'blue']
   }
 
-  const getGradientClasses = (color: "blue" | "purple" | "green") => {
+  const getGradientClasses = (color?: "blue" | "purple" | "green" | "orange" | "red") => {
     const gradients = {
       blue: "from-blue-600 to-cyan-600",
       purple: "from-purple-600 to-pink-600",
-      green: "from-green-600 to-emerald-600"
+      green: "from-green-600 to-emerald-600",
+      orange: "from-orange-600 to-red-600",
+      red: "from-red-600 to-pink-600"
     }
-    return gradients[color]
+    return gradients[color || 'blue']
   }
 
   const handleNextExample = () => {

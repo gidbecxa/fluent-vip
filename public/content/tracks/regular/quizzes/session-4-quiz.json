@@ -1,0 +1,44 @@
+{
+  "sessionId": 4,
+  "title": "Quiz - Pluriels et Articles",
+  "description": "Quiz sur les formes plurielles et l'usage des articles a/an",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which plural form is correct?",
+      "options": [
+        "We is students",
+        "We are students",
+        "We am students",
+        "We be students"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'We are' is the correct plural form of 'to be'."
+    },
+    {
+      "id": 2,
+      "question": "Which article is correct?",
+      "options": [
+        "It is a apple",
+        "It is an apple",
+        "It is the apple",
+        "It is apple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'An' is used before words starting with a vowel sound."
+    },
+    {
+      "id": 3,
+      "question": "How do you ask about objects?",
+      "options": [
+        "Who are they?",
+        "Where are they?",
+        "What are they?",
+        "How are they?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'What are they?' is used to ask about objects."
+    }
+  ]
+}

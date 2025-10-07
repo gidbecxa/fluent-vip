@@ -1,0 +1,218 @@
+{
+  "id": 5,
+  "title": "The International Student Mixer",
+  "objective": "À la fin de cette session, vous intégrerez toutes les compétences de la semaine 1 dans des conversations fluides et naturelles, démontrant votre maîtrise du verbe 'To Be' dans tous ses usages.",
+  "duration": 60,
+  "track": "regular",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "Let me introduce myself.",
+      "pronunciation": "Lèt mi in-tro-diouss maï-sèlf",
+      "context": "Formule polie pour commencer une présentation personnelle dans un groupe.",
+      "audioFile": "/audio/regular/session5/let-me-introduce.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "We are all students here.",
+      "pronunciation": "Oui ar ol stiou-dents hir",
+      "context": "Phrase d'inclusion pour créer un sentiment d'appartenance au groupe.",
+      "audioFile": "/audio/regular/session5/we-are-all-students.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Where are you all from?",
+      "pronunciation": "Ouèr ar you ol from?",
+      "context": "Question pour connaître l'origine de plusieurs personnes simultanément.",
+      "audioFile": "/audio/regular/session5/where-are-you-all-from.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "It's nice to meet everyone.",
+      "pronunciation": "Its naïss tou miit èv-ri-ouann",
+      "context": "Expression de politesse pour saluer un groupe de nouvelles personnes.",
+      "audioFile": "/audio/regular/session5/nice-to-meet-everyone.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Are we ready to start?",
+      "pronunciation": "Ar oui rè-di tou start?",
+      "context": "Question de groupe pour vérifier si tout le monde est prêt à commencer une activité.",
+      "audioFile": "/audio/regular/session5/are-we-ready.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They are very friendly.",
+      "pronunciation": "Dheï ar vè-ri frènd-li",
+      "context": "Description positive d'un groupe de personnes. Utile pour créer une atmosphère positive.",
+      "audioFile": "/audio/regular/session5/they-are-friendly.mp3",
+      "difficulty": "beginner"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-5",
+      "title": "Soirée d'Accueil Internationale",
+      "description": "Dialogue complexe intégrant toutes les structures apprises lors d'une soirée d'accueil pour étudiants internationaux.",
+      "context": "Vous participez à une soirée d'accueil organisée par votre université pour les étudiants internationaux. Vous rencontrez plusieurs personnes et pratiquez toutes vos compétences conversationnelles.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello everyone! Welcome to our international student mixer. Let me introduce myself. I'm Sarah, and I'm from Canada.",
+          "translation": "Bonjour tout le monde ! Bienvenue à notre soirée d'étudiants internationaux. Laissez-moi me présenter. Je suis Sarah, et je viens du Canada.",
+          "audioFile": "/audio/regular/session5/dialogue-line-1.mp3",
+          "emphasis": ["Hello everyone", "Let me introduce myself", "I'm from Canada"]
+        },
+        {
+          "speaker": "B",
+          "text": "Hi Sarah! Nice to meet you. I'm Marco, and I'm Italian. Are you a student here too?",
+          "translation": "Salut Sarah ! Ravi de vous rencontrer. Je suis Marco, et je suis italien. Êtes-vous aussi étudiant ici ?",
+          "audioFile": "/audio/regular/session5/dialogue-line-2.mp3",
+          "emphasis": ["Nice to meet you", "I'm Italian", "Are you a student"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I am! We are all students here. What about them? Who are they?",
+          "translation": "Oui, je le suis ! Nous sommes tous étudiants ici. Et eux ? Qui sont-ils ?",
+          "audioFile": "/audio/regular/session5/dialogue-line-3.mp3",
+          "emphasis": ["We are all students", "Who are they"]
+        },
+        {
+          "speaker": "B",
+          "text": "They are Anna and Luis. She is from Germany, and he is from Spain. They are very friendly!",
+          "translation": "Ce sont Anna et Luis. Elle vient d'Allemagne, et il vient d'Espagne. Ils sont très sympathiques !",
+          "audioFile": "/audio/regular/session5/dialogue-line-4.mp3",
+          "emphasis": ["They are Anna and Luis", "She is from Germany", "They are very friendly"]
+        },
+        {
+          "speaker": "A",
+          "text": "That's wonderful! Where are you all from originally? It's so international here!",
+          "translation": "C'est merveilleux ! D'où venez-vous tous à l'origine ? C'est si international ici !",
+          "audioFile": "/audio/regular/session5/dialogue-line-5.mp3",
+          "emphasis": ["Where are you all from", "so international"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it is! We are from four different countries. It's nice to meet everyone. Are we ready to start the activities?",
+          "translation": "Oui, ça l'est ! Nous venons de quatre pays différents. C'est agréable de rencontrer tout le monde. Sommes-nous prêts à commencer les activités ?",
+          "audioFile": "/audio/regular/session5/dialogue-line-6.mp3",
+          "emphasis": ["four different countries", "nice to meet everyone", "Are we ready"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-integration-5",
+      "type": "rolePlay",
+      "title": "Simulation Complète - Soirée Internationale",
+      "description": "Simulation immersive intégrant toutes les compétences de la semaine 1 dans un contexte social authentique.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Arrivée à la Soirée",
+          "description": "Vous arrivez à la soirée et vous présentez au groupe.",
+          "yourLine": "Hello! Let me introduce myself. I'm [nom], and I'm from [pays]. Nice to meet everyone!",
+          "context": "Ton confiant et ouvert. Souriez et établissez un contact visuel avec le groupe."
+        },
+        {
+          "id": 2,
+          "title": "Rencontre Individuelle",
+          "description": "Vous engagez une conversation avec une personne spécifique.",
+          "yourLine": "Hi! What is your name? Where are you from? Are you a student here?",
+          "context": "Posez des questions ouvertes pour maintenir la conversation."
+        },
+        {
+          "id": 3,
+          "title": "Présentation d'Autres Personnes",
+          "description": "Vous présentez des personnes que vous venez de rencontrer.",
+          "yourLine": "This is [nom]. He/She is from [pays]. They are all very nice people!",
+          "context": "Facilitez les connexions entre les participants."
+        },
+        {
+          "id": 4,
+          "title": "Organisation d'Activité",
+          "description": "Vous proposez une activité de groupe.",
+          "yourLine": "We are all here to meet new people. Are we ready to play a game together?",
+          "context": "Prenez l'initiative et incluez tout le monde dans l'activité."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Révision Complète - Verbe 'To Be'",
+      "description": "Synthèse de toutes les formes du verbe 'To Be' apprises pendant la semaine 1.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "I am from France. You are from Italy. He is from Spain.",
+          "french": "Je viens de France. Tu viens d'Italie. Il vient d'Espagne.",
+          "explanation": "Formes affirmatives singulières. Chaque personne a sa forme spécifique.",
+          "audioFile": "/audio/regular/session5/grammar-singular-forms.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "We are students. They are teachers.",
+          "french": "Nous sommes étudiants. Ils sont professeurs.",
+          "explanation": "Formes plurielles. 'Are' est utilisé pour 'we', 'you' (pluriel), et 'they'.",
+          "audioFile": "/audio/regular/session5/grammar-plural-forms.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Are you ready? Is she here? Are they coming?",
+          "french": "Êtes-vous prêt ? Est-elle ici ? Viennent-ils ?",
+          "explanation": "Questions avec inversion sujet-verbe. Structure fondamentale pour l'interaction.",
+          "audioFile": "/audio/regular/session5/grammar-questions.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Étiquette des Soirées Étudiantes",
+      "content": "Dans les universités anglophones, les soirées d'accueil sont des événements importants pour créer des liens sociaux. Il est attendu de circuler, de se présenter à plusieurs personnes, et de montrer de l'intérêt pour les autres cultures."
+    },
+    {
+      "type": "genZTip",
+      "title": "Networking Étudiant Moderne",
+      "content": "Les étudiants d'aujourd'hui échangent souvent leurs réseaux sociaux après les présentations. Des phrases comme 'Are you on Instagram?' ou 'Let's connect on LinkedIn' sont devenues courantes dans les interactions étudiantes."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Journal de réflexion : Écrivez un paragraphe de 5-6 phrases décrivant votre expérience de la soirée simulée. Utilisez toutes les formes du verbe 'To Be' apprises cette semaine.",
+      "resources": [
+        "Modèle de journal réflexif",
+        "Checklist des structures grammaticales à inclure",
+        "Vocabulaire des émotions et impressions"
+      ]
+    }
+  ],
+  "multimedia": {
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Quiz de Révision - Semaine 1",
+        "description": "Quiz complet de 5 questions couvrant toutes les structures du verbe 'To Be' apprises cette semaine."
+      },
+      {
+        "type": "simulation",
+        "title": "Virtual International Mixer",
+        "description": "Simulation 3D d'une soirée étudiante où vous pratiquez toutes vos compétences conversationnelles."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 150,
+    "badges": ["Week 1 Champion", "Social Connector", "Integration Master"],
+    "challenges": [
+      "Menez 3 conversations complètes sans erreur grammaticale",
+      "Utilisez toutes les formes du verbe 'To Be' dans une seule conversation",
+      "Présentez-vous et présentez 2 autres personnes avec succès",
+      "Réussissez le quiz de révision avec 90% ou plus"
+    ]
+  }
+}

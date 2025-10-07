@@ -1,0 +1,278 @@
+{
+  "id": 2,
+  "title": "Se Présenter avec Assurance",
+  "objective": "À la fin de cette session, vous saurez vous présenter professionnellement, demander le nom de votre interlocuteur, et mener une conversation de présentation complète avec aisance et sophistication.",
+  "duration": 40,
+  "track": "executive",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "My name is...",
+      "pronunciation": "Maï neïm iz...",
+      "context": "La manière standard et élégante de se présenter. Plus formelle que 'I'm...'",
+      "audioFile": "/audio/executive/session2/my-name-is.mp3"
+    },
+    {
+      "english": "What is your name?",
+      "pronunciation": "Ouatt iz yor neïm?",
+      "context": "Question formelle pour demander le nom. Appropriée dans les contextes professionnels.",
+      "audioFile": "/audio/executive/session2/what-is-your-name.mp3"
+    },
+    {
+      "english": "Nice to meet you.",
+      "pronunciation": "Naïss tou miit you",
+      "context": "Expression de politesse pour conclure une présentation. Marque de courtoisie essentielle.",
+      "audioFile": "/audio/executive/session2/nice-to-meet-you.mp3"
+    },
+    {
+      "english": "Pleased to meet you.",
+      "pronunciation": "Pliizd tou miit you",
+      "context": "Version plus formelle de 'Nice to meet you'. Utilisée dans les contextes très professionnels.",
+      "audioFile": "/audio/executive/session2/pleased-to-meet-you.mp3"
+    },
+    {
+      "english": "How do you do?",
+      "pronunciation": "Haow dou you dou?",
+      "context": "Salutation très formelle, principalement britannique. Réponse attendue : 'How do you do?'",
+      "audioFile": "/audio/executive/session2/how-do-you-do.mp3"
+    },
+    {
+      "english": "May I introduce myself?",
+      "pronunciation": "Meï aï in-tro-diouss maï-self?",
+      "context": "Manière très polie de s'introduire dans un groupe ou une conversation.",
+      "audioFile": "/audio/executive/session2/may-i-introduce-myself.mp3"
+    },
+    {
+      "english": "It's a pleasure.",
+      "pronunciation": "Its a plè-jor",
+      "context": "Réponse élégante à 'Nice to meet you'. Exprime une satisfaction sincère de la rencontre.",
+      "audioFile": "/audio/executive/session2/its-a-pleasure.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-2",
+      "title": "Présentation Professionnelle Complète",
+      "description": "Dialogue complet intégrant les présentations, les expressions de politesse de la session 1, et les nouvelles formules de courtoisie.",
+      "context": "Vous participez à un cocktail professionnel et rencontrez un partenaire d'affaires potentiel. Ce dialogue combine toutes vos compétences acquises dans un contexte sophistiqué.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good evening. May I introduce myself? My name is Sarah Johnson.",
+          "translation": "Bonsoir. Puis-je me présenter ? Je m'appelle Sarah Johnson.",
+          "audioFile": "/audio/executive/session2/dialogue-line-1.mp3",
+          "emphasis": ["May I introduce myself", "My name is"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good evening, Sarah. Pleased to meet you. My name is David Chen.",
+          "translation": "Bonsoir, Sarah. Ravi de vous rencontrer. Je m'appelle David Chen.",
+          "audioFile": "/audio/executive/session2/dialogue-line-2.mp3",
+          "emphasis": ["Pleased to meet you", "My name is"]
+        },
+        {
+          "speaker": "A",
+          "text": "It's a pleasure, David. Thank you for taking the time to speak with me.",
+          "translation": "C'est un plaisir, David. Merci de prendre le temps de me parler.",
+          "audioFile": "/audio/executive/session2/dialogue-line-3.mp3",
+          "emphasis": ["It's a pleasure", "Thank you"]
+        },
+        {
+          "speaker": "B",
+          "text": "The pleasure is mine. Are you enjoying the event?",
+          "translation": "Le plaisir est pour moi. Appréciez-vous l'événement ?",
+          "audioFile": "/audio/executive/session2/dialogue-line-4.mp3",
+          "emphasis": ["The pleasure is mine"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, very much. It's beautifully organized. Excuse me, what is your role here?",
+          "translation": "Oui, beaucoup. C'est magnifiquement organisé. Excusez-moi, quel est votre rôle ici ?",
+          "audioFile": "/audio/executive/session2/dialogue-line-5.mp3",
+          "emphasis": ["Excuse me", "what is your role"]
+        },
+        {
+          "speaker": "B",
+          "text": "I'm the regional director for Asia-Pacific. And you?",
+          "translation": "Je suis directeur régional pour l'Asie-Pacifique. Et vous ?",
+          "audioFile": "/audio/executive/session2/dialogue-line-6.mp3",
+          "emphasis": ["regional director"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-2",
+      "type": "rolePlay",
+      "title": "Maîtrise des Présentations Professionnelles",
+      "description": "Scénarios progressifs pour développer l'aisance dans les présentations, du plus simple au plus sophistiqué.",
+      "instructions": "Chaque scénario build sur le précédent. Concentrez-vous sur la fluidité de l'enchaînement des phrases et l'adaptation du niveau de formalité au contexte.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Présentation Simple",
+          "description": "Rencontre informelle avec un nouveau collègue dans les bureaux.",
+          "yourLine": "Hello. My name is [Votre nom]. Nice to meet you.",
+          "context": "Ton détendu mais professionnel. Sourire chaleureux et poignée de main ferme."
+        },
+        {
+          "id": 2,
+          "title": "Présentation Formelle",
+          "description": "Introduction lors d'une réunion avec des clients importants.",
+          "yourLine": "Good morning. My name is [Votre nom]. Pleased to meet you.",
+          "context": "Posture droite, ton respectueux, contact visuel soutenu. Attendez que l'autre personne tende la main en premier."
+        },
+        {
+          "id": 3,
+          "title": "Auto-Introduction Élégante",
+          "description": "Vous rejoignez un groupe de discussion lors d'un événement de networking.",
+          "yourLine": "Excuse me, may I introduce myself? My name is [Votre nom].",
+          "context": "Attendez une pause naturelle dans la conversation. Parlez clairement pour que tout le groupe vous entende."
+        },
+        {
+          "id": 4,
+          "title": "Réponse à une Présentation",
+          "description": "Quelqu'un se présente à vous lors d'un cocktail professionnel.",
+          "yourLine": "It's a pleasure to meet you, [Nom]. My name is [Votre nom].",
+          "context": "Répétez le nom de la personne pour le mémoriser. Montrez un intérêt sincère."
+        },
+        {
+          "id": 5,
+          "title": "Présentation avec Contexte",
+          "description": "Présentation incluant votre rôle ou votre entreprise.",
+          "yourLine": "Good afternoon. My name is [Votre nom]. I'm with [Entreprise]. Pleased to meet you.",
+          "context": "Ajoutez votre contexte professionnel de manière naturelle. Préparez-vous à des questions de suivi."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Structure des Présentations",
+      "description": "Les formules de présentation suivent un ordre logique et des niveaux de formalité précis.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "My name is John Smith.",
+          "french": "Je m'appelle John Smith.",
+          "explanation": "Structure formelle standard. Plus élégante que 'I'm John Smith.'",
+          "audioFile": "/audio/executive/session2/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'm John Smith.",
+          "french": "Je suis John Smith.",
+          "explanation": "Structure informelle, appropriée entre collègues proches.",
+          "audioFile": "/audio/executive/session2/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Nice to meet you.",
+          "french": "Ravi de vous rencontrer.",
+          "explanation": "Standard dans la plupart des contextes professionnels.",
+          "audioFile": "/audio/executive/session2/grammar-example-3.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Pleased to meet you.",
+          "french": "Enchanté de vous rencontrer.",
+          "explanation": "Plus formel, utilisé avec des clients ou partenaires importants.",
+          "audioFile": "/audio/executive/session2/grammar-example-4.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Questions de Présentation",
+      "description": "Différentes façons de demander le nom selon le niveau de formalité requis.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "What is your name?",
+          "french": "Quel est votre nom ?",
+          "explanation": "Question directe et formelle, appropriée dans la plupart des contextes.",
+          "audioFile": "/audio/executive/session2/grammar-example-5.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "May I ask your name?",
+          "french": "Puis-je vous demander votre nom ?",
+          "explanation": "Version très polie, utilisée dans les contextes très formels.",
+          "audioFile": "/audio/executive/session2/grammar-example-6.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "And you are?",
+          "french": "Et vous êtes ?",
+          "explanation": "Manière indirecte et élégante de demander le nom après s'être présenté.",
+          "audioFile": "/audio/executive/session2/grammar-example-7.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "L'Ordre des Présentations",
+      "content": "Dans les cultures anglophones, il est courant de se présenter d'abord avant de demander le nom de l'autre personne. Cette séquence montre de l'initiative et de la confiance. Exemple : 'My name is Sarah. What is your name?' plutôt que de commencer par demander le nom de l'autre."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Technique du Nom Répété",
+      "content": "Les professionnels expérimentés répètent le nom de leur interlocuteur dans leur réponse : 'Nice to meet you, David.' Cette technique aide à mémoriser le nom et montre de l'attention à la personne. C'est un marqueur de sophistication sociale très apprécié."
+    },
+    {
+      "type": "cultural",
+      "title": "Niveaux de Formalité",
+      "content": "'Nice to meet you' est standard et sûr dans 90% des situations. 'Pleased to meet you' est plus formel et approprié avec des clients VIP, des partenaires senior, ou dans des contextes très professionnels. 'How do you do?' est très britannique et traditionnel."
+    },
+    {
+      "type": "vipTip",
+      "title": "Le Pouvoir de 'May I introduce myself?'",
+      "content": "Cette phrase est votre passeport pour rejoindre n'importe quelle conversation professionnelle avec élégance. Elle montre du respect pour le groupe existant tout en affirmant votre présence avec assurance. Utilisez-la lors d'événements de networking pour vous intégrer naturellement."
+    },
+    {
+      "type": "cultural",
+      "title": "La Poignée de Main Culturelle",
+      "content": "Dans les cultures anglophones, une poignée de main ferme (mais pas écrasante) avec un contact visuel direct est essentielle. Durée : 2-3 secondes. Trop courte = manque d'intérêt, trop longue = inconfortable. La poignée de main accompagne toujours 'Nice to meet you'."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice de fluidité : Pratiquez l'enchaînement complet 'Good morning. My name is [Nom]. Nice to meet you.' 10 fois de suite, en variant l'intonation pour qu'elle reste naturelle et non mécanique.",
+      "resources": [
+        "Enregistrements audio de référence avec différentes intonations",
+        "Exercices de rythme et de mélodie de phrase",
+        "Feedback automatique sur la prononciation"
+      ]
+    },
+    {
+      "description": "Mission sociale : Lors de votre prochaine interaction professionnelle (réunion, appel, email), utilisez une formule de présentation en anglais, même brièvement. Commencez par des situations à faible enjeu pour développer votre confiance.",
+      "resources": [
+        "Scripts adaptés à différents contextes (réunion, téléphone, email)",
+        "Conseils pour gérer le stress de la première utilisation",
+        "Stratégies de récupération si vous faites une erreur"
+      ]
+    },
+    {
+      "description": "Exercice de mémorisation active : Créez des associations mentales pour retenir les noms. Quand quelqu'un se présente, répétez mentalement son nom 3 fois tout en maintenant le contact visuel.",
+      "resources": [
+        "Techniques de mémorisation des noms",
+        "Exercices de concentration et d'écoute active",
+        "Stratégies pour demander poliment de répéter un nom"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 120,
+    "badges": ["Introduction Master", "Professional Networker"],
+    "challenges": [
+      "Utilisez 'My name is...' dans une vraie présentation",
+      "Pratiquez 'Nice to meet you' avec contact visuel et sourire",
+      "Maîtrisez la différence entre 'Nice' et 'Pleased to meet you'",
+      "Répétez le nom de quelqu'un dans votre réponse"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
+import "../styles/brand.css";
 import { Header } from "@/components/layout/header";
 
 const inter = Inter({
@@ -8,9 +9,14 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+});
+
 export const metadata: Metadata = {
-  title: "FluentVIP - Apprentissage personnalisé de l'anglais",
-  description: "FluentVIP: Plateforme d'apprentissage de l'anglais pour professionnels de haut niveau. Méthode accélérée et personnalisée.",
+  title: "FluentVIP - Maîtrisez l'anglais dès le premier jour",
+  description: "La plateforme #1 pour apprendre l'anglais rapidement. Méthode révolutionnaire pour executives et étudiants ambitieux. Résultats garantis en 7 jours.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -24,7 +30,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#2563eb'
+  themeColor: '#1e293b'
 };
 
 export default function RootLayout({
@@ -41,7 +47,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>
-      <body className={`${inter.variable} font-sans antialiased touch-manipulation`}>
+      <body className={`${inter.variable} ${manrope.variable} font-sans antialiased touch-manipulation`}>
         <Header />
         <main className="pb-safe">{children}</main>
       </body>

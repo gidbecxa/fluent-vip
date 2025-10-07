@@ -1,0 +1,244 @@
+{
+  "id": 9,
+  "title": "Navigation Urbaine et Transport",
+  "objective": "À la fin de cette session, vous naviguerez avec assurance dans les villes anglophones, utiliserez tous les moyens de transport, et gérerez les situations d'urgence avec sophistication.",
+  "duration": 50,
+  "track": "executive",
+  "week": 2,
+  "keyPhrases": [
+    {
+      "english": "How do I get to the city center?",
+      "pronunciation": "Haow dou aï gèt tou dhe si-ti sèn-ter?",
+      "context": "Question essentielle pour demander des directions vers le centre-ville.",
+      "audioFile": "/audio/executive/session9/get-to-city-center.mp3"
+    },
+    {
+      "english": "Is it within walking distance?",
+      "pronunciation": "Iz it oui-dhin ouo-king dis-tens?",
+      "context": "Pour savoir si une destination est accessible à pied. Très pratique pour planifier.",
+      "audioFile": "/audio/executive/session9/walking-distance.mp3"
+    },
+    {
+      "english": "Could you call me a taxi?",
+      "pronunciation": "Coud you kol mi a tak-si?",
+      "context": "Demande polie pour obtenir un taxi, typique dans les hôtels et restaurants.",
+      "audioFile": "/audio/executive/session9/call-me-taxi.mp3"
+    },
+    {
+      "english": "What's the fastest way to get there?",
+      "pronunciation": "Ouatts dhe fas-test oueï tou gèt dhèr?",
+      "context": "Question pratique pour optimiser vos déplacements, surtout quand vous êtes pressé.",
+      "audioFile": "/audio/executive/session9/fastest-way.mp3"
+    },
+    {
+      "english": "How much does it cost?",
+      "pronunciation": "Haow motch daz it kost?",
+      "context": "Question universelle pour connaître le prix d'un service ou transport.",
+      "audioFile": "/audio/executive/session9/how-much-cost.mp3"
+    },
+    {
+      "english": "Could you drop me off here?",
+      "pronunciation": "Coud you drop mi of hir?",
+      "context": "Pour demander au chauffeur de taxi de vous déposer à un endroit précis.",
+      "audioFile": "/audio/executive/session9/drop-me-off.mp3"
+    },
+    {
+      "english": "I'm running late.",
+      "pronunciation": "Aïm ro-ning leït",
+      "context": "Expression utile pour expliquer votre urgence et obtenir de l'aide prioritaire.",
+      "audioFile": "/audio/executive/session9/running-late.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-9",
+      "title": "Navigation Urbaine Experte",
+      "description": "Dialogue complet couvrant les déplacements urbains, de la demande d'informations à l'arrivée à destination.",
+      "context": "Vous êtes dans une ville anglophone pour un rendez-vous important et devez vous déplacer efficacement. Cette conversation combine urgence, politesse, et pragmatisme.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning. How may I assist you today?",
+          "translation": "Bonjour. Comment puis-je vous aider aujourd'hui ?",
+          "audioFile": "/audio/executive/session9/dialogue-line-1.mp3",
+          "emphasis": ["Good morning", "How may I assist you"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. I'm running late for a meeting. How do I get to the financial district?",
+          "translation": "Bonjour. Je suis en retard pour une réunion. Comment puis-je me rendre au quartier financier ?",
+          "audioFile": "/audio/executive/session9/dialogue-line-2.mp3",
+          "emphasis": ["I'm running late", "How do I get to", "financial district"]
+        },
+        {
+          "speaker": "A",
+          "text": "The fastest way would be by taxi. Is it within your budget?",
+          "translation": "Le moyen le plus rapide serait en taxi. Est-ce dans votre budget ?",
+          "audioFile": "/audio/executive/session9/dialogue-line-3.mp3",
+          "emphasis": ["fastest way", "by taxi", "within your budget"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, that's fine. How much does it cost and how long does it take?",
+          "translation": "Oui, c'est parfait. Combien cela coûte-t-il et combien de temps cela prend-il ?",
+          "audioFile": "/audio/executive/session9/dialogue-line-4.mp3",
+          "emphasis": ["How much does it cost", "how long does it take"]
+        },
+        {
+          "speaker": "A",
+          "text": "About $25 and 15 minutes with current traffic. Could you call me a taxi, please?",
+          "translation": "Environ 25$ et 15 minutes avec le trafic actuel. Pourriez-vous m'appeler un taxi, s'il vous plaît ?",
+          "audioFile": "/audio/executive/session9/dialogue-line-5.mp3",
+          "emphasis": ["$25 and 15 minutes", "Could you call me a taxi"]
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. The taxi will be here in 3 minutes. The driver will take you directly there.",
+          "translation": "Bien sûr. Le taxi sera là dans 3 minutes. Le chauffeur vous y conduira directement.",
+          "audioFile": "/audio/executive/session9/dialogue-line-6.mp3",
+          "emphasis": ["3 minutes", "take you directly there"]
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect. Could you tell the driver I need to be there by 10 AM? Thank you very much.",
+          "translation": "Parfait. Pourriez-vous dire au chauffeur que je dois y être avant 10h ? Merci beaucoup.",
+          "audioFile": "/audio/executive/session9/dialogue-line-7.mp3",
+          "emphasis": ["by 10 AM", "Thank you very much"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-9",
+      "type": "rolePlay",
+      "title": "Maîtrise de la Mobilité Urbaine",
+      "description": "Scénarios couvrant tous les aspects des déplacements urbains professionnels.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Demande de Directions",
+          "description": "Vous êtes perdu et devez demander votre chemin.",
+          "yourLine": "Excuse me, how do I get to the convention center? Is it within walking distance?",
+          "context": "Approchez-vous poliment d'un passant ou d'un agent d'information."
+        },
+        {
+          "id": 2,
+          "title": "Urgence de Transport",
+          "description": "Vous êtes en retard pour un rendez-vous important.",
+          "yourLine": "I'm running late for a meeting. What's the fastest way to get to downtown?",
+          "context": "Exprimez votre urgence tout en restant poli et professionnel."
+        },
+        {
+          "id": 3,
+          "title": "Négociation de Prix",
+          "description": "Vous voulez connaître le coût d'un transport.",
+          "yourLine": "How much does it cost to get to the airport? Could you call me a taxi?",
+          "context": "Obtenez les informations nécessaires avant de vous engager."
+        },
+        {
+          "id": 4,
+          "title": "Instructions au Chauffeur",
+          "description": "Vous donnez des instructions précises dans un taxi.",
+          "yourLine": "Could you drop me off at the main entrance? I need to be there by 2 PM.",
+          "context": "Soyez précis sur votre destination et vos contraintes de temps."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Questions de Direction et Distance",
+      "description": "Structures pour demander des informations sur les déplacements et distances.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "How do I get to...?",
+          "french": "Comment puis-je me rendre à... ?",
+          "explanation": "Structure standard pour demander des directions. Plus naturel que 'How can I go to...'",
+          "audioFile": "/audio/executive/session9/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Is it within walking distance?",
+          "french": "Est-ce accessible à pied ?",
+          "explanation": "Expression idiomatique très utile pour évaluer la faisabilité d'un trajet à pied.",
+          "audioFile": "/audio/executive/session9/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Where is the...?",
+          "french": "Où est le/la... ?",
+          "explanation": "Question de base, mais moins pratique que 'How do I get to...' qui donne des directions.",
+          "audioFile": "/audio/executive/session9/grammar-example-3.mp3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "title": "Expressions de Temps et Urgence",
+      "description": "Façons d'exprimer l'urgence et les contraintes temporelles.",
+      "color": "orange",
+      "examples": [
+        {
+          "english": "I'm running late.",
+          "french": "Je suis en retard.",
+          "explanation": "Expression idiomatique naturelle pour exprimer qu'on est en retard.",
+          "audioFile": "/audio/executive/session9/grammar-example-4.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I need to be there by 10 AM.",
+          "french": "Je dois y être avant 10h.",
+          "explanation": "'By' indique une deadline - très important pour les contraintes de temps.",
+          "audioFile": "/audio/executive/session9/grammar-example-5.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I am late.",
+          "french": "Je suis en retard.",
+          "explanation": "Correct mais moins naturel que 'I'm running late' qui implique le mouvement.",
+          "audioFile": "/audio/executive/session9/grammar-example-6.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Pourboires et Transport",
+      "content": "Aux États-Unis, donnez 15-20% de pourboire aux chauffeurs de taxi. Au Royaume-Uni, 10-15% suffit. Pour Uber/Lyft, le pourboire est optionnel mais apprécié. Dans les transports publics, aucun pourboire n'est attendu."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Art de l'Urgence Polie",
+      "content": "'I'm running late' est plus efficace que 'I'm in a hurry' car cela explique la raison de votre urgence. Ajoutez 'for an important meeting' pour obtenir une aide prioritaire sans paraître impoli."
+    },
+    {
+      "type": "cultural",
+      "title": "Différences Urbaines",
+      "content": "À New York, les taxis jaunes sont iconiques mais Uber/Lyft dominent. À Londres, les black cabs sont prestigieux mais plus chers. Dans les deux cas, 'Could you call me a taxi?' fonctionne parfaitement."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Simulation GPS : Utilisez Google Maps en anglais pour planifier un trajet. Pratiquez les phrases 'How do I get to...' et 'Is it within walking distance?' en explorant différentes destinations.",
+      "resources": [
+        "Vocabulaire des transports urbains",
+        "Applications de navigation en anglais",
+        "Expressions de temps et distance"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 170,
+    "badges": ["Urban Navigator", "Time Manager"],
+    "challenges": [
+      "Utilisez 'How do I get to...' pour demander des directions",
+      "Maîtrisez 'Is it within walking distance?' pour évaluer les trajets",
+      "Pratiquez 'I'm running late' avec l'urgence appropriée",
+      "Négociez un transport avec 'How much does it cost?'"
+    ]
+  }
+}

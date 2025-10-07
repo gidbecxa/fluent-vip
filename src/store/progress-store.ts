@@ -26,7 +26,7 @@ export const useProgressStore = create<ProgressState>()(
   persist(
     (set, get) => ({
       completedSessions: [],
-      currentWeek: 2,
+      currentWeek: 1,
       totalXP: 0,
       earnedBadges: [],
       completedChallenges: [],
@@ -95,9 +95,22 @@ export const useProgressStore = create<ProgressState>()(
       },
       
       markSessionCompleted: (sessionId: number) => {
-        const { completedSessions } = get()
+        const { completedSessions, currentWeek } = get()
         if (!completedSessions.includes(sessionId)) {
-          set({ completedSessions: [...completedSessions, sessionId] })
+          const newCompleted = [...completedSessions, sessionId]
+          let newWeek = currentWeek
+          
+          // Auto-advance week based on completed sessions
+          if (sessionId === 5 && currentWeek === 1) {
+            newWeek = 2
+          } else if (sessionId === 10 && currentWeek === 2) {
+            newWeek = 3
+          }
+          
+          set({ 
+            completedSessions: newCompleted,
+            currentWeek: newWeek
+          })
         }
       }
     }),

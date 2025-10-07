@@ -1,0 +1,44 @@
+{
+  "sessionId": 5,
+  "title": "Quiz - Révision Semaine 1",
+  "description": "Quiz de révision sur les concepts de base de la semaine 1",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you greet someone formally?",
+      "options": [
+        "Hey!",
+        "Good morning",
+        "What's up?",
+        "Yo!"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Good morning' is a formal and polite greeting."
+    },
+    {
+      "id": 2,
+      "question": "What's the correct response to 'What's your name?'",
+      "options": [
+        "I am fine",
+        "My name is John",
+        "Nice to meet you",
+        "How are you?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'My name is...' is the correct way to respond when asked for your name."
+    },
+    {
+      "id": 3,
+      "question": "Which is the most polite way to ask for help?",
+      "options": [
+        "Help me!",
+        "I need help",
+        "Could you please help me?",
+        "Give me help"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Could you please help me?' is the most polite and formal way to ask for help."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": 3,
+  "title": "Naviguer l'Inconnu avec Élégance",
+  "objective": "À la fin de cette session, vous maîtriserez l'art de gérer les situations d'incompréhension avec grâce et assurance, transformant les moments de confusion en opportunités de communication respectueuse.",
+  "duration": 45,
+  "track": "executive",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "I'm sorry, I don't understand.",
+      "pronunciation": "Aïm so-ri, aï don't un-der-stènd",
+      "context": "Expression polie pour signaler une incompréhension. Montre l'engagement à comprendre.",
+      "audioFile": "/audio/executive/session3/i-dont-understand.mp3"
+    },
+    {
+      "english": "Could you repeat, please?",
+      "pronunciation": "Coud you ri-piit, pliiz?",
+      "context": "Demande polie de répétition. Plus élégant que 'What?' ou 'Pardon?'",
+      "audioFile": "/audio/executive/session3/could-you-repeat.mp3"
+    },
+    {
+      "english": "Could you speak more slowly, please?",
+      "pronunciation": "Coud you spiik mor slo-li, pliiz?",
+      "context": "Votre outil le plus puissant pour contrôler le rythme de la conversation.",
+      "audioFile": "/audio/executive/session3/speak-slowly.mp3"
+    },
+    {
+      "english": "I'm not quite following.",
+      "pronunciation": "Aïm nott kwaït fo-lo-wing",
+      "context": "Manière sophistiquée d'exprimer une confusion partielle. Très professionnelle.",
+      "audioFile": "/audio/executive/session3/not-quite-following.mp3"
+    },
+    {
+      "english": "Let me make sure I understand.",
+      "pronunciation": "Lèt mi meïk chor aï un-der-stènd",
+      "context": "Pour reformuler et confirmer votre compréhension. Montre l'engagement actif.",
+      "audioFile": "/audio/executive/session3/let-me-make-sure.mp3"
+    },
+    {
+      "english": "Thank you for your patience.",
+      "pronunciation": "Sènk you for yor peï-chens",
+      "context": "Expression de gratitude élégante après avoir demandé des clarifications.",
+      "audioFile": "/audio/executive/session3/thank-you-patience.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-3",
+      "title": "Gestion Professionnelle de l'Incompréhension",
+      "description": "Dialogue réaliste montrant comment transformer une situation de confusion en interaction professionnelle réussie.",
+      "context": "Vous participez à une conférence téléphonique internationale. La connexion n'est pas parfaite et vous devez naviguer des moments d'incompréhension avec professionnalisme.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's discuss the quarterly projections for the Asian market...",
+          "translation": "Discutons des projections trimestrielles pour le marché asiatique...",
+          "audioFile": "/audio/executive/session3/dialogue-line-1.mp3",
+          "emphasis": ["quarterly projections"]
+        },
+        {
+          "speaker": "B",
+          "text": "I'm sorry, I'm not quite following. Could you speak more slowly, please?",
+          "translation": "Excusez-moi, je ne suis pas tout à fait. Pourriez-vous parler plus lentement, s'il vous plaît ?",
+          "audioFile": "/audio/executive/session3/dialogue-line-2.mp3",
+          "emphasis": ["I'm not quite following", "Could you speak more slowly"]
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. Our quarterly projections show strong growth in Asia.",
+          "translation": "Bien sûr. Nos projections trimestrielles montrent une forte croissance en Asie.",
+          "audioFile": "/audio/executive/session3/dialogue-line-3.mp3",
+          "emphasis": ["quarterly projections", "strong growth"]
+        },
+        {
+          "speaker": "B",
+          "text": "Let me make sure I understand. You're referring to Q4 projections, correct?",
+          "translation": "Laissez-moi m'assurer que je comprends. Vous faites référence aux projections du T4, c'est correct ?",
+          "audioFile": "/audio/executive/session3/dialogue-line-4.mp3",
+          "emphasis": ["Let me make sure I understand", "Q4 projections"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, exactly. Q4 projections suggest 22% growth.",
+          "translation": "Oui, exactement. Les projections du T4 suggèrent 22% de croissance.",
+          "audioFile": "/audio/executive/session3/dialogue-line-5.mp3",
+          "emphasis": ["Q4 projections", "22% growth"]
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect. Thank you for your patience.",
+          "translation": "Parfait. Merci pour votre patience.",
+          "audioFile": "/audio/executive/session3/dialogue-line-6.mp3",
+          "emphasis": ["Thank you for your patience"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-3",
+      "type": "rolePlay",
+      "title": "Maîtrise de la Communication Difficile",
+      "description": "Scénarios progressifs pour développer l'aisance dans les situations de communication complexe.",
+      "instructions": "L'objectif n'est pas de tout comprendre, mais de gérer l'incompréhension avec grâce et professionnalisme.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Connexion Téléphonique Difficile",
+          "description": "Vous participez à un appel important mais la ligne n'est pas claire.",
+          "yourLine": "I'm sorry, I don't understand. Could you repeat, please?",
+          "context": "Parlez calmement et clairement. N'hésitez pas à interrompre poliment si nécessaire."
+        },
+        {
+          "id": 2,
+          "title": "Rythme de Parole Rapide",
+          "description": "Votre interlocuteur parle rapidement et vous perdez le fil.",
+          "yourLine": "Could you speak more slowly, please? I want to make sure I understand correctly.",
+          "context": "Montrez que votre demande vient d'un désir de bien comprendre."
+        },
+        {
+          "id": 3,
+          "title": "Reformulation pour Confirmation",
+          "description": "Vous pensez avoir compris mais voulez vous assurer.",
+          "yourLine": "Let me make sure I understand. You're saying that... Is that correct?",
+          "context": "Reformulez dans vos propres mots. Cela montre l'écoute active."
+        },
+        {
+          "id": 4,
+          "title": "Remerciement Après Clarification",
+          "description": "Après avoir obtenu les clarifications nécessaires.",
+          "yourLine": "Thank you for your patience. That's much clearer now.",
+          "context": "Reconnaissez l'effort de votre interlocuteur et confirmez votre compréhension."
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "L'Art de l'Incompréhension Élégante",
+      "content": "Dans les cultures anglophones, demander des clarifications n'est jamais perçu comme un signe de faiblesse. Au contraire, c'est vu comme une marque d'engagement et un désir sincère de communiquer efficacement."
+    },
+    {
+      "type": "vipTip",
+      "title": "Le Pouvoir de la Reformulation",
+      "content": "'Let me make sure I understand' suivi d'une reformulation est la technique des négociateurs experts. Cela montre l'écoute active et évite les malentendus."
+    },
+    {
+      "type": "cultural",
+      "title": "Gestion du Temps dans les Clarifications",
+      "content": "Il est acceptable de prendre le temps nécessaire pour bien comprendre. 'Thank you for your patience' reconnaît le temps pris tout en maintenant une atmosphère positive."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice de confiance : Répétez votre phrase préférée 10 fois devant un miroir avec différentes intonations pour incarner la sérénité.",
+      "resources": [
+        "Enregistrements de référence avec différentes intonations",
+        "Exercices de respiration pour gérer le stress",
+        "Techniques de langage corporel confiant"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 150,
+    "badges": ["Confusion Master", "Elegant Communicator"],
+    "challenges": [
+      "Utilisez 'I'm not quite following' dans une situation réelle",
+      "Pratiquez 'Could you speak more slowly' avec assurance",
+      "Maîtrisez l'art de la reformulation"
+    ]
+  }
+}

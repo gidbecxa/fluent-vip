@@ -1,0 +1,266 @@
+{
+  "id": 4,
+  "title": "Le Rituel Social Incontournable",
+  "objective": "À la fin de cette session, vous maîtriserez l'échange social le plus courant en anglais : 'Comment allez-vous ?', et saurez mener une conversation complète intégrant toutes vos compétences acquises.",
+  "duration": 35,
+  "track": "executive",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "How are you?",
+      "pronunciation": "Haow ar you?",
+      "context": "La question sociale de base pour s'enquérir de l'état de quelqu'un. Partie essentielle du rituel de salutation.",
+      "audioFile": "/audio/executive/session4/how-are-you.mp3"
+    },
+    {
+      "english": "I'm fine, thank you. And you?",
+      "pronunciation": "Aïm faïn, sènk-you. Ènd you?",
+      "context": "La réponse standard, polie et positive. Le 'And you?' est crucial pour maintenir l'échange social.",
+      "audioFile": "/audio/executive/session4/im-fine-and-you.mp3"
+    },
+    {
+      "english": "Very well, thank you.",
+      "pronunciation": "Vè-ri ouell, sènk-you",
+      "context": "Une réponse alternative, légèrement plus formelle et sophistiquée.",
+      "audioFile": "/audio/executive/session4/very-well.mp3"
+    },
+    {
+      "english": "How do you do?",
+      "pronunciation": "Haow dou you dou?",
+      "context": "Salutation très formelle, principalement britannique. La réponse attendue est identique : 'How do you do?'",
+      "audioFile": "/audio/executive/session4/how-do-you-do.mp3"
+    },
+    {
+      "english": "I'm doing well.",
+      "pronunciation": "Aïm dou-ing ouell",
+      "context": "Réponse moderne et naturelle, particulièrement utilisée en Amérique du Nord.",
+      "audioFile": "/audio/executive/session4/im-doing-well.mp3"
+    },
+    {
+      "english": "Not too bad, thanks.",
+      "pronunciation": "Nott tou bèd, sènks",
+      "context": "Réponse décontractée mais polie, appropriée entre collègues familiers.",
+      "audioFile": "/audio/executive/session4/not-too-bad.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-4",
+      "title": "Conversation Sociale Complète",
+      "description": "Dialogue intégrant toutes les compétences des sessions 1-4 dans une interaction sociale naturelle et fluide.",
+      "context": "Vous arrivez à un événement professionnel et rencontrez un collègue. Cette conversation combine salutations, présentations, et échange social dans un flux naturel.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning.",
+          "translation": "Bonjour.",
+          "audioFile": "/audio/executive/session4/dialogue-line-1.mp3",
+          "emphasis": ["Good morning"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. My name is Michael Thompson. Nice to meet you.",
+          "translation": "Bonjour. Je m'appelle Michael Thompson. Ravi de vous rencontrer.",
+          "audioFile": "/audio/executive/session4/dialogue-line-2.mp3",
+          "emphasis": ["My name is", "Nice to meet you"]
+        },
+        {
+          "speaker": "A",
+          "text": "Pleased to meet you, Michael. My name is Sarah Chen. How are you?",
+          "translation": "Enchanté de vous rencontrer, Michael. Je m'appelle Sarah Chen. Comment allez-vous ?",
+          "audioFile": "/audio/executive/session4/dialogue-line-3.mp3",
+          "emphasis": ["Pleased to meet you", "How are you"]
+        },
+        {
+          "speaker": "B",
+          "text": "I'm very well, thank you. And you? How are you finding the conference?",
+          "translation": "Je vais très bien, merci. Et vous ? Comment trouvez-vous la conférence ?",
+          "audioFile": "/audio/executive/session4/dialogue-line-4.mp3",
+          "emphasis": ["I'm very well", "And you"]
+        },
+        {
+          "speaker": "A",
+          "text": "I'm fine, thank you. It's very interesting. Excuse me, could you repeat the name of the keynote speaker?",
+          "translation": "Je vais bien, merci. C'est très intéressant. Excusez-moi, pourriez-vous répéter le nom de l'orateur principal ?",
+          "audioFile": "/audio/executive/session4/dialogue-line-5.mp3",
+          "emphasis": ["I'm fine", "Excuse me", "could you repeat"]
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Dr. Elizabeth Watson. She's speaking about digital transformation.",
+          "translation": "Bien sûr. Dr. Elizabeth Watson. Elle parle de transformation numérique.",
+          "audioFile": "/audio/executive/session4/dialogue-line-6.mp3",
+          "emphasis": ["Dr. Elizabeth Watson"]
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you very much. That's very helpful.",
+          "translation": "Merci beaucoup. C'est très utile.",
+          "audioFile": "/audio/executive/session4/dialogue-line-7.mp3",
+          "emphasis": ["Thank you very much"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-4",
+      "type": "rolePlay",
+      "title": "Maîtrise de l'Échange Social Complet",
+      "description": "Scénarios progressifs pour assembler toutes vos compétences en une conversation fluide et naturelle.",
+      "instructions": "Chaque scénario combine les éléments des sessions précédentes. L'objectif est la fluidité et l'automatisme dans l'enchaînement des phrases.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Échange Social de Base",
+          "description": "Conversation simple intégrant salutation, présentation et 'How are you?'",
+          "yourLine": "Good morning. My name is [Nom]. How are you?",
+          "context": "Enchaînez naturellement les trois éléments. Attendez les réponses avant de continuer."
+        },
+        {
+          "id": 2,
+          "title": "Réponse à 'How are you?'",
+          "description": "Quelqu'un vous demande comment vous allez.",
+          "yourLine": "I'm fine, thank you. And you?",
+          "context": "N'oubliez jamais de renvoyer la question. C'est la règle d'or de la politesse anglophone."
+        },
+        {
+          "id": 3,
+          "title": "Conversation avec Clarification",
+          "description": "Échange social où vous devez demander une répétition.",
+          "yourLine": "I'm very well, thank you. Excuse me, could you repeat that, please?",
+          "context": "Intégrez naturellement vos outils de clarification dans la conversation sociale."
+        },
+        {
+          "id": 4,
+          "title": "Conversation Formelle Complète",
+          "description": "Interaction complète avec un niveau de formalité élevé.",
+          "yourLine": "Good afternoon. Pleased to meet you. How do you do?",
+          "context": "Utilisez le niveau de formalité approprié pour des contextes très professionnels."
+        },
+        {
+          "id": 5,
+          "title": "Conversation avec Transition",
+          "description": "Après l'échange social, orientez vers un sujet spécifique.",
+          "yourLine": "I'm doing well, thank you. And you? How are you finding the event?",
+          "context": "Utilisez 'How are you finding...' pour transition vers un sujet contextuel."
+        }
+      ]
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Le Rituel 'How are you?'",
+      "description": "Comprendre que 'How are you?' est souvent plus un rituel social qu'une vraie question sur votre santé.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "How are you?",
+          "french": "Comment allez-vous ?",
+          "explanation": "Question rituelle. La réponse est presque toujours positive, même si vous n'allez pas parfaitement bien.",
+          "audioFile": "/audio/executive/session4/grammar-example-1.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'm fine, thank you. And you?",
+          "french": "Je vais bien, merci. Et vous ?",
+          "explanation": "Réponse standard. Le 'And you?' est essentiel pour maintenir l'échange social.",
+          "audioFile": "/audio/executive/session4/grammar-example-2.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'm terrible, my life is falling apart.",
+          "french": "Je vais mal, ma vie s'effondre.",
+          "explanation": "Trop personnel pour un échange social de base. Réservé aux proches.",
+          "audioFile": "/audio/executive/session4/grammar-example-3.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Niveaux de Réponse",
+      "description": "Différentes façons de répondre à 'How are you?' selon le contexte et la relation.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "I'm fine, thank you.",
+          "french": "Je vais bien, merci.",
+          "explanation": "Standard et sûr dans tous les contextes.",
+          "audioFile": "/audio/executive/session4/grammar-example-4.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Very well, thank you.",
+          "french": "Très bien, merci.",
+          "explanation": "Plus formel, approprié avec des clients ou supérieurs.",
+          "audioFile": "/audio/executive/session4/grammar-example-5.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Not too bad, thanks.",
+          "french": "Pas trop mal, merci.",
+          "explanation": "Décontracté, approprié entre collègues familiers.",
+          "audioFile": "/audio/executive/session4/grammar-example-6.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I'm doing well.",
+          "french": "Je vais bien.",
+          "explanation": "Moderne et naturel, particulièrement américain.",
+          "audioFile": "/audio/executive/session4/grammar-example-7.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Le Rituel Social Anglophone",
+      "content": "'How are you?' fait partie du rituel de salutation dans les cultures anglophones. Ce n'est généralement pas une vraie question sur votre état de santé, mais une formule de politesse. La réponse attendue est positive et brève, suivie de 'And you?' pour maintenir l'échange social."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Règle d'Or du 'And you?'",
+      "content": "Oublier de renvoyer la question avec 'And you?' peut être perçu comme égocentrique ou impoli. Cette réciprocité est fondamentale dans les cultures anglophones et démontre votre maîtrise des codes sociaux sophistiqués."
+    },
+    {
+      "type": "cultural",
+      "title": "Différences Culturelles dans les Réponses",
+      "content": "Les Américains acceptent facilement 'I'm doing well' ou 'Not too bad'. Les Britanniques préfèrent 'Very well, thank you' dans les contextes formels. Adaptez votre réponse à votre audience pour maximiser l'impact professionnel."
+    },
+    {
+      "type": "vipTip",
+      "title": "L'Art de la Transition Conversationnelle",
+      "content": "Après l'échange 'How are you?', les professionnels expérimentés utilisent des transitions comme 'How are you finding the conference?' ou 'How has your day been?' pour orienter naturellement la conversation vers des sujets plus substantiels."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice d'automatisme : Pratiquez l'enchaînement complet 'Good morning. My name is [Nom]. How are you?' 15 fois, en variant l'intonation pour qu'elle reste naturelle et engageante.",
+      "resources": [
+        "Enregistrements de référence avec différentes intonations naturelles",
+        "Exercices de rythme conversationnel",
+        "Techniques pour éviter la récitation mécanique"
+      ]
+    },
+    {
+      "description": "Mission sociale : Dans vos prochaines interactions professionnelles en français, observez comment vous gérez l'équivalent de 'Comment allez-vous?'. Puis transposez cette aisance naturelle vers l'anglais.",
+      "resources": [
+        "Comparaisons culturelles France-pays anglophones",
+        "Stratégies de transfert de compétences sociales",
+        "Techniques pour maintenir l'authenticité personnelle"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 130,
+    "badges": ["Social Ritual Master", "Conversation Connector"],
+    "challenges": [
+      "Utilisez 'How are you?' dans une vraie interaction",
+      "Maîtrisez le 'And you?' automatique",
+      "Pratiquez 3 niveaux de réponse différents",
+      "Intégrez une transition conversationnelle"
+    ]
+  }
+}

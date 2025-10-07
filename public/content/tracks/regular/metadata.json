@@ -1,0 +1,100 @@
+{
+  "track": "regular",
+  "title": "Parcours Régulier - Anglais Académique et Professionnel",
+  "description": "Programme complet conçu pour les étudiants, professionnels, et candidats aux tests de compétence linguistique. Formation approfondie basée sur les standards internationaux CECRL.",
+  "targetLevel": "A1-B2",
+  "duration": "16 semaines",
+  "sessionsPerWeek": 3,
+  "totalSessions": 48,
+  "sessions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "title": "Premiers Pas & Interactions Fondamentales",
+      "objective": "Maîtriser les présentations, l'origine, et les descriptions de base avec le verbe 'To Be'",
+      "sessions": [1, 2, 3, 4, 5],
+      "keyTopics": [
+        "Verbe 'To Be' - toutes les formes",
+        "Présentations personnelles et professionnelles",
+        "Pays, nationalités, et origines",
+        "Pronoms personnels (I, you, he, she, it)",
+        "Questions et réponses de base"
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "title": "Descriptions et Environnement",
+      "objective": "Décrire les personnes, objets, et lieux avec précision",
+      "sessions": [6, 7, 8, 9, 10],
+      "keyTopics": [
+        "Adjectifs descriptifs",
+        "Pluriels et articles",
+        "Prépositions de lieu",
+        "Vocabulaire de la famille",
+        "Description physique et personnalité"
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "title": "Routines et Habitudes",
+      "objective": "Exprimer les habitudes quotidiennes avec le présent simple",
+      "sessions": [7, 8, 9],
+      "keyTopics": [
+        "Présent simple - affirmation",
+        "Présent simple - négation et questions",
+        "Adverbes de fréquence",
+        "Activités quotidiennes",
+        "Expressions temporelles"
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "title": "Lieux et Directions",
+      "objective": "Naviguer dans l'espace et donner des directions",
+      "sessions": [10, 11, 12],
+      "keyTopics": [
+        "Prépositions de lieu avancées",
+        "Vocabulaire urbain",
+        "Donner et suivre des directions",
+        "Moyens de transport",
+        "There is/There are"
+      ]
+    }
+  ],
+  "learningObjectives": [
+    "Atteindre le niveau A2 du CECRL avec certification",
+    "Maîtriser les structures grammaticales fondamentales",
+    "Développer un vocabulaire de 1500+ mots actifs",
+    "Acquérir les compétences pour les tests standardisés (IELTS, TOEFL, Cambridge)",
+    "Communiquer efficacement dans les contextes académiques et professionnels",
+    "Préparer la transition vers le niveau B1 intermédiaire"
+  ],
+  "prerequisites": "Aucun prérequis - Programme adapté aux débutants complets",
+  "assessmentMethods": [
+    "Quiz interactifs après chaque session",
+    "Évaluations formatives hebdomadaires",
+    "Tests de compétences par jalon (toutes les 4 semaines)",
+    "Portfolio numérique de productions",
+    "Examen blanc CECRL A2 en fin de programme",
+    "Auto-évaluations et peer-assessments"
+  ],
+  "pedagogicalApproach": [
+    "Classe inversée avec vidéos préparatoires",
+    "Apprentissage par tâches et projets authentiques",
+    "Gamification et badges de progression",
+    "Feedback immédiat et correctif",
+    "Pratique intensive des 4 compétences (CE/CO/PE/PO)",
+    "Intégration technologique (apps, outils collaboratifs)",
+    "Différenciation pédagogique selon les profils d'apprenants"
+  ],
+  "uniqueFeatures": [
+    "Contenu aligné sur les standards CECRL et tests internationaux",
+    "Quiz adaptatifs avec intelligence artificielle",
+    "Système de badges et récompenses motivant",
+    "Ressources multimédias authentiques",
+    "Communauté d'apprentissage collaborative",
+    "Préparation spécifique aux examens (IELTS, TOEFL, Cambridge)",
+    "Suivi personnalisé des progrès avec analytics",
+    "Accès mobile pour l'apprentissage nomade"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": 1,
+  "title": "Les Piliers de la Courtoisie",
+  "objective": "À la fin de cette session, vous maîtriserez les 5 expressions de politesse les plus essentielles avec une prononciation claire et naturelle, et vous serez capable de tenir votre première conversation de base.",
+  "duration": 35,
+  "track": "executive",
+  "week": 1,
+  "keyPhrases": [
+    {
+      "english": "Hello.",
+      "pronunciation": "Hè-lo",
+      "context": "La salutation universelle, neutre et polie. Utilisée à tout moment de la journée.",
+      "audioFile": "/audio/executive/session1/hello.mp3"
+    },
+    {
+      "english": "Thank you.",
+      "pronunciation": "Sènk-you",
+      "context": "Pour remercier. Expression fondamentale de gratitude dans toute interaction.",
+      "audioFile": "/audio/executive/session1/thank-you.mp3"
+    },
+    {
+      "english": "Please.",
+      "pronunciation": "Pliiz",
+      "context": "Pour demander quelque chose poliment. Transforme une demande en requête respectueuse.",
+      "audioFile": "/audio/executive/session1/please.mp3"
+    },
+    {
+      "english": "Excuse me.",
+      "pronunciation": "Ex-kiouz-mi",
+      "context": "Pour attirer l'attention poliment ou s'excuser avant de déranger quelqu'un.",
+      "audioFile": "/audio/executive/session1/excuse-me.mp3"
+    },
+    {
+      "english": "Good morning.",
+      "pronunciation": "Goud mor-ning",
+      "context": "Salutation formelle utilisée jusqu'à 12h. Marque de respect et de professionnalisme.",
+      "audioFile": "/audio/executive/session1/good-morning.mp3"
+    },
+    {
+      "english": "Good afternoon.",
+      "pronunciation": "Goud af-ter-noun",
+      "context": "Salutation formelle de 12h à 18h. Appropriée pour les contextes professionnels.",
+      "audioFile": "/audio/executive/session1/good-afternoon.mp3"
+    },
+    {
+      "english": "Good evening.",
+      "pronunciation": "Goud iiv-ning",
+      "context": "Salutation formelle après 18h. Utilisée lors d'événements sociaux ou professionnels.",
+      "audioFile": "/audio/executive/session1/good-evening.mp3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "executive-dialogue-1",
+      "title": "Première Rencontre Professionnelle",
+      "description": "Dialogue pratique intégrant toutes les expressions de politesse apprises dans un contexte professionnel réaliste.",
+      "context": "Vous arrivez à un événement professionnel et rencontrez un collègue pour la première fois. Ce dialogue vous permet de pratiquer les salutations et expressions de politesse dans un contexte authentique.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning.",
+          "translation": "Bonjour.",
+          "audioFile": "/audio/executive/session1/dialogue-line-1.mp3",
+          "emphasis": ["Good morning"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good morning. Excuse me, are you here for the conference?",
+          "translation": "Bonjour. Excusez-moi, êtes-vous ici pour la conférence ?",
+          "audioFile": "/audio/executive/session1/dialogue-line-2.mp3",
+          "emphasis": ["Excuse me"]
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I am. Thank you for asking.",
+          "translation": "Oui, c'est cela. Merci de me le demander.",
+          "audioFile": "/audio/executive/session1/dialogue-line-3.mp3",
+          "emphasis": ["Thank you"]
+        },
+        {
+          "speaker": "B",
+          "text": "You're welcome. Please, follow me to the registration desk.",
+          "translation": "Je vous en prie. S'il vous plaît, suivez-moi jusqu'au bureau d'inscription.",
+          "audioFile": "/audio/executive/session1/dialogue-line-4.mp3",
+          "emphasis": ["Please"]
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you very much. That's very kind of you.",
+          "translation": "Merci beaucoup. C'est très aimable de votre part.",
+          "audioFile": "/audio/executive/session1/dialogue-line-5.mp3",
+          "emphasis": ["Thank you very much"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "executive-roleplay-1",
+      "type": "rolePlay",
+      "title": "Mise en Scène Professionnelle",
+      "description": "Simulations de situations réelles pour ancrer les expressions de politesse dans des contextes professionnels authentiques.",
+      "instructions": "Pour chaque scénario, concentrez-vous sur la posture, le ton et le contact visuel. L'objectif est de développer une aisance naturelle.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Arrivée en Réunion",
+          "description": "Vous entrez dans une salle de réunion où des collègues internationaux vous attendent.",
+          "yourLine": "Good morning, everyone.",
+          "context": "Entrez avec assurance, établissez un contact visuel avec le groupe et saluez d'une voix claire et posée."
+        },
+        {
+          "id": 2,
+          "title": "Réception d'un Document",
+          "description": "Un assistant vous remet un dossier important lors d'une conférence.",
+          "yourLine": "Thank you very much.",
+          "context": "Recevez le document avec les deux mains, souriez sincèrement et remerciez avec chaleur."
+        },
+        {
+          "id": 3,
+          "title": "Demande d'Assistance",
+          "description": "Vous devez attirer l'attention du personnel d'accueil dans un hôtel de luxe.",
+          "yourLine": "Excuse me, please.",
+          "context": "Approchez-vous calmement, attendez un contact visuel et parlez d'une voix posée et respectueuse."
+        },
+        {
+          "id": 4,
+          "title": "Salutation Selon l'Heure",
+          "description": "Adaptez votre salutation selon le moment de la journée lors d'un événement professionnel.",
+          "yourLine": "Good morning / Good afternoon / Good evening",
+          "context": "Choisissez la salutation appropriée : matin (avant 12h), après-midi (12h-18h), ou soirée (après 18h)."
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "La Distinction Excuse me vs Sorry",
+      "content": "En anglais, 'Excuse me' est utilisé AVANT de déranger quelqu'un (pour attirer l'attention, passer devant quelqu'un), tandis que 'Sorry' est utilisé APRÈS avoir commis une erreur ou causé un désagrément. Cette distinction est un marqueur de sophistication linguistique que les anglophones remarquent immédiatement."
+    },
+    {
+      "type": "vipTip",
+      "title": "Le Pouvoir du Contact Visuel",
+      "content": "Dans les cultures anglophones, maintenir un contact visuel lors des salutations et remerciements est essentiel. Cela communique la confiance, le respect et l'engagement. Un 'Thank you' accompagné d'un contact visuel direct et d'un sourire sincère laisse une impression durable de professionnalisme."
+    },
+    {
+      "type": "cultural",
+      "title": "L'Art des Salutations Temporelles",
+      "content": "Les salutations 'Good morning/afternoon/evening' sont plus formelles que 'Hello' et particulièrement appropriées dans les contextes professionnels. Elles démontrent une conscience culturelle et un respect des conventions sociales. 'Good morning' jusqu'à 12h, 'Good afternoon' de 12h à 18h, 'Good evening' après 18h."
+    },
+    {
+      "type": "vipTip",
+      "title": "La Règle des Trois Secondes",
+      "content": "Lors d'une première rencontre, maintenez le contact visuel pendant environ 3 secondes après avoir dit 'Hello' ou 'Good morning'. Cette technique, utilisée par les diplomates et dirigeants, projette une image de confiance et d'autorité naturelle."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Exercice de mémorisation active : Répétez chaque expression 5 fois devant un miroir en vous concentrant sur la posture et l'expression faciale. L'objectif est d'associer les mots à une gestuelle confiante.",
+      "resources": [
+        "Flashcards numériques interactives avec audio natif",
+        "Exercices de répétition guidée avec feedback phonétique",
+        "Vidéos de démonstration de langage corporel professionnel"
+      ]
+    },
+    {
+      "description": "Mission quotidienne : Chaque matin, avant votre première interaction de la journée, formulez mentalement la salutation appropriée en anglais selon l'heure. Cette technique d'ancrage transforme l'apprentissage en habitude naturelle.",
+      "resources": [
+        "Rappels personnalisés selon votre emploi du temps",
+        "Journal de progression pour suivre vos pratiques quotidiennes",
+        "Conseils contextuels pour différents environnements professionnels"
+      ]
+    }
+  ],
+  "gamification": {
+    "xpReward": 100,
+    "badges": ["First Steps", "Politeness Master"],
+    "challenges": [
+      "Utilisez 'Good morning' dans une vraie situation aujourd'hui",
+      "Pratiquez le contact visuel avec 'Thank you' 5 fois",
+      "Maîtrisez la différence entre 'Excuse me' et 'Sorry'"
+    ]
+  }
+}

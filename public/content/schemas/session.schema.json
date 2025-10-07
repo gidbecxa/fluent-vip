@@ -1,0 +1,374 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session Content Schema",
+  "type": "object",
+  "required": ["id", "title", "objective", "duration", "track", "week"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Unique session identifier"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Session title"
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Learning objective for the session"
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Session duration in minutes"
+    },
+    "track": {
+      "type": "string",
+      "enum": ["regular", "executive"],
+      "description": "Learning track"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Week number in the curriculum"
+    },
+    "keyPhrases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/keyPhrase"
+      }
+    },
+    "dialogues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/dialogue"
+      }
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/activity"
+      }
+    },
+    "grammarRules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/grammarRule"
+      }
+    },
+    "culturalNotes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/culturalNote"
+      }
+    },
+    "practiceExercises": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/practiceExercise"
+      }
+    },
+    "multimedia": {
+      "$ref": "#/definitions/multimedia"
+    },
+    "gamification": {
+      "$ref": "#/definitions/gamification"
+    }
+  },
+  "definitions": {
+    "keyPhrase": {
+      "type": "object",
+      "required": ["english", "pronunciation", "context"],
+      "properties": {
+        "english": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pronunciation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audioFile": {
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced"]
+        }
+      }
+    },
+    "dialogue": {
+      "type": "object",
+      "required": ["id", "title", "description", "context", "lines"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dialogueLine"
+          }
+        }
+      }
+    },
+    "dialogueLine": {
+      "type": "object",
+      "required": ["speaker", "text", "translation"],
+      "properties": {
+        "speaker": {
+          "type": "string",
+          "enum": ["A", "B", "narrator"]
+        },
+        "text": {
+          "type": "string"
+        },
+        "translation": {
+          "type": "string"
+        },
+        "audioFile": {
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "emphasis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "required": ["id", "type", "title", "description"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["rolePlay", "interactive", "quiz", "pronunciation", "listening"]
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "instructions": {
+          "type": "string"
+        },
+        "scenarios": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/scenario"
+          }
+        }
+      }
+    },
+    "scenario": {
+      "type": "object",
+      "required": ["id", "title", "description", "yourLine", "context"],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "yourLine": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        }
+      }
+    },
+    "grammarRule": {
+      "type": "object",
+      "required": ["title", "description", "examples"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string",
+          "enum": ["blue", "purple", "green", "orange", "red"]
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/grammarExample"
+          }
+        }
+      }
+    },
+    "grammarExample": {
+      "type": "object",
+      "required": ["english", "french", "explanation"],
+      "properties": {
+        "english": {
+          "type": "string"
+        },
+        "french": {
+          "type": "string"
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "audioFile": {
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "isCorrect": {
+          "type": "boolean"
+        }
+      }
+    },
+    "culturalNote": {
+      "type": "object",
+      "required": ["type", "content"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["cultural", "vipTip", "genZTip"]
+        },
+        "content": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "practiceExercise": {
+      "type": "object",
+      "required": ["description", "resources"],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "digitalTools": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/digitalTool"
+          }
+        }
+      }
+    },
+    "digitalTool": {
+      "type": "object",
+      "required": ["name", "description", "link"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "multimedia": {
+      "type": "object",
+      "properties": {
+        "flippedClassroom": {
+          "$ref": "#/definitions/flippedClassroom"
+        },
+        "interactiveElements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/interactiveElement"
+          }
+        }
+      }
+    },
+    "flippedClassroom": {
+      "type": "object",
+      "required": ["videoUrl", "videoTitle", "videoDuration", "videoDescription"],
+      "properties": {
+        "videoUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "videoTitle": {
+          "type": "string"
+        },
+        "videoDuration": {
+          "type": "string"
+        },
+        "videoDescription": {
+          "type": "string"
+        }
+      }
+    },
+    "interactiveElement": {
+      "type": "object",
+      "required": ["type", "title", "description"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["challenge", "game", "quiz", "simulation"]
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "gamification": {
+      "type": "object",
+      "properties": {
+        "xpReward": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "badges": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "challenges": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

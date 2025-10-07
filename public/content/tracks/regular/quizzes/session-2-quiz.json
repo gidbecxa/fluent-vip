@@ -1,0 +1,44 @@
+{
+  "sessionId": 2,
+  "title": "Quiz - Origines et Nationalités",
+  "description": "Quiz sur les pays, nationalités et formes négatives",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is correct?",
+      "options": [
+        "I am from France",
+        "I am from france",
+        "I from France",
+        "I am France"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Countries always start with a capital letter in English."
+    },
+    {
+      "id": 2,
+      "question": "How do you ask about someone's origin?",
+      "options": [
+        "What are you from?",
+        "Where are you from?",
+        "How are you from?",
+        "When are you from?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Where are you from?' is the correct way to ask about someone's origin."
+    },
+    {
+      "id": 3,
+      "question": "Which negative form is correct?",
+      "options": [
+        "I am not American",
+        "I amn't American",
+        "I not American",
+        "I am no American"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'I am not' is the correct negative form. 'Amn't' doesn't exist."
+    }
+  ]
+}
