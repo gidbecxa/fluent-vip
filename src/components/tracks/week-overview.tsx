@@ -83,7 +83,7 @@ export function WeekOverview({ track }: WeekOverviewProps) {
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-lg border z-50">
                   {Object.entries(WEEK_CONFIG).map(([week, config]) => {
                     const weekNum = parseInt(week)
-                    const hasContent = weekNum <= 2 // Only weeks 1-2 have content
+                    const hasContent = weekNum <= 3 // Weeks 1-3 have content
                     
                     return (
                       <button
