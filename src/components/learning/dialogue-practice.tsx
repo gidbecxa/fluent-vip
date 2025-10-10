@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { AudioPlayer } from "./audio-player"
 import { motion, AnimatePresence } from "framer-motion"
-import { Play, Pause, RotateCcw, CheckCircle, Users, MessageCircle, Volume2 } from "lucide-react"
+import { RotateCcw, CheckCircle, Users, MessageCircle, Volume2 } from "lucide-react"
 
 interface DialogueLine {
   speaker: "A" | "B" | "narrator"
@@ -30,7 +30,7 @@ interface DialoguePracticeProps {
 
 export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps) {
   const [currentLineIndex, setCurrentLineIndex] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(false)
+
   const [completedLines, setCompletedLines] = useState<number[]>([])
   const [showTranslation, setShowTranslation] = useState(false)
 
@@ -64,7 +64,7 @@ export function DialoguePractice({ scenario, onComplete }: DialoguePracticeProps
     setCurrentLineIndex(0)
     setCompletedLines([])
     setShowTranslation(false)
-    setIsPlaying(false)
+
   }
 
   const getSpeakerColor = (speaker: "A" | "B" | "narrator") => {

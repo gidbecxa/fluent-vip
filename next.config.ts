@@ -1,13 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  /* config options here */
+  turbopack: {
+    root: process.cwd()
+  },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true
   }
-  // ,
-  // experimental: {
-  //   suppressHydrationWarning: true,
-  // },
 };
 
 export default nextConfig;

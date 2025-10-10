@@ -1,0 +1,266 @@
+{
+  "id": 11,
+  "title": "My Day: Actions & Habits",
+  "objective": "À la fin de cette session, vous maîtriserez le présent simple affirmative pour décrire vos habitudes quotidiennes et celles des autres, en utilisant correctement la 3ème personne du singulier.",
+  "duration": 60,
+  "track": "regular",
+  "week": 3,
+  "keyPhrases": [
+    {
+      "english": "I wake up at seven o'clock.",
+      "pronunciation": "Aï weïk ʌp æt sè-vən o'klɒk",
+      "context": "Routine matinale. Structure de base pour exprimer l'heure de réveil.",
+      "audioFile": "/audio/regular/week3/session11/wake-up-seven.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She goes to school every day.",
+      "pronunciation": "Ʃi goʊz tu skul è-vri deï",
+      "context": "3ème personne + -s. Habitude régulière avec 'every day'.",
+      "audioFile": "/audio/regular/week3/session11/goes-school-everyday.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He works in an office.",
+      "pronunciation": "Hi wɜrks ɪn æn ɒ-fɪs",
+      "context": "Description du lieu de travail. Verbe 'work' à la 3ème personne.",
+      "audioFile": "/audio/regular/week3/session11/works-office.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "We have lunch at noon.",
+      "pronunciation": "Wi hæv lʌntʃ æt nun",
+      "context": "Repas de midi. 'Noon' = 12h00. Pas de -s avec 'we'.",
+      "audioFile": "/audio/regular/week3/session11/lunch-noon.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They watch TV in the evening.",
+      "pronunciation": "Ðeï wɒtʃ ti-vi ɪn ði i-vnɪŋ",
+      "context": "Activité de soirée. Prononciation du 'ch' dans 'watch'.",
+      "audioFile": "/audio/regular/week3/session11/watch-tv-evening.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "My mother cooks dinner every night.",
+      "pronunciation": "Maï mʌ-ðər kʊks dɪ-nər è-vri naït",
+      "context": "Routine familiale. Verbe 'cook' + -s à la 3ème personne.",
+      "audioFile": "/audio/regular/week3/session11/mother-cooks-dinner.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "The train arrives at eight fifteen.",
+      "pronunciation": "Ðə treïn ə-raïvz æt eït fɪf-tin",
+      "context": "Transport et horaires. Heure précise avec minutes.",
+      "audioFile": "/audio/regular/week3/session11/train-arrives-eight-fifteen.mp3",
+      "difficulty": "intermediate"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-11",
+      "title": "Comparing Daily Routines",
+      "description": "Dialogue entre deux étudiants qui comparent leurs routines quotidiennes, utilisant le présent simple pour décrire les habitudes.",
+      "context": "Vous êtes dans la cafétéria de l'université et vous discutez de vos emplois du temps avec un nouvel ami. Cette conversation vous permet de pratiquer le présent simple dans un contexte authentique.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi! What time do you usually wake up? I wake up at six thirty every morning.",
+          "translation": "Salut ! À quelle heure tu te réveilles d'habitude ? Je me réveille à six heures trente tous les matins.",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-1.mp3",
+          "emphasis": ["What time", "wake up", "six thirty", "every morning"]
+        },
+        {
+          "speaker": "B",
+          "text": "Wow, that's early! I wake up at seven forty-five. My first class starts at nine o'clock.",
+          "translation": "Wow, c'est tôt ! Je me réveille à sept heures quarante-cinq. Mon premier cours commence à neuf heures.",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-2.mp3",
+          "emphasis": ["that's early", "seven forty-five", "first class", "nine o'clock"]
+        },
+        {
+          "speaker": "A",
+          "text": "I understand. My brother wakes up late too. He works in the evening, so he sleeps until noon.",
+          "translation": "Je comprends. Mon frère se réveille tard aussi. Il travaille le soir, donc il dort jusqu'à midi.",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-3.mp3",
+          "emphasis": ["wakes up late", "works in the evening", "sleeps until noon"]
+        },
+        {
+          "speaker": "B",
+          "text": "That's interesting! What does he do? My sister works in a hospital. She starts work at six in the morning.",
+          "translation": "C'est intéressant ! Qu'est-ce qu'il fait ? Ma sœur travaille dans un hôpital. Elle commence le travail à six heures du matin.",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-4.mp3",
+          "emphasis": ["What does he do", "works in a hospital", "starts work", "six in the morning"]
+        },
+        {
+          "speaker": "A",
+          "text": "He works in a restaurant. He serves dinner to customers. The restaurant closes at midnight.",
+          "translation": "Il travaille dans un restaurant. Il sert le dîner aux clients. Le restaurant ferme à minuit.",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-5.mp3",
+          "emphasis": ["works in a restaurant", "serves dinner", "closes at midnight"]
+        },
+        {
+          "speaker": "B",
+          "text": "That explains everything! Different jobs have different schedules. What time do you go to bed?",
+          "translation": "Ça explique tout ! Différents emplois ont différents horaires. À quelle heure tu te couches ?",
+          "audioFile": "/audio/regular/week3/session11/dialogue-line-6.mp3",
+          "emphasis": ["explains everything", "different schedules", "go to bed"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-routine-practice-11",
+      "type": "rolePlay",
+      "title": "Daily Routine Interview",
+      "description": "Jeu de rôle où vous interviewez différentes personnes sur leurs routines quotidiennes, en pratiquant le présent simple.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Student Interview",
+          "description": "Interviewez un étudiant sur sa routine universitaire.",
+          "yourLine": "What time do you wake up? When do your classes start? What do you do after school?",
+          "context": "Posez des questions sur les horaires, les activités, et les habitudes d'étude."
+        },
+        {
+          "id": 2,
+          "title": "Working Parent Interview",
+          "description": "Interviewez un parent qui travaille sur sa routine familiale.",
+          "yourLine": "What time does your family have breakfast? Who takes the children to school?",
+          "context": "Explorez les routines familiales et les responsabilités partagées."
+        },
+        {
+          "id": 3,
+          "title": "Weekend vs Weekday",
+          "description": "Comparez les routines de semaine et de week-end.",
+          "yourLine": "Do you wake up at the same time on weekends? What do you do differently?",
+          "context": "Discutez des différences entre les jours de semaine et les week-ends."
+        }
+      ]
+    },
+    {
+      "id": "regular-pronunciation-drill-11",
+      "type": "pronunciation",
+      "title": "Third Person -S Pronunciation",
+      "description": "Exercice intensif sur la prononciation du -s de la 3ème personne du singulier.",
+      "instructions": "Pratiquez les trois sons du -s final : /s/, /z/, et /ɪz/ selon le contexte phonétique."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Present Simple - Affirmative Form",
+      "description": "Formation du présent simple pour exprimer les habitudes, les faits généraux, et les routines quotidiennes.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "I study English every day.",
+          "french": "J'étudie l'anglais tous les jours.",
+          "explanation": "Avec I/You/We/They, le verbe reste à l'infinitif sans 'to'.",
+          "audioFile": "/audio/regular/week3/session11/grammar-i-study.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She studies English every day.",
+          "french": "Elle étudie l'anglais tous les jours.",
+          "explanation": "Avec He/She/It, on ajoute -s au verbe. 'Study' devient 'studies'.",
+          "audioFile": "/audio/regular/week3/session11/grammar-she-studies.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "He go to work by bus.",
+          "french": "Il va au travail en bus.",
+          "explanation": "ERREUR : Il faut 'goes' avec 'he'. 'Go' devient 'goes' à la 3ème personne.",
+          "audioFile": "/audio/regular/week3/session11/grammar-error-he-go.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Third Person Singular -S Rules",
+      "description": "Règles d'ajout du -s à la 3ème personne du singulier et sa prononciation.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "He works /wɜrks/ - She plays /pleɪz/ - It finishes /fɪnɪʃɪz/",
+          "french": "Il travaille - Elle joue - Ça finit",
+          "explanation": "Trois prononciations : /s/ après sons sourds, /z/ après sons voisés, /ɪz/ après sifflantes.",
+          "audioFile": "/audio/regular/week3/session11/grammar-three-sounds.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Work-Life Balance in English-Speaking Countries",
+      "content": "Dans les pays anglophones, l'équilibre travail-vie privée est très important. Les expressions comme 'nine-to-five job' (travail de 9h à 17h) et 'work-life balance' sont couramment utilisées."
+    },
+    {
+      "type": "genZTip",
+      "title": "Modern Daily Routines",
+      "content": "Les jeunes d'aujourd'hui intègrent la technologie dans leurs routines : 'I check my phone first thing in the morning', 'She posts on Instagram every evening', 'We stream Netflix before bed'."
+    },
+    {
+      "type": "cultural",
+      "title": "Meal Times Around the World",
+      "content": "Les horaires de repas varient : aux États-Unis, 'dinner' est vers 18h-19h, au Royaume-Uni, 'tea time' peut désigner le dîner vers 17h-18h dans certaines régions."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Créez un emploi du temps visuel de votre journée type en utilisant le présent simple. Incluez au moins 10 activités avec les heures précises.",
+      "resources": [
+        "Modèle d'emploi du temps",
+        "Vocabulaire des activités quotidiennes",
+        "Expressions temporelles courantes"
+      ],
+      "digitalTools": [
+        {
+          "name": "Canva - Daily Schedule Template",
+          "description": "Créateur d'emploi du temps visuel gratuit",
+          "link": "https://canva.com/schedules"
+        }
+      ]
+    },
+    {
+      "description": "Enregistrez-vous en décrivant votre routine matinale (2 minutes). Concentrez-vous sur la prononciation correcte du -s de la 3ème personne.",
+      "resources": [
+        "Guide de prononciation du -s final",
+        "Checklist des erreurs courantes",
+        "Exemples audio de routines matinales"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://youtube.com/watch?v=daily-routines-present-simple",
+      "videoTitle": "Daily Routines with Present Simple",
+      "videoDuration": "8 minutes",
+      "videoDescription": "Introduction aux routines quotidiennes et au présent simple avec des exemples visuels et audio."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Present Simple Formation Quiz",
+        "description": "Quiz interactif sur la formation correcte du présent simple avec différents sujets."
+      },
+      {
+        "type": "game",
+        "title": "Daily Routine Matching Game",
+        "description": "Associez les activités aux bonnes heures et aux bonnes personnes."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 120,
+    "badges": ["Routine Master", "Grammar Foundation", "Pronunciation Pro"],
+    "challenges": [
+      "Utilisez correctement le -s de la 3ème personne 10 fois",
+      "Décrivez 5 routines différentes sans erreur",
+      "Maîtrisez la prononciation des trois sons du -s",
+      "Complétez le dialogue sans regarder le texte",
+      "Créez un emploi du temps complet en anglais"
+    ]
+  }
+}

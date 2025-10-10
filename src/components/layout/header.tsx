@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Video, Menu } from "lucide-react"
+import { Video } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function Header() {

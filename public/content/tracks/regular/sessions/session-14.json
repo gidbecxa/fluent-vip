@@ -1,0 +1,259 @@
+{
+  "id": 14,
+  "title": "How Often? Always, Sometimes, Never",
+  "objective": "À la fin de cette session, vous ajouterez de la nuance et de la précision à vos descriptions en maîtrisant les adverbes de fréquence et leur placement correct dans la phrase.",
+  "duration": 60,
+  "track": "regular",
+  "week": 3,
+  "keyPhrases": [
+    {
+      "english": "I always wake up early.",
+      "pronunciation": "Aɪ ɔl-weɪz weɪk ʌp ɜr-li",
+      "context": "Adverbe 'always' (100%) placé avant le verbe principal. Habitude constante.",
+      "audioFile": "/audio/regular/week3/session14/always-wake-up-early.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She usually drinks coffee.",
+      "pronunciation": "Ʃi yu-ʒu-ə-li drɪŋks kɔ-fi",
+      "context": "Adverbe 'usually' (90%) avant le verbe. Habitude très fréquente.",
+      "audioFile": "/audio/regular/week3/session14/usually-drinks-coffee.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "We sometimes go to the cinema.",
+      "pronunciation": "Wi sʌm-taɪmz goʊ tu ðə sɪ-nə-mə",
+      "context": "Adverbe 'sometimes' (50%) avant le verbe. Fréquence modérée.",
+      "audioFile": "/audio/regular/week3/session14/sometimes-go-cinema.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He never eats breakfast.",
+      "pronunciation": "Hi nɛ-vər its brɛk-fəst",
+      "context": "Adverbe 'never' (0%) avant le verbe. Absence totale d'habitude.",
+      "audioFile": "/audio/regular/week3/session14/never-eats-breakfast.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They are always late.",
+      "pronunciation": "Ðeɪ ɑr ɔl-weɪz leɪt",
+      "context": "Exception : adverbe APRÈS le verbe 'to be'. Règle spéciale importante.",
+      "audioFile": "/audio/regular/week3/session14/are-always-late.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "I often study in the library.",
+      "pronunciation": "Aɪ ɔf-ən stʌ-di ɪn ðə laɪ-brɛr-i",
+      "context": "Adverbe 'often' (70%) avant le verbe. Lieu d'étude habituel.",
+      "audioFile": "/audio/regular/week3/session14/often-study-library.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "My family rarely travels abroad.",
+      "pronunciation": "Maɪ fæ-mə-li rɛr-li træ-vəlz ə-brɔd",
+      "context": "Adverbe 'rarely' (10%) avant le verbe. Activité peu fréquente.",
+      "audioFile": "/audio/regular/week3/session14/rarely-travels-abroad.mp3",
+      "difficulty": "advanced"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-14",
+      "title": "A Healthy Lifestyle Discussion",
+      "description": "Conversation entre amis sur leurs habitudes de vie saine, utilisant intensivement les adverbes de fréquence pour nuancer leurs descriptions.",
+      "context": "Vous discutez avec un ami de vos habitudes de santé et de bien-être. Cette conversation permet de pratiquer naturellement tous les adverbes de fréquence dans un contexte authentique.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do you exercise regularly? I usually go to the gym three times a week, but I sometimes skip it when I'm busy.",
+          "translation": "Tu fais de l'exercice régulièrement ? Je vais d'habitude à la salle de sport trois fois par semaine, mais je l'évite parfois quand je suis occupé.",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-1.mp3",
+          "emphasis": ["exercise regularly", "usually go", "three times", "sometimes skip"]
+        },
+        {
+          "speaker": "B",
+          "text": "That's good! I never go to the gym - I don't like it. But I always walk to university, and I often play tennis on weekends.",
+          "translation": "C'est bien ! Je ne vais jamais à la salle de sport - je n'aime pas ça. Mais je marche toujours jusqu'à l'université, et je joue souvent au tennis le week-end.",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-2.mp3",
+          "emphasis": ["never go", "don't like it", "always walk", "often play tennis"]
+        },
+        {
+          "speaker": "A",
+          "text": "Tennis is great exercise! What about your diet? Are you always careful about what you eat?",
+          "translation": "Le tennis est un excellent exercice ! Et ton alimentation ? Fais-tu toujours attention à ce que tu manges ?",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-3.mp3",
+          "emphasis": ["Tennis is great", "your diet", "Are you always", "careful about"]
+        },
+        {
+          "speaker": "B",
+          "text": "Not really! I usually eat healthy food, but I sometimes have pizza or burgers. I rarely cook - I'm always too tired after classes.",
+          "translation": "Pas vraiment ! Je mange d'habitude de la nourriture saine, mais j'ai parfois des pizzas ou des burgers. Je cuisine rarement - je suis toujours trop fatigué après les cours.",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-4.mp3",
+          "emphasis": ["Not really", "usually eat healthy", "sometimes have", "rarely cook", "always too tired"]
+        },
+        {
+          "speaker": "A",
+          "text": "I understand! My roommate never cooks either. Do you often eat in the university cafeteria?",
+          "translation": "Je comprends ! Mon colocataire ne cuisine jamais non plus. Tu manges souvent à la cafétéria de l'université ?",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-5.mp3",
+          "emphasis": ["I understand", "never cooks either", "Do you often eat", "university cafeteria"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I do! The food is usually good there, and it's always convenient. What about sleep? Do you always get enough sleep?",
+          "translation": "Oui ! La nourriture est d'habitude bonne là-bas, et c'est toujours pratique. Et le sommeil ? Tu dors toujours assez ?",
+          "audioFile": "/audio/regular/week3/session14/dialogue-line-6.mp3",
+          "emphasis": ["Yes, I do", "usually good", "always convenient", "always get enough"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-frequency-survey-14",
+      "type": "interactive",
+      "title": "Lifestyle Frequency Survey",
+      "description": "Enquête sur les habitudes de vie où vous utilisez tous les adverbes de fréquence pour décrire vos routines avec précision.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Health & Fitness Habits",
+          "description": "Décrivez vos habitudes de santé et de forme physique.",
+          "yourLine": "I always/usually/often/sometimes/rarely/never exercise because...",
+          "context": "Expliquez la fréquence de vos activités physiques et alimentaires."
+        },
+        {
+          "id": 2,
+          "title": "Study & Work Patterns",
+          "description": "Analysez vos habitudes d'étude et de travail.",
+          "yourLine": "I always/usually/often/sometimes/rarely/never study late because...",
+          "context": "Décrivez votre organisation académique et professionnelle."
+        },
+        {
+          "id": 3,
+          "title": "Social & Entertainment Activities",
+          "description": "Parlez de vos activités sociales et de divertissement.",
+          "yourLine": "I always/usually/often/sometimes/rarely/never go out on weekends because...",
+          "context": "Explorez vos habitudes sociales et de loisirs."
+        }
+      ]
+    },
+    {
+      "id": "regular-honest-routine-14",
+      "type": "rolePlay",
+      "title": "The Honest Routine Game",
+      "description": "Jeu où vous devez être complètement honnête sur vos habitudes en utilisant l'adverbe de fréquence le plus précis.",
+      "instructions": "Pour chaque activité proposée, choisissez l'adverbe de fréquence qui correspond exactement à votre réalité et expliquez pourquoi."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Adverbs of Frequency - Placement Rules",
+      "description": "Règles de placement des adverbes de fréquence : AVANT le verbe principal, APRÈS le verbe 'to be'.",
+      "color": "blue",
+      "examples": [
+        {
+          "english": "I always study → I am always busy",
+          "french": "J'étudie toujours → Je suis toujours occupé",
+          "explanation": "Avant le verbe principal 'study', après le verbe 'to be' (am).",
+          "audioFile": "/audio/regular/week3/session14/grammar-placement-rules.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "I study always.",
+          "french": "J'étudie toujours.",
+          "explanation": "ERREUR : adverbe après le verbe. Correct : 'I always study.'",
+          "audioFile": "/audio/regular/week3/session14/grammar-error-placement.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Frequency Scale (0% to 100%)",
+      "description": "Échelle de fréquence des adverbes : never (0%) → rarely (10%) → sometimes (50%) → often (70%) → usually (90%) → always (100%).",
+      "color": "orange",
+      "examples": [
+        {
+          "english": "Never < Rarely < Sometimes < Often < Usually < Always",
+          "french": "Jamais < Rarement < Parfois < Souvent < D'habitude < Toujours",
+          "explanation": "Progression logique de la fréquence la plus faible à la plus élevée.",
+          "audioFile": "/audio/regular/week3/session14/grammar-frequency-scale.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Honesty in Frequency Expressions",
+      "content": "Dans les cultures anglophones, être précis sur la fréquence est important pour la crédibilité. Dire 'I always exercise' quand c'est faux peut nuire à votre réputation. Mieux vaut dire 'I sometimes exercise' honnêtement."
+    },
+    {
+      "type": "genZTip",
+      "title": "Modern Frequency Expressions",
+      "content": "Les jeunes utilisent des expressions modernes : 'I literally never...', 'I'm always on my phone', 'We usually just Netflix and chill', 'I sometimes ghost people' (ignorer les messages)."
+    },
+    {
+      "type": "cultural",
+      "title": "Work-Life Balance Discussions",
+      "content": "Les adverbes de fréquence sont essentiels pour discuter d'équilibre vie-travail : 'I never work weekends', 'She usually leaves at 5 PM', 'We sometimes have team dinners'."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Créez un 'Frequency Profile' personnel : un graphique visuel montrant la fréquence de 15 activités différentes dans votre vie quotidienne.",
+      "resources": [
+        "Modèle de graphique de fréquence",
+        "Liste d'activités quotidiennes",
+        "Guide de visualisation des données"
+      ],
+      "digitalTools": [
+        {
+          "name": "Canva - Infographic Maker",
+          "description": "Créez des infographies sur vos habitudes",
+          "link": "https://canva.com/infographics"
+        }
+      ]
+    },
+    {
+      "description": "Enquête familiale : Interviewez 3 membres de votre famille sur leurs habitudes et créez un rapport comparatif utilisant tous les adverbes de fréquence.",
+      "resources": [
+        "Questionnaire d'enquête familiale",
+        "Modèle de rapport comparatif",
+        "Techniques d'analyse des habitudes"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://youtube.com/watch?v=adverbs-of-frequency",
+      "videoTitle": "Adverbs of Frequency - Always, Usually, Sometimes, Never",
+      "videoDuration": "9 minutes",
+      "videoDescription": "Guide complet des adverbes de fréquence avec échelle de pourcentages et règles de placement."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Frequency Placement Challenge",
+        "description": "Quiz sur le placement correct des adverbes de fréquence dans différents contextes."
+      },
+      {
+        "type": "game",
+        "title": "Honesty Meter",
+        "description": "Jeu où vous devez choisir l'adverbe de fréquence le plus honnête pour différentes situations."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 150,
+    "badges": ["Frequency Master", "Honesty Champion", "Precision Expert"],
+    "challenges": [
+      "Utilisez les 6 adverbes de fréquence correctement",
+      "Placez 20 adverbes sans erreur de position",
+      "Créez 10 phrases avec 'to be' + adverbe",
+      "Soyez 100% honnête dans vos descriptions",
+      "Maîtrisez l'échelle de fréquence complète"
+    ]
+  }
+}

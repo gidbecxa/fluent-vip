@@ -1,0 +1,266 @@
+{
+  "id": 12,
+  "title": "No, I don't!",
+  "objective": "À la fin de cette session, vous maîtriserez parfaitement les formes négatives du présent simple avec 'don't' et 'doesn't', en évitant l'erreur courante du double -s.",
+  "duration": 60,
+  "track": "regular",
+  "week": 3,
+  "keyPhrases": [
+    {
+      "english": "I don't work on Sundays.",
+      "pronunciation": "Aï doʊnt wɜrk ɒn sʌn-deɪz",
+      "context": "Négation avec 'I'. Jour de repos hebdomadaire.",
+      "audioFile": "/audio/regular/week3/session12/dont-work-sundays.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "She doesn't like coffee.",
+      "pronunciation": "Ʃi dʌz-ənt laɪk kɒ-fi",
+      "context": "Négation 3ème personne. Préférence alimentaire. Attention : 'like' sans -s après 'doesn't'.",
+      "audioFile": "/audio/regular/week3/session12/doesnt-like-coffee.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "We don't have classes today.",
+      "pronunciation": "Wi doʊnt hæv klæ-sɪz tu-deɪ",
+      "context": "Absence de cours. 'Today' = aujourd'hui.",
+      "audioFile": "/audio/regular/week3/session12/dont-have-classes.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "He doesn't speak French.",
+      "pronunciation": "Hi dʌz-ənt spik frɛntʃ",
+      "context": "Compétence linguistique négative. Verbe 'speak' sans -s.",
+      "audioFile": "/audio/regular/week3/session12/doesnt-speak-french.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "They don't live in Paris.",
+      "pronunciation": "Ðeɪ doʊnt lɪv ɪn pæ-rɪs",
+      "context": "Lieu de résidence négatif. Ville comme exemple.",
+      "audioFile": "/audio/regular/week3/session12/dont-live-paris.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "My parents don't watch TV.",
+      "pronunciation": "Maɪ pɛr-ənts doʊnt wɒtʃ ti-vi",
+      "context": "Habitude familiale négative. Pluriel = 'don't'.",
+      "audioFile": "/audio/regular/week3/session12/parents-dont-watch.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "The store doesn't open on Mondays.",
+      "pronunciation": "Ðə stɔr dʌz-ənt oʊ-pən ɒn mʌn-deɪz",
+      "context": "Horaires commerciaux. Jour de fermeture.",
+      "audioFile": "/audio/regular/week3/session12/store-doesnt-open.mp3",
+      "difficulty": "intermediate"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-12",
+      "title": "Two Truths and a Lie",
+      "description": "Jeu classique adapté pour pratiquer les négations. Les participants devinent quelle affirmation est fausse en utilisant les formes négatives.",
+      "context": "Vous jouez au jeu 'Two Truths and a Lie' avec des amis. Ce jeu vous permet de pratiquer naturellement les négations tout en apprenant à connaître les autres.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Okay, here are my three statements: I speak four languages. I don't eat meat. I work in a bank.",
+          "translation": "D'accord, voici mes trois affirmations : Je parle quatre langues. Je ne mange pas de viande. Je travaille dans une banque.",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-1.mp3",
+          "emphasis": ["three statements", "speak four languages", "don't eat meat", "work in a bank"]
+        },
+        {
+          "speaker": "B",
+          "text": "Hmm, interesting! I think you don't work in a bank. You're a student, right?",
+          "translation": "Hmm, intéressant ! Je pense que tu ne travailles pas dans une banque. Tu es étudiant, non ?",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-2.mp3",
+          "emphasis": ["I think", "don't work", "You're a student"]
+        },
+        {
+          "speaker": "A",
+          "text": "Correct! I don't work in a bank. I study architecture. Now it's your turn. Give me three statements.",
+          "translation": "Correct ! Je ne travaille pas dans une banque. J'étudie l'architecture. Maintenant c'est ton tour. Donne-moi trois affirmations.",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-3.mp3",
+          "emphasis": ["Correct", "don't work", "study architecture", "your turn"]
+        },
+        {
+          "speaker": "B",
+          "text": "Okay: My sister doesn't live in France. I don't like chocolate. My father works in a hospital.",
+          "translation": "D'accord : Ma sœur n'habite pas en France. Je n'aime pas le chocolat. Mon père travaille dans un hôpital.",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-4.mp3",
+          "emphasis": ["sister doesn't live", "don't like chocolate", "father works"]
+        },
+        {
+          "speaker": "A",
+          "text": "That's difficult! I think you don't like chocolate is the lie. Everyone likes chocolate!",
+          "translation": "C'est difficile ! Je pense que 'je n'aime pas le chocolat' est le mensonge. Tout le monde aime le chocolat !",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-5.mp3",
+          "emphasis": ["That's difficult", "don't like chocolate", "Everyone likes"]
+        },
+        {
+          "speaker": "B",
+          "text": "Wrong! I really don't like chocolate. The lie is: my father doesn't work in a hospital. He's a teacher.",
+          "translation": "Faux ! Je n'aime vraiment pas le chocolat. Le mensonge est : mon père ne travaille pas dans un hôpital. Il est professeur.",
+          "audioFile": "/audio/regular/week3/session12/dialogue-line-6.mp3",
+          "emphasis": ["Wrong", "really don't like", "doesn't work", "He's a teacher"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-negation-practice-12",
+      "type": "rolePlay",
+      "title": "Lifestyle Comparison",
+      "description": "Comparez vos habitudes de vie avec celles d'autres personnes en utilisant les formes négatives.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Healthy vs Unhealthy Habits",
+          "description": "Discutez des habitudes saines et malsaines.",
+          "yourLine": "I don't smoke, but my brother doesn't exercise. What about you?",
+          "context": "Explorez les différences de mode de vie en utilisant les négations."
+        },
+        {
+          "id": 2,
+          "title": "Work Schedules",
+          "description": "Comparez les horaires de travail de différentes personnes.",
+          "yourLine": "She doesn't work weekends, but he doesn't have vacation days.",
+          "context": "Discutez des avantages et inconvénients de différents emplois."
+        },
+        {
+          "id": 3,
+          "title": "Family Differences",
+          "description": "Décrivez les différences au sein de votre famille.",
+          "yourLine": "My mother doesn't cook, but my father doesn't clean.",
+          "context": "Explorez la répartition des tâches familiales."
+        }
+      ]
+    },
+    {
+      "id": "regular-error-correction-12",
+      "type": "interactive",
+      "title": "Fix the Double -S Error",
+      "description": "Exercice spécialisé pour corriger l'erreur courante du double -s avec 'doesn't'.",
+      "instructions": "Identifiez et corrigez les erreurs dans les phrases. Focus sur 'doesn't + verbe sans -s'."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Present Simple - Negative Form",
+      "description": "Formation des négations avec 'do not (don't)' et 'does not (doesn't)'. Règle cruciale : le verbe principal perd son -s après 'doesn't'.",
+      "color": "red",
+      "examples": [
+        {
+          "english": "I don't work → She doesn't work",
+          "french": "Je ne travaille pas → Elle ne travaille pas",
+          "explanation": "Transformation : 'work' reste identique après 'doesn't'. Pas de -s sur le verbe principal.",
+          "audioFile": "/audio/regular/week3/session12/grammar-dont-doesnt.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "He doesn't works here.",
+          "french": "Il ne travaille pas ici.",
+          "explanation": "ERREUR COURANTE : 'works' après 'doesn't'. Correct : 'He doesn't work here.'",
+          "audioFile": "/audio/regular/week3/session12/grammar-error-doesnt-works.mp3",
+          "isCorrect": false
+        },
+        {
+          "english": "They don't likes pizza.",
+          "french": "Ils n'aiment pas la pizza.",
+          "explanation": "ERREUR : 'likes' avec 'they'. Correct : 'They don't like pizza.'",
+          "audioFile": "/audio/regular/week3/session12/grammar-error-dont-likes.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Contractions: Don't vs Doesn't",
+      "description": "Usage des contractions dans la langue parlée. 'Do not' → 'don't', 'Does not' → 'doesn't'.",
+      "color": "orange",
+      "examples": [
+        {
+          "english": "I do not = I don't / She does not = She doesn't",
+          "french": "Je ne... pas / Elle ne... pas",
+          "explanation": "Les contractions sont très courantes à l'oral. Forme complète plus formelle à l'écrit.",
+          "audioFile": "/audio/regular/week3/session12/grammar-contractions.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Expressing Disagreement Politely",
+      "content": "Dans les cultures anglophones, on utilise souvent des négations pour exprimer poliment un désaccord : 'I don't think so', 'That doesn't sound right', 'I don't agree'."
+    },
+    {
+      "type": "genZTip",
+      "title": "Social Media Negations",
+      "content": "Les jeunes utilisent beaucoup les négations sur les réseaux : 'I don't understand this trend', 'She doesn't post much', 'We don't do drama'."
+    },
+    {
+      "type": "cultural",
+      "title": "Work Culture Differences",
+      "content": "Les habitudes de travail varient : 'Americans don't take long lunch breaks', 'Europeans don't work late as often', 'Some companies don't allow remote work'."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Créez un profil 'Ce que je ne fais pas' en listant 10 activités que vous ne faites jamais, avec explications.",
+      "resources": [
+        "Liste d'activités courantes",
+        "Expressions pour expliquer pourquoi",
+        "Modèles de phrases négatives"
+      ],
+      "digitalTools": [
+        {
+          "name": "Padlet - Digital Board",
+          "description": "Créez un mur collaboratif de négations",
+          "link": "https://padlet.com"
+        }
+      ]
+    },
+    {
+      "description": "Jeu 'Two Truths and a Lie' avec 5 personnes différentes. Enregistrez vos conversations en vous concentrant sur les négations.",
+      "resources": [
+        "Guide du jeu 'Two Truths and a Lie'",
+        "Banque d'idées d'affirmations",
+        "Techniques pour deviner les mensonges"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://youtube.com/watch?v=present-simple-negative",
+      "videoTitle": "Present Simple Negative - Don't vs Doesn't",
+      "videoDuration": "6 minutes",
+      "videoDescription": "Explication claire des négations au présent simple avec exemples et erreurs courantes à éviter."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Negative Form Challenge",
+        "description": "Quiz intensif sur les formes négatives avec pièges sur les erreurs courantes."
+      },
+      {
+        "type": "game",
+        "title": "Truth or Lie Detective",
+        "description": "Jeu interactif où vous devez identifier les mensonges en utilisant les négations."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 130,
+    "badges": ["Negation Master", "Error Detector", "Grammar Police"],
+    "challenges": [
+      "Évitez l'erreur du double -s pendant toute la session",
+      "Utilisez 15 négations différentes correctement",
+      "Gagnez 3 parties de 'Two Truths and a Lie'",
+      "Corrigez 10 erreurs de négation",
+      "Créez 5 phrases négatives complexes"
+    ]
+  }
+}

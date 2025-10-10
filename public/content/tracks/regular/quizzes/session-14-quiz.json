@@ -1,0 +1,68 @@
+{
+  "sessionId": 14,
+  "title": "Quiz - Adverbs of Frequency",
+  "description": "Quiz sur les adverbes de fréquence et leur placement correct",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Where should 'always' go in this sentence: 'I ___ wake up ___ early ___'?",
+      "options": [
+        "Position 1 (I always wake up early)",
+        "Position 2 (I wake up always early)",
+        "Position 3 (I wake up early always)",
+        "Any position is correct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adverbs of frequency go BEFORE the main verb: 'I always wake up early'."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence is correct?",
+      "options": [
+        "She is always late.",
+        "She always is late.",
+        "She late is always.",
+        "Always she is late."
+      ],
+      "correctAnswer": 0,
+      "explanation": "With verb 'to be', the adverb goes AFTER: 'She is always late'."
+    },
+    {
+      "id": 3,
+      "question": "Put these adverbs in order from least frequent to most frequent:",
+      "options": [
+        "never, rarely, sometimes, often, usually, always",
+        "always, usually, often, sometimes, rarely, never",
+        "sometimes, never, rarely, often, usually, always",
+        "never, sometimes, rarely, often, always, usually"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct order: never (0%) → rarely (10%) → sometimes (50%) → often (70%) → usually (90%) → always (100%)."
+    },
+    {
+      "id": 4,
+      "question": "Complete: 'My brother ___ never ___ breakfast.'",
+      "options": [
+        "is / eating",
+        "does / eat",
+        "× / eats",
+        "has / eaten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Never' already makes it negative, so no auxiliary needed: 'My brother never eats breakfast'."
+    },
+    {
+      "id": 5,
+      "question": "Which frequency adverb means about 70%?",
+      "options": [
+        "sometimes",
+        "usually", 
+        "often",
+        "rarely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Often' represents about 70% frequency on the scale."
+    }
+  ]
+}

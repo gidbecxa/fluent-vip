@@ -1,0 +1,251 @@
+{
+  "id": 15,
+  "title": "A Day in the Life of...",
+  "objective": "À la fin de cette session de révision pratique, vous intégrerez parfaitement toutes les structures de la semaine 3 dans des productions créatives et communicatives fluides.",
+  "duration": 60,
+  "track": "regular",
+  "week": 3,
+  "keyPhrases": [
+    {
+      "english": "Let me tell you about my typical day.",
+      "pronunciation": "Lɛt mi tɛl yu ə-baʊt maɪ tɪ-pɪ-kəl deɪ",
+      "context": "Introduction pour décrire sa routine. Phrase d'ouverture pour une présentation personnelle.",
+      "audioFile": "/audio/regular/week3/session15/tell-typical-day.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "Do you have a similar routine?",
+      "pronunciation": "Du yu hæv ə sɪ-mə-lər ru-tin?",
+      "context": "Question pour comparer les routines. Invite à la discussion et à l'échange.",
+      "audioFile": "/audio/regular/week3/session15/similar-routine.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "She never misses her morning coffee.",
+      "pronunciation": "Ʃi nɛ-vər mɪ-sɪz hər mɔr-nɪŋ kɔ-fi",
+      "context": "Description d'une habitude constante. Intégration adverbe + négation + routine.",
+      "audioFile": "/audio/regular/week3/session15/never-misses-coffee.mp3",
+      "difficulty": "advanced"
+    },
+    {
+      "english": "What time does your day usually start?",
+      "pronunciation": "Wʌt taɪm dʌz yʊr deɪ yu-ʒu-ə-li stɑrt?",
+      "context": "Question complexe intégrant question word + does + adverbe de fréquence.",
+      "audioFile": "/audio/regular/week3/session15/what-time-usually-start.mp3",
+      "difficulty": "advanced"
+    },
+    {
+      "english": "We don't often eat out during the week.",
+      "pronunciation": "Wi doʊnt ɔf-ən it aʊt dʊr-ɪŋ ðə wik",
+      "context": "Négation + adverbe de fréquence. Structure complexe mais naturelle.",
+      "audioFile": "/audio/regular/week3/session15/dont-often-eat-out.mp3",
+      "difficulty": "advanced"
+    },
+    {
+      "english": "How does he manage his busy schedule?",
+      "pronunciation": "Haʊ dʌz hi mæ-nɪdʒ hɪz bɪ-zi skɛ-dʒul?",
+      "context": "Question sur l'organisation personnelle. Vocabulaire professionnel intégré.",
+      "audioFile": "/audio/regular/week3/session15/manage-busy-schedule.mp3",
+      "difficulty": "advanced"
+    },
+    {
+      "english": "That sounds like a perfect day!",
+      "pronunciation": "Ðæt saʊndz laɪk ə pɜr-fɪkt deɪ!",
+      "context": "Réaction positive à une description. Expression d'approbation et d'envie.",
+      "audioFile": "/audio/regular/week3/session15/sounds-perfect-day.mp3",
+      "difficulty": "intermediate"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-15",
+      "title": "Magazine Interview - 'A Day in My Life'",
+      "description": "Interview journalistique complète intégrant toutes les compétences de la semaine 3 : affirmations, négations, questions, et adverbes de fréquence.",
+      "context": "Vous êtes journaliste pour un magazine étudiant et vous interviewez quelqu'un sur sa routine quotidienne. Cette conversation professionnelle utilise toutes les structures apprises cette semaine.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello! I'm writing an article called 'A Day in the Life of a Student'. Can you tell me about your typical day? What time do you usually wake up?",
+          "translation": "Bonjour ! J'écris un article intitulé 'Une journée dans la vie d'un étudiant'. Pouvez-vous me parler de votre journée type ? À quelle heure vous réveillez-vous d'habitude ?",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-1.mp3",
+          "emphasis": ["writing an article", "Day in the Life", "typical day", "usually wake up"]
+        },
+        {
+          "speaker": "B",
+          "text": "Sure! I usually wake up at 6:30 AM. I never use an alarm clock - I always wake up naturally. Do you want to know about my morning routine?",
+          "translation": "Bien sûr ! Je me réveille d'habitude à 6h30. Je n'utilise jamais de réveil - je me réveille toujours naturellement. Voulez-vous connaître ma routine matinale ?",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-2.mp3",
+          "emphasis": ["usually wake up", "never use", "always wake up", "morning routine"]
+        },
+        {
+          "speaker": "A",
+          "text": "Absolutely! That's impressive. What do you do first? Do you always have breakfast, or do you sometimes skip it?",
+          "translation": "Absolument ! C'est impressionnant. Que faites-vous en premier ? Prenez-vous toujours le petit-déjeuner, ou l'évitez-vous parfois ?",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-3.mp3",
+          "emphasis": ["That's impressive", "do first", "always have breakfast", "sometimes skip"]
+        },
+        {
+          "speaker": "B",
+          "text": "I always eat breakfast - it's very important to me. I usually have coffee and toast, but I sometimes make eggs on weekends. I never leave home without eating something.",
+          "translation": "Je prends toujours le petit-déjeuner - c'est très important pour moi. J'ai d'habitude du café et des toasts, mais je fais parfois des œufs le week-end. Je ne quitte jamais la maison sans manger quelque chose.",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-4.mp3",
+          "emphasis": ["always eat breakfast", "usually have", "sometimes make", "never leave"]
+        },
+        {
+          "speaker": "A",
+          "text": "That's a healthy habit! What about your classes? How often do you attend lectures? Do you ever miss classes?",
+          "translation": "C'est une habitude saine ! Et vos cours ? À quelle fréquence assistez-vous aux cours magistraux ? Ratez-vous parfois des cours ?",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-5.mp3",
+          "emphasis": ["healthy habit", "How often", "attend lectures", "ever miss classes"]
+        },
+        {
+          "speaker": "B",
+          "text": "I rarely miss classes - maybe once per semester when I'm really sick. I usually arrive early because I don't like being late. My professors always notice when students are absent.",
+          "translation": "Je rate rarement les cours - peut-être une fois par semestre quand je suis vraiment malade. J'arrive d'habitude en avance parce que je n'aime pas être en retard. Mes professeurs remarquent toujours quand les étudiants sont absents.",
+          "audioFile": "/audio/regular/week3/session15/dialogue-line-6.mp3",
+          "emphasis": ["rarely miss", "usually arrive early", "don't like", "always notice"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-integration-project-15",
+      "type": "interactive",
+      "title": "Create Your 'Day in the Life' Story",
+      "description": "Projet créatif final intégrant toutes les compétences de la semaine 3 dans une production multimédia complète.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Video Script Creation",
+          "description": "Écrivez le script d'une vidéo 'Day in My Life' style YouTube/TikTok.",
+          "yourLine": "It's 7 AM and I always start my day with... I usually... but I sometimes... I never...",
+          "context": "Créez un contenu engageant pour les réseaux sociaux en utilisant toutes les structures."
+        },
+        {
+          "id": 2,
+          "title": "Celebrity Routine Investigation",
+          "description": "Imaginez et décrivez la routine d'une célébrité de votre choix.",
+          "yourLine": "Does [celebrity] wake up early? She probably always... He usually... They never...",
+          "context": "Utilisez votre imagination et les structures apprises pour créer une routine plausible."
+        },
+        {
+          "id": 3,
+          "title": "Cross-Cultural Routine Comparison",
+          "description": "Comparez votre routine avec celle d'un étudiant d'un autre pays.",
+          "yourLine": "In France, I usually... but in Japan, students often... Do American students always...?",
+          "context": "Explorez les différences culturelles dans les routines quotidiennes."
+        }
+      ]
+    },
+    {
+      "id": "regular-interview-reversal-15",
+      "type": "rolePlay",
+      "title": "The Interview Reversal",
+      "description": "Activité où vous alternez entre interviewer et interviewé, utilisant toutes les structures de la semaine.",
+      "instructions": "Menez une interview complète de 10 minutes, puis inversez les rôles. Utilisez au minimum 20 structures différentes de la semaine 3."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Week 3 Integration - Complete Present Simple Mastery",
+      "description": "Synthèse complète : affirmations, négations, questions, et adverbes de fréquence dans des structures complexes.",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "Do you always wake up early? - No, I don't. I usually sleep until 8 AM, but I sometimes get up at 6 when I have exams.",
+          "french": "Te réveilles-tu toujours tôt ? - Non. Je dors d'habitude jusqu'à 8h, mais je me lève parfois à 6h quand j'ai des examens.",
+          "explanation": "Intégration parfaite : question + réponse courte + négation + adverbes + exception.",
+          "audioFile": "/audio/regular/week3/session15/grammar-complete-integration.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "She doesn't never eat breakfast.",
+          "french": "Elle ne prend jamais le petit-déjeuner.",
+          "explanation": "ERREUR : double négation. Correct : 'She never eats breakfast' OU 'She doesn't eat breakfast'.",
+          "audioFile": "/audio/regular/week3/session15/grammar-error-double-negative.mp3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Sharing Personal Routines Appropriately",
+      "content": "Dans les cultures anglophones, partager sa routine quotidienne est un excellent moyen de créer des liens sociaux. C'est considéré comme un sujet de conversation sûr et intéressant, surtout entre étudiants ou nouveaux collègues."
+    },
+    {
+      "type": "genZTip",
+      "title": "'Day in My Life' Content Creation",
+      "content": "Le format 'Day in My Life' est extrêmement populaire sur TikTok, YouTube, et Instagram. Les jeunes utilisent des phrases comme 'Let's get ready together', 'Morning routine check', 'That girl morning', 'Productive day vibes'."
+    },
+    {
+      "type": "cultural",
+      "title": "Professional Routine Discussions",
+      "content": "Savoir décrire sa routine est essentiel en contexte professionnel : entretiens d'embauche ('Describe a typical workday'), networking ('How do you manage your schedule?'), team building ('What's your morning routine?')."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Projet final : Créez une présentation multimédia 'A Day in the Life' de 5 minutes incluant script, images, et narration audio utilisant 30+ structures de la semaine 3.",
+      "resources": [
+        "Modèle de storyboard",
+        "Checklist des structures à inclure",
+        "Guide de présentation orale",
+        "Techniques de storytelling"
+      ],
+      "digitalTools": [
+        {
+          "name": "Canva - Presentation Maker",
+          "description": "Créez des présentations visuelles professionnelles",
+          "link": "https://canva.com/presentations"
+        },
+        {
+          "name": "Flipgrid - Video Responses",
+          "description": "Enregistrez et partagez vos présentations vidéo",
+          "link": "https://flipgrid.com"
+        }
+      ]
+    },
+    {
+      "description": "Portfolio de la semaine : Compilez tous vos travaux de la semaine 3 dans un portfolio numérique démontrant votre progression du présent simple.",
+      "resources": [
+        "Modèle de portfolio numérique",
+        "Guide d'auto-évaluation",
+        "Critères de réussite de la semaine 3"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://youtube.com/watch?v=present-simple-review",
+      "videoTitle": "Present Simple Complete Review - Week 3 Summary",
+      "videoDuration": "12 minutes",
+      "videoDescription": "Révision complète de toutes les structures du présent simple avec exemples intégrés et erreurs courantes."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Week 3 Master Quiz",
+        "description": "Quiz complet de 15 questions couvrant toutes les compétences de la semaine 3."
+      },
+      {
+        "type": "simulation",
+        "title": "Virtual Day Planner",
+        "description": "Simulation où vous planifiez et décrivez une journée parfaite en utilisant toutes les structures apprises."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 200,
+    "badges": ["Week 3 Champion", "Present Simple Master", "Integration Expert", "Storytelling Pro"],
+    "challenges": [
+      "Intégrez 30 structures différentes dans une présentation",
+      "Menez une interview de 10 minutes sans erreur",
+      "Créez un script vidéo de 500 mots",
+      "Utilisez tous les adverbes de fréquence correctement",
+      "Complétez la semaine 3 avec excellence (95%+ dans tous les quiz)"
+    ]
+  }
+}

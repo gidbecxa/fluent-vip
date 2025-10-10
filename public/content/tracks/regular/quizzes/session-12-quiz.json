@@ -1,0 +1,68 @@
+{
+  "sessionId": 12,
+  "title": "Quiz - Present Simple Negative Forms",
+  "description": "Quiz sur les formes négatives du présent simple avec don't et doesn't",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence is correct?",
+      "options": [
+        "She doesn't works on Sundays.",
+        "She doesn't work on Sundays.",
+        "She don't work on Sundays.",
+        "She not work on Sundays."
+      ],
+      "correctAnswer": 1,
+      "explanation": "With 'she', we use 'doesn't' + base form of verb (work, not works)."
+    },
+    {
+      "id": 2,
+      "question": "What's the negative form of 'They speak French'?",
+      "options": [
+        "They doesn't speak French.",
+        "They don't speaks French.",
+        "They don't speak French.",
+        "They not speak French."
+      ],
+      "correctAnswer": 2,
+      "explanation": "With 'they', we use 'don't' + base form: 'don't speak'."
+    },
+    {
+      "id": 3,
+      "question": "Which is the most common error with negative forms?",
+      "options": [
+        "Using 'don't' with 'he/she/it'",
+        "Adding -s to the main verb after 'doesn't'",
+        "Forgetting the contraction",
+        "Using 'not' instead of 'don't'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The most common error is saying 'doesn't works' instead of 'doesn't work'."
+    },
+    {
+      "id": 4,
+      "question": "Complete: 'My parents _____ watch TV in the evening.'",
+      "options": [
+        "doesn't",
+        "don't",
+        "not",
+        "aren't"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'My parents' is plural, so we use 'don't' (not 'doesn't')."
+    },
+    {
+      "id": 5,
+      "question": "How do you say 'Il n'aime pas le café' in English?",
+      "options": [
+        "He doesn't likes coffee.",
+        "He don't like coffee.",
+        "He doesn't like coffee.",
+        "He not likes coffee."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct form: 'He doesn't like coffee' (doesn't + base form)."
+    }
+  ]
+}

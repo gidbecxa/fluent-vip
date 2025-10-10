@@ -6,7 +6,7 @@
   "duration": "16 semaines",
   "sessionsPerWeek": 3,
   "totalSessions": 48,
-  "sessions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "sessions": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
   "weeks": [
     {
       "weekNumber": 1,
@@ -38,13 +38,14 @@
       "weekNumber": 3,
       "title": "Routines et Habitudes",
       "objective": "Exprimer les habitudes quotidiennes avec le présent simple",
-      "sessions": [7, 8, 9],
+      "sessions": [11, 12, 13, 14, 15],
       "keyTopics": [
         "Présent simple - affirmation",
-        "Présent simple - négation et questions",
-        "Adverbes de fréquence",
-        "Activités quotidiennes",
-        "Expressions temporelles"
+        "Présent simple - négation avec don't/doesn't",
+        "Présent simple - questions avec do/does",
+        "Adverbes de fréquence et placement",
+        "Intégration complète des structures",
+        "Production créative et communication fluide"
       ]
     },
     {

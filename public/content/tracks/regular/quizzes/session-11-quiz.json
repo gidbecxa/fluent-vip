@@ -1,0 +1,68 @@
+{
+  "sessionId": 11,
+  "title": "Quiz - Present Simple Affirmative & Daily Routines",
+  "description": "Quiz sur le présent simple affirmatif et les routines quotidiennes",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence is correct?",
+      "options": [
+        "She wake up at seven o'clock.",
+        "She wakes up at seven o'clock.",
+        "She is wake up at seven o'clock.",
+        "She waking up at seven o'clock."
+      ],
+      "correctAnswer": 1,
+      "explanation": "With 'she' (third person singular), we add -s to the verb: 'wakes up'."
+    },
+    {
+      "id": 2,
+      "question": "How do you say 'Ils regardent la télé le soir' in English?",
+      "options": [
+        "They watches TV in the evening.",
+        "They watch TV in the evening.",
+        "They are watch TV in the evening.",
+        "They watching TV in the evening."
+      ],
+      "correctAnswer": 1,
+      "explanation": "With 'they', we use the base form of the verb: 'watch' (no -s)."
+    },
+    {
+      "id": 3,
+      "question": "What's the correct pronunciation of 'He works'?",
+      "options": [
+        "/hi wɜrks/ with /s/ sound",
+        "/hi wɜrkz/ with /z/ sound", 
+        "/hi wɜrkɪz/ with /ɪz/ sound",
+        "All pronunciations are correct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After the /k/ sound (voiceless), the -s is pronounced /s/: 'works' /wɜrks/."
+    },
+    {
+      "id": 4,
+      "question": "Which sentence describes a daily routine?",
+      "options": [
+        "I am eating breakfast now.",
+        "I eat breakfast every morning.",
+        "I will eat breakfast tomorrow.",
+        "I ate breakfast yesterday."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present simple with 'every morning' describes a regular habit/routine."
+    },
+    {
+      "id": 5,
+      "question": "Complete: 'My mother _____ dinner at six o'clock.'",
+      "options": [
+        "cook",
+        "cooks",
+        "cooking",
+        "is cook"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'My mother' is third person singular, so we use 'cooks' (verb + s)."
+    }
+  ]
+}

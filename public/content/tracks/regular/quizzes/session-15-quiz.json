@@ -1,0 +1,68 @@
+{
+  "sessionId": 15,
+  "title": "Quiz - Week 3 Complete Review",
+  "description": "Quiz de révision complète sur toutes les structures du présent simple",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence correctly combines all present simple structures?",
+      "options": [
+        "Do you always works in the morning? No, I don't.",
+        "Do you always work in the morning? No, I don't.",
+        "Does you always work in the morning? No, I doesn't.",
+        "Are you always work in the morning? No, I'm not."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct: 'Do you always work' (question + adverb + base verb) + 'No, I don't' (short answer)."
+    },
+    {
+      "id": 2,
+      "question": "Fix this sentence: 'She doesn't never eat breakfast.'",
+      "options": [
+        "She doesn't always eat breakfast.",
+        "She never eats breakfast.",
+        "She doesn't usually eat breakfast.",
+        "Both B and C are correct"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Double negative error. Correct options: 'She never eats breakfast' OR 'She doesn't usually eat breakfast'."
+    },
+    {
+      "id": 3,
+      "question": "Complete the dialogue: 'Does he often travel?' '___'",
+      "options": [
+        "Yes, he often does.",
+        "Yes, he does often.",
+        "Yes, he does.",
+        "Yes, often he does."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Short answers don't include the adverb: 'Yes, he does' (not 'Yes, he often does')."
+    },
+    {
+      "id": 4,
+      "question": "Which describes the most frequent activity?",
+      "options": [
+        "I sometimes exercise.",
+        "I usually exercise.", 
+        "I often exercise.",
+        "I rarely exercise."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Usually' (90%) is more frequent than 'often' (70%) or 'sometimes' (50%)."
+    },
+    {
+      "id": 5,
+      "question": "What's the best way to describe your routine to someone new?",
+      "options": [
+        "Use only positive sentences",
+        "Use only questions",
+        "Combine positive, negative, and frequency adverbs",
+        "Use only 'always' and 'never'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A complete routine description uses all structures: positive, negative, and various frequency adverbs for accuracy."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "sessionId": 13,
+  "title": "Quiz - Present Simple Questions & Short Answers",
+  "description": "Quiz sur la formation des questions au présent simple et les réponses courtes",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which question is correctly formed?",
+      "options": [
+        "Does you speak English?",
+        "Do you speaks English?",
+        "Do you speak English?",
+        "Are you speak English?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With 'you', we use 'Do' + base form of verb: 'Do you speak English?'"
+    },
+    {
+      "id": 2,
+      "question": "What's the correct short answer to 'Does she work here?'",
+      "options": [
+        "Yes, she works.",
+        "Yes, she does.",
+        "Yes, she do.",
+        "Yes, she is."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Short answer uses the auxiliary: 'Yes, she does' (not the main verb)."
+    },
+    {
+      "id": 3,
+      "question": "How do you ask about someone's parents?",
+      "options": [
+        "Does your parents live here?",
+        "Do your parents lives here?",
+        "Do your parents live here?",
+        "Are your parents live here?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Parents' is plural, so we use 'Do' + base form: 'Do your parents live here?'"
+    },
+    {
+      "id": 4,
+      "question": "Complete the question: '_____ time _____ you wake up?'",
+      "options": [
+        "What / does",
+        "What / do", 
+        "Which / do",
+        "When / does"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Question word + 'do' with 'you': 'What time do you wake up?'"
+    },
+    {
+      "id": 5,
+      "question": "What's wrong with 'Does he works in Paris?'",
+      "options": [
+        "Should be 'Do he work'",
+        "Should be 'Does he work'",
+        "Should be 'Is he works'",
+        "Nothing is wrong"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After 'does', use base form: 'Does he work in Paris?' (not 'works')."
+    }
+  ]
+}

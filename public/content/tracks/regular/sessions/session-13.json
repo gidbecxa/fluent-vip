@@ -1,0 +1,259 @@
+{
+  "id": 13,
+  "title": "Do you...?",
+  "objective": "À la fin de cette session, vous maîtriserez parfaitement les questions au présent simple avec 'do/does' et les réponses courtes, complétant ainsi votre maîtrise de cette structure fondamentale.",
+  "duration": 60,
+  "track": "regular",
+  "week": 3,
+  "keyPhrases": [
+    {
+      "english": "Do you speak English?",
+      "pronunciation": "Du yu spik ɪŋ-glɪʃ?",
+      "context": "Question de base sur les compétences linguistiques. Structure fondamentale Do + you + verbe.",
+      "audioFile": "/audio/regular/week3/session13/do-you-speak-english.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Does she work here?",
+      "pronunciation": "Dʌz ʃi wɜrk hɪr?",
+      "context": "Question sur le lieu de travail. 'Does' avec 3ème personne, verbe sans -s.",
+      "audioFile": "/audio/regular/week3/session13/does-she-work-here.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "Yes, I do. / No, I don't.",
+      "pronunciation": "Yɛs, aɪ du. / Noʊ, aɪ doʊnt.",
+      "context": "Réponses courtes standard. Évite la répétition du verbe principal.",
+      "audioFile": "/audio/regular/week3/session13/yes-no-responses.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "english": "What time do you wake up?",
+      "pronunciation": "Wʌt taɪm du yu weɪk ʌp?",
+      "context": "Question sur les horaires. Combinaison question word + do + you.",
+      "audioFile": "/audio/regular/week3/session13/what-time-wake-up.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "Do your parents live in France?",
+      "pronunciation": "Du yʊr pɛr-ənts lɪv ɪn fræns?",
+      "context": "Question sur la famille. Pluriel = 'do' (pas 'does').",
+      "audioFile": "/audio/regular/week3/session13/parents-live-france.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "Where does he study?",
+      "pronunciation": "Wɛr dʌz hi stʌ-di?",
+      "context": "Question avec mot interrogatif. Where + does + sujet + verbe.",
+      "audioFile": "/audio/regular/week3/session13/where-does-study.mp3",
+      "difficulty": "intermediate"
+    },
+    {
+      "english": "How often do you exercise?",
+      "pronunciation": "Haʊ ɔf-ən du yu ɛk-sər-saɪz?",
+      "context": "Question sur la fréquence. Prépare les adverbes de fréquence de la session suivante.",
+      "audioFile": "/audio/regular/week3/session13/how-often-exercise.mp3",
+      "difficulty": "advanced"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "regular-dialogue-13",
+      "title": "Making Plans - Project Meeting",
+      "description": "Dialogue authentique entre deux étudiants qui organisent leur emploi du temps pour un projet commun, utilisant intensivement les questions au présent simple.",
+      "context": "Vous devez organiser un projet de groupe avec un camarade de classe. Cette conversation nécessite de poser beaucoup de questions sur les disponibilités, habitudes, et contraintes de chacun.",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi! Do you have time this week to work on our architecture project? When do you usually study?",
+          "translation": "Salut ! Tu as du temps cette semaine pour travailler sur notre projet d'architecture ? Quand est-ce que tu étudies d'habitude ?",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-1.mp3",
+          "emphasis": ["Do you have time", "this week", "When do you usually"]
+        },
+        {
+          "speaker": "B",
+          "text": "Good question! I usually study in the evening. Do you work on Wednesday afternoon? I'm free then.",
+          "translation": "Bonne question ! J'étudie d'habitude le soir. Tu travailles mercredi après-midi ? Je suis libre à ce moment-là.",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-2.mp3",
+          "emphasis": ["Good question", "usually study", "Do you work", "I'm free"]
+        },
+        {
+          "speaker": "A",
+          "text": "No, I don't work on Wednesday. Perfect! Does your brother use the computer in the evening?",
+          "translation": "Non, je ne travaille pas le mercredi. Parfait ! Ton frère utilise-t-il l'ordinateur le soir ?",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-3.mp3",
+          "emphasis": ["No, I don't", "Perfect", "Does your brother", "in the evening"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, he does, but only after 9 PM. Do you have all the materials we need? What do we still need to buy?",
+          "translation": "Oui, mais seulement après 21h. Tu as tous les matériaux dont nous avons besoin ? Qu'est-ce qu'il nous faut encore acheter ?",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-4.mp3",
+          "emphasis": ["Yes, he does", "after 9 PM", "Do you have", "What do we need"]
+        },
+        {
+          "speaker": "A",
+          "text": "I have the books, but I don't have the software. Does the library have computers we can use?",
+          "translation": "J'ai les livres, mais je n'ai pas le logiciel. La bibliothèque a-t-elle des ordinateurs qu'on peut utiliser ?",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-5.mp3",
+          "emphasis": ["I have the books", "don't have", "Does the library", "we can use"]
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it does! Do you know what time it closes? We need to check the schedule before we go.",
+          "translation": "Oui ! Tu sais à quelle heure elle ferme ? Il faut qu'on vérifie les horaires avant d'y aller.",
+          "audioFile": "/audio/regular/week3/session13/dialogue-line-6.mp3",
+          "emphasis": ["Yes, it does", "Do you know", "what time", "check the schedule"]
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "regular-interview-game-13",
+      "type": "rolePlay",
+      "title": "The Interview Game",
+      "description": "Jeu d'interview où vous découvrez les habitudes et routines de différentes personnes en posant des questions stratégiques.",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "New Roommate Interview",
+          "description": "Interviewez un futur colocataire sur ses habitudes de vie.",
+          "yourLine": "Do you smoke? What time do you go to bed? Do you have friends over often?",
+          "context": "Découvrez si vous êtes compatibles en tant que colocataires."
+        },
+        {
+          "id": 2,
+          "title": "Job Interview Simulation",
+          "description": "Posez des questions sur un emploi potentiel.",
+          "yourLine": "What time does the office open? Do employees work weekends? Does the company provide training?",
+          "context": "Évaluez si ce travail vous convient."
+        },
+        {
+          "id": 3,
+          "title": "Family Discovery",
+          "description": "Apprenez à connaître la famille de quelqu'un.",
+          "yourLine": "How many siblings do you have? Do your parents work? Does your family travel often?",
+          "context": "Découvrez les dynamiques familiales."
+        }
+      ]
+    },
+    {
+      "id": "regular-find-someone-who-13",
+      "type": "interactive",
+      "title": "Find Someone Who...",
+      "description": "Activité de classe où vous devez trouver des personnes correspondant à différents critères en posant des questions.",
+      "instructions": "Créez une grille de 10 questions et trouvez des personnes qui correspondent à chaque critère."
+    }
+  ],
+  "grammarRules": [
+    {
+      "title": "Present Simple - Question Formation",
+      "description": "Formation des questions avec 'do/does'. Structure : Do/Does + sujet + verbe de base + complément ?",
+      "color": "purple",
+      "examples": [
+        {
+          "english": "Do you work? → Does she work?",
+          "french": "Tu travailles ? → Elle travaille ?",
+          "explanation": "'Do' avec I/you/we/they, 'Does' avec he/she/it. Le verbe reste toujours à la forme de base.",
+          "audioFile": "/audio/regular/week3/session13/grammar-do-does-questions.mp3",
+          "isCorrect": true
+        },
+        {
+          "english": "Does he works here?",
+          "french": "Il travaille ici ?",
+          "explanation": "ERREUR : 'works' après 'does'. Correct : 'Does he work here?'",
+          "audioFile": "/audio/regular/week3/session13/grammar-error-does-works.mp3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "title": "Short Answers",
+      "description": "Réponses courtes pour éviter la répétition. Structure : Yes/No + sujet + do/does/don't/doesn't.",
+      "color": "green",
+      "examples": [
+        {
+          "english": "Do you like coffee? → Yes, I do. / No, I don't.",
+          "french": "Tu aimes le café ? → Oui. / Non.",
+          "explanation": "Réponse courte évite de répéter 'like coffee'. Plus naturel que 'Yes, I like coffee'.",
+          "audioFile": "/audio/regular/week3/session13/grammar-short-answers.mp3",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "type": "cultural",
+      "title": "Asking Personal Questions Appropriately",
+      "content": "Dans les cultures anglophones, certaines questions sont considérées comme trop personnelles lors d'une première rencontre : âge, salaire, poids. Commencez par des sujets neutres comme les hobbies, le travail, ou les études."
+    },
+    {
+      "type": "genZTip",
+      "title": "Modern Question Patterns",
+      "content": "Les jeunes utilisent souvent des questions courtes : 'You coming?' (au lieu de 'Are you coming?'), 'You work today?' (au lieu de 'Do you work today?'). C'est informel mais très courant."
+    },
+    {
+      "type": "cultural",
+      "title": "Interview Etiquette",
+      "content": "Lors d'entretiens (travail, logement), posez des questions pertinentes pour montrer votre intérêt : 'What does a typical day look like?', 'Do you enjoy working here?', 'What do you like most about this place?'"
+    }
+  ],
+  "practiceExercises": [
+    {
+      "description": "Créez un questionnaire de 15 questions pour interviewer un camarade de classe sur sa routine quotidienne, ses hobbies, et sa famille.",
+      "resources": [
+        "Modèle de questionnaire d'interview",
+        "Questions appropriées par contexte",
+        "Techniques d'écoute active"
+      ],
+      "digitalTools": [
+        {
+          "name": "Google Forms - Survey Creator",
+          "description": "Créez des questionnaires interactifs",
+          "link": "https://forms.google.com"
+        }
+      ]
+    },
+    {
+      "description": "Enregistrez une conversation de 5 minutes où vous interviewez un membre de votre famille sur ses habitudes quotidiennes.",
+      "resources": [
+        "Guide d'interview familiale",
+        "Questions sur les générations",
+        "Techniques pour maintenir la conversation"
+      ]
+    }
+  ],
+  "multimedia": {
+    "flippedClassroom": {
+      "videoUrl": "https://youtube.com/watch?v=present-simple-questions",
+      "videoTitle": "Questions with DO and DOES",
+      "videoDuration": "7 minutes",
+      "videoDescription": "Formation des questions au présent simple avec exemples pratiques et erreurs à éviter."
+    },
+    "interactiveElements": [
+      {
+        "type": "quiz",
+        "title": "Question Formation Master",
+        "description": "Quiz interactif sur la formation correcte des questions avec do/does."
+      },
+      {
+        "type": "simulation",
+        "title": "Virtual Interview Booth",
+        "description": "Simulation d'entretiens dans différents contextes (travail, logement, social)."
+      }
+    ]
+  },
+  "gamification": {
+    "xpReward": 140,
+    "badges": ["Question Master", "Interview Pro", "Grammar Detective"],
+    "challenges": [
+      "Posez 20 questions différentes sans erreur",
+      "Maîtrisez les réponses courtes dans 10 contextes",
+      "Menez une interview complète de 10 minutes",
+      "Identifiez et corrigez 5 erreurs de formation",
+      "Créez un questionnaire parfait de 15 questions"
+    ]
+  }
+}
