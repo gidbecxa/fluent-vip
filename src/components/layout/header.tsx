@@ -1,8 +1,9 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Video } from "lucide-react"
+import { Video, DollarSign } from "lucide-react"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 export function Header() {
   return (
@@ -19,15 +20,21 @@ export function Header() {
           <span className="font-semibold text-lg sm:text-xl text-gray-900">FluentVIP</span>
         </div>
         
-        <div className="flex items-center space-x-2 sm:space-x-4">
+        <nav className="flex items-center space-x-2 sm:space-x-4">
+          <Button variant="ghost" size="sm" className="hidden sm:flex text-slate-600 hover:text-slate-900" asChild>
+            <Link href="/pricing">
+              <DollarSign className="h-4 w-4 mr-2" />
+              Tarifs
+            </Link>
+          </Button>
           <Button variant="outline" size="sm" className="hidden sm:flex">
             <Video className="h-4 w-4 mr-2" />
             Live Session
           </Button>
-          <Button variant="outline" size="sm" className="sm:hidden px-2">
+          <Button variant="outline" size="sm" className="sm:hidden px-2" aria-label="Live Session">
             <Video className="h-4 w-4" />
           </Button>
-        </div>
+        </nav>
       </div>
     </motion.header>
   )

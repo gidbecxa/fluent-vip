@@ -35,7 +35,17 @@ npm run dev
 
 ## Deployment
 
-Build for production:
+### Vercel (Recommended)
+1. Push to GitHub repository
+2. Connect repository to Vercel
+3. Deploy automatically
+
+### Local Development
+```bash
+npm run dev
+```
+
+### Build for Production
 ```bash
 npm run build
 npm start

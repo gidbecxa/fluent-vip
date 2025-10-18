@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { ArrowRight, Star, Users, Clock, CheckCircle, Globe, Zap, Target, TrendingUp } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import { PricingOverview } from "@/components/pricing/pricing-overview"
 
 export default function HomePage() {
   return (
@@ -233,6 +234,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Pricing Overview */}
+      <PricingOverview />
 
       {/* CTA Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-slate-900 to-emerald-900">

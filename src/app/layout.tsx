@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import "../styles/brand.css";
-import { Header } from "@/components/layout/header";
+import { Navigation } from "@/components/layout/navigation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -48,7 +48,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>
       <body className={`${inter.variable} ${manrope.variable} font-sans antialiased touch-manipulation`}>
-        <Header />
+        <Navigation />
         <main className="pb-safe">{children}</main>
       </body>
     </html>
